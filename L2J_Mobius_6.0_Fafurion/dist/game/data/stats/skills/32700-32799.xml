@@ -18,9 +18,9 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>400</effectRange>
-		<magicLvl>87</magicLvl>
+		<magicLevel>87</magicLevel>
 		<reuseDelayGroup>11050</reuseDelayGroup>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -45,7 +45,7 @@
 		<coolTime>500</coolTime>
 		<reuseDelay>30000</reuseDelay>
 		<effectPoint>-1000</effectPoint>
-		<abnormalLvl>4</abnormalLvl>
+		<abnormalLevel>4</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>ARMOR_WATER</abnormalType>
 		<activateRate>80</activateRate>
@@ -54,7 +54,7 @@
 		<attributeType>WATER</attributeType>
 		<attributeValue>20</attributeValue>
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>100</magicLvl>
+		<magicLevel>100</magicLevel>
 		<mpConsume>80</mpConsume>
 		<mpInitialConsume>80</mpInitialConsume>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -82,7 +82,7 @@
 		<coolTime>500</coolTime>
 		<reuseDelay>30000</reuseDelay>
 		<effectPoint>-1000</effectPoint>
-		<abnormalLvl>4</abnormalLvl>
+		<abnormalLevel>4</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>ARMOR_WATER</abnormalType>
 		<activateRate>40</activateRate>
@@ -91,7 +91,7 @@
 		<basicProperty>MAGIC</basicProperty>
 		<effectRange>1400</effectRange>
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>100</magicLvl>
+		<magicLevel>100</magicLevel>
 		<mpConsume>80</mpConsume>
 		<magicCriticalRate>5</magicCriticalRate>
 		<attributeType>WATER</attributeType>
@@ -122,7 +122,7 @@
 		<effectPoint>-1000</effectPoint>
 		<effectPoint>575</effectPoint>
 		<effectRange>1100</effectRange>
-		<magicLvl>100</magicLvl>
+		<magicLevel>100</magicLevel>
 		<mpConsume>48</mpConsume>
 		<mpInitialConsume>12</mpInitialConsume>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -145,7 +145,7 @@
 		<effectPoint>-1000</effectPoint>
 		<basicProperty>PHYSICAL</basicProperty>
 		<effectRange>400</effectRange>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -167,7 +167,7 @@
 		<attributeType>WATER</attributeType>
 		<attributeValue>850</attributeValue>
 		<hitTime>1000</hitTime>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>RANGE</affectScope>
@@ -187,7 +187,7 @@
 		<hitTime>1500</hitTime>
 		<coolTime>500</coolTime>
 		<effectPoint>-100</effectPoint>
-		<abnormalLvl>9</abnormalLvl>
+		<abnormalLevel>9</abnormalLevel>
 		<abnormalTime>20</abnormalTime>
 		<subordinationAbnormalType>BLEEDING</subordinationAbnormalType>
 		<abnormalType>BLEEDING</abnormalType>
@@ -196,7 +196,7 @@
 		<basicProperty>PHYSICAL</basicProperty>
 		<effectRange>400</effectRange>
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>100</magicLvl>
+		<magicLevel>100</magicLevel>
 		<mpConsume>80</mpConsume>
 		<magicCriticalRate>5</magicCriticalRate>
 		<trait>BLEED</trait>
@@ -230,7 +230,7 @@
 		<hitTime>500</hitTime>
 		<coolTime>500</coolTime>
 		<effectPoint>-100</effectPoint>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>KNOCKDOWN</abnormalType>
 		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
@@ -294,7 +294,7 @@
 		<hitTime>500</hitTime>
 		<coolTime>500</coolTime>
 		<effectPoint>-100</effectPoint>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>KNOCKDOWN</abnormalType>
 		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
@@ -344,7 +344,7 @@
 		<channelingTickInterval>2</channelingTickInterval>
 		<attributeType>WIND</attributeType>
 		<attributeValue>20</attributeValue>
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<mpConsume>36</mpConsume>
 		<mpInitialConsume>36</mpInitialConsume>
 		<mpPerChanneling>80</mpPerChanneling>
@@ -365,7 +365,7 @@
 	<skill id="32713" toLevel="1" name="Fafurion Tail Strike">
 		<!-- Suffering physical damage from Fafurion's smashing tail and being blown away. -->
 		<icon>icon.skill32713</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -375,7 +375,7 @@
 		<attributeValue>850</attributeValue>
 		<fanRange>0;180;1500;600</fanRange>
 		<hitTime>3000</hitTime>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<operateType>A2</operateType>
 		<trait>SHOCK</trait>
 		<isDebuff>true</isDebuff>
@@ -392,7 +392,7 @@
 	<skill id="32714" toLevel="1" name="Fafurion Tail Strike">
 		<!-- Suffering physical damage from Fafurion's smashing tail and being blown away. -->
 		<icon>icon.skill32713</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -402,7 +402,7 @@
 		<attributeValue>850</attributeValue>
 		<fanRange>0;180;1500;600</fanRange>
 		<hitTime>500</hitTime>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<operateType>A2</operateType>
 		<isDebuff>true</isDebuff>
 		<trait>SHOCK</trait>
@@ -425,7 +425,7 @@
 		<hitTime>3000</hitTime>
 		<coolTime>500</coolTime>
 		<effectPoint>-100</effectPoint>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>KNOCKDOWN</abnormalType>
 		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
@@ -468,14 +468,14 @@
 		<effectRange>900</effectRange>
 		<affectLimit>50-50</affectLimit>
 		<affectRange>900</affectRange>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<hitTime>3000</hitTime>
 		<coolTime>1500</coolTime>
 		<effectPoint>-100</effectPoint>
 		<attributeType>WATER</attributeType>
 		<attributeValue>850</attributeValue>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<isDebuff>true</isDebuff>
 		<fanRange>0;0;2500;900</fanRange>
 		<targetType>ENEMY</targetType>
@@ -494,7 +494,7 @@
 	<skill id="32717" toLevel="2" name="Fafurion Fear">
 		<!-- Suffering physical damage caused by Fafurion's Energy of Fear. Targets flee with P./ M. Def. decreased. -->
 		<icon>icon.skill32717</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>4</abnormalTime>
 		<abnormalType>TURN_FLEE</abnormalType>
 		<abnormalVisualEffect>TURN_FLEE</abnormalVisualEffect>
@@ -503,7 +503,7 @@
 		<effectPoint>-100</effectPoint>
 		<hitTime>3000</hitTime>
 		<isDebuff>true</isDebuff>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<operateType>A2</operateType>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<trait>DERANGEMENT</trait>
@@ -535,7 +535,7 @@
 		<hitTime>5000</hitTime>
 		<coolTime>500</coolTime>
 		<effectPoint>-100</effectPoint>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -543,7 +543,7 @@
 		<attributeValue>450</attributeValue>
 		<fanRange>0;180;1500;600</fanRange>
 		<reuseDelay>60000</reuseDelay>
-		<magicLvl>110</magicLvl>
+		<magicLevel>110</magicLevel>
 		<trait>SHOCK</trait>
 		<targetType>SELF</targetType>
 		<affectScope>SQUARE</affectScope>
@@ -580,7 +580,7 @@
 		<hitTime>5000</hitTime>
 		<coolTime>500</coolTime>
 		<effectPoint>-100</effectPoint>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -588,7 +588,7 @@
 		<attributeValue>450</attributeValue>
 		<fanRange>0;180;1500;600</fanRange>
 		<reuseDelay>60000</reuseDelay>
-		<magicLvl>110</magicLvl>
+		<magicLevel>110</magicLevel>
 		<trait>SHOCK</trait>
 		<targetType>SELF</targetType>
 		<affectScope>SQUARE</affectScope>
@@ -623,7 +623,7 @@
 		<hitTime>7000</hitTime>
 		<coolTime>500</coolTime>
 		<effectPoint>-100</effectPoint>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>KNOCKDOWN</abnormalType>
 		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
@@ -679,7 +679,7 @@
 		<!-- A water dragon, birthed by Shilen. It was long dormant, deep in the sea off the coast of Innadril. As one of the most rational dragons, it appointed one of the elves as a priestess, tasked with comforting its mind and controlling its anger. Fafurion was awakened when the Seven Seals were broken, and now uses its rage to build strength and find a way to revive Shilen in Aden. -->
 		<icon>icon.skillboss</icon>
 		<operateType>P</operateType>
-		<magicLvl>110</magicLvl>
+		<magicLevel>110</magicLevel>
 		<effects>
 			<effect name="DebuffBlock" />
 		</effects>
@@ -711,9 +711,9 @@
 		<hitTime>2000</hitTime>
 		<coolTime>500</coolTime>
 		<effectPoint>-100</effectPoint>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<isDebuff>true</isDebuff>
 		<fanRange>0;0;2500;900</fanRange>
 		<targetType>SELF</targetType>
@@ -738,7 +738,7 @@
 		<effectPoint>-100</effectPoint>
 		<affectLimit>6-12</affectLimit>
 		<affectRange>200</affectRange>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>POINT_BLANK</affectScope>
@@ -757,12 +757,12 @@
 		<hitTime>2000</hitTime>
 		<coolTime>500</coolTime>
 		<effectPoint>-100</effectPoint>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
 		<fanRange>0;180;1500;600</fanRange>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<trait>SHOCK</trait>
 		<targetType>SELF</targetType>
 		<affectScope>SQUARE</affectScope>
@@ -784,7 +784,7 @@
 		<coolTime>500</coolTime>
 		<effectPoint>-100</effectPoint>
 		<affectRange>300</affectRange>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<targetType>ENEMY</targetType>
 		<affectScope>RANGE</affectScope>
 		<affectObject>NOT_FRIEND</affectObject>
@@ -831,7 +831,7 @@
 		<hitTime>1500</hitTime>
 		<coolTime>500</coolTime>
 		<effectPoint>-100</effectPoint>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>9</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -839,7 +839,7 @@
 		<affectRange>200</affectRange>
 		<basicProperty>PHYSICAL</basicProperty>
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<trait>SHOCK</trait>
 		<targetType>ENEMY</targetType>
 		<affectScope>RANGE</affectScope>
@@ -861,7 +861,7 @@
 			<value level="2">icon.skill0352</value>
 		</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<isDebuff>true</isDebuff>
 		<hitTime>1500</hitTime>
@@ -904,10 +904,10 @@
 		<hitTime>500</hitTime>
 		<coolTime>500</coolTime>
 		<effectPoint>-100</effectPoint>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>		
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -916,7 +916,7 @@
 		<basicProperty>PHYSICAL</basicProperty>
 		<effectRange>800</effectRange>
 		<fanRange>0;0;600;60</fanRange>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<nextAction>ATTACK</nextAction>
 		<trait>SHOCK</trait>
 		<targetType>ENEMY</targetType>
@@ -938,7 +938,7 @@
 		<!-- Uses water to sharply increase P. Def. -->
 		<icon>icon.skill1238</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalVisualEffect>BLESS_AVE</abnormalVisualEffect>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
@@ -962,7 +962,7 @@
 			<value level="2">icon.skill32709</value>
 		</icon>
 		<operateType>A3</operateType>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<isDebuff>true</isDebuff>
@@ -1017,7 +1017,7 @@
 		<!-- Fires water magic arrows at the target and nearby enemies to knock them back. -->
 		<icon>icon.skill11025</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<isDebuff>true</isDebuff>
@@ -1056,13 +1056,13 @@
 		<coolTime>500</coolTime>
 		<reuseDelay>30000</reuseDelay>
 		<effectPoint>-100</effectPoint>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<affectLimit>12-12</affectLimit>
 		<affectRange>200</affectRange>
 		<basicProperty>MAGIC</basicProperty>
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>POINT_BLANK</affectScope>
@@ -1099,8 +1099,8 @@
 		<effectPoint>-100</effectPoint>
 		<affectLimit>12-12</affectLimit>
 		<affectRange>300</affectRange>
-		<magicLvl>-1</magicLvl>
-		<abnormalLvl>1</abnormalLvl>
+		<magicLevel>-1</magicLevel>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>DEPORT</abnormalType>
 		<abnormalVisualEffect>DEPORT</abnormalVisualEffect>
@@ -1129,7 +1129,7 @@
 		<!-- The grace of the Water Dragon strengthens you, sharply increasing water attack attributes, and also increasing M. Atk./ Casting Spd./ M. Def. -->
 		<icon>icon.skill4280</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<hitTime>2500</hitTime>
@@ -1190,7 +1190,7 @@
 		<operateType>A2</operateType>
 		<hitTime>500</hitTime>
 		<coolTime>500</coolTime>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>INVINCIBILITY</abnormalType>
 		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>

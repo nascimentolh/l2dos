@@ -8,7 +8,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10017" /> <!-- Coral Treasure Chest Key -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="3000" />
 		<set name="targetType" val="UNLOCKABLE" />
@@ -21,7 +21,7 @@
 	</skill>
 	<skill id="2401" levels="1" name="Lesser Battlefield Mana Potion">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="600000" />
 		<set name="targetType" val="SELF" />
@@ -36,7 +36,7 @@
 	</skill>
 	<skill id="2402" levels="1" name="Lesser Battlefield CP Potion">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="600000" />
 		<set name="targetType" val="SELF" />
@@ -51,7 +51,7 @@
 	</skill>
 	<skill id="2403" levels="1" name="Spring CP Potion">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="600000" />
 		<set name="targetType" val="SELF" />
@@ -63,13 +63,13 @@
 	</skill>
 	<skill id="2404" levels="1" name="Might">
 		<!-- Temporarily increases P. Atk. Effect 2. -->
-		<set name="abnormalLvl" val="2" />
+		<set name="abnormalLevel" val="2" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="PA_UP" />
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="20" />
+		<set name="magicLevel" val="20" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -80,13 +80,13 @@
 	</skill>
 	<skill id="2405" levels="1" name="Shield">
 		<!-- Temporarily increases P. Def. Effect 2. -->
-		<set name="abnormalLvl" val="2" />
+		<set name="abnormalLevel" val="2" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="PD_UP" />
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="25" />
+		<set name="magicLevel" val="25" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -97,13 +97,13 @@
 	</skill>
 	<skill id="2406" levels="1" name="Wind Walk">
 		<!-- Temporarily increases Speed. Effect 2. -->
-		<set name="abnormalLvl" val="2" />
+		<set name="abnormalLevel" val="2" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="SPEED_UP" />
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="30" />
+		<set name="magicLevel" val="30" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -114,13 +114,13 @@
 	</skill>
 	<skill id="2407" levels="1" name="Focus">
 		<!-- Temporarily increases the success rate of critical attacks. Effect 2. -->
-		<set name="abnormalLvl" val="2" />
+		<set name="abnormalLevel" val="2" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="CRITICAL_PROB_UP" />
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="44" />
+		<set name="magicLevel" val="44" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -131,13 +131,13 @@
 	</skill>
 	<skill id="2408" levels="1" name="Death Whisper">
 		<!-- Temporarily increases critical attack power. Effect 2. -->
-		<set name="abnormalLvl" val="2" />
+		<set name="abnormalLevel" val="2" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="CRITICAL_DMG_UP" />
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="48" />
+		<set name="magicLevel" val="48" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -148,13 +148,13 @@
 	</skill>
 	<skill id="2409" levels="1" name="Guidance">
 		<!-- Temporarily increases Accuracy. Effect 2. -->
-		<set name="abnormalLvl" val="2" />
+		<set name="abnormalLevel" val="2" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="HIT_UP" />
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="48" />
+		<set name="magicLevel" val="48" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -165,13 +165,13 @@
 	</skill>
 	<skill id="2410" levels="1" name="Bless Shield">
 		<!-- Temporarily increases Shield Defense Rate. Effect 2. -->
-		<set name="abnormalLvl" val="2" />
+		<set name="abnormalLevel" val="2" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="SHIELD_PROB_UP" />
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="48" />
+		<set name="magicLevel" val="48" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -182,13 +182,13 @@
 	</skill>
 	<skill id="2411" levels="1" name="Blessed Body">
 		<!-- Temporarily increases maximum HP. Effect 3. -->
-		<set name="abnormalLvl" val="3" />
+		<set name="abnormalLevel" val="3" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="MAX_HP_UP" />
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="52" />
+		<set name="magicLevel" val="52" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -199,13 +199,13 @@
 	</skill>
 	<skill id="2412" levels="1" name="Haste">
 		<!-- Temporarily increases Attack Speed. Effect 1. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="ATTACK_TIME_DOWN" />
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="44" />
+		<set name="magicLevel" val="44" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -216,13 +216,13 @@
 	</skill>
 	<skill id="2413" levels="1" name="Vampiric Rage">
 		<!-- Temporarily bestows the ability to recover HP with some damage redirected to an enemy. It does not include damage from skill or ranged attacks. Effect 2. -->
-		<set name="abnormalLvl" val="2" />
+		<set name="abnormalLevel" val="2" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="VAMPIRIC_ATTACK" />
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="44" />
+		<set name="magicLevel" val="44" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -233,13 +233,13 @@
 	</skill>
 	<skill id="2414" levels="1" name="Berserker Spirit">
 		<!-- Temporarily decreases P. Def./magic resistance/evasion and increases P. Atk/M Atk/attack speed/cast speed/speed. Effect 1. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="BERSERKER" />
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="35" />
+		<set name="magicLevel" val="35" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -257,13 +257,13 @@
 	</skill>
 	<skill id="2415" levels="1" name="Magic Barrier">
 		<!-- Temporarily increases magic resistance. Effect 2. -->
-		<set name="abnormalLvl" val="2" />
+		<set name="abnormalLevel" val="2" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="MD_UP" />
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="44" />
+		<set name="magicLevel" val="44" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -274,13 +274,13 @@
 	</skill>
 	<skill id="2416" levels="1" name="Blessed Soul">
 		<!-- Temporarily increases maximum MP. Effect 3. -->
-		<set name="abnormalLvl" val="3" />
+		<set name="abnormalLevel" val="3" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="MAX_MP_UP" />
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="52" />
+		<set name="magicLevel" val="52" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -291,13 +291,13 @@
 	</skill>
 	<skill id="2417" levels="1" name="Empower">
 		<!-- Temporarily increases magic power. Effect 2. -->
-		<set name="abnormalLvl" val="2" />
+		<set name="abnormalLevel" val="2" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="MA_UP" />
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="44" />
+		<set name="magicLevel" val="44" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -308,13 +308,13 @@
 	</skill>
 	<skill id="2418" levels="1" name="Acumen">
 		<!-- Temporarily increases cast speed. Effect 2. -->
-		<set name="abnormalLvl" val="2" />
+		<set name="abnormalLevel" val="2" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="CASTING_TIME_DOWN" />
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="35" />
+		<set name="magicLevel" val="35" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -325,13 +325,13 @@
 	</skill>
 	<skill id="2419" levels="1" name="Clarity">
 		<!-- Temporarily decreases skill consumption MP of target. Effect 1. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="CHEAP_MAGIC" />
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="58" />
+		<set name="magicLevel" val="58" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -344,7 +344,7 @@
 	</skill>
 	<skill id="2420" levels="1" name="White Seed of Evil Lump">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="129">
@@ -361,7 +361,7 @@
 	</skill>
 	<skill id="2421" levels="1" name="Black Seed of Evil Lump">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="129">
@@ -384,7 +384,7 @@
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10254" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="129">
@@ -499,7 +499,7 @@
 	</skill>
 	<skill id="2428" levels="1" name="Scroll of Transformation - Rabbit">
 		<!-- Transform into a cute bunny. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="600" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="effectPoint" val="1" />
@@ -507,7 +507,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10274" /> <!-- Rabbit Transformation Scroll -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<cond>
@@ -521,7 +521,7 @@
 	</skill>
 	<skill id="2429" levels="1" name="Haste Juice">
 		<!-- Increases Atk. Spd. by 33% for 60 minutes. -->
-		<set name="abnormalLvl" val="3" />
+		<set name="abnormalLevel" val="3" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="ATTACK_TIME_DOWN" />
 		<set name="effectPoint" val="1" />
@@ -529,7 +529,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10260" /> <!-- Haste Juice -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -540,7 +540,7 @@
 	</skill>
 	<skill id="2430" levels="1" name="Accuracy Juice">
 		<!-- Increases accuracy by 4 for 60 minutes. -->
-		<set name="abnormalLvl" val="4" />
+		<set name="abnormalLevel" val="4" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="HIT_UP" />
 		<set name="effectPoint" val="1" />
@@ -548,7 +548,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10261" /> <!-- Accuracy Juice -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -559,7 +559,7 @@
 	</skill>
 	<skill id="2431" levels="1" name="Critical Power Juice">
 		<!-- Increases Critical attack power by 35% for 60 minutes. -->
-		<set name="abnormalLvl" val="4" />
+		<set name="abnormalLevel" val="4" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="CRITICAL_DMG_UP" />
 		<set name="effectPoint" val="1" />
@@ -567,7 +567,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10262" /> <!-- Critical Power Juice -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -578,7 +578,7 @@
 	</skill>
 	<skill id="2432" levels="1" name="Critical Attack Juice">
 		<!-- Increases Critical attack rate by 30% for 60 minutes. -->
-		<set name="abnormalLvl" val="4" />
+		<set name="abnormalLevel" val="4" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="CRITICAL_PROB_UP" />
 		<set name="effectPoint" val="1" />
@@ -586,7 +586,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10263" /> <!-- Critical Attack Juice -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -597,7 +597,7 @@
 	</skill>
 	<skill id="2433" levels="1" name="Casting Speed Juice">
 		<!-- Increases Casting Spd. by 30% for 60 minutes. -->
-		<set name="abnormalLvl" val="4" />
+		<set name="abnormalLevel" val="4" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="CASTING_TIME_DOWN" />
 		<set name="effectPoint" val="1" />
@@ -605,7 +605,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10264" /> <!-- Casting Spd. Juice -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -616,7 +616,7 @@
 	</skill>
 	<skill id="2434" levels="1" name="Evasion Juice">
 		<!-- Increases evasion by 4 for 60 minutes. -->
-		<set name="abnormalLvl" val="4" />
+		<set name="abnormalLevel" val="4" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="AVOID_UP" />
 		<set name="effectPoint" val="1" />
@@ -624,7 +624,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10265" /> <!-- Evasion Juice -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -635,7 +635,7 @@
 	</skill>
 	<skill id="2435" levels="1" name="Magic Power Juice">
 		<!-- Increases M. Atk. by 75% for 60 minutes. -->
-		<set name="abnormalLvl" val="4" />
+		<set name="abnormalLevel" val="4" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="MA_UP" />
 		<set name="effectPoint" val="1" />
@@ -643,7 +643,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10266" /> <!-- Magic Power Juice -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -654,7 +654,7 @@
 	</skill>
 	<skill id="2436" levels="1" name="Power Juice">
 		<!-- Increases P. Atk. by 15% for 60 minutes. -->
-		<set name="abnormalLvl" val="4" />
+		<set name="abnormalLevel" val="4" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="PA_UP" />
 		<set name="effectPoint" val="1" />
@@ -662,7 +662,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10267" /> <!-- Power Juice -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -673,7 +673,7 @@
 	</skill>
 	<skill id="2437" levels="1" name="Speed Juice">
 		<!-- Increases moving speed by 60 for 33 minutes. -->
-		<set name="abnormalLvl" val="3" />
+		<set name="abnormalLevel" val="3" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="SPEED_UP" />
 		<set name="effectPoint" val="1" />
@@ -681,7 +681,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10268" /> <!-- Speed Juice -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -692,7 +692,7 @@
 	</skill>
 	<skill id="2438" levels="1" name="Defense Juice">
 		<!-- Increases P. Def. by 15% for 60 minutes. -->
-		<set name="abnormalLvl" val="4" />
+		<set name="abnormalLevel" val="4" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="PD_UP" />
 		<set name="effectPoint" val="1" />
@@ -700,7 +700,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10269" /> <!-- Defense Juice -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -711,7 +711,7 @@
 	</skill>
 	<skill id="2439" levels="1" name="MP Consumption Juice">
 		<!-- For 60 minutes, it decreases physical skill MP consumption by 20%, magic skill's MP consumption by 10%, and song/dance skill's MP consumption by 20%. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="CHEAP_MAGIC" />
 		<set name="effectPoint" val="1" />
@@ -719,7 +719,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10270" /> <!-- MP Consumption Juice -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -738,7 +738,7 @@
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="9599" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="129">
@@ -756,7 +756,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10549" /> <!-- Forgotten Scroll - Protection of Rune -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -770,7 +770,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="755" skillLvl="1" />
+				<param skillId="755" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -779,7 +779,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10550" /> <!-- Forgotten Scroll - Protection of Elemental -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -793,7 +793,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="756" skillLvl="1" />
+				<param skillId="756" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -802,7 +802,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10551" /> <!-- Forgotten Scroll - Protection of Alignment -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -816,7 +816,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="757" skillLvl="1" />
+				<param skillId="757" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -825,7 +825,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10552" /> <!-- Forgotten Scroll - Fighter's Will -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -839,7 +839,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="758" skillLvl="1" />
+				<param skillId="758" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -848,7 +848,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10553" /> <!-- Forgotten Scroll - Archer's Will -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -862,7 +862,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="759" skillLvl="1" />
+				<param skillId="759" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -871,7 +871,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10554" /> <!-- Forgotten Scroll - Anti-Magic Armor -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -885,7 +885,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="760" skillLvl="1" />
+				<param skillId="760" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -894,7 +894,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10555" /> <!-- Forgotten Scroll - Seed of Revenge -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -908,10 +908,10 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="761" skillLvl="1" />
+				<param skillId="761" skillLevel="1" />
 			</effect>
 			<effect name="SetSkill">
-				<param skillId="762" skillLvl="1" />
+				<param skillId="762" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -920,7 +920,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10556" /> <!-- Forgotten Scroll - Hell Scream -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -934,7 +934,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="763" skillLvl="1" />
+				<param skillId="763" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -943,7 +943,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10557" /> <!-- Forgotten Scroll - Song of Windstorm -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -957,7 +957,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="764" skillLvl="1" />
+				<param skillId="764" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -966,7 +966,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10558" /> <!-- Forgotten Scroll - Dance of Blade Storm -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -980,7 +980,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="765" skillLvl="1" />
+				<param skillId="765" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -989,7 +989,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10559" /> <!-- Forgotten Scroll - Sixth Sense -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1003,7 +1003,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="766" skillLvl="1" />
+				<param skillId="766" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1012,7 +1012,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10560" /> <!-- Forgotten Scroll - Expose Weak Point -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1026,7 +1026,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="767" skillLvl="1" />
+				<param skillId="767" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1035,7 +1035,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10561" /> <!-- Forgotten Scroll - Exciting Adventure -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1049,7 +1049,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="768" skillLvl="1" />
+				<param skillId="768" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1058,7 +1058,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10562" /> <!-- Forgotten Scroll - Wind Riding -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1072,7 +1072,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="769" skillLvl="1" />
+				<param skillId="769" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1081,7 +1081,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10563" /> <!-- Forgotten Scroll - Ghost Walking -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1095,7 +1095,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="770" skillLvl="1" />
+				<param skillId="770" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1104,7 +1104,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10564" /> <!-- Forgotten Scroll - Flame Hawk -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1118,7 +1118,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="771" skillLvl="1" />
+				<param skillId="771" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1127,7 +1127,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10565" /> <!-- Forgotten Scroll - Arrow Rain -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1141,7 +1141,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="772" skillLvl="1" />
+				<param skillId="772" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1150,7 +1150,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10566" /> <!-- Forgotten Scroll - Ghost Piercing -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1164,7 +1164,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="773" skillLvl="1" />
+				<param skillId="773" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1173,7 +1173,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10567" /> <!-- Forgotten Scroll - Dread Pool -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1187,7 +1187,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="774" skillLvl="1" />
+				<param skillId="774" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1196,7 +1196,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10568" /> <!-- Forgotten Scroll - Weapon Blockade -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1210,7 +1210,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="775" skillLvl="1" />
+				<param skillId="775" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1219,7 +1219,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10569" /> <!-- Forgotten Scroll - Force of Destruction -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1233,7 +1233,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="776" skillLvl="1" />
+				<param skillId="776" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1242,7 +1242,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10570" /> <!-- Forgotten Scroll - Demolition Impact -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1256,7 +1256,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="777" skillLvl="1" />
+				<param skillId="777" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1265,7 +1265,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10571" /> <!-- Forgotten Scroll - Golem Armor -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1279,7 +1279,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="778" skillLvl="1" />
+				<param skillId="778" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1288,7 +1288,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10572" /> <!-- Forgotten Scroll - Flame Armor -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1302,7 +1302,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="1492" skillLvl="1" />
+				<param skillId="1492" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1311,7 +1311,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10573" /> <!-- Forgotten Scroll - Frost Armor -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1325,7 +1325,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="1493" skillLvl="1" />
+				<param skillId="1493" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1334,7 +1334,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10574" /> <!-- Forgotten Scroll - Hurricane Armor -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1348,7 +1348,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="1494" skillLvl="1" />
+				<param skillId="1494" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1357,7 +1357,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10575" /> <!-- Forgotten Scroll - Vampiric Mist -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1371,7 +1371,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="1495" skillLvl="1" />
+				<param skillId="1495" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1380,7 +1380,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10576" /> <!-- Forgotten Scroll - Servitor Barrier -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1394,7 +1394,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="1496" skillLvl="1" />
+				<param skillId="1496" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1403,7 +1403,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10577" /> <!-- Forgotten Scroll - Excessive Loyalty -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1417,7 +1417,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="1497" skillLvl="1" />
+				<param skillId="1497" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1426,7 +1426,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10578" /> <!-- Forgotten Scroll - Mutual Response -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1440,7 +1440,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="1498" skillLvl="1" />
+				<param skillId="1498" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1449,7 +1449,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10579" /> <!-- Forgotten Scroll - Improve Combat -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1463,7 +1463,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="1499" skillLvl="1" />
+				<param skillId="1499" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1472,7 +1472,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10580" /> <!-- Forgotten Scroll - Improve Magic -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1486,7 +1486,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="1500" skillLvl="1" />
+				<param skillId="1500" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1495,7 +1495,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10581" /> <!-- Forgotten Scroll - Improve Condition -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1509,7 +1509,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="1501" skillLvl="1" />
+				<param skillId="1501" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1518,7 +1518,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10582" /> <!-- Forgotten Scroll - Improve Critical Attack -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1532,7 +1532,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="1502" skillLvl="1" />
+				<param skillId="1502" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1541,7 +1541,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10583" /> <!-- Forgotten Scroll - Improve Shield Defense -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1555,7 +1555,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="1503" skillLvl="1" />
+				<param skillId="1503" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1564,7 +1564,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10584" /> <!-- Forgotten Scroll - Improve Movement -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1578,7 +1578,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="1504" skillLvl="1" />
+				<param skillId="1504" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1587,7 +1587,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10585" /> <!-- Forgotten Scroll - Sublime Self Sacrifice -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1601,7 +1601,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="1505" skillLvl="1" />
+				<param skillId="1505" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1610,7 +1610,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10586" /> <!-- Forgotten Scroll - Blessing of Eva -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1624,7 +1624,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="1506" skillLvl="1" />
+				<param skillId="1506" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1633,7 +1633,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10587" /> <!-- Forgotten Scroll - Lord of Vampire -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1647,7 +1647,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="1507" skillLvl="1" />
+				<param skillId="1507" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1656,7 +1656,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10588" /> <!-- Forgotten Scroll - Throne Root -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1670,7 +1670,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="1508" skillLvl="1" />
+				<param skillId="1508" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1679,7 +1679,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10589" /> <!-- Forgotten Scroll - Seal of Limit -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1693,7 +1693,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="1509" skillLvl="1" />
+				<param skillId="1509" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1702,7 +1702,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10591" /> <!-- Forgotten Scroll - Spirit of Phoenix/Flame Icon -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1716,10 +1716,10 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="784" skillLvl="1" />
+				<param skillId="784" skillLevel="1" />
 			</effect>
 			<effect name="SetSkill">
-				<param skillId="785" skillLvl="1" />
+				<param skillId="785" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1728,7 +1728,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10592" /> <!-- Forgotten Scroll - Eva's Will -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1742,10 +1742,10 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="786" skillLvl="1" />
+				<param skillId="786" skillLevel="1" />
 			</effect>
 			<effect name="SetSkill">
-				<param skillId="787" skillLvl="1" />
+				<param skillId="787" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1754,7 +1754,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10593" /> <!-- Forgotten Scroll - Pain of Shilen / Spirit of Shilen -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1768,10 +1768,10 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="788" skillLvl="1" />
+				<param skillId="788" skillLevel="1" />
 			</effect>
 			<effect name="SetSkill">
-				<param skillId="789" skillLvl="1" />
+				<param skillId="789" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1779,7 +1779,7 @@
 		<set name="effectPoint" val="100" />
 		<set name="hitTime" val="100" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="40" />
+		<set name="magicLevel" val="40" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -1797,7 +1797,7 @@
 		<set name="effectPoint" val="100" />
 		<set name="hitTime" val="100" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="40" />
+		<set name="magicLevel" val="40" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -1813,7 +1813,7 @@
 	</skill>
 	<skill id="2487" levels="1" name="Item - Special Sound Crystal">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 	</skill>
@@ -1822,7 +1822,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10594" /> <!-- Forgotten Scroll - Wild Shot -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1836,7 +1836,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="790" skillLvl="1" />
+				<param skillId="790" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1845,7 +1845,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10595" /> <!-- Forgotten Scroll - Lightning Shock -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="113" addName="1">
@@ -1859,7 +1859,7 @@
 		</cond>
 		<for>
 			<effect name="SetSkill">
-				<param skillId="791" skillLvl="1" />
+				<param skillId="791" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1871,7 +1871,7 @@
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10473" /> <!-- Magic Accessory Set -->
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="129">
@@ -1887,84 +1887,84 @@
 	<skill id="2491" levels="1" name="Transform Zaken">
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<for>
 			<effect name="SetSkill">
-				<param skillId="663" skillLvl="1" />
+				<param skillId="663" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
 	<skill id="2492" levels="1" name="Transform Anakim">
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<for>
 			<effect name="SetSkill">
-				<param skillId="664" skillLvl="1" />
+				<param skillId="664" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
 	<skill id="2493" levels="1" name="Transform Venom">
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<for>
 			<effect name="SetSkill">
-				<param skillId="665" skillLvl="1" />
+				<param skillId="665" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
 	<skill id="2494" levels="1" name="Transform Gordon">
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<for>
 			<effect name="SetSkill">
-				<param skillId="666" skillLvl="1" />
+				<param skillId="666" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
 	<skill id="2495" levels="1" name="Transform Ranku">
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<for>
 			<effect name="SetSkill">
-				<param skillId="667" skillLvl="1" />
+				<param skillId="667" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
 	<skill id="2496" levels="1" name="Transform Kietch">
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<for>
 			<effect name="SetSkill">
-				<param skillId="668" skillLvl="1" />
+				<param skillId="668" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
 	<skill id="2497" levels="1" name="Transform Demon Prince">
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<for>
 			<effect name="SetSkill">
-				<param skillId="669" skillLvl="1" />
+				<param skillId="669" skillLevel="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1973,7 +1973,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="10409" /> <!-- A Bottle of Souls -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="soulMaxConsumeCount" val="5" />
 		<set name="targetType" val="SELF" />
@@ -1988,7 +1988,7 @@
 	</skill>
 	<skill id="2499" levels="1" name="Bottle of Full Soul">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 		<for>

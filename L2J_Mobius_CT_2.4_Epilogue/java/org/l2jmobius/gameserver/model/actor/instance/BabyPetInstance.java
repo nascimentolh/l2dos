@@ -86,13 +86,13 @@ public class BabyPetInstance extends PetInstance
 		for (PetSkillLearn psl : PetDataTable.getInstance().getPetData(getId()).getAvailableSkills())
 		{
 			final int id = psl.getSkillId();
-			final int lvl = PetDataTable.getInstance().getPetData(getId()).getAvailableLevel(id, getLevel());
-			if (lvl == 0)
+			final int level = PetDataTable.getInstance().getPetData(getId()).getAvailableLevel(id, getLevel());
+			if (level == 0)
 			{
 				continue;
 			}
 			
-			final Skill skill = SkillData.getInstance().getSkill(id, lvl);
+			final Skill skill = SkillData.getInstance().getSkill(id, level);
 			if (skill == null)
 			{
 				continue;
@@ -324,7 +324,7 @@ public class BabyPetInstance extends PetInstance
 						
 						// If owner already have the buff, continue.
 						final BuffInfo buffInfo = owner.getEffectList().getBuffInfoByAbnormalType(skill.getAbnormalType());
-						if ((buffInfo != null) && (skill.getAbnormalLvl() <= buffInfo.getSkill().getAbnormalLvl()))
+						if ((buffInfo != null) && (skill.getAbnormalLevel() <= buffInfo.getSkill().getAbnormalLevel()))
 						{
 							continue;
 						}

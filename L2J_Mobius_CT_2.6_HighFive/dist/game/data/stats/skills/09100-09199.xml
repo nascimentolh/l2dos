@@ -8,7 +8,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17069" /> <!-- Vesper Weapon Box - Event -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -30,7 +30,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17070" /> <!-- Icarus Weapon Box - Event -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -52,7 +52,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17071" /> <!-- Dynasty Weapon Box - Event -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -74,7 +74,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17072" /> <!-- Vesper Armor Box - Event -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -96,7 +96,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17073" /> <!-- Moirai Armor Box - Event -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -118,7 +118,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17074" /> <!-- Dynasty Armor Box - Event -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -140,7 +140,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17075" /> <!-- Soul Crystal - Stage 14 Box - Event -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -162,7 +162,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17076" /> <!-- Soul Crystal - Stage 15 Box - Event -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -184,7 +184,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17077" /> <!-- Soul Crystal - Stage 16 Box - Event -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -206,7 +206,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17078" /> <!-- Potion Box of Mask Type -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -228,7 +228,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17079" /> <!-- Potion Box of Hair Color -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -250,7 +250,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17080" /> <!-- Potion Box of Hair Style -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -272,7 +272,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17081" /> <!-- Golden Apigas Box -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -288,7 +288,7 @@
 	</skill>
 	<skill id="9113" levels="1" name="Vitality Potion">
 		<!-- Maintains the current Vitality for 10 minutes. -->
-		<set name="abnormalLvl" val="2" />
+		<set name="abnormalLevel" val="2" />
 		<set name="abnormalTime" val="600" />
 		<set name="abnormalType" val="VP_KEEP" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -297,7 +297,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17093" /> <!-- Vitality Maintaining Potion (10 mintues) (Event) -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="1800000" />
 		<set name="targetType" val="NONE" />
@@ -306,7 +306,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17094" /> <!-- Nevit's Voice -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -318,7 +318,7 @@
 	</skill>
 	<skill id="9115" levels="1" name="Nevit's Hourglass - 1 hour">
 		<!-- Increases Nevit's blessing by 1 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -326,7 +326,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17095" /> <!-- Nevit's Hourglass - 1 hour - 1~19 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -335,7 +335,7 @@
 	</skill>
 	<skill id="9116" levels="1" name="Nevit's Hourglass - 1.5 hour">
 		<!-- Increases Nevit's blessing by 1.5 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -343,7 +343,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17096" /> <!-- Nevit's Hourglass - 1.5 hour - 1~19 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -352,7 +352,7 @@
 	</skill>
 	<skill id="9117" levels="1" name="Nevit's Hourglass - 2 hour">
 		<!-- Increases Nevit's blessing by 2 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="7200" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -360,7 +360,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17097" /> <!-- Nevit's Hourglass - 2 hour - 1~19 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -369,7 +369,7 @@
 	</skill>
 	<skill id="9118" levels="1" name="Nevit's Hourglass - 2.5 hour">
 		<!-- Increases Nevit's blessing by 2.5 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="9000" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -377,7 +377,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17098" /> <!-- Nevit's Hourglass - 2.5 hour - 1~19 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -386,7 +386,7 @@
 	</skill>
 	<skill id="9119" levels="1" name="Nevit's Hourglass - 3 hour">
 		<!-- Increases Nevit's blessing by 3 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="10800" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -394,7 +394,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17099" /> <!-- Nevit's Hourglass - 3 hour - 1~19 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -403,7 +403,7 @@
 	</skill>
 	<skill id="9120" levels="1" name="Nevit's Hourglass - 1 hour">
 		<!-- Increases Nevit's blessing by 1 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -411,7 +411,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17100" /> <!-- Nevit's Hourglass - 1 hour - 20~39 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -420,7 +420,7 @@
 	</skill>
 	<skill id="9121" levels="1" name="Nevit's Hourglass - 1.5 hour">
 		<!-- Increases Nevit's blessing by 1.5 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -428,7 +428,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17101" /> <!-- Nevit's Hourglass - 1.5 hour - 20~39 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -437,7 +437,7 @@
 	</skill>
 	<skill id="9122" levels="1" name="Nevit's Hourglass - 2 hour">
 		<!-- Increases Nevit's blessing by 2 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="7200" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -445,7 +445,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17102" /> <!-- Nevit's Hourglass - 2 hour - 20~39 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -454,7 +454,7 @@
 	</skill>
 	<skill id="9123" levels="1" name="Nevit's Hourglass - 2.5 hour">
 		<!-- Increases Nevit's blessing by 2.5 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="9000" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -462,7 +462,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17103" /> <!-- Nevit's Hourglass - 2.5 hour - 20~39 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -471,7 +471,7 @@
 	</skill>
 	<skill id="9124" levels="1" name="Nevit's Hourglass - 3 hour">
 		<!-- Increases Nevit's blessing by 3 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="10800" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -479,7 +479,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17104" /> <!-- Nevit's Hourglass - 3 hour - 20~39 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -488,7 +488,7 @@
 	</skill>
 	<skill id="9125" levels="1" name="Nevit's Hourglass - 1 hour">
 		<!-- Increases Nevit's blessing by 1 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -496,7 +496,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17105" /> <!-- Nevit's Hourglass - 1 hour - 40~51 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -505,7 +505,7 @@
 	</skill>
 	<skill id="9126" levels="1" name="Nevit's Hourglass - 1.5 hour">
 		<!-- Increases Nevit's blessing by 1.5 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -513,7 +513,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17106" /> <!-- Nevit's Hourglass - 1.5 hour - 40~51 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -522,7 +522,7 @@
 	</skill>
 	<skill id="9127" levels="1" name="Nevit's Hourglass - 2 hour">
 		<!-- Increases Nevit's blessing by 2 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="7200" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -530,7 +530,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17107" /> <!-- Nevit's Hourglass - 2 hour - 40~51 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -539,7 +539,7 @@
 	</skill>
 	<skill id="9128" levels="1" name="Nevit's Hourglass - 2.5 hour">
 		<!-- Increases Nevit's blessing by 2.5 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="9000" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -547,7 +547,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17108" /> <!-- Nevit's Hourglass - 2.5 hour - 40~51 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -556,7 +556,7 @@
 	</skill>
 	<skill id="9129" levels="1" name="Nevit's Hourglass - 3 hour">
 		<!-- Increases Nevit's blessing by 3 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="10800" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -564,7 +564,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17109" /> <!-- Nevit's Hourglass - 3 hour - 40~51 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -573,7 +573,7 @@
 	</skill>
 	<skill id="9130" levels="1" name="Nevit's Hourglass - 1 hour">
 		<!-- Increases Nevit's blessing by 1 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -581,7 +581,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17110" /> <!-- Nevit's Hourglass - 1 hour - 52~60 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -590,7 +590,7 @@
 	</skill>
 	<skill id="9131" levels="1" name="Nevit's Hourglass - 1.5 hour">
 		<!-- Increases Nevit's blessing by 1.5 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -598,7 +598,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17111" /> <!-- Nevit's Hourglass - 1.5 hour - 52~60 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -607,7 +607,7 @@
 	</skill>
 	<skill id="9132" levels="1" name="Nevit's Hourglass - 2 hour">
 		<!-- Increases Nevit's blessing by 2 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="7200" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -615,7 +615,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17112" /> <!-- Nevit's Hourglass - 2 hour - 52~60 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -624,7 +624,7 @@
 	</skill>
 	<skill id="9133" levels="1" name="Nevit's Hourglass - 2.5 hour">
 		<!-- Increases Nevit's blessing by 2.5 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="9000" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -632,7 +632,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17113" /> <!-- Nevit's Hourglass - 2.5 hour - 52~60 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -641,7 +641,7 @@
 	</skill>
 	<skill id="9134" levels="1" name="Nevit's Hourglass - 3 hour">
 		<!-- Increases Nevit's blessing by 3 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="10800" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -649,7 +649,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17114" /> <!-- Nevit's Hourglass - 3 hour - 52~60 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -658,7 +658,7 @@
 	</skill>
 	<skill id="9135" levels="1" name="Nevit's Hourglass - 1 hour">
 		<!-- Increases Nevit's blessing by 1 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -666,7 +666,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17115" /> <!-- Nevit's Hourglass - 1 hour - 61~75 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -675,7 +675,7 @@
 	</skill>
 	<skill id="9136" levels="1" name="Nevit's Hourglass - 1.5 hour">
 		<!-- Increases Nevit's blessing by 1.5 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -683,7 +683,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17116" /> <!-- Nevit's Hourglass - 1.5 hour - 61~75 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -692,7 +692,7 @@
 	</skill>
 	<skill id="9137" levels="1" name="Nevit's Hourglass - 2 hour">
 		<!-- Increases Nevit's blessing by 2 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="7200" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -700,7 +700,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17117" /> <!-- Nevit's Hourglass - 2 hour - 61~75 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -709,7 +709,7 @@
 	</skill>
 	<skill id="9138" levels="1" name="Nevit's Hourglass - 2.5 hour">
 		<!-- Increases Nevit's blessing by 2.5 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="9000" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -717,7 +717,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17118" /> <!-- Nevit's Hourglass - 2.5 hour - 61~75 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -726,7 +726,7 @@
 	</skill>
 	<skill id="9139" levels="1" name="Nevit's Hourglass - 3 hour">
 		<!-- Increases Nevit's blessing by 3 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="10800" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -734,7 +734,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17119" /> <!-- Nevit's Hourglass - 3 hour - 61~75 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -743,7 +743,7 @@
 	</skill>
 	<skill id="9140" levels="1" name="Nevit's Hourglass - 1 hour">
 		<!-- Increases Nevit's blessing by 1 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -751,7 +751,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17120" /> <!-- Nevit's Hourglass - 1 hour - 76~79 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -760,7 +760,7 @@
 	</skill>
 	<skill id="9141" levels="1" name="Nevit's Hourglass - 1.5 hour">
 		<!-- Increases Nevit's blessing by 1.5 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -768,7 +768,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17121" /> <!-- Nevit's Hourglass - 1.5 hour - 76~79 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -777,7 +777,7 @@
 	</skill>
 	<skill id="9142" levels="1" name="Nevit's Hourglass - 2 hour">
 		<!-- Increases Nevit's blessing by 2 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="7200" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -785,7 +785,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17122" /> <!-- Nevit's Hourglass - 2 hour - 76~79 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -794,7 +794,7 @@
 	</skill>
 	<skill id="9143" levels="1" name="Nevit's Hourglass - 2.5 hour">
 		<!-- Increases Nevit's blessing by 2.5 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="9000" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -802,7 +802,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17123" /> <!-- Nevit's Hourglass - 2.5 hour - 76~79 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -811,7 +811,7 @@
 	</skill>
 	<skill id="9144" levels="1" name="Nevit's Hourglass - 3 hour">
 		<!-- Increases Nevit's blessing by 3 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="10800" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -819,7 +819,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17124" /> <!-- Nevit's Hourglass - 3 hour - 76~79 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -828,7 +828,7 @@
 	</skill>
 	<skill id="9145" levels="1" name="Nevit's Hourglass - 1 hour">
 		<!-- Increases Nevit's blessing by 1 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -836,7 +836,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17125" /> <!-- Nevit's Hourglass - 1 hour - 80~85 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -845,7 +845,7 @@
 	</skill>
 	<skill id="9146" levels="1" name="Nevit's Hourglass - 1.5 hour">
 		<!-- Increases Nevit's blessing by 1.5 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -853,7 +853,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17126" /> <!-- Nevit's Hourglass - 1.5 hour - 80~85 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -862,7 +862,7 @@
 	</skill>
 	<skill id="9147" levels="1" name="Nevit's Hourglass - 2 hour">
 		<!-- Increases Nevit's blessing by 2 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="7200" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -870,7 +870,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17127" /> <!-- Nevit's Hourglass - 2 hour - 80~85 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -879,7 +879,7 @@
 	</skill>
 	<skill id="9148" levels="1" name="Nevit's Hourglass - 2.5 hour">
 		<!-- Increases Nevit's blessing by 2.5 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="9000" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -887,7 +887,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17128" /> <!-- Nevit's Hourglass - 2.5 hour - 80~85 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -896,7 +896,7 @@
 	</skill>
 	<skill id="9149" levels="1" name="Nevit's Hourglass - 3 hour">
 		<!-- Increases Nevit's blessing by 3 hour. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="10800" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -904,7 +904,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17129" /> <!-- Nevit's Hourglass - 3 hour - 80~85 -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -920,7 +920,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17130" /> <!-- Freesia Bouquet (Event) -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="1000" />
 		<set name="targetType" val="ONE" />
@@ -934,7 +934,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17131" /> <!-- Baby Breath Bouquet (Event) -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="1000" />
 		<set name="targetType" val="ONE" />
@@ -948,7 +948,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17132" /> <!-- Pink Lady (Event) -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="1000" />
 		<set name="targetType" val="ONE" />
@@ -962,7 +962,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17133" /> <!-- June Bug (Event) -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="1000" />
 		<set name="targetType" val="ONE" />
@@ -976,7 +976,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17134" /> <!-- Soft Cheesecake (Event) -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="1000" />
 		<set name="targetType" val="ONE" />
@@ -990,7 +990,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17135" /> <!-- Freshly-Baked Baguette (Event) -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="1000" />
 		<set name="targetType" val="ONE" />
@@ -1004,7 +1004,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17136" /> <!-- Sweet Cream Bun (Event) -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="1000" />
 		<set name="targetType" val="ONE" />
@@ -1018,7 +1018,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17137" /> <!-- White Day Candy (Event) -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="1000" />
 		<set name="targetType" val="ONE" />
@@ -1033,7 +1033,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17138" /> <!-- Freya's Gift -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -1049,7 +1049,7 @@
 	</skill>
 	<skill id="9159" levels="1" name="Transformation Scroll - Anakim">
 		<!-- Transform into Anakim. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="1800" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="effectPoint" val="1" />
@@ -1058,7 +1058,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17139" /> <!-- Transformation Scroll: Anakim -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="7200000" />
 		<set name="targetType" val="SELF" />
@@ -1073,7 +1073,7 @@
 	</skill>
 	<skill id="9160" levels="1" name="Transformation Scroll - Zaken">
 		<!-- Transform into Zaken. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="1800" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="effectPoint" val="1" />
@@ -1082,7 +1082,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17140" /> <!-- Transformation Scroll: Zaken -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="7200000" />
 		<set name="targetType" val="SELF" />
@@ -1098,7 +1098,7 @@
 	<skill id="9161" levels="1" name="Vesper's Mighty Power">
 		<!-- Increase Physical Attack by 15%, Magical Attack by 20%, and Speed by 10 for 10 minutes. -->
 		<set name="abnormalInstant" val="true" />
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="600" />
 		<set name="abnormalType" val="WP_CHANGE_EVENT" />
 		<set name="abnormalVisualEffect" val="CHANGE_VES_S" />
@@ -1106,7 +1106,7 @@
 		<set name="hitTime" val="100" />
 		<set name="icon" val="icon.weapon_vesper_slasher_i00" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -1121,7 +1121,7 @@
 	<skill id="9162" levels="1" name="Vesper's Critical Attack Power">
 		<!-- Increase Physical Critical Attack Rate by 15, Magic Critical Attack Rate by 2, and Speed by 10 for 10 minutes. Recovers 5% of the standard short-range physical damage inflicted on the enemy as HP. -->
 		<set name="abnormalInstant" val="true" />
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="600" />
 		<set name="abnormalType" val="WP_CHANGE_EVENT" />
 		<set name="abnormalVisualEffect" val="CHANGE_VES_C" />
@@ -1129,7 +1129,7 @@
 		<set name="hitTime" val="100" />
 		<set name="icon" val="icon.weapon_vesper_caster_i00" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -1145,7 +1145,7 @@
 	<skill id="9163" levels="1" name="Invincible Vesper">
 		<!-- Increase Max. Attack Speed by 20%, Magic Speed by 20%, and Speed by 20 for 10 minutes. -->
 		<set name="abnormalInstant" val="true" />
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="600" />
 		<set name="abnormalType" val="WP_CHANGE_EVENT" />
 		<set name="abnormalVisualEffect" val="CHANGE_VES_D" />
@@ -1153,7 +1153,7 @@
 		<set name="hitTime" val="100" />
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -1175,7 +1175,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17161" /> <!-- Special Gift of April Fool's Day (Event) -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="SELF" />
@@ -1191,20 +1191,20 @@
 	</skill>
 	<skill id="9165" levels="1" name="Energy of Sprout">
 		<!-- For 1 hour, receives help from the Energy of Sprout to increase Max MP by 20%, MP recovery bonus by 20%, HP recovery bonus by 20%, the chance of prominent damage occurring through magic damage by 2, the power of critical attacks by 20%, P. Atk. by 10%, P. Def. by 20%, Atk. Spd. by 20%, M. Atk. by 20%, M. Def. by 20%, Casting Spd. by 20%, and Resistance to de-buffs by 10%. Decreases Speed by 20% and MP consumption needed for skill use by 5%. -->
-		<set name="abnormalLvl" val="4" />
+		<set name="abnormalLevel" val="4" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="MULTI_BUFF" />
 		<set name="icon" val="icon.etc_leaf_green_i00" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17163" /> <!-- Event - Energy of Sprout -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="NONE" />
 	</skill>
 	<skill id="9166" levels="1" name="Energy Replenishing Herb Tea">
 		<!-- Recovers Vitality upon acquiring Exp. points for 30 minutes. -->
-		<set name="abnormalLvl" val="3" />
+		<set name="abnormalLevel" val="3" />
 		<set name="abnormalTime" val="1800" />
 		<set name="abnormalType" val="VP_UP" />
 		<set name="abnormalVisualEffect" val="VP_UP" />
@@ -1213,7 +1213,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="14744" /> <!-- Event - Vitality Replenishing Herb Tea 30 minutes -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="10000" />
 		<set name="targetType" val="NONE" />
@@ -1257,7 +1257,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17184" /> <!-- 500,000 SP scroll -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="3000" />
 		<set name="targetType" val="SELF" />
@@ -1272,7 +1272,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="17185" /> <!-- 1,000,000 SP scroll -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="3000" />
 		<set name="targetType" val="SELF" />
@@ -1338,7 +1338,7 @@
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="#itemConsumeId" />
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="3000" />
 		<set name="targetType" val="SELF" />
@@ -1350,7 +1350,7 @@
 	</skill>
 	<skill id="9181" levels="1" name="Nevit's Hourglass - 4 hour(s)">
 		<!-- Increases Nevit's blessing by 4 hour(s). -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="14400" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
@@ -1366,7 +1366,7 @@
 	</skill>
 	<skill id="9182" levels="1" name="Nevit's Hourglass - 4 hour(s)">
 		<!-- Increases Nevit's blessing by 4 hour(s). -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="14400" />
 		<set name="abnormalType" val="VOTE" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />

@@ -3,10 +3,10 @@
 	<skill id="500" toLevel="2" name="True Berserker">
 		<!-- Decreases P. Def. by $s1 and Evasion by $s2. Increases P. Atk. and Atk. Spd. by $s3 and Accuracy by $s4. Continuously consumes MP proportionately to your level. -->
 		<icon>icon.skill0500</icon>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">52</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>T</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>NONE</targetType>
@@ -52,7 +52,7 @@
 	<skill id="501" toLevel="12" name="Violent Temper">
 		<!-- Decreases the enemy's P. Def. by $s2 and Casting Spd. by $s3 for $s1. -->
 		<icon>icon.skill0501</icon>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>PD_DOWN</abnormalType>
 		<activateRate>80</activateRate>
@@ -76,7 +76,7 @@
 		<hitTime>1800</hitTime>
 		<isDebuff>true</isDebuff>
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">49</value>
 			<value level="2">52</value>
 			<value level="3">55</value>
@@ -89,7 +89,7 @@
 			<value level="10">70</value>
 			<value level="11">72</value>
 			<value level="12">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">22</value>
 			<value level="2">24</value>
@@ -132,13 +132,13 @@
 			<value level="4">311</value>
 			<value level="5">328</value>
 		</hpConsume>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">49</value>
 			<value level="3">58</value>
 			<value level="4">66</value>
 			<value level="5">72</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A1</operateType>
 		<reuseDelay>11000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -174,11 +174,11 @@
 		<effectRange>400</effectRange>
 		<fanRange>0;0;80;300</fanRange>
 		<hitTime>1080</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">43</value>
 			<value level="2">55</value>
 			<value level="3">64</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">21</value>
 			<value level="2">28</value>
@@ -238,7 +238,7 @@
 		</effectPoint>
 		<effectRange>400</effectRange>
 		<hitTime>1500</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">38</value>
 			<value level="2">39</value>
 			<value level="3">40</value>
@@ -276,7 +276,7 @@
 			<value level="35">72</value>
 			<value level="36">73</value>
 			<value level="37">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">29</value>
 			<value level="2">30</value>
@@ -412,7 +412,7 @@
 		</effectPoint>
 		<effectRange>400</effectRange>
 		<hitTime>1500</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">47</value>
 			<value level="2">48</value>
 			<value level="3">49</value>
@@ -441,7 +441,7 @@
 			<value level="26">72</value>
 			<value level="27">73</value>
 			<value level="28">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">37</value>
 			<value level="2">38</value>
@@ -536,12 +536,12 @@
 		</effectPoint>
 		<effectRange>400</effectRange>
 		<hitTime>1500</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">52</value>
 			<value level="2">60</value>
 			<value level="3">66</value>
 			<value level="4">72</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">36</value>
 			<value level="2">43</value>
@@ -628,7 +628,7 @@
 		</effectPoint>
 		<effectRange>1400</effectRange>
 		<hitTime>3000</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">38</value>
 			<value level="2">39</value>
 			<value level="3">40</value>
@@ -666,7 +666,7 @@
 			<value level="35">72</value>
 			<value level="36">73</value>
 			<value level="37">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">65</value>
 			<value level="2">67</value>
@@ -808,7 +808,7 @@
 		</effectPoint>
 		<effectRange>1000</effectRange>
 		<hitTime>3200</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">44</value>
 			<value level="2">45</value>
 			<value level="3">46</value>
@@ -840,7 +840,7 @@
 			<value level="29">72</value>
 			<value level="30">73</value>
 			<value level="31">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">112</value>
 			<value level="2">116</value>
@@ -931,7 +931,7 @@
 	<skill id="509" toLevel="34" name="Bleeding Shot">
 		<!-- Fires a specially crafted bolt at the enemy with $s1 Power added to P. Atk., causing $s3 HP of bleeding damage per second for up to $s2. Increases Power upon the consumption of up to $s4 souls. Requires a crossbow. Consumes $s5 Special Bolt. Over-hit. -->
 		<icon>icon.skill0509</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>20</abnormalTime>
 		<subordinationAbnormalType>BLEEDING</subordinationAbnormalType>
 		<abnormalType>BLEEDING</abnormalType>
@@ -982,7 +982,7 @@
 		<itemConsumeId>10113</itemConsumeId> <!-- Special Bolt -->
 		<isDebuff>true</isDebuff>
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">41</value>
 			<value level="2">42</value>
 			<value level="3">43</value>
@@ -1017,7 +1017,7 @@
 			<value level="32">72</value>
 			<value level="33">73</value>
 			<value level="34">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">56</value>
 			<value level="2">58</value>
@@ -1160,13 +1160,13 @@
 		<hitTime>3000</hitTime>
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>10113</itemConsumeId> <!-- Special Bolt -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">66</value>
 			<value level="2">68</value>
 			<value level="3">70</value>
 			<value level="4">72</value>
 			<value level="5">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">100</value>
 			<value level="2">103</value>
@@ -1211,7 +1211,7 @@
 		<castRange>400</castRange>
 		<effectRange>900</effectRange>
 		<hitTime>1500</hitTime>
-		<magicLvl>52</magicLvl>
+		<magicLevel>52</magicLevel>
 		<mpConsume>44</mpConsume>
 		<operateType>A1</operateType>
 		<reuseDelay>3000</reuseDelay>
@@ -1230,7 +1230,7 @@
 		<icon>icon.skill0512</icon>
 		<hitTime>3000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">20</value>
 			<value level="2">28</value>
 			<value level="3">36</value>
@@ -1241,7 +1241,7 @@
 			<value level="8">64</value>
 			<value level="9">68</value>
 			<value level="10">72</value>
-		</magicLvl>
+		</magicLevel>
 		<mpInitialConsume>1</mpInitialConsume>
 		<operateType>A1</operateType>
 		<soulMaxConsumeCount>1</soulMaxConsumeCount>
@@ -1263,7 +1263,7 @@
 		<icon>icon.skill0513</icon>
 		<hitTime>3000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>62</magicLvl>
+		<magicLevel>62</magicLevel>
 		<mpConsume>58</mpConsume>
 		<operateType>A1</operateType>
 		<reuseDelay>150000</reuseDelay>
@@ -1292,7 +1292,7 @@
 		<icon>icon.skill0514</icon>
 		<effectPoint>-1</effectPoint>
 		<hitTime>1500</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">28</value>
 			<value level="2">36</value>
 			<value level="3">43</value>
@@ -1302,7 +1302,7 @@
 			<value level="7">64</value>
 			<value level="8">68</value>
 			<value level="9">72</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>40</mpConsume>
 		<mpInitialConsume>10</mpInitialConsume>
 		<operateType>A1</operateType>
@@ -1367,14 +1367,14 @@
 		<icon>icon.skill0515</icon>
 		<effectPoint>-1</effectPoint>
 		<hitTime>1500</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">49</value>
 			<value level="2">55</value>
 			<value level="3">60</value>
 			<value level="4">64</value>
 			<value level="5">68</value>
 			<value level="6">72</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>40</mpConsume>
 		<mpInitialConsume>10</mpInitialConsume>
 		<operateType>A1</operateType>
@@ -1427,14 +1427,14 @@
 		<icon>icon.skill0516</icon>
 		<effectPoint>-1</effectPoint>
 		<hitTime>1500</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">52</value>
 			<value level="2">58</value>
 			<value level="3">62</value>
 			<value level="4">66</value>
 			<value level="5">70</value>
 			<value level="6">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>40</mpConsume>
 		<mpInitialConsume>10</mpInitialConsume>
 		<operateType>A1</operateType>
@@ -1487,13 +1487,13 @@
 		<icon>icon.skill0517</icon>
 		<effectPoint>-1</effectPoint>
 		<hitTime>1500</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">55</value>
 			<value level="2">60</value>
 			<value level="3">64</value>
 			<value level="4">68</value>
 			<value level="5">72</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>40</mpConsume>
 		<mpInitialConsume>10</mpInitialConsume>
 		<operateType>A1</operateType>
@@ -1542,7 +1542,7 @@
 		<icon>icon.skill0518</icon>
 		<effectPoint>-1</effectPoint>
 		<hitTime>1500</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">46</value>
 			<value level="3">52</value>
@@ -1551,7 +1551,7 @@
 			<value level="6">66</value>
 			<value level="7">70</value>
 			<value level="8">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>40</mpConsume>
 		<mpInitialConsume>10</mpInitialConsume>
 		<operateType>A1</operateType>
@@ -1614,7 +1614,7 @@
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>1461</itemConsumeId> <!-- Crystal (A-Grade) -->
-		<magicLvl>60</magicLvl>
+		<magicLevel>60</magicLevel>
 		<mpConsume>366</mpConsume>
 		<operateType>A1</operateType>
 		<reuseDelay>600000</reuseDelay>
@@ -1650,7 +1650,7 @@
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>1462</itemConsumeId> <!-- Crystal (S-Grade) -->
-		<magicLvl>74</magicLvl>
+		<magicLevel>74</magicLevel>
 		<mpConsume>398</mpConsume>
 		<operateType>A1</operateType>
 		<reuseDelay>600000</reuseDelay>
@@ -1682,7 +1682,7 @@
 	<skill id="521" toLevel="8" name="Sharpshooting">
 		<!-- For $s1, when using a crossbow, P. Atk. +$s2, Critical Rate +$s3, Accuracy +$s4, and Range +$s5. User cannot move while skill is in effect. Requires a crossbow. -->
 		<icon>icon.skill0521</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
@@ -1691,7 +1691,7 @@
 			<value level="6">6</value>
 			<value level="7">7</value>
 			<value level="8">8</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>SNIPE</abnormalType>
 		<effectPoint>
@@ -1705,7 +1705,7 @@
 			<value level="8">655</value>
 		</effectPoint>
 		<hitTime>2000</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">62</value>
 			<value level="3">64</value>
@@ -1714,7 +1714,7 @@
 			<value level="6">70</value>
 			<value level="7">72</value>
 			<value level="8">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">28</value>
 			<value level="2">29</value>
@@ -1805,12 +1805,12 @@
 	<skill id="522" toLevel="4" name="Real Target">
 		<!-- Decreases Bow Resistance by $s2 and Crossbow Resistance by $s3 for $s1. -->
 		<icon>icon.skill0522</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
 			<value level="4">4</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>REAL_TARGET</abnormalType>
 		<abnormalVisualEffect>REAL_TARGET</abnormalVisualEffect>
@@ -1834,12 +1834,12 @@
 		</effectRange>
 		<hitTime>1500</hitTime>
 		<isDebuff>true</isDebuff>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">52</value>
 			<value level="3">62</value>
 			<value level="4">70</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">11</value>
 			<value level="2">14</value>
@@ -1878,7 +1878,7 @@
 	<skill id="523" toLevel="7" name="Imbue Dark Seed">
 		<!-- Plants a Seed of Darkness in the enemy's body. For $s1, $s2 HP is consumed per sec. Once fully grown, the seed paralyzes the host body. -->
 		<icon>icon.skill0523</icon>
-		<abnormalLvl>8</abnormalLvl>
+		<abnormalLevel>8</abnormalLevel>
 		<abnormalTime>20</abnormalTime>
 		<abnormalType>DARK_SEED</abnormalType>
 		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
@@ -1901,7 +1901,7 @@
 		<itemConsumeId>10112</itemConsumeId> <!-- Dark Seed -->
 		<isDebuff>true</isDebuff>
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">62</value>
 			<value level="2">64</value>
 			<value level="3">66</value>
@@ -1909,7 +1909,7 @@
 			<value level="5">70</value>
 			<value level="6">72</value>
 			<value level="7">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>30</mpConsume>
 		<nextAction>ATTACK</nextAction>
 		<operateType>A2</operateType>
@@ -1952,7 +1952,7 @@
 		<icon>icon.skill0524</icon>
 		<effectPoint>204</effectPoint>
 		<hitTime>1500</hitTime>
-		<magicLvl>64</magicLvl>
+		<magicLevel>64</magicLevel>
 		<mpConsume>59</mpConsume>
 		<operateType>A1</operateType>
 		<reuseDelay>1000</reuseDelay>
@@ -1970,14 +1970,14 @@
 		<icon>icon.skill0525</icon>
 		<hitTime>2000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">43</value>
 			<value level="2">52</value>
 			<value level="3">60</value>
 			<value level="4">66</value>
 			<value level="5">70</value>
 			<value level="6">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">60</value>
 			<value level="2">75</value>
@@ -2024,7 +2024,7 @@
 		<effectRange>400</effectRange>
 		<fanRange>0;0;400;90</fanRange>
 		<hitTime>1080</hitTime>
-		<magicLvl>78</magicLvl>
+		<magicLevel>78</magicLevel>
 		<mpConsume>78</mpConsume>
 		<nextAction>ATTACK</nextAction>
 		<operateType>A1</operateType>
@@ -2044,12 +2044,12 @@
 	<skill id="527" toLevel="1" name="Iron Shield">
 		<!-- Increases Shield Defense with a certain chance when attacked. -->
 		<icon>icon.skill0527</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>IRON_SHIELD</abnormalType>
 		<effectPoint>673</effectPoint>
 		<hitTime>1000</hitTime>
-		<magicLvl>79</magicLvl>
+		<magicLevel>79</magicLevel>
 		<mpConsume>43</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>150000</reuseDelay>
@@ -2077,13 +2077,13 @@
 	<skill id="528" toLevel="1" name="Shield of Faith">
 		<!-- For 15 sec., party members' P. Def. +3600 and M. Def. +2700. For the duration, absorbs 90% of any damage received by a party member. -->
 		<icon>icon.skill0528</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>TRANSFER_DAMAGE</abnormalType>
 		<affectRange>1000</affectRange>
 		<effectPoint>673</effectPoint>
 		<hitTime>1000</hitTime>
-		<magicLvl>79</magicLvl>
+		<magicLevel>79</magicLevel>
 		<mpConsume>43</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>900000</reuseDelay>
@@ -2109,14 +2109,14 @@
 	<skill id="529" toLevel="1" name="Elemental Song">
 		<!-- Increases all party members' Fire/ Water/ Wind/ Earth Resistance by 30 for 2 min. Additionally increases MP Consumption when singing while song/ dance is in effect. -->
 		<icon>icon.skill0529</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>SONG_OF_ELEMENTAL</abnormalType>
 		<affectRange>1000</affectRange>
 		<effectPoint>507</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>3</isMagic> <!-- Dance Skill -->
-		<magicLvl>79</magicLvl>
+		<magicLevel>79</magicLevel>
 		<mpConsume>54</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>150000</reuseDelay>
@@ -2147,14 +2147,14 @@
 	<skill id="530" toLevel="1" name="Dance of Alignment">
 		<!-- Increases all party members' Holy/ Dark Attack Resistance by 30 for 2 min. Additionally increases MP Consumption when dancing while song/ dance is in effect. Requires a dual sword. -->
 		<icon>icon.skill0530</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>DANCE_OF_ALIGNMENT</abnormalType>
 		<affectRange>1000</affectRange>
 		<effectPoint>507</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>3</isMagic> <!-- Dance Skill -->
-		<magicLvl>79</magicLvl>
+		<magicLevel>79</magicLevel>
 		<mpConsume>54</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>150000</reuseDelay>
@@ -2185,7 +2185,7 @@
 	<skill id="531" toLevel="8" name="Critical Wound">
 		<!-- Increases a target's P. Critical Damage Received by $s2 for $s1 by giving painful wounds. Requires a dagger/ dual dagger. -->
 		<icon>icon.skill0531</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="8">30</value>
 			<value fromLevel="4" toLevel="8" fromSubLevel="2001" toSubLevel="2010">{base + subIndex}</value>
@@ -2203,7 +2203,7 @@
 		<hitTime>1500</hitTime>
 		<isDebuff>true</isDebuff>
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">79</value>
 			<value level="2">85</value>
 			<value level="3">90</value>
@@ -2212,7 +2212,7 @@
 			<value level="6">101</value>
 			<value level="7">103</value>
 			<value level="8">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">43</value>
 			<value level="2">46</value>
@@ -2256,7 +2256,7 @@
 	<skill id="532" toLevel="1" name="Counter Chance">
 		<!-- When attacked, Casting Spd. +15% and MP Consumption -5% for 1 min. -->
 		<icon>icon.skill0532</icon>
-		<magicLvl>79</magicLvl>
+		<magicLevel>79</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
@@ -2276,7 +2276,7 @@
 	<skill id="533" toLevel="1" name="Counter Rapid Shot">
 		<!-- When attacked, party members' bow Atk. Spd.+ 15% for 1 min. -->
 		<icon>icon.skill0533</icon>
-		<magicLvl>79</magicLvl>
+		<magicLevel>79</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
@@ -2296,7 +2296,7 @@
 	<skill id="534" toLevel="1" name="Counter Dash">
 		<!-- When attacked, party members' Speed +40 for 1 min. -->
 		<icon>icon.skill0534</icon>
-		<magicLvl>79</magicLvl>
+		<magicLevel>79</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
@@ -2316,7 +2316,7 @@
 	<skill id="535" toLevel="1" name="Counter Mind">
 		<!-- When attacked, recovers MP at a certain rate. -->
 		<icon>icon.skill0535</icon>
-		<magicLvl>79</magicLvl>
+		<magicLevel>79</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
@@ -2336,12 +2336,12 @@
 	<skill id="536" toLevel="1" name="Over the Body">
 		<!-- Expends spirit points so that for 60 sec., Increases Max HP by 35%, HP Recovery Bonus by 15%, P. Atk. by 25%, P. Def. by 30%, Atk. Spd. 10%, and Speed by 10%. Can be used when CP is more than 80%. -->
 		<icon>icon.skill0536</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<effectPoint>673</effectPoint>
 		<hitTime>2000</hitTime>
-		<magicLvl>79</magicLvl>
+		<magicLevel>79</magicLevel>
 		<mpConsume>143</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>900000</reuseDelay>
@@ -2389,7 +2389,7 @@
 	<skill id="537" toLevel="1" name="Spoil Bomb">
 		<!-- Puts nearby enemies into a spoil state, exploding and inflicting damage after a set time. -->
 		<icon>icon.skill0537</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>SPOIL_BOMB</abnormalType>
 		<activateRate>80</activateRate>
@@ -2402,7 +2402,7 @@
 		<hitTime>1800</hitTime>
 		<isDebuff>true</isDebuff>
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>79</magicLvl>
+		<magicLevel>79</magicLevel>
 		<mpConsume>72</mpConsume>
 		<nextAction>ATTACK</nextAction>
 		<operateType>A2</operateType>
@@ -2425,13 +2425,13 @@
 	<skill id="538" toLevel="1" name="Final Form">
 		<!-- Transform into a final battle form. Consumes 20 souls. -->
 		<icon>icon.skill0538</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
 		<hpConsume>200</hpConsume>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>70</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
@@ -2481,10 +2481,10 @@
 		<effectPoint>-1</effectPoint>
 		<effectRange>400</effectRange>
 		<hitTime>1080</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">79</value>
 			<value level="2">85</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">71</value>
 			<value level="2">72</value>
@@ -2514,10 +2514,10 @@
 		<effectPoint>-676</effectPoint>
 		<effectRange>600</effectRange>
 		<hitTime>800</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">79</value>
 			<value level="2">85</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">71</value>
 			<value level="2">72</value>
@@ -2545,14 +2545,14 @@
 	<skill id="541" toLevel="1" name="Transform Grail Apostle">
 		<!-- Transform into a Grail Apostle. -->
 		<icon>icon.skilltransform1</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>31</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
@@ -2578,14 +2578,14 @@
 	<skill id="542" toLevel="1" name="Transform Grail Apostle">
 		<!-- Transform into a Grail Apostle. -->
 		<icon>icon.skilltransform2</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>31</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
@@ -2611,14 +2611,14 @@
 	<skill id="543" toLevel="1" name="Transform Grail Apostle">
 		<!-- Transform into a Grail Apostle. -->
 		<icon>icon.skilltransform3</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>31</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
@@ -2644,14 +2644,14 @@
 	<skill id="544" toLevel="1" name="Transform Unicorn">
 		<!-- Transform into a Unicorn. -->
 		<icon>icon.skilltransform1</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>31</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
@@ -2677,14 +2677,14 @@
 	<skill id="545" toLevel="1" name="Transform Unicorn">
 		<!-- Transform into a Unicorn. -->
 		<icon>icon.skilltransform2</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>31</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
@@ -2710,14 +2710,14 @@
 	<skill id="546" toLevel="1" name="Transform Unicorn">
 		<!-- Transform into a Unicorn. -->
 		<icon>icon.skilltransform3</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>31</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
@@ -2743,14 +2743,14 @@
 	<skill id="547" toLevel="1" name="Transform Lilim Knight">
 		<!-- Transform into a Lilim Knight. -->
 		<icon>icon.skilltransform1</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>31</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
@@ -2776,14 +2776,14 @@
 	<skill id="548" toLevel="1" name="Transform Lilim Knight">
 		<!-- Transform into a Lilim Knight. -->
 		<icon>icon.skilltransform2</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>31</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
@@ -2809,14 +2809,14 @@
 	<skill id="549" toLevel="1" name="Transform Lilim Knight">
 		<!-- Transform into a Lilim Knight. -->
 		<icon>icon.skilltransform3</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>31</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
@@ -2842,14 +2842,14 @@
 	<skill id="550" toLevel="1" name="Transform Golem Guardian">
 		<!-- Transform into a Golem Guardian. -->
 		<icon>icon.skilltransform1</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>31</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
@@ -2875,14 +2875,14 @@
 	<skill id="551" toLevel="1" name="Transform Golem Guardian">
 		<!-- Transform into a Golem Guardian. -->
 		<icon>icon.skilltransform2</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>31</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
@@ -2908,14 +2908,14 @@
 	<skill id="552" toLevel="1" name="Transform Golem Guardian">
 		<!-- Transform into a Golem Guardian. -->
 		<icon>icon.skilltransform3</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>31</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
@@ -2941,14 +2941,14 @@
 	<skill id="553" toLevel="1" name="Transform Inferno Drake">
 		<!-- Transform into a Inferno Drake. -->
 		<icon>icon.skilltransform1</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>31</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
@@ -2974,14 +2974,14 @@
 	<skill id="554" toLevel="1" name="Transform Inferno Drake">
 		<!-- Transform into a Inferno Drake. -->
 		<icon>icon.skilltransform2</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>31</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
@@ -3007,14 +3007,14 @@
 	<skill id="555" toLevel="1" name="Transform Inferno Drake">
 		<!-- Transform into a Inferno Drake. -->
 		<icon>icon.skilltransform3</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>31</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
@@ -3040,14 +3040,14 @@
 	<skill id="556" toLevel="1" name="Transform Dragon Bomber">
 		<!-- Transform into a Dragon Bomber. -->
 		<icon>icon.skilltransform1</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>31</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
@@ -3073,14 +3073,14 @@
 	<skill id="557" toLevel="1" name="Transform Dragon Bomber">
 		<!-- Transform into a Dragon Bomber. -->
 		<icon>icon.skilltransform2</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>31</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
@@ -3106,14 +3106,14 @@
 	<skill id="558" toLevel="1" name="Transform Dragon Bomber">
 		<!-- Transform into a Dragon Bomber. -->
 		<icon>icon.skilltransform3</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>31</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
@@ -3139,12 +3139,12 @@
 	<skill id="559" toLevel="4" name="Spear">
 		<!-- A strong polearm thrust that has a chance of causing the enemy to bleed. Over-hit. Power $s1. Effect $s2. -->
 		<icon>icon.skill_transform_debuff</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">6</value>
 			<value level="2">6</value>
 			<value level="3">7</value>
 			<value level="4">7</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<subordinationAbnormalType>BLEEDING</subordinationAbnormalType>
 		<abnormalType>BLEEDING</abnormalType>
@@ -3163,12 +3163,12 @@
 		<hitTime>1080</hitTime>
 		<isDebuff>true</isDebuff>
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">61</value>
 			<value level="2">63</value>
@@ -3212,12 +3212,12 @@
 		<effectRange>400</effectRange>
 		<fanRange>0;0;200;180</fanRange>
 		<hitTime>2500</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">61</value>
 			<value level="2">63</value>
@@ -3246,7 +3246,7 @@
 	<skill id="561" toLevel="4" name="Angel's Blessing">
 		<!-- A divine blessing that increases P. Atk. of all party members. -->
 		<icon>icon.skill_transform_buff</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>DANCE_OF_WARRIOR</abnormalType>
 		<affectRange>400</affectRange>
@@ -3257,12 +3257,12 @@
 			<value level="4">630</value>
 		</effectPoint>
 		<hitTime>2500</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">61</value>
 			<value level="2">63</value>
@@ -3286,7 +3286,7 @@
 	<skill id="562" toLevel="4" name="Wind of Angel">
 		<!-- A divine Wind that increases Evasion of all party members. -->
 		<icon>icon.skill_transform_buff</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>SONG_OF_WATER</abnormalType>
 		<affectRange>400</affectRange>
@@ -3297,12 +3297,12 @@
 			<value level="4">630</value>
 		</effectPoint>
 		<hitTime>2500</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">61</value>
 			<value level="2">63</value>
@@ -3336,12 +3336,12 @@
 		</effectPoint>
 		<effectRange>400</effectRange>
 		<hitTime>1080</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">61</value>
 			<value level="2">63</value>
@@ -3369,7 +3369,7 @@
 	<skill id="564" toLevel="4" name="Gravity Control">
 		<!-- Uses the horn to decrease speed and Atk. Spd. of nearby enemies. -->
 		<icon>icon.skill_transform_debuff</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<activateRate>60</activateRate>
@@ -3385,12 +3385,12 @@
 		<hitTime>2500</hitTime>
 		<isDebuff>true</isDebuff>
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">61</value>
 			<value level="2">63</value>
@@ -3437,12 +3437,12 @@
 		</effectPoint>
 		<effectRange>1400</effectRange>
 		<hitTime>2500</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">50</value>
 			<value level="2">56</value>
@@ -3474,12 +3474,12 @@
 		<effectRange>1100</effectRange>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">64</value>
 			<value level="2">72</value>
@@ -3521,12 +3521,12 @@
 		</effectPoint>
 		<effectRange>400</effectRange>
 		<hitTime>1080</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">61</value>
 			<value level="2">63</value>
@@ -3571,12 +3571,12 @@
 		</effectPoint>
 		<effectRange>1000</effectRange>
 		<hitTime>2500</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">61</value>
 			<value level="2">63</value>
@@ -3620,12 +3620,12 @@
 		<effectRange>1100</effectRange>
 		<hitTime>1500</hitTime>
 		<hpConsume>50</hpConsume>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>5</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -3652,12 +3652,12 @@
 	<skill id="571" toLevel="4" name="Poison Dust">
 		<!-- Sprays a poisonous powder all over nearby enemies. Effect $s1. -->
 		<icon>icon.skill_transform_debuff</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">6</value>
 			<value level="2">6</value>
 			<value level="3">7</value>
 			<value level="4">7</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<subordinationAbnormalType>POISON</subordinationAbnormalType>
 		<abnormalType>POISON</abnormalType>
@@ -3676,12 +3676,12 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">18</value>
 			<value level="2">21</value>
@@ -3720,12 +3720,12 @@
 		</effectPoint>
 		<effectRange>1100</effectRange>
 		<hitTime>1900</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">61</value>
 			<value level="2">63</value>
@@ -3753,7 +3753,7 @@
 	<skill id="573" toLevel="4" name="Earthquake">
 		<!-- Makes the Earth shake and stuns nearby enemies. Over-hit. Power $s1. -->
 		<icon>icon.skill_transform_debuff</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>9</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -3772,12 +3772,12 @@
 		<hitTime>3000</hitTime>
 		<isDebuff>true</isDebuff>
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">61</value>
 			<value level="2">63</value>
@@ -3812,12 +3812,12 @@
 		<icon>icon.skill_transform_etc</icon>
 		<effectPoint>-1</effectPoint>
 		<hitTime>3000</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>40</mpConsume>
 		<mpInitialConsume>10</mpInitialConsume>
 		<operateType>A1</operateType>
@@ -3849,12 +3849,12 @@
 		</effectPoint>
 		<effectRange>400</effectRange>
 		<hitTime>1080</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">61</value>
 			<value level="2">63</value>
@@ -3892,12 +3892,12 @@
 		</effectPoint>
 		<effectRange>400</effectRange>
 		<hitTime>1080</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">61</value>
 			<value level="2">63</value>
@@ -3940,12 +3940,12 @@
 		<attributeValue>20</attributeValue>
 		<fanRange>0;0;250;60</fanRange>
 		<hitTime>1080</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">61</value>
 			<value level="2">63</value>
@@ -3973,12 +3973,12 @@
 	<skill id="578" toLevel="4" name="Blaze Quake">
 		<!-- Inflict a burning Fire attack on nearby enemies. Over-hit. Power $s1. Effect $s2. -->
 		<icon>icon.skill_transform_debuff</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">6</value>
 			<value level="2">6</value>
 			<value level="3">7</value>
 			<value level="4">7</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>DOT_ATTR</abnormalType>
 		<activateRate>60</activateRate>
@@ -3996,12 +3996,12 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>1080</hitTime>
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">61</value>
 			<value level="2">63</value>
@@ -4039,12 +4039,12 @@
 	<skill id="579" toLevel="4" name="Fire Armor">
 		<!-- An intense flame ignites and protects the body. Immobilized while in effect. -->
 		<icon>icon.skill_transform_buff</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
 			<value level="4">4</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>PD_UP_SPECIAL</abnormalType>
 		<effectPoint>
@@ -4054,12 +4054,12 @@
 			<value level="4">630</value>
 		</effectPoint>
 		<hitTime>1000</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">61</value>
 			<value level="2">63</value>
@@ -4113,12 +4113,12 @@
 		</effectPoint>
 		<effectRange>400</effectRange>
 		<hitTime>1080</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">61</value>
 			<value level="2">63</value>
@@ -4151,7 +4151,7 @@
 	<skill id="581" toLevel="4" name="Sand Cloud">
 		<!-- Uses blinding sand to decrease nearby enemies' Accuracy. -->
 		<icon>icon.skill_transform_debuff</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>HIT_DOWN</abnormalType>
 		<activateRate>60</activateRate>
@@ -4163,12 +4163,12 @@
 		<hitTime>3000</hitTime>
 		<isDebuff>true</isDebuff>
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">61</value>
 			<value level="2">63</value>
@@ -4196,12 +4196,12 @@
 	<skill id="582" toLevel="4" name="Scope Bleed">
 		<!-- Attacks nearby enemies with a lethal blow and causes them to bleed. Over-hit. Power $s1. Effect $s2. -->
 		<icon>icon.skill_transform_debuff</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">6</value>
 			<value level="2">6</value>
 			<value level="3">7</value>
 			<value level="4">7</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<subordinationAbnormalType>BLEEDING</subordinationAbnormalType>
 		<abnormalType>BLEEDING</abnormalType>
@@ -4222,12 +4222,12 @@
 		<hitTime>1080</hitTime>
 		<isDebuff>true</isDebuff>
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">61</value>
 			<value level="2">63</value>
@@ -4260,7 +4260,7 @@
 	<skill id="583" toLevel="4" name="Assimilation">
 		<!-- Blend in with enemies to avoid their notice. If you attack in this state, the entire party becomes exposed. -->
 		<icon>icon.skill_transform_etc</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>STEALTH</abnormalType>
 		<abnormalVisualEffect>STEALTH</abnormalVisualEffect>
@@ -4271,12 +4271,12 @@
 			<value level="4">630</value>
 		</effectPoint>
 		<hitTime>2000</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">60</value>
 			<value level="2">63</value>
 			<value level="3">66</value>
 			<value level="4">69</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">61</value>
 			<value level="2">63</value>
@@ -4335,7 +4335,7 @@
 		<effectPoint>-475</effectPoint>
 		<effectRange>400</effectRange>
 		<hitTime>1080</hitTime>
-		<magicLvl>55</magicLvl>
+		<magicLevel>55</magicLevel>
 		<mpConsume>55</mpConsume>
 		<nextAction>ATTACK</nextAction>
 		<operateType>A1</operateType>
@@ -4353,12 +4353,12 @@
 	<skill id="585" toLevel="1" name="Fast Moving">
 		<!-- Momentarily increases Speed greatly. -->
 		<icon>icon.skill_transform_buff</icon>
-		<abnormalLvl>2</abnormalLvl>
+		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>SPEED_UP_SPECIAL</abnormalType>
 		<effectPoint>477</effectPoint>
 		<hitTime>1000</hitTime>
-		<magicLvl>55</magicLvl>
+		<magicLevel>55</magicLevel>
 		<mpConsume>55</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
@@ -4380,10 +4380,10 @@
 		<affectRange>150</affectRange>
 		<effectPoint>-100</effectPoint>
 		<hitTime>2500</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">59</value>
 			<value level="2">63</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">54</value>
 			<value level="2">58</value>
@@ -4415,10 +4415,10 @@
 		</effectPoint>
 		<effectRange>400</effectRange>
 		<hitTime>1000</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">59</value>
 			<value level="2">63</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">54</value>
 			<value level="2">58</value>
@@ -4442,7 +4442,7 @@
 	<skill id="588" toLevel="2" name="Curse of Darkness">
 		<!-- Casts a powerful curse on your enemy. -->
 		<icon>icon.skill_transform_debuff</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<activateRate>80</activateRate>
@@ -4453,10 +4453,10 @@
 		<hitTime>1200</hitTime>
 		<isDebuff>true</isDebuff>
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">59</value>
 			<value level="2">63</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">54</value>
 			<value level="2">58</value>
@@ -4482,10 +4482,10 @@
 		<castRange>20</castRange>
 		<effectRange>400</effectRange>
 		<hitTime>1500</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">59</value>
 			<value level="2">63</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">54</value>
 			<value level="2">58</value>
@@ -4511,7 +4511,7 @@
 	<skill id="590" toLevel="1" name="Residence Body">
 		<!-- The Max HP of clan members in residence increases by 222. -->
 		<icon>icon.skill0370</icon>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
@@ -4524,7 +4524,7 @@
 	<skill id="591" toLevel="1" name="Residence Spirit">
 		<!-- The Max CP of clan members in residence increases by 444. -->
 		<icon>icon.skill0371</icon>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
@@ -4537,7 +4537,7 @@
 	<skill id="592" toLevel="1" name="Residence Soul">
 		<!-- The Max MP of clan members in residence increases by 168. -->
 		<icon>icon.skill0372</icon>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
@@ -4550,7 +4550,7 @@
 	<skill id="593" toLevel="1" name="Residence Health">
 		<!-- The HP Recovery Bonus of clan members in residence increases by 1.09. -->
 		<icon>icon.skill0373</icon>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
@@ -4563,7 +4563,7 @@
 	<skill id="594" toLevel="1" name="Residence Moral">
 		<!-- CP recovery bonus of clan members in residence increases by 1.09. -->
 		<icon>icon.skill0374</icon>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
@@ -4576,7 +4576,7 @@
 	<skill id="595" toLevel="1" name="Residence Clarity">
 		<!-- The MP Recovery Bonus of clan members in residence increases by 0.47. -->
 		<icon>icon.skill0375</icon>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
@@ -4589,7 +4589,7 @@
 	<skill id="596" toLevel="1" name="Residence Might">
 		<!-- P. Atk. of clan members in residence increases by 34.6. -->
 		<icon>icon.skill0376</icon>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
@@ -4602,7 +4602,7 @@
 	<skill id="597" toLevel="1" name="Residence Shield">
 		<!-- P. Def. of clan members in residence increases by 54.7. -->
 		<icon>icon.skill0377</icon>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
@@ -4615,7 +4615,7 @@
 	<skill id="598" toLevel="1" name="Residence Empower">
 		<!-- M. Atk. of clan members in residence increases by 40.4. -->
 		<icon>icon.skill0378</icon>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
@@ -4628,7 +4628,7 @@
 	<skill id="599" toLevel="1" name="Residence Magic Barrier">
 		<!-- The M. Def. of clan members in residence increases by 44. -->
 		<icon>icon.skill0379</icon>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>

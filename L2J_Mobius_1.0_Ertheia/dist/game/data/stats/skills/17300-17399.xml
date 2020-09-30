@@ -26,8 +26,8 @@
 		<abnormalType>BUFF_SPECIAL_AURA</abnormalType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>85</magicLvl>
-		<abnormalLvl>5</abnormalLvl>
+		<magicLevel>85</magicLevel>
+		<abnormalLevel>5</abnormalLevel>
 		<abnormalTime>3600</abnormalTime>
 		<irreplacableBuff>true</irreplacableBuff>
 		<isMagic>1</isMagic>
@@ -80,8 +80,8 @@
 		<abnormalType>ENCHANTER_MOD</abnormalType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>85</magicLvl>
-		<abnormalLvl>5</abnormalLvl>
+		<magicLevel>85</magicLevel>
+		<abnormalLevel>5</abnormalLevel>
 		<abnormalTime>3600</abnormalTime>
 		<irreplacableBuff>true</irreplacableBuff>
 		<isMagic>1</isMagic>
@@ -140,8 +140,8 @@
 		<abnormalType>SYNERGY_IS</abnormalType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>85</magicLvl>
-		<abnormalLvl>5</abnormalLvl>
+		<magicLevel>85</magicLevel>
+		<abnormalLevel>5</abnormalLevel>
 		<abnormalTime>3600</abnormalTime>
 		<irreplacableBuff>true</irreplacableBuff>
 		<isMagic>1</isMagic>
@@ -311,7 +311,7 @@
 		<icon>icon.event_altair_enchant_scroll_i00</icon>
 		<operateType>A2</operateType>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
-		<abnormalLvl>5</abnormalLvl>
+		<abnormalLevel>5</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<reuseDelay>1800000</reuseDelay>
 		<itemConsumeCount>1</itemConsumeCount>
@@ -378,7 +378,7 @@
 		<itemConsumeId>38101</itemConsumeId> <!-- Leona's Scroll: 1,000,000 SP -->
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<isMagic>2</isMagic>
 		<reuseDelay>3000</reuseDelay>
 		<targetType>SELF</targetType>
@@ -398,7 +398,7 @@
 		<itemConsumeId>38102</itemConsumeId> <!-- Leona's Scroll: 5,000,000 SP -->
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<isMagic>2</isMagic>
 		<reuseDelay>3000</reuseDelay>
 		<targetType>SELF</targetType>
@@ -418,7 +418,7 @@
 		<itemConsumeId>38103</itemConsumeId> <!-- Leona's Scroll: 10,000,000 SP -->
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<isMagic>2</isMagic>
 		<reuseDelay>3000</reuseDelay>
 		<targetType>SELF</targetType>
@@ -435,7 +435,7 @@
 		<hitTime>200</hitTime>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<isMagic>2</isMagic>
 		<reuseDelay>3000</reuseDelay>
 		<targetType>SELF</targetType>
@@ -635,7 +635,7 @@
 		<icon>icon.fish_stew_buff</icon>
 		<abnormalType>FISH_STEW</abnormalType>
 		<abnormalTime>1800</abnormalTime>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>300000</reuseDelay>
 		<targetType>SELF</targetType>
@@ -652,7 +652,7 @@
 		<icon>icon.fish_stew_buff</icon>
 		<abnormalType>FISH_STEW</abnormalType>
 		<abnormalTime>1800</abnormalTime>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>300000</reuseDelay>
 		<targetType>SELF</targetType>
@@ -669,7 +669,7 @@
 		<icon>icon.fish_stew_buff</icon>
 		<abnormalType>FISH_STEW</abnormalType>
 		<abnormalTime>1800</abnormalTime>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>300000</reuseDelay>
 		<targetType>SELF</targetType>
@@ -686,7 +686,7 @@
 		<icon>icon.fish_stew_buff</icon>
 		<abnormalType>FISH_STEW</abnormalType>
 		<abnormalTime>1800</abnormalTime>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>300000</reuseDelay>
 		<targetType>SELF</targetType>
@@ -703,7 +703,7 @@
 		<icon>icon.fish_stew_buff</icon>
 		<abnormalType>FISH_STEW</abnormalType>
 		<abnormalTime>1800</abnormalTime>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>300000</reuseDelay>
 		<targetType>SELF</targetType>
@@ -720,7 +720,7 @@
 		<icon>icon.fish_stew_buff</icon>
 		<abnormalType>FISH_STEW</abnormalType>
 		<abnormalTime>1800</abnormalTime>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>300000</reuseDelay>
 		<targetType>SELF</targetType>
@@ -802,7 +802,7 @@
 		<!-- Critical Rate + 50. -->
 		<icon>icon.accessory_hairpin_i00</icon>
 		<operateType>P</operateType>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<effects>
 			<effect name="CriticalRate">
 				<amount>50</amount>

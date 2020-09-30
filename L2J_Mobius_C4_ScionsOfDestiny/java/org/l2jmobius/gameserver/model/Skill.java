@@ -550,7 +550,7 @@ public abstract class Skill
 		_negateEffectTypes = set.getString("negateEffectTypes", "").split(" ");
 		_negatePower = set.getFloat("negatePower", 0.f);
 		_negateId = set.getInt("negateId", 0);
-		_magicLevel = set.getInt("magicLvl", SkillTreeTable.getInstance().getMinSkillLevel(_id, _level));
+		_magicLevel = set.getInt("magicLevel", SkillTreeTable.getInstance().getMinSkillLevel(_id, _level));
 		_levelDepend = set.getInt("lvlDepend", 0);
 		_stat = set.getEnum("stat", Stat.class, null);
 		_skillType = set.getEnum("skillType", SkillType.class);
@@ -2065,7 +2065,7 @@ public abstract class Skill
 					final int radius = _skillRadius;
 					final PlayerInstance player = (PlayerInstance) creature;
 					final Clan clan = player.getClan();
-					if (_targetType != SkillTargetType.TARGET_CORPSE_ALLY) // if corpose, the caster is not included
+					if (_targetType != SkillTargetType.TARGET_CORPSE_ALLY) // if corpse, the caster is not included
 					{
 						if (player.isInOlympiadMode())
 						{
@@ -2089,7 +2089,7 @@ public abstract class Skill
 							{
 								continue;
 							}
-							if (newPlayer.isDead())
+							if (newPlayer.isDead() && (_targetType != SkillTargetType.TARGET_CORPSE_ALLY))
 							{
 								continue;
 							}

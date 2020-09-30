@@ -3,7 +3,7 @@
 	<skill id="1201" toLevel="33" name="Dryad Root">
 		<!-- Immobilizes the enemy for 30 seconds. -->
 		<icon>icon.skill1201</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>ROOT_MAGICALLY</abnormalType>
 		<abnormalVisualEffect>ROOT</abnormalVisualEffect>
@@ -50,7 +50,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">23</value>
 			<value level="2">24</value>
 			<value level="3">25</value>
@@ -84,7 +84,7 @@
 			<value level="31">70</value>
 			<value level="32">72</value>
 			<value level="33">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">17</value>
 			<value level="2">17</value>
@@ -171,10 +171,10 @@
 	<skill id="1204" toLevel="2" name="Wind Walk">
 		<!-- Increases Speed by 20 for 20 minutes. -->
 		<icon>icon.skill1204</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>SPEED_UP</abnormalType>
 		<castRange>400</castRange>
@@ -185,10 +185,10 @@
 		<effectRange>900</effectRange>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">20</value>
 			<value level="2">30</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">16</value>
 			<value level="2">21</value>
@@ -216,7 +216,7 @@
 	<skill id="1206" toLevel="19" name="Wind Shackle">
 		<!-- Decreases the enemy's Atk. Spd. by 17% for 30 seconds. -->
 		<icon>icon.skill1206</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">2</value>
@@ -236,7 +236,7 @@
 			<value level="17">3</value>
 			<value level="18">3</value>
 			<value level="19">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>ATTACK_TIME_UP</abnormalType>
 		<activateRate>80</activateRate>
@@ -268,7 +268,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">14</value>
 			<value level="2">20</value>
 			<value level="3">25</value>
@@ -288,7 +288,7 @@
 			<value level="17">70</value>
 			<value level="18">72</value>
 			<value level="19">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">2</value>
 			<value level="2">8</value>
@@ -366,7 +366,7 @@
 	<skill id="1208" toLevel="17" name="Seal of Binding">
 		<!-- Holds nearby enemies for 30 seconds. -->
 		<icon>icon.skill1208</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>ROOT_MAGICALLY</abnormalType>
 		<abnormalVisualEffect>ROOT</abnormalVisualEffect>
@@ -397,7 +397,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">25</value>
 			<value level="2">30</value>
 			<value level="3">35</value>
@@ -415,7 +415,7 @@
 			<value level="15">70</value>
 			<value level="16">72</value>
 			<value level="17">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">27</value>
 			<value level="2">32</value>
@@ -471,14 +471,14 @@
 	<skill id="1209" toLevel="6" name="Seal of Poison">
 		<!-- Poisons nearby enemies, causing loss of 14 HP per second for 30 seconds. -->
 		<icon>icon.skill1209</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">3</value>
 			<value level="2">4</value>
 			<value level="3">5</value>
 			<value level="4">6</value>
 			<value level="5">7</value>
 			<value level="6">8</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<subordinationAbnormalType>POISON</subordinationAbnormalType>
 		<abnormalType>POISON</abnormalType>
@@ -499,14 +499,14 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">20</value>
 			<value level="2">30</value>
 			<value level="3">40</value>
 			<value level="4">52</value>
 			<value level="5">62</value>
 			<value level="6">70</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">23</value>
 			<value level="2">32</value>
@@ -547,12 +547,12 @@
 	<skill id="1210" toLevel="4" name="Seal of Gloom">
 		<!-- For 15 seconds, decreases nearby enemies' MP by 9 with 29 Power added to M. Atk. -->
 		<icon>icon.skill1210</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">5</value>
 			<value level="2">6</value>
 			<value level="3">7</value>
 			<value level="4">8</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>DOT_MP</abnormalType>
 		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
@@ -570,12 +570,12 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">44</value>
 			<value level="2">52</value>
 			<value level="3">64</value>
 			<value level="4">72</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">70</value>
 			<value level="2">84</value>
@@ -639,7 +639,7 @@
 		<hitTime>4000</hitTime>
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">44</value>
 			<value level="2">48</value>
 			<value level="3">52</value>
@@ -653,7 +653,7 @@
 			<value level="11">70</value>
 			<value level="12">72</value>
 			<value level="13">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">47</value>
 			<value level="2">52</value>
@@ -703,7 +703,7 @@
 		<effectPoint>10</effectPoint>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<mpConsume>7</mpConsume>
 		<mpInitialConsume>2</mpInitialConsume>
 		<operateType>A1</operateType>
@@ -720,7 +720,7 @@
 	<skill id="1217" toLevel="33" name="Greater Heal">
 		<!-- Restores the target's HP with 204 Power, and additionally restores 14 HP per second for 15 seconds. -->
 		<icon>icon.skill1217</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">2</value>
 			<value level="2">2</value>
 			<value level="3">2</value>
@@ -754,7 +754,7 @@
 			<value level="31">6</value>
 			<value level="32">7</value>
 			<value level="33">7</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>LIFE_FORCE_OTHERS</abnormalType>
 		<activateRate>0</activateRate>
@@ -797,7 +797,7 @@
 		<effectRange>1100</effectRange>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">38</value>
 			<value level="2">39</value>
 			<value level="3">40</value>
@@ -831,7 +831,7 @@
 			<value level="31">72</value>
 			<value level="32">73</value>
 			<value level="33">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">46</value>
 			<value level="2">48</value>
@@ -1028,7 +1028,7 @@
 		<effectRange>1100</effectRange>
 		<hitTime>2000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">38</value>
 			<value level="2">39</value>
 			<value level="3">40</value>
@@ -1062,7 +1062,7 @@
 			<value level="31">72</value>
 			<value level="32">73</value>
 			<value level="33">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">69</value>
 			<value level="2">72</value>
@@ -1181,7 +1181,7 @@
 	<skill id="1219" toLevel="33" name="Greater Group Heal">
 		<!-- Restores all party members' HP with 163 Power, and additionally restores 11 HP per second for 15 seconds. -->
 		<icon>icon.skill1219</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">1</value>
 			<value level="3">1</value>
@@ -1215,7 +1215,7 @@
 			<value level="31">5</value>
 			<value level="32">5</value>
 			<value level="33">5</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>LIFE_FORCE_OTHERS</abnormalType>
 		<activateRate>0</activateRate>
@@ -1257,7 +1257,7 @@
 		</effectPoint>
 		<hitTime>7000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">38</value>
 			<value level="2">39</value>
 			<value level="3">40</value>
@@ -1291,7 +1291,7 @@
 			<value level="31">72</value>
 			<value level="32">73</value>
 			<value level="33">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">92</value>
 			<value level="2">95</value>
@@ -1466,7 +1466,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">17</value>
 			<value level="2">20</value>
 			<value level="3">23</value>
@@ -1475,7 +1475,7 @@
 			<value level="6">30</value>
 			<value level="7">33</value>
 			<value level="8">35</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">14</value>
 			<value level="2">16</value>
@@ -1520,7 +1520,7 @@
 	<skill id="1222" toLevel="15" name="Curse Chaos">
 		<!-- Decreases the enemy's Accuracy by 9 for 30 seconds. -->
 		<icon>icon.skill1222</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">2</value>
 			<value level="2">3</value>
 			<value level="3">3</value>
@@ -1536,7 +1536,7 @@
 			<value level="13">3</value>
 			<value level="14">3</value>
 			<value level="15">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>HIT_DOWN</abnormalType>
 		<activateRate>80</activateRate>
@@ -1564,7 +1564,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">35</value>
 			<value level="2">40</value>
 			<value level="3">44</value>
@@ -1580,7 +1580,7 @@
 			<value level="13">70</value>
 			<value level="14">72</value>
 			<value level="15">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">12</value>
 			<value level="2">28</value>
@@ -1646,7 +1646,7 @@
 	<skill id="1223" toLevel="15" name="Surrender to Earth">
 		<!-- For 30 sec., decreases the enemy's Earth Resistance by 20 and increases Wind Resistance by 10. -->
 		<icon>icon.skill1223</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">3</value>
 			<value level="2">4</value>
 			<value level="3">4</value>
@@ -1662,7 +1662,7 @@
 			<value level="13">4</value>
 			<value level="14">4</value>
 			<value level="15">4</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>ARMOR_EARTH</abnormalType>
 		<activateRate>80</activateRate>
@@ -1724,7 +1724,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">35</value>
 			<value level="2">40</value>
 			<value level="3">44</value>
@@ -1740,7 +1740,7 @@
 			<value level="13">70</value>
 			<value level="14">72</value>
 			<value level="15">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">12</value>
 			<value level="2">28</value>
@@ -1794,7 +1794,7 @@
 	<skill id="1224" toLevel="17" name="Surrender to Poison">
 		<!-- Decreases the enemy's Poison Resistance by 25 for 30 seconds. -->
 		<icon>icon.skill1224</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">3</value>
 			<value level="2">3</value>
 			<value level="3">3</value>
@@ -1812,7 +1812,7 @@
 			<value level="15">4</value>
 			<value level="16">4</value>
 			<value level="17">4</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>RESIST_POISON</abnormalType>
 		<activateRate>80</activateRate>
@@ -1878,7 +1878,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">25</value>
 			<value level="2">30</value>
 			<value level="3">35</value>
@@ -1896,7 +1896,7 @@
 			<value level="15">70</value>
 			<value level="16">72</value>
 			<value level="17">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">9</value>
 			<value level="2">11</value>
@@ -1991,7 +1991,7 @@
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">20</value>
 			<value level="2">25</value>
 			<value level="3">30</value>
@@ -2010,7 +2010,7 @@
 			<value level="16">70</value>
 			<value level="17">72</value>
 			<value level="18">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">31</value>
 			<value level="2">35</value>
@@ -2169,7 +2169,7 @@
 			<value level="18">10</value>
 		</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">20</value>
 			<value level="2">25</value>
 			<value level="3">30</value>
@@ -2188,7 +2188,7 @@
 			<value level="16">70</value>
 			<value level="17">72</value>
 			<value level="18">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">31</value>
 			<value level="2">35</value>
@@ -2348,7 +2348,7 @@
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">20</value>
 			<value level="2">25</value>
 			<value level="3">30</value>
@@ -2367,7 +2367,7 @@
 			<value level="16">70</value>
 			<value level="17">72</value>
 			<value level="18">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">31</value>
 			<value level="2">35</value>
@@ -2507,7 +2507,7 @@
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">20</value>
 			<value level="2">25</value>
 			<value level="3">30</value>
@@ -2526,7 +2526,7 @@
 			<value level="16">70</value>
 			<value level="17">72</value>
 			<value level="18">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">31</value>
 			<value level="2">35</value>
@@ -2643,7 +2643,7 @@
 	<skill id="1229" toLevel="18" name="Chant of Life">
 		<!-- Recovers 12 HP per second for all party members for 15 seconds. -->
 		<icon>icon.skill1229</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
@@ -2662,7 +2662,7 @@
 			<value level="16">16</value>
 			<value level="17">17</value>
 			<value level="18">18</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>LIFE_FORCE_ORC</abnormalType>
 		<affectRange>1000</affectRange>
@@ -2688,7 +2688,7 @@
 		</effectPoint>
 		<hitTime>7000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">20</value>
 			<value level="2">25</value>
 			<value level="3">30</value>
@@ -2707,7 +2707,7 @@
 			<value level="16">70</value>
 			<value level="17">72</value>
 			<value level="18">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">47</value>
 			<value level="2">57</value>
@@ -2821,7 +2821,7 @@
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">38</value>
 			<value level="2">40</value>
 			<value level="3">42</value>
@@ -2850,7 +2850,7 @@
 			<value level="26">72</value>
 			<value level="27">73</value>
 			<value level="28">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">27</value>
 			<value level="2">28</value>
@@ -2956,7 +2956,7 @@
 	<skill id="1231" toLevel="28" name="Aura Flare">
 		<!-- Inflicts non-attribute damage on the enemy using 39 Power added to M. Atk. and increases the target's Magic Damage Resistance by 50% for 3 seconds during PvP. -->
 		<icon>icon.skill1231</icon>
-		<abnormalLvl>0</abnormalLvl>
+		<abnormalLevel>0</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<abnormalType>MA_DOWN</abnormalType>
 		<castRange>150</castRange>
@@ -2993,7 +2993,7 @@
 		<effectRange>650</effectRange>
 		<hitTime>1500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">38</value>
 			<value level="2">40</value>
 			<value level="3">42</value>
@@ -3022,7 +3022,7 @@
 			<value level="26">72</value>
 			<value level="27">73</value>
 			<value level="28">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">27</value>
 			<value level="2">28</value>
@@ -3134,11 +3134,11 @@
 	<skill id="1232" toLevel="3" name="Blazing Skin">
 		<!-- For 20 minutes, transfers 10% of the target's received damage back to the enemy. (Can only be used on party members.) -->
 		<icon>icon.skill1232</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>DMG_SHIELD</abnormalType>
 		<castRange>400</castRange>
@@ -3150,11 +3150,11 @@
 		<effectRange>900</effectRange>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">48</value>
 			<value level="3">56</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">28</value>
 			<value level="2">35</value>
@@ -3189,12 +3189,12 @@
 	<skill id="1233" toLevel="4" name="Decay">
 		<!-- Rots the enemy, causing loss of 102 HP per second for 15 seconds. -->
 		<icon>icon.skill1233</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">5</value>
 			<value level="2">6</value>
 			<value level="3">7</value>
 			<value level="4">8</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>DOT_ATTR</abnormalType>
 		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
@@ -3214,12 +3214,12 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">48</value>
 			<value level="2">56</value>
 			<value level="3">64</value>
 			<value level="4">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">52</value>
 			<value level="2">61</value>
@@ -3288,7 +3288,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">38</value>
 			<value level="2">40</value>
 			<value level="3">42</value>
@@ -3317,7 +3317,7 @@
 			<value level="26">72</value>
 			<value level="27">73</value>
 			<value level="28">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">48</value>
 			<value level="2">50</value>
@@ -3460,7 +3460,7 @@
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">38</value>
 			<value level="2">40</value>
 			<value level="3">42</value>
@@ -3489,7 +3489,7 @@
 			<value level="26">72</value>
 			<value level="27">73</value>
 			<value level="28">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">27</value>
 			<value level="2">28</value>
@@ -3594,7 +3594,7 @@
 	<skill id="1236" toLevel="19" name="Frost Bolt">
 		<!-- Momentarily freezes the surrounding air, inflicting Water damage with 30 Power added to M. Atk. and decreasing the enemy's Speed by 20% for 1 minute. -->
 		<icon>icon.skill1236</icon>
-		<abnormalLvl>2</abnormalLvl>
+		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<activateRate>60</activateRate>
@@ -3629,7 +3629,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">38</value>
 			<value level="2">40</value>
 			<value level="3">42</value>
@@ -3649,7 +3649,7 @@
 			<value level="17">70</value>
 			<value level="18">72</value>
 			<value level="19">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">27</value>
 			<value level="2">28</value>
@@ -3730,7 +3730,7 @@
 	<skill id="1237" toLevel="17" name="Ice Dagger">
 		<!-- Hurls a blade of ice with 28 Power added to M. Atk., inflicting water damage and causing loss of 44 HP per second for 15 seconds. -->
 		<icon>icon.skill1237</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">5</value>
 			<value level="2">5</value>
 			<value level="3">5</value>
@@ -3748,7 +3748,7 @@
 			<value level="15">8</value>
 			<value level="16">8</value>
 			<value level="17">8</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<subordinationAbnormalType>BLEEDING</subordinationAbnormalType>
 		<abnormalType>BLEEDING</abnormalType>
@@ -3782,7 +3782,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">42</value>
 			<value level="2">44</value>
 			<value level="3">46</value>
@@ -3800,7 +3800,7 @@
 			<value level="15">70</value>
 			<value level="16">72</value>
 			<value level="17">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">29</value>
 			<value level="2">31</value>
@@ -3894,11 +3894,11 @@
 	<skill id="1238" toLevel="3" name="Freezing Skin">
 		<!-- For 20 minutes, returns 10% of damage received by the target back to the enemy. (Can only be used on party members.) -->
 		<icon>icon.skill1238</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>DMG_SHIELD</abnormalType>
 		<castRange>400</castRange>
@@ -3910,11 +3910,11 @@
 		<effectRange>900</effectRange>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">48</value>
 			<value level="3">56</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">28</value>
 			<value level="2">35</value>
@@ -3986,7 +3986,7 @@
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">38</value>
 			<value level="2">40</value>
 			<value level="3">42</value>
@@ -4015,7 +4015,7 @@
 			<value level="26">72</value>
 			<value level="27">73</value>
 			<value level="28">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">27</value>
 			<value level="2">28</value>
@@ -4121,11 +4121,11 @@
 	<skill id="1240" toLevel="3" name="Guidance">
 		<!-- Increases Accuracy by 2 for 20 minutes. -->
 		<icon>icon.skill1240</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>HIT_UP</abnormalType>
 		<castRange>400</castRange>
@@ -4137,11 +4137,11 @@
 		<effectRange>900</effectRange>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">48</value>
 			<value level="3">56</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">28</value>
 			<value level="2">35</value>
@@ -4172,11 +4172,11 @@
 	<skill id="1242" toLevel="3" name="Death Whisper">
 		<!-- Increases Critical Damage by 25% for 20 minutes. -->
 		<icon>icon.skill1242</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>CRITICAL_DMG_UP</abnormalType>
 		<castRange>400</castRange>
@@ -4188,11 +4188,11 @@
 		<effectRange>900</effectRange>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">48</value>
 			<value level="3">56</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">28</value>
 			<value level="2">35</value>
@@ -4223,14 +4223,14 @@
 	<skill id="1243" toLevel="6" name="Blessed Shield">
 		<!-- Increases Shield Defense by 5% for 20 minutes. -->
 		<icon>icon.skill1243</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
 			<value level="4">4</value>
 			<value level="5">5</value>
 			<value level="6">6</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>SHIELD_PROB_UP</abnormalType>
 		<castRange>400</castRange>
@@ -4245,14 +4245,14 @@
 		<effectRange>900</effectRange>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">48</value>
 			<value level="3">56</value>
 			<value level="4">62</value>
 			<value level="5">66</value>
 			<value level="6">70</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">28</value>
 			<value level="2">35</value>
@@ -4292,7 +4292,7 @@
 	<skill id="1244" toLevel="13" name="Freezing Flame">
 		<!-- Strikes the target with a magical cold flame. For 10 seconds, causes - 112 HP per second on the enemy and - 132 during PVP. -->
 		<icon>icon.skill1244</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">5</value>
 			<value level="2">6</value>
 			<value level="3">7</value>
@@ -4306,7 +4306,7 @@
 			<value level="11">15</value>
 			<value level="12">16</value>
 			<value level="13">17</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>DOT_ATTR</abnormalType>
 		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
@@ -4326,7 +4326,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">52</value>
 			<value level="3">64</value>
@@ -4340,7 +4340,7 @@
 			<value level="11">101</value>
 			<value level="12">103</value>
 			<value level="13">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">44</value>
 			<value level="2">46</value>
@@ -4452,7 +4452,7 @@
 		<effectRange>1400</effectRange>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">44</value>
 			<value level="3">48</value>
@@ -4467,7 +4467,7 @@
 			<value level="12">70</value>
 			<value level="13">72</value>
 			<value level="14">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">74</value>
 			<value level="2">80</value>
@@ -4530,7 +4530,7 @@
 	<skill id="1246" toLevel="12" name="Seal of Silence">
 		<!-- Blocks nearby enemies' use of magic for 1 minute. -->
 		<icon>icon.skill1246</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>SILENCE</abnormalType>
 		<abnormalVisualEffect>SILENCE</abnormalVisualEffect>
@@ -4556,7 +4556,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">48</value>
 			<value level="2">52</value>
 			<value level="3">56</value>
@@ -4569,7 +4569,7 @@
 			<value level="10">70</value>
 			<value level="11">72</value>
 			<value level="12">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">52</value>
 			<value level="2">56</value>
@@ -4612,7 +4612,7 @@
 	<skill id="1247" toLevel="14" name="Seal of Scourge">
 		<!-- Blocks nearby enemies' natural HP recovery ability by 100% for 2 minutes. -->
 		<icon>icon.skill1247</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>HP_REGEN_DOWN</abnormalType>
 		<activateRate>80</activateRate>
@@ -4639,7 +4639,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">44</value>
 			<value level="3">48</value>
@@ -4654,7 +4654,7 @@
 			<value level="12">70</value>
 			<value level="13">72</value>
 			<value level="14">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">42</value>
 			<value level="2">47</value>
@@ -4704,7 +4704,7 @@
 	<skill id="1248" toLevel="12" name="Seal of Suspension">
 		<!-- Decreases nearby enemies' physical/magic skill Cooldown by 200% for 2 minutes. -->
 		<icon>icon.skill1248</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>REUSE_DELAY_UP</abnormalType>
 		<activateRate>60</activateRate>
@@ -4729,7 +4729,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">48</value>
 			<value level="2">52</value>
 			<value level="3">56</value>
@@ -4742,7 +4742,7 @@
 			<value level="10">70</value>
 			<value level="11">72</value>
 			<value level="12">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">52</value>
 			<value level="2">56</value>
@@ -4798,11 +4798,11 @@
 	<skill id="1249" toLevel="3" name="Pa'agrio's Vision">
 		<!-- Increases Accuracy of nearby clan members by 2 for 20 minutes. -->
 		<icon>icon.skill1249</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>HIT_UP</abnormalType>
 		<affectLimit>50-50</affectLimit>
@@ -4814,11 +4814,11 @@
 		</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">44</value>
 			<value level="2">52</value>
 			<value level="3">56</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">123</value>
 			<value level="2">150</value>
@@ -4850,11 +4850,11 @@
 	<skill id="1250" toLevel="3" name="Pa'agrio's Protection">
 		<!-- Increases Shield Defense of nearby clan members by 30% for 20 minutes. Effect 1. -->
 		<icon>icon.skill1250</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>SHIELD_PROB_UP</abnormalType>
 		<affectLimit>50-50</affectLimit>
@@ -4866,11 +4866,11 @@
 		</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">48</value>
 			<value level="3">56</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">111</value>
 			<value level="2">137</value>
@@ -4902,10 +4902,10 @@
 	<skill id="1251" toLevel="2" name="Chant of Fury">
 		<!-- Increases Atk. Spd. of all party members by 15% for 20 minutes. -->
 		<icon>icon.skill1251</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>ATTACK_TIME_DOWN</abnormalType>
 		<affectRange>1000</affectRange>
@@ -4915,10 +4915,10 @@
 		</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">48</value>
 			<value level="2">56</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">137</value>
 			<value level="2">163</value>
@@ -4947,11 +4947,11 @@
 	<skill id="1252" toLevel="3" name="Chant of Evasion">
 		<!-- Increases Evasion of all party members by 2 for 20 minutes. -->
 		<icon>icon.skill1252</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>AVOID_UP</abnormalType>
 		<affectRange>1000</affectRange>
@@ -4962,11 +4962,11 @@
 		</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">48</value>
 			<value level="3">56</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">111</value>
 			<value level="2">137</value>
@@ -4998,11 +4998,11 @@
 	<skill id="1253" toLevel="3" name="Chant of Rage">
 		<!-- Increases Critical Damage of all party members by 25% for 20 minutes. -->
 		<icon>icon.skill1253</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>CRITICAL_DMG_UP</abnormalType>
 		<affectRange>1000</affectRange>
@@ -5013,11 +5013,11 @@
 		</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">44</value>
 			<value level="2">52</value>
 			<value level="3">56</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">123</value>
 			<value level="2">150</value>
@@ -5062,14 +5062,14 @@
 		</effectPoint>
 		<hitTime>3000</hitTime>
 		<isMagic>4</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">44</value>
 			<value level="3">52</value>
 			<value level="4">56</value>
 			<value level="5">58</value>
 			<value level="6">68</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">194</value>
 			<value level="2">214</value>
@@ -5120,10 +5120,10 @@
 			<value level="2">3500</value>
 		</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">48</value>
 			<value level="2">56</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">205</value>
 			<value level="2">244</value>
@@ -5150,7 +5150,7 @@
 	<skill id="1256" toLevel="13" name="Pa'agrio's Heart">
 		<!-- Restores a clan member's HP with 91 Power and recovers 31 HP per second for 15 seconds. -->
 		<icon>icon.skill1256</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">6</value>
 			<value level="2">7</value>
 			<value level="3">8</value>
@@ -5164,7 +5164,7 @@
 			<value level="11">16</value>
 			<value level="12">17</value>
 			<value level="13">18</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>LIFE_FORCE_ORC</abnormalType>
 		<affectLimit>50-50</affectLimit>
@@ -5186,7 +5186,7 @@
 		</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">44</value>
 			<value level="2">48</value>
 			<value level="3">52</value>
@@ -5200,7 +5200,7 @@
 			<value level="11">70</value>
 			<value level="12">72</value>
 			<value level="13">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">107</value>
 			<value level="2">121</value>
@@ -5279,11 +5279,11 @@
 	<skill id="1257" toLevel="3" name="Decrease Weight">
 		<!-- Increases the weight penalty interval by 3000 for 20 minutes. -->
 		<icon>icon.skill1257</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>DECREASE_WEIGHT_PENALTY</abnormalType>
 		<castRange>400</castRange>
@@ -5295,11 +5295,11 @@
 		<effectRange>900</effectRange>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">35</value>
 			<value level="2">44</value>
 			<value level="3">52</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">12</value>
 			<value level="2">16</value>
@@ -5339,12 +5339,12 @@
 		<effectRange>1100</effectRange>
 		<hitTime>8000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">44</value>
 			<value level="2">48</value>
 			<value level="3">52</value>
 			<value level="4">56</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">64</value>
 			<value level="2">85</value>
@@ -5376,12 +5376,12 @@
 	<skill id="1259" toLevel="4" name="Stun Resistance">
 		<!-- Increases Stun Resistance by 15% for 20 minutes. -->
 		<icon>icon.skill1259</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
 			<value level="4">4</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>RESIST_SHOCK</abnormalType>
 		<castRange>400</castRange>
@@ -5394,12 +5394,12 @@
 		<effectRange>900</effectRange>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">52</value>
 			<value level="3">64</value>
 			<value level="4">72</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">28</value>
 			<value level="2">38</value>
@@ -5432,11 +5432,11 @@
 	<skill id="1260" toLevel="3" name="Pa'agrio's Tact">
 		<!-- Increases nearby clan members' Evasion by 2 for 20 minutes. -->
 		<icon>icon.skill1260</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>AVOID_UP</abnormalType>
 		<affectLimit>50-50</affectLimit>
@@ -5448,11 +5448,11 @@
 		</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">48</value>
 			<value level="3">56</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">111</value>
 			<value level="2">137</value>
@@ -5484,10 +5484,10 @@
 	<skill id="1261" toLevel="2" name="Pa'agrio's Rage">
 		<!-- Decreases nearby clan members' P. Def. by 5%, M. Def. by 10%, and Evasion by 2, and increases P. Atk. by 5%, M. Atk. by 10%, Atk. Spd. by 5%, Casting Spd. by 5%, and Speed by 5 for 20 minutes. -->
 		<icon>icon.skill1261</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>BERSERKER</abnormalType>
 		<affectLimit>50-50</affectLimit>
@@ -5498,10 +5498,10 @@
 		</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">44</value>
 			<value level="2">52</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">123</value>
 			<value level="2">150</value>
@@ -5579,7 +5579,7 @@
 	<skill id="1262" toLevel="10" name="Transfer Pain">
 		<!-- Transfers 10% of received damage to a servitor. Consumes MP proportionately to your level. -->
 		<icon>icon.skill1262</icon>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">48</value>
 			<value level="3">56</value>
@@ -5590,7 +5590,7 @@
 			<value level="8">90</value>
 			<value level="9">95</value>
 			<value level="10">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpInitialConsume>
 			<value level="1">7</value>
 			<value level="2">9</value>
@@ -5630,7 +5630,7 @@
 	<skill id="1263" toLevel="24" name="Curse Gloom">
 		<!-- Inflicts damage on the enemy with 47 Power added to M. Atk. Decreases the enemy's M. Def. - 15% and Attribute Resistance - 10 for 10 sec. -->
 		<icon>icon.skill1263</icon>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="24">10</value>
 			<value fromLevel="20" toLevel="24" fromSubLevel="2001" toSubLevel="2030">{base + 0.5 * subIndex}</value>
@@ -5673,7 +5673,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">44</value>
 			<value level="2">48</value>
 			<value level="3">52</value>
@@ -5698,7 +5698,7 @@
 			<value level="22">101</value>
 			<value level="23">103</value>
 			<value level="24">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">31</value>
 			<value level="2">35</value>
@@ -6009,11 +6009,11 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">25</value>
 			<value level="2">30</value>
 			<value level="3">35</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">22</value>
 			<value level="2">26</value>
@@ -6065,7 +6065,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">44</value>
 			<value level="3">48</value>
@@ -6080,7 +6080,7 @@
 			<value level="12">70</value>
 			<value level="13">72</value>
 			<value level="14">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">35</value>
 			<value level="2">39</value>
@@ -6154,11 +6154,11 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">25</value>
 			<value level="2">30</value>
 			<value level="3">35</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">22</value>
 			<value level="2">26</value>
@@ -6210,7 +6210,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">44</value>
 			<value level="3">48</value>
@@ -6225,7 +6225,7 @@
 			<value level="12">70</value>
 			<value level="13">72</value>
 			<value level="14">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">35</value>
 			<value level="2">39</value>
@@ -6288,12 +6288,12 @@
 	<skill id="1268" toLevel="4" name="Vampiric Rage">
 		<!-- For 20 minutes, has a chance of recovering 6% of the damage inflicted on the enemy as HP. -->
 		<icon>icon.skill1268</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
 			<value level="4">4</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>VAMPIRIC_ATTACK</abnormalType>
 		<castRange>400</castRange>
@@ -6306,12 +6306,12 @@
 		<effectRange>900</effectRange>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">30</value>
 			<value level="2">44</value>
 			<value level="3">58</value>
 			<value level="4">72</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">21</value>
 			<value level="2">31</value>
@@ -6345,7 +6345,7 @@
 	<skill id="1269" toLevel="9" name="Curse Disease">
 		<!-- Decreases the power of HP recovery magic received by the enemy by 50% for 2 minutes. -->
 		<icon>icon.skill1269</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>HEAL_EFFECT_DOWN</abnormalType>
 		<activateRate>80</activateRate>
@@ -6367,7 +6367,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">58</value>
 			<value level="2">60</value>
 			<value level="3">62</value>
@@ -6377,7 +6377,7 @@
 			<value level="7">70</value>
 			<value level="8">72</value>
 			<value level="9">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">43</value>
 			<value level="2">44</value>
@@ -6419,7 +6419,7 @@
 		<effectPoint>560</effectPoint>
 		<hitTime>7000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>66</magicLvl>
+		<magicLevel>66</magicLevel>
 		<mpConsume>171</mpConsume>
 		<mpInitialConsume>43</mpInitialConsume>
 		<operateType>A1</operateType>
@@ -6444,7 +6444,7 @@
 	<skill id="1272" toLevel="13" name="Word of Fear">
 		<!-- Frightens nearby enemies into fleeing for 10 seconds. -->
 		<icon>icon.skill1272</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>TURN_FLEE</abnormalType>
 		<abnormalVisualEffect>TURN_FLEE</abnormalVisualEffect>
@@ -6471,7 +6471,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">44</value>
 			<value level="2">48</value>
 			<value level="3">52</value>
@@ -6485,7 +6485,7 @@
 			<value level="11">70</value>
 			<value level="12">72</value>
 			<value level="13">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">93</value>
 			<value level="2">103</value>
@@ -6535,7 +6535,7 @@
 		<affectRange>200</affectRange>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">44</value>
 			<value level="2">48</value>
 			<value level="3">52</value>
@@ -6549,7 +6549,7 @@
 			<value level="11">70</value>
 			<value level="12">72</value>
 			<value level="13">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">93</value>
 			<value level="2">103</value>
@@ -6606,12 +6606,12 @@
 		<effectRange>900</effectRange>
 		<hitTime>2000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">20</value>
 			<value level="2">25</value>
 			<value level="3">30</value>
 			<value level="4">35</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">8</value>
 			<value level="2">9</value>
@@ -6663,7 +6663,7 @@
 		<effectRange>900</effectRange>
 		<hitTime>2000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">44</value>
 			<value level="3">48</value>
@@ -6678,7 +6678,7 @@
 			<value level="12">70</value>
 			<value level="13">72</value>
 			<value level="14">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">14</value>
 			<value level="2">16</value>
@@ -6758,7 +6758,7 @@
 		</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId>
 		<itemConsumeSteps>14</itemConsumeSteps>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">44</value>
 			<value level="3">48</value>
@@ -6773,7 +6773,7 @@
 			<value level="12">70</value>
 			<value level="13">72</value>
 			<value level="14">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">56</value>
 			<value level="2">62</value>
@@ -6876,7 +6876,7 @@
 			<value level="14">2</value>
 		</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">44</value>
 			<value level="3">48</value>
@@ -6891,7 +6891,7 @@
 			<value level="12">70</value>
 			<value level="13">72</value>
 			<value level="14">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">56</value>
 			<value level="2">62</value>
@@ -6994,7 +6994,7 @@
 			<value level="14">2</value>
 		</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">44</value>
 			<value level="3">48</value>
@@ -7009,7 +7009,7 @@
 			<value level="12">70</value>
 			<value level="13">72</value>
 			<value level="14">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">56</value>
 			<value level="2">62</value>
@@ -7109,7 +7109,7 @@
 			<value level="9">11</value>
 		</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">44</value>
 			<value level="3">48</value>
@@ -7119,7 +7119,7 @@
 			<value level="7">64</value>
 			<value level="8">68</value>
 			<value level="9">72</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">28</value>
 			<value level="2">31</value>
@@ -7184,7 +7184,7 @@
 			<value level="9">6</value>
 		</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">44</value>
 			<value level="3">48</value>
@@ -7194,7 +7194,7 @@
 			<value level="7">66</value>
 			<value level="8">70</value>
 			<value level="9">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">28</value>
 			<value level="2">31</value>
@@ -7259,7 +7259,7 @@
 			<value level="9">11</value>
 		</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">44</value>
 			<value level="3">48</value>
@@ -7269,7 +7269,7 @@
 			<value level="7">64</value>
 			<value level="8">68</value>
 			<value level="9">72</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">28</value>
 			<value level="2">31</value>
@@ -7320,10 +7320,10 @@
 	<skill id="1282" toLevel="2" name="Pa'agrio's Haste">
 		<!-- Increases Speed of nearby clan members by 20 for 20 minutes. -->
 		<icon>icon.skill1282</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>SPEED_UP</abnormalType>
 		<affectLimit>50-50</affectLimit>
@@ -7334,10 +7334,10 @@
 		</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">58</value>
 			<value level="2">64</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">170</value>
 			<value level="2">189</value>
@@ -7366,7 +7366,7 @@
 	<skill id="1283" toLevel="13" name="Soul Guard">
 		<!-- Increases P. Def. by 293.3. Continuously consumes MP. -->
 		<icon>icon.skill1283</icon>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">44</value>
 			<value level="2">48</value>
 			<value level="3">52</value>
@@ -7380,7 +7380,7 @@
 			<value level="11">70</value>
 			<value level="12">72</value>
 			<value level="13">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpInitialConsume>
 			<value level="1">8</value>
 			<value level="2">9</value>
@@ -7441,11 +7441,11 @@
 	<skill id="1284" toLevel="3" name="Chant of Revenge">
 		<!-- For 20 minutes, gives a party member the ability to transfer 10% of received damage back to the enemy. -->
 		<icon>icon.skill1284</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>DMG_SHIELD</abnormalType>
 		<affectRange>1000</affectRange>
@@ -7456,11 +7456,11 @@
 		</effectPoint>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">62</value>
 			<value level="2">68</value>
 			<value level="3">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">183</value>
 			<value level="2">201</value>
@@ -7491,14 +7491,14 @@
 	<skill id="1285" toLevel="1" name="Seed of Fire">
 		<!-- Uses energy of fire to increase Fire attack level by 20. -->
 		<icon>icon.skill1285</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>HOLY_ATTACK</abnormalType>
 		<effectPoint>100</effectPoint>
 		<attributeType>FIRE</attributeType>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>66</magicLvl>
+		<magicLevel>66</magicLevel>
 		<mpConsume>200</mpConsume>
 		<mpInitialConsume>50</mpInitialConsume>
 		<operateType>A2</operateType>
@@ -7517,14 +7517,14 @@
 	<skill id="1286" toLevel="1" name="Seed of Water">
 		<!-- Uses energy of Water to increase Water attack level by 20. -->
 		<icon>icon.skill1286</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>HOLY_ATTACK</abnormalType>
 		<effectPoint>100</effectPoint>
 		<attributeType>WATER</attributeType>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>66</magicLvl>
+		<magicLevel>66</magicLevel>
 		<mpConsume>200</mpConsume>
 		<mpInitialConsume>50</mpInitialConsume>
 		<operateType>A2</operateType>
@@ -7543,14 +7543,14 @@
 	<skill id="1287" toLevel="1" name="Seed of Wind">
 		<!-- Uses energy of wind to increase Wind attack level by 20. -->
 		<icon>icon.skill1287</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>HOLY_ATTACK</abnormalType>
 		<effectPoint>100</effectPoint>
 		<attributeType>WIND</attributeType>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>66</magicLvl>
+		<magicLevel>66</magicLevel>
 		<mpConsume>200</mpConsume>
 		<mpInitialConsume>50</mpInitialConsume>
 		<operateType>A2</operateType>
@@ -7574,7 +7574,7 @@
 		<effectRange>1400</effectRange>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>68</magicLvl>
+		<magicLevel>68</magicLevel>
 		<mpConsume>200</mpConsume>
 		<mpInitialConsume>50</mpInitialConsume>
 		<operateType>A1</operateType>
@@ -7591,7 +7591,7 @@
 	<skill id="1289" toLevel="1" name="Inferno">
 		<!-- Inflicts fire damage on the enemy with 150 Power added to M. Atk., and decreases HP by 60 per second for 15 seconds. -->
 		<icon>icon.skill1289</icon>
-		<abnormalLvl>10</abnormalLvl>
+		<abnormalLevel>10</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>DOT_ATTR</abnormalType>
 		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
@@ -7603,7 +7603,7 @@
 		<hitTime>4000</hitTime>
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>70</magicLvl>
+		<magicLevel>70</magicLevel>
 		<mpConsume>200</mpConsume>
 		<mpInitialConsume>50</mpInitialConsume>
 		<operateType>A2</operateType>
@@ -7625,7 +7625,7 @@
 	<skill id="1290" toLevel="1" name="Blizzard">
 		<!-- Inflicts water damage on the enemy with 150 Power added to M. Atk., and decreases their Speed by 50% for 30 seconds. -->
 		<icon>icon.skill1290</icon>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<activateRate>40</activateRate>
@@ -7639,7 +7639,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>70</magicLvl>
+		<magicLevel>70</magicLevel>
 		<mpConsume>200</mpConsume>
 		<mpInitialConsume>50</mpInitialConsume>
 		<operateType>A2</operateType>
@@ -7660,7 +7660,7 @@
 	<skill id="1291" toLevel="1" name="Demon Wind">
 		<!-- Inflicts wind damage on the enemy with 150 Power added to M. Atk., and decreases their HP recovery magic effect by 50% for 2 minutes. -->
 		<icon>icon.skill1291</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>HEAL_EFFECT_DOWN</abnormalType>
 		<castRange>900</castRange>
@@ -7671,7 +7671,7 @@
 		<hitTime>4000</hitTime>
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>70</magicLvl>
+		<magicLevel>70</magicLevel>
 		<mpConsume>200</mpConsume>
 		<mpInitialConsume>50</mpInitialConsume>
 		<operateType>A2</operateType>
@@ -7698,7 +7698,7 @@
 		<effectRange>1400</effectRange>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>72</magicLvl>
+		<magicLevel>72</magicLevel>
 		<mpConsume>200</mpConsume>
 		<mpInitialConsume>50</mpInitialConsume>
 		<operateType>A1</operateType>
@@ -7721,7 +7721,7 @@
 		<effectRange>1400</effectRange>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>72</magicLvl>
+		<magicLevel>72</magicLevel>
 		<mpConsume>200</mpConsume>
 		<mpInitialConsume>50</mpInitialConsume>
 		<operateType>A1</operateType>
@@ -7744,7 +7744,7 @@
 		<effectRange>1400</effectRange>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>72</magicLvl>
+		<magicLevel>72</magicLevel>
 		<mpConsume>200</mpConsume>
 		<mpInitialConsume>50</mpInitialConsume>
 		<operateType>A1</operateType>
@@ -7780,7 +7780,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">58</value>
 			<value level="2">60</value>
 			<value level="3">62</value>
@@ -7790,7 +7790,7 @@
 			<value level="7">70</value>
 			<value level="8">72</value>
 			<value level="9">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">64</value>
 			<value level="2">66</value>
@@ -7857,7 +7857,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">58</value>
 			<value level="2">60</value>
 			<value level="3">62</value>
@@ -7867,7 +7867,7 @@
 			<value level="7">70</value>
 			<value level="8">72</value>
 			<value level="9">74</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">43</value>
 			<value level="2">44</value>
@@ -7915,14 +7915,14 @@
 	<skill id="1297" toLevel="6" name="Clear Mind">
 		<!-- Increases MP Recovery Bonus by 2.6 while standing and by 3.2 when walking. -->
 		<icon>icon.skill1297</icon>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">48</value>
 			<value level="3">56</value>
 			<value level="4">62</value>
 			<value level="5">68</value>
 			<value level="6">74</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
@@ -7955,7 +7955,7 @@
 	<skill id="1298" toLevel="14" name="Mass Slow">
 		<!-- Decreases Speed near the enemy by 30% for 1 minute. -->
 		<icon>icon.skill1298</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">3</value>
 			<value level="2">3</value>
 			<value level="3">3</value>
@@ -7970,7 +7970,7 @@
 			<value level="12">3</value>
 			<value level="13">3</value>
 			<value level="14">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<activateRate>40</activateRate>
@@ -8015,7 +8015,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">61</value>
 			<value level="2">62</value>
 			<value level="3">63</value>
@@ -8030,7 +8030,7 @@
 			<value level="12">72</value>
 			<value level="13">73</value>
 			<value level="14">74</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>5000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -8047,10 +8047,10 @@
 	<skill id="1299" toLevel="2" name="Servitor Empowerment">
 		<!-- For 30 sec., increases the servitor's P. Def. by 1800, M. Def. by 1350, and Buff-canceling Attack Resistance by 80%. It is unable to move while the skill is in effect. -->
 		<icon>icon.skill1299</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>PD_UP_SPECIAL</abnormalType>
 		<castRange>400</castRange>
@@ -8061,10 +8061,10 @@
 		<effectRange>900</effectRange>
 		<hitTime>1000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">52</value>
 			<value level="2">70</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">52</value>

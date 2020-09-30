@@ -204,7 +204,7 @@
 	</skill>
 	<skill id="15522" toLevel="1" name="Dark Poison">
 		<!-- Damages enemy with dark poison and drains HP gradually. -->
-		<abnormalLvl>9</abnormalLvl>
+		<abnormalLevel>9</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<subordinationAbnormalType>POISON</subordinationAbnormalType>
 		<abnormalType>POISON</abnormalType>
@@ -223,7 +223,7 @@
 		<effectPoint>-100</effectPoint>
 		<isDebuff>true</isDebuff>
 		<lvlBonusRate>2</lvlBonusRate>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<trait>POISON</trait>
 		<targetType>SELF</targetType>
@@ -238,10 +238,10 @@
 	</skill>
 	<skill id="15523" toLevel="1" name="Accelerate">
 		<!-- Increases Speed. -->
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>SPEED_UP_SPECIAL</abnormalType>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<icon>icon.skill1204</icon>
 		<operateType>A2</operateType>
 		<hitTime>1000</hitTime>
@@ -271,7 +271,7 @@
 		<isMagic>1</isMagic>
 		<attributeType>DARK</attributeType>
 		<attributeValue>450</attributeValue>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -308,7 +308,7 @@
 		<affectRange>100</affectRange>
 		<attributeType>DARK</attributeType>
 		<attributeValue>450</attributeValue>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<effects>
 			<effect name="PhysicalAttack">
 				<power>160000</power>
@@ -329,7 +329,7 @@
 		<affectRange>100</affectRange>
 		<attributeType>DARK</attributeType>
 		<attributeValue>450</attributeValue>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>ENEMY</targetType>
 		<affectScope>RANGE</affectScope>
@@ -351,7 +351,7 @@
 	<skill id="15529" toLevel="1" name="Absorb Spirit">
 		<!-- Soul is drained. P./ M. Def. -30%, and Atk. Spd. +10%. -->
 		<abnormalTime>60</abnormalTime>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalType>MARK_OF_LUMI</abnormalType>
 		<activateRate>90</activateRate>
 		<lvlBonusRate>20</lvlBonusRate>
@@ -363,7 +363,7 @@
 		<isMagic>1</isMagic>
 		<effectPoint>-100</effectPoint>
 		<isDebuff>true</isDebuff>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>ENEMY_ONLY</targetType>
@@ -385,7 +385,7 @@
 	</skill>
 	<skill id="15530" toLevel="1" name="Slumber">
 		<!-- Afflicted with Sleep and unable to move momentarily. -->
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>20</abnormalTime>
 		<abnormalType>SLEEP</abnormalType>
 		<abnormalVisualEffect>SLEEP</abnormalVisualEffect>
@@ -404,7 +404,7 @@
 		<removedOnDamage>true</removedOnDamage>
 		<magicCriticalRate>5</magicCriticalRate>
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<trait>SLEEP</trait>
 		<targetType>ENEMY_ONLY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -821,7 +821,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<effects>
 			<effect name="PhysicalAttack">
 				<power>160000</power>
@@ -838,7 +838,7 @@
 		<hitTime>3000</hitTime>
 		<effectPoint>-100</effectPoint>
 		<reuseDelay>5000</reuseDelay>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>POINT_BLANK</affectScope>
@@ -911,7 +911,7 @@
 	</skill>
 	<skill id="15572" toLevel="1" name="Krogel's Haste">
 		<!-- Atk. Spd. +15%. -->
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>ATTACK_TIME_DOWN</abnormalType>
 		<icon>icon.skill1086</icon>
@@ -921,7 +921,7 @@
 		<isMagic>1</isMagic>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
@@ -1109,7 +1109,7 @@
 	<skill id="15590" toLevel="1" name="Fear of Lindvior">
 		<!-- Afflicted with Fear and moving against own will. -->
 		<icon>icon.skill4108</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>TURN_FLEE</abnormalType>
 		<abnormalVisualEffect>TURN_FLEE</abnormalVisualEffect>
@@ -1132,7 +1132,7 @@
 	<skill id="15591" toLevel="1" name="Wind Pull">
 		<!-- Pulls target using the wind. -->
 		<icon>icon.skill0006</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<affectRange>600</affectRange>

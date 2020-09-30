@@ -91,7 +91,7 @@
 		<hitTime>500</hitTime>
 		<coolTime>500</coolTime>
 		<isMagic>1</isMagic>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">1</value>
 			<value level="2">20</value>
 			<value level="3">28</value>
@@ -122,7 +122,7 @@
 			<value level="28">105</value>
 			<value level="29">107</value>
 			<value level="30">109</value>
-		</magicLvl>
+		</magicLevel>
 		<nextAction>CAST</nextAction>
 		<magicCriticalRate>
 			<value fromLevel="1" toLevel="30">6</value>
@@ -192,11 +192,11 @@
 		<!-- M. Def. -$s1, Speed -$s2. -->
 		<icon>icon.skill30027</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>STORM_SIGN</abnormalType>
 		<abnormalVisualEffect>
@@ -254,7 +254,7 @@
 		<hitTime>4000</hitTime>
 		<coolTime>500</coolTime>
 		<isMagic>1</isMagic>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">58</value>
 			<value level="2">62</value>
 			<value level="3">66</value>
@@ -277,7 +277,7 @@
 			<value level="20">105</value>
 			<value level="21">107</value>
 			<value level="22">109</value>
-		</magicLvl>
+		</magicLevel>
 		<magicCriticalRate>
 			<value fromLevel="1" toLevel="22">6</value>
 			<value fromLevel="16" toLevel="22" fromSubLevel="2001" toSubLevel="2020">{base + (base / 100 * subIndex)}</value>
@@ -347,7 +347,7 @@
 	<skill id="30004" toLevel="27" name="Hydro Strike">
 		<!-- Summons the storm that deals magic damage to the target with $s1 power making them faint for $s2 Requires a sword or a blunt weapon. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown, Pull). -->
 		<icon>icon.skill30004</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalType>STUN</abnormalType>
 		<abnormalTime>5</abnormalTime>
 		<abnormalVisualEffect>WIND_STUN</abnormalVisualEffect>
@@ -395,7 +395,7 @@
 		<coolTime>500</coolTime>
 		<isMagic>1</isMagic>
 		<isDebuff>true</isDebuff>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">44</value>
 			<value level="3">48</value>
@@ -423,7 +423,7 @@
 			<value level="25">105</value>
 			<value level="26">107</value>
 			<value level="27">109</value>
-		</magicLvl>
+		</magicLevel>
 		<trait>KNOCKBACK</trait>
 		<conditions>
 			<condition name="OpAffectedBySkill">
@@ -494,7 +494,7 @@
 	<skill id="30005" toLevel="4" name="Storm Sign">
 		<!-- M. Def. -50%, Speed -100. -->
 		<icon>icon.skill30027</icon>
-		<abnormalLvl>4</abnormalLvl>
+		<abnormalLevel>4</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>STORM_SIGN</abnormalType>
 		<abnormalVisualEffect>STORM_SIGN2</abnormalVisualEffect>
@@ -519,7 +519,7 @@
 	<skill id="30006" toLevel="13" name="Storm Rage">
 		<!-- Summons the storm that deals damage to nearby enemies with $s1 power blowing them away. If the enemy is debuffed, damage dealt +$s2. Requires a sword or a blunt weapon. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown, Pull). -->
 		<icon>icon.skill30006</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalType>STUN</abnormalType>
 		<abnormalTime>1</abnormalTime>
 		<abnormalVisualEffect>KNOCKBACK</abnormalVisualEffect>
@@ -533,7 +533,7 @@
 		<targetType>SELF</targetType>
 		<affectScope>POINT_BLANK</affectScope>
 		<affectObject>NOT_FRIEND</affectObject>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">87</value>
 			<value level="3">89</value>
@@ -547,7 +547,7 @@
 			<value level="11">105</value>
 			<value level="12">107</value>
 			<value level="13">109</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">134</value>
 			<value level="2">135</value>
@@ -628,7 +628,7 @@
 		<reuseDelay>10000</reuseDelay>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">78</value>
 			<value level="2">80</value>
 			<value level="3">82</value>
@@ -646,7 +646,7 @@
 			<value level="15">105</value>
 			<value level="16">107</value>
 			<value level="17">109</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">63</value>
 			<value level="2">64</value>
@@ -742,26 +742,26 @@
 		<!-- Slowly becomes one with the wind for $s1 After that makes you invisible. Requires a sword or a blunt weapon. -->
 		<icon>icon.skill30008</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
 			<value level="4">4</value>
 			<value level="5">5</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>WIND_BLEND</abnormalType>
 		<abnormalVisualEffect>WIND_BLEND</abnormalVisualEffect>
 		<effectPoint>687</effectPoint>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">20</value>
 			<value level="2">85</value>
 			<value level="3">90</value>
 			<value level="4">94</value>
 			<value level="5">98</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">16</value>
 			<value level="2">67</value>
@@ -823,7 +823,7 @@
 	<skill id="30009" toLevel="10" name="Deceptive Blink">
 		<!-- The caster's assimilated into the wind, and teleports to the rear. Assimiliation lasts for $s1, and Speed increases by $s2 while assimilated. Requires a sword or blunt weapon. -->
 		<icon>icon.skill30009</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
@@ -834,7 +834,7 @@
 			<value level="8">8</value>
 			<value level="9">9</value>
 			<value level="10">10</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>HIDE</abnormalType>
 		<abnormalVisualEffect>DECEPTIVE_BLINK</abnormalVisualEffect>
@@ -932,11 +932,11 @@
 	<skill id="30010" toLevel="3" name="Windy Refuge">
 		<!-- Cancels all debuffs and recovers HP/ MP for $s1 inside a refuge of wind. Cannot move. -->
 		<icon>icon.skill30010</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="3">10</value>
 			<value fromLevel="1" toLevel="3" fromSubLevel="1001" toSubLevel="1020">{base + (0.5 * subIndex)}</value>
@@ -948,11 +948,11 @@
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">88</value>
 			<value level="2">101</value>
 			<value level="3">110</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>40</mpConsume>
 		<hitTime>1000</hitTime>
 		<coolTime>500</coolTime>
@@ -1010,7 +1010,7 @@
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">76</value>
 			<value level="2">78</value>
 			<value level="3">80</value>
@@ -1028,7 +1028,7 @@
 			<value level="15">105</value>
 			<value level="16">107</value>
 			<value level="17">109</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">31</value>
 			<value level="2">31</value>
@@ -1072,7 +1072,7 @@
 	<skill id="30012" toLevel="27" name="Air Rush">
 		<!-- Deals magic damage to the target with $s1 power knocking them down. If the target is debuffed, damage dealt +$s2. Requires a sword or a blunt weapon. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown, Pull). -->
 		<icon>icon.skill30012</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
@@ -1253,7 +1253,7 @@
 			<value level="16">39</value>
 			<value level="17">40</value>
 		</mpConsume>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">76</value>
 			<value level="2">78</value>
 			<value level="3">80</value>
@@ -1271,7 +1271,7 @@
 			<value level="15">105</value>
 			<value level="16">107</value>
 			<value level="17">109</value>
-		</magicLvl>
+		</magicLevel>
 		<castRange>
 			<value fromLevel="1" toLevel="17">600</value>
 			<value fromLevel="11" toLevel="17" fromSubLevel="3001" toSubLevel="3020">{base + (10 * subIndex)}</value>
@@ -1332,7 +1332,7 @@
 		<!-- For $s1, M. Critical Rate +$s2, P./ M. Def. +$s3. -->
 		<icon>icon.skill30016</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="4">30</value>
 			<value fromLevel="3" toLevel="4" fromSubLevel="1001" toSubLevel="1010">{base + subIndex}</value>
@@ -1396,24 +1396,24 @@
 		<!-- For $s1, Received P./ M. Critical Damage -$s2. -->
 		<icon>icon.skill30017</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
 			<value level="4">4</value>
 			<value level="5">5</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>SQUALL</abnormalType>
 		<abnormalVisualEffect>SQUALL</abnormalVisualEffect>
 		<effectPoint>2</effectPoint>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">76</value>
 			<value level="3">85</value>
 			<value level="4">101</value>
 			<value level="5">110</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">18</value>
 			<value level="2">37</value>
@@ -1492,7 +1492,7 @@
 		<!-- Removes all debuffs and prevents you from being targeted for 10 sec. by becoming wind. -->
 		<icon>icon.skill30018</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalVisualEffect>WIND_ILLUSION</abnormalVisualEffect>
 		<mpConsume>41</mpConsume>
@@ -1515,7 +1515,7 @@
 	<skill id="30019" toLevel="13" name="Sayha's Word">
 		<!-- Attacks target with $s1 Power added to M. Atk., and decreases their Atk./Casting Spd. by $s3 and Speed by $s4 for $s2. Instantly brands target with Storm Sign Stage $s5. Has a chance to brand Sign of Storn Lv. 4, and inflicts $s6 more damage if target is debuffed. Requires a sword or blunt weapon. -->
 		<icon>icon.skill30019</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
@@ -1529,7 +1529,7 @@
 			<value level="11">11</value>
 			<value level="12">12</value>
 			<value level="13">13</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<activateRate>
 			<value fromLevel="1" toLevel="13">80</value>
@@ -1537,7 +1537,7 @@
 		</activateRate>
 		<effectPoint>-687</effectPoint>
 		<operateType>A2</operateType>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">87</value>
 			<value level="3">89</value>
@@ -1551,7 +1551,7 @@
 			<value level="11">105</value>
 			<value level="12">107</value>
 			<value level="13">109</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">670</value>
 			<value level="2">677</value>
@@ -1642,7 +1642,7 @@
 		<!-- For 30 seconds, M. Critical Damage +30%, Received P./M. Critical Damage -50%, and Speed + 70. Requires a sword or blunt weapon. -->
 		<icon>icon.skill30020</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">30</value>
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1010">{base + subIndex}</value>
@@ -1701,7 +1701,7 @@
 		<!-- For $s1, nearby party members' Speed +$s2, Obstruction/ Danger Zone/ Confusion Resistance +$s3. Requires a sword or a blunt weapon. -->
 		<icon>icon.skill30022</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="3">30</value>
 			<value fromLevel="1" toLevel="3" fromSubLevel="1001" toSubLevel="1010">{base + subIndex}</value>
@@ -1710,11 +1710,11 @@
 		<abnormalType>SAYHA_BLESSING</abnormalType>
 		<effectPoint>687</effectPoint>
 		<affectRange>1000</affectRange>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">99</value>
 			<value level="2">101</value>
 			<value level="3">110</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">84</value>
 			<value level="2">87</value>
@@ -1800,7 +1800,7 @@
 	<skill id="30026" toLevel="4" name="Lightning Squall">
 		<!-- Deals magic damage to the target with $s1 power. Speed -$s2. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown, Pull). -->
 		<icon>icon.skill30026</icon>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<effectRange>1600</effectRange>
@@ -1852,7 +1852,7 @@
 		<!-- Attacks nearby target with $s1 Power added to M. Atk. and locks them inside a storm for $s2. $s3 more damage if target is debuffed. Requires a sword or blunt weapon. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown, Pull). -->
 		<icon>icon.iconskill30007</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>DIVINE_STORM</abnormalType>
 		<activateRate>
@@ -1863,14 +1863,14 @@
 		<affectRange>200</affectRange> <!-- Unconfirmed -->
 		<effectRange>400</effectRange>
 		<effectPoint>-707</effectPoint>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">98</value>
 			<value level="2">101</value>
 			<value level="3">103</value>
 			<value level="4">105</value>
 			<value level="5">107</value>
 			<value level="6">109</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>1405</mpConsume>
 		<hitTime>2000</hitTime>
 		<coolTime>500</coolTime>
@@ -1928,7 +1928,7 @@
 		<!-- Trapped by a storm that gives continuous damage. -->
 		<icon>icon.skill1042</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<effectPoint>-707</effectPoint>
 		<isMagic>2</isMagic> <!-- Static Skill -->
@@ -1949,7 +1949,7 @@
 		<!-- Increases Max. M. Critical Rate to 550. -->
 		<icon>icon.skill30025</icon>
 		<operateType>P</operateType>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<effects>
 			<effect name="MagicCriticalRate">
 				<amount>550</amount>
@@ -2310,7 +2310,7 @@
 		<!-- Attack Attribute Bonus +$s1, Fire/ Water/ Wind/ Earth/ Holy Resistance +$s2. -->
 		<icon>icon.skill11006</icon>
 		<operateType>P</operateType>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">76</value>
 			<value level="2">85</value>
 			<value level="3">90</value>
@@ -2322,7 +2322,7 @@
 			<value level="9">106</value>
 			<value level="10">108</value>
 			<value level="11">110</value>
-		</magicLvl>
+		</magicLevel>
 		<effects>
 			<effect name="AttackAttributeAdd">
 				<amount>
@@ -2448,11 +2448,11 @@
 		<!-- INT +2. -->
 		<icon>icon.skill11253</icon>
 		<operateType>P</operateType>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">76</value>
 			<value level="3">85</value>
-		</magicLvl>
+		</magicLevel>
 		<effects>
 			<effect name="SkillCritical">
 				<stat>INT</stat>

@@ -20,10 +20,13 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
+import org.l2jmobius.Config;
 import org.l2jmobius.gameserver.enums.PartyDistributionType;
 import org.l2jmobius.gameserver.enums.Team;
+import org.l2jmobius.gameserver.instancemanager.AntiFeedManager;
 import org.l2jmobius.gameserver.instancemanager.InstanceManager;
 import org.l2jmobius.gameserver.instancemanager.ZoneManager;
 import org.l2jmobius.gameserver.model.CommandChannel;
@@ -111,9 +114,9 @@ public class TvT extends Event
 	private static final ItemHolder REWARD = new ItemHolder(57, 100000); // Adena
 	// Misc
 	private static final Map<PlayerInstance, Integer> PLAYER_SCORES = new ConcurrentHashMap<>();
-	private static final List<PlayerInstance> PLAYER_LIST = new ArrayList<>();
-	private static final List<PlayerInstance> BLUE_TEAM = new ArrayList<>();
-	private static final List<PlayerInstance> RED_TEAM = new ArrayList<>();
+	private static final Set<PlayerInstance> PLAYER_LIST = ConcurrentHashMap.newKeySet();
+	private static final Set<PlayerInstance> BLUE_TEAM = ConcurrentHashMap.newKeySet();
+	private static final Set<PlayerInstance> RED_TEAM = ConcurrentHashMap.newKeySet();
 	private static volatile int BLUE_SCORE;
 	private static volatile int RED_SCORE;
 	private static Instance PVP_WORLD = null;
@@ -143,11 +146,18 @@ public class TvT extends Event
 			{
 				if (canRegister(player))
 				{
-					PLAYER_LIST.add(player);
-					PLAYER_SCORES.put(player, 0);
-					player.setOnCustomEvent(true);
-					addLogoutListener(player);
-					htmltext = "registration-success.html";
+					if ((Config.DUALBOX_CHECK_MAX_L2EVENT_PARTICIPANTS_PER_IP == 0) || AntiFeedManager.getInstance().tryAddPlayer(AntiFeedManager.L2EVENT_ID, player, Config.DUALBOX_CHECK_MAX_L2EVENT_PARTICIPANTS_PER_IP))
+					{
+						PLAYER_LIST.add(player);
+						PLAYER_SCORES.put(player, 0);
+						player.setOnCustomEvent(true);
+						addLogoutListener(player);
+						htmltext = "registration-success.html";
+					}
+					else
+					{
+						htmltext = "registration-ip.html";
+					}
 				}
 				else
 				{
@@ -157,6 +167,11 @@ public class TvT extends Event
 			}
 			case "CancelParticipation":
 			{
+				// Remove the player from the IP count
+				if (Config.DUALBOX_CHECK_MAX_L2EVENT_PARTICIPANTS_PER_IP > 0)
+				{
+					AntiFeedManager.getInstance().removePlayer(AntiFeedManager.L2EVENT_ID, player);
+				}
 				PLAYER_LIST.remove(player);
 				PLAYER_SCORES.remove(player);
 				removeListeners(player);
@@ -223,7 +238,11 @@ public class TvT extends Event
 				final InstanceTemplate template = manager.getInstanceTemplate(INSTANCE_ID);
 				PVP_WORLD = manager.createInstance(template, null);
 				// Randomize player list and separate teams.
-				Collections.shuffle(PLAYER_LIST);
+				final List<PlayerInstance> playerList = new ArrayList<>(PLAYER_LIST.size());
+				playerList.addAll(PLAYER_LIST);
+				Collections.shuffle(playerList);
+				PLAYER_LIST.clear();
+				PLAYER_LIST.addAll(playerList);
 				boolean team = getRandomBoolean(); // If teams are not even, randomize where extra player goes.
 				for (PlayerInstance participant : PLAYER_LIST)
 				{
@@ -324,7 +343,7 @@ public class TvT extends Event
 				BLUE_SCORE = 0;
 				RED_SCORE = 0;
 				// Initialize scoreboard.
-				PVP_WORLD.broadcastPacket(new ExPVPMatchCCRecord(ExPVPMatchCCRecord.INITIALIZE, Util.sortByValue(PLAYER_SCORES)));
+				PVP_WORLD.broadcastPacket(new ExPVPMatchCCRecord(ExPVPMatchCCRecord.INITIALIZE, Util.sortByValue(PLAYER_SCORES, true)));
 				// Schedule start.
 				startQuestTimer("5", (WAIT_TIME * 60000) - 5000, null, null);
 				startQuestTimer("4", (WAIT_TIME * 60000) - 4000, null, null);
@@ -426,7 +445,7 @@ public class TvT extends Event
 			}
 			case "ScoreBoard":
 			{
-				PVP_WORLD.broadcastPacket(new ExPVPMatchCCRecord(ExPVPMatchCCRecord.FINISH, Util.sortByValue(PLAYER_SCORES)));
+				PVP_WORLD.broadcastPacket(new ExPVPMatchCCRecord(ExPVPMatchCCRecord.FINISH, Util.sortByValue(PLAYER_SCORES, true)));
 				break;
 			}
 			case "TeleportOut":
@@ -789,7 +808,7 @@ public class TvT extends Event
 				PLAYER_SCORES.put(killer, PLAYER_SCORES.get(killer) + 1);
 				BLUE_SCORE++;
 				broadcastScoreMessage();
-				PVP_WORLD.broadcastPacket(new ExPVPMatchCCRecord(ExPVPMatchCCRecord.UPDATE, Util.sortByValue(PLAYER_SCORES)));
+				PVP_WORLD.broadcastPacket(new ExPVPMatchCCRecord(ExPVPMatchCCRecord.UPDATE, Util.sortByValue(PLAYER_SCORES, true)));
 			}
 			// Confirm Red team kill.
 			if ((killer.getTeam() == Team.RED) && (killedPlayer.getTeam() == Team.BLUE))
@@ -797,7 +816,7 @@ public class TvT extends Event
 				PLAYER_SCORES.put(killer, PLAYER_SCORES.get(killer) + 1);
 				RED_SCORE++;
 				broadcastScoreMessage();
-				PVP_WORLD.broadcastPacket(new ExPVPMatchCCRecord(ExPVPMatchCCRecord.UPDATE, Util.sortByValue(PLAYER_SCORES)));
+				PVP_WORLD.broadcastPacket(new ExPVPMatchCCRecord(ExPVPMatchCCRecord.UPDATE, Util.sortByValue(PLAYER_SCORES, true)));
 			}
 			// Auto release after 10 seconds.
 			startQuestTimer("ResurrectPlayer", 10000, null, killedPlayer);
@@ -820,6 +839,12 @@ public class TvT extends Event
 			{
 				timer.cancel();
 			}
+		}
+		// Register the event at AntiFeedManager and clean it for just in case if the event is already registered
+		if (Config.DUALBOX_CHECK_MAX_L2EVENT_PARTICIPANTS_PER_IP > 0)
+		{
+			AntiFeedManager.getInstance().registerEvent(AntiFeedManager.L2EVENT_ID);
+			AntiFeedManager.getInstance().clear(AntiFeedManager.L2EVENT_ID);
 		}
 		// Clear player lists.
 		PLAYER_LIST.clear();

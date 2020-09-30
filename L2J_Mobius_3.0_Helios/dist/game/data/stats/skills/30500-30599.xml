@@ -3,7 +3,7 @@
 	<skill id="30500" toLevel="28" name="Lateral Hit">
 		<!-- Attacks target with $s1 Power added to P. Atk., and decreases their P. Def. by $s3 for $s2. $s4 more damage if target is Stunned. Requires a fist weapon. -->
 		<icon>icon.skill30500</icon>
-		<abnormalLvl>4</abnormalLvl>
+		<abnormalLevel>4</abnormalLevel>
 		<abnormalTime>20</abnormalTime>
 		<abnormalType>PD_DOWN</abnormalType>
 		<activateRate>
@@ -15,7 +15,7 @@
 		<effectPoint>-687</effectPoint>
 		<effectRange>400</effectRange> <!-- Unconfirmed -->
 		<hitTime>1000</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">1</value>
 			<value level="2">20</value>
 			<value level="3">28</value>
@@ -44,7 +44,7 @@
 			<value level="26">101</value>
 			<value level="27">103</value>
 			<value level="28">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">8</value>
 			<value level="2">17</value>
@@ -151,7 +151,7 @@
 		<effectPoint>-687</effectPoint>
 		<effectRange>600</effectRange>
 		<hitTime>1000</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">20</value>
 			<value level="2">28</value>
 			<value level="3">36</value>
@@ -179,7 +179,7 @@
 			<value level="25">101</value>
 			<value level="26">103</value>
 			<value level="27">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">17</value>
 			<value level="2">23</value>
@@ -269,7 +269,7 @@
 	<skill id="30502" toLevel="24" name="Chin Strike">
 		<!-- Knocks down target for $s1. Requires a fist weapon. -->
 		<icon>icon.skill30502</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<abnormalType>KNOCKDOWN</abnormalType>
 		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
@@ -283,7 +283,7 @@
 		<effectPoint>-709</effectPoint>
 		<effectRange>400</effectRange> <!-- Unconfirmed -->
 		<hitTime>1000</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">44</value>
 			<value level="3">48</value>
@@ -308,7 +308,7 @@
 			<value level="22">101</value>
 			<value level="23">103</value>
 			<value level="24">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">34</value>
 			<value level="2">37</value>
@@ -371,7 +371,7 @@
 		<effectPoint>-687</effectPoint>
 		<effectRange>400</effectRange>
 		<hitTime>2000</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">86</value>
 			<value level="3">88</value>
@@ -383,7 +383,7 @@
 			<value level="9">101</value>
 			<value level="10">103</value>
 			<value level="11">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">81</value>
 			<value level="2">81</value>
@@ -442,7 +442,7 @@
 		<effectPoint>-700</effectPoint>
 		<effectRange>400</effectRange> <!-- Unconfirmed -->
 		<hitTime>2500</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">76</value>
 			<value level="2">78</value>
 			<value level="3">80</value>
@@ -459,7 +459,7 @@
 			<value level="14">101</value>
 			<value level="15">103</value>
 			<value level="16">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">75</value>
 			<value level="2">77</value>
@@ -523,7 +523,7 @@
 	<skill id="30505" toLevel="10" name="Pressure Punch">
 		<!-- Attacks target with $s1 Power added to P. Atk, causing target to tumble toward you. Requires a fist weapon. -->
 		<icon>icon.skill30505</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1</abnormalTime>
 		<activateRate> <!-- Guessed -->
 			<value fromLevel="1" toLevel="10">80</value>
@@ -534,7 +534,7 @@
 		<coolTime>500</coolTime>
 		<effectPoint>-687</effectPoint>
 		<hitTime>2000</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">87</value>
 			<value level="2">89</value>
 			<value level="3">91</value>
@@ -545,7 +545,7 @@
 			<value level="8">101</value>
 			<value level="9">103</value>
 			<value level="10">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">149</value>
 			<value level="2">150</value>
@@ -606,7 +606,7 @@
 	<skill id="30506" toLevel="14" name="Distant Kick">
 		<!-- Attacks frontal target with $s1 Power added to P. Atk. and blows them away. Requires a fist weapon. -->
 		<icon>icon.skill30506</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>2</abnormalTime>
 		<abnormalType>KNOCKDOWN</abnormalType>
 		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
@@ -621,7 +621,7 @@
 		<effectRange>400</effectRange>
 		<fanRange>0;0;200;90</fanRange>
 		<hitTime>2000</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">79</value>
 			<value level="2">81</value>
 			<value level="3">83</value>
@@ -636,7 +636,7 @@
 			<value level="12">101</value>
 			<value level="13">103</value>
 			<value level="14">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">141</value>
 			<value level="2">143</value>
@@ -705,7 +705,7 @@
 	<skill id="30507" toLevel="24" name="Left Sidestep">
 		<!-- Disables targeting and finds weakness to the enemy's left. Enemy is stunned for$s1. Requires a fist weapon. -->
 		<icon>icon.skill30507</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -893,7 +893,7 @@
 		<!-- Using Left/Right Sidestep increases P. Critical Rate. -->
 		<icon>icon.skill30510</icon>
 		<operateType>P</operateType>
-		<magicLvl>97</magicLvl>
+		<magicLevel>97</magicLevel>
 		<effects>
 			<effect name="TriggerSkillBySkill">
 				<skillId>30532</skillId> <!-- Inside Position -->
@@ -912,7 +912,7 @@
 	<skill id="30511" toLevel="7" name="Air Light">
 		<!-- For $s1, you're less bound by gravity and P. Atk. + $s2. -->
 		<icon>icon.skill30511</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
@@ -920,7 +920,7 @@
 			<value level="5">5</value>
 			<value level="6">6</value>
 			<value level="7">7</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>NONE</abnormalType>
 		<operateType>A2</operateType>
@@ -1022,11 +1022,11 @@
 	<skill id="30512" toLevel="3" name="Distortion">
 		<!-- For $s1, distorts space to attack from behind. Increases P. Atk. by $s2, P. Critical Damage by $s3, and P. Skill Power by $s4. Requires a fist weapon. -->
 		<icon>icon.skill30512</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="3">60</value>
 			<value fromLevel="2" toLevel="3" fromSubLevel="1001" toSubLevel="1010">{base + subIndex}</value>
@@ -1084,11 +1084,11 @@
 	<skill id="30514" toLevel="3" name="Fluid Weave">
 		<!-- For $s1, P. Skill Evasion + $s2, P. Evasion + $s3, M. Evasion + $s4. Requires a fist weapon. -->
 		<icon>icon.skill30514</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
@@ -1149,7 +1149,7 @@
 	<skill id="30515" toLevel="1" name="Spallation">
 		<!-- Creates a protective sphere that diffuses all ranged attacks and debuffs for 30 seconds. Damaged if attacked within the sphere. Requires a fist weapon. -->
 		<icon>icon.skill30515</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">30</value>
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1010">{base + subIndex}</value>
@@ -1191,7 +1191,7 @@
 	<skill id="30516" toLevel="1" name="Gravity Barrier">
 		<!-- Cancels all debuffs and becomes invincible against all debuffs and damage. -->
 		<icon>icon.skill30516</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">10</value>
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + 0.5 * subIndex}</value>
@@ -1231,7 +1231,7 @@
 	<skill id="30517" toLevel="11" name="Heavy Hand">
 		<!-- Increases the effect of gravity on nearby enemies to slow them down and block them from teleporting. Requires a fist weapon. -->
 		<icon>icon.skill30517</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>BLOCK_ESCAPE</abnormalType>
 		<activateRate>
@@ -1361,7 +1361,7 @@
 	<skill id="30519" toLevel="1" name="Warped Space">
 		<!-- The energy of the earth is used to Hold enemies in range. Can be used when Fist Weapons are equipped. -->
 		<icon>icon.skill30519</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>ROOT_PHYSICALLY</abnormalType>
 		<abnormalVisualEffect>ROOT</abnormalVisualEffect>
@@ -1371,7 +1371,7 @@
 		<affectRange>150</affectRange>
 		<isDebuff>true</isDebuff>
 		<operateType>A2</operateType>
-		<magicLvl>98</magicLvl>
+		<magicLevel>98</magicLevel>
 		<mpConsume>772</mpConsume>
 		<hitTime>2500</hitTime>
 		<coolTime>500</coolTime>
@@ -1399,11 +1399,11 @@
 	<skill id="30520" toLevel="3" name="Steel Mind">
 		<!-- For $s1, HP stays at $s2. Speed + $s3, P. Atk. + $s4, P. Critical Damage + $s5, Skill Critical Damage + $s6, and Knock Back / Knock Down / Pull / Danger Zone / Aerial Yoke / Aggression Resistance + $s7. Normal attacks have normal damage x $s8. When duration ends, $s9 of HP is restored. Requires a fist weapon. -->
 		<icon>icon.skill30520</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="3">30</value>
 			<value fromLevel="1" toLevel="3" fromSubLevel="1001" toSubLevel="1010">{base + subIndex}</value>
@@ -1688,11 +1688,11 @@
 	<skill id="30532" toLevel="3" name="Inside Position">
 		<!-- P. Critical Rate + $s1, P. Skill Critical Rate + $s2. -->
 		<icon>icon.skill30510</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalType>INSIDE_POSITION</abnormalType>
 		<abnormalTime>15</abnormalTime> <!-- Helios -->
 		<operateType>A2</operateType>
@@ -1759,7 +1759,7 @@
 	<skill id="30540" toLevel="17" name="Eminent Fist Weapon Mastery">
 		<!-- When equipped with a fist weapon, P. Atk. + $s1 and + $s2. -->
 		<icon>icon.skill30524</icon>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">5</value>
 			<value level="2">20</value>
 			<value level="3">40</value>
@@ -1777,7 +1777,7 @@
 			<value level="15">106</value>
 			<value level="16">108</value>
 			<value level="17">110</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="PAtk">
@@ -1874,7 +1874,7 @@
 	<skill id="30541" toLevel="17" name="Eminent Light Armor Mastery">
 		<!-- When equipped with light armor, P. Def. + $s1. -->
 		<icon>icon.skill10254</icon>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">5</value>
 			<value level="2">20</value>
 			<value level="3">40</value>
@@ -1892,7 +1892,7 @@
 			<value level="15">106</value>
 			<value level="16">108</value>
 			<value level="17">110</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="MagicalDefence" fromLevel="7" toLevel="17">
@@ -1997,7 +1997,7 @@
 	<skill id="30542" toLevel="13" name="Eminent Stability">
 		<!-- Max HP + $s1, HP Recovery Bonus + $s2, MP Recovery Bonus + $s3. -->
 		<icon>icon.skill11506</icon>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">20</value>
 			<value level="2">40</value>
 			<value level="3">76</value>
@@ -2011,7 +2011,7 @@
 			<value level="11">106</value>
 			<value level="12">108</value>
 			<value level="13">110</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="MaxHp">
@@ -2085,7 +2085,7 @@
 	<skill id="30543" toLevel="11" name="Eminent Attribute Resistance">
 		<!-- Attack Attribute Bonus + $s1, Fire/Water/Wind/Earth/Holy Resistance + $s2. -->
 		<icon>icon.skill11006</icon>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">76</value>
 			<value level="2">85</value>
 			<value level="3">85</value>
@@ -2097,7 +2097,7 @@
 			<value level="9">85</value>
 			<value level="10">85</value>
 			<value level="11">85</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="DefenceAttribute">
@@ -2297,10 +2297,10 @@
 	<skill id="30544" toLevel="2" name="Eminent Trait Resistance">
 		<!-- Hold/Mental Resistance + $s1. -->
 		<icon>icon.skill10005</icon>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">76</value>
 			<value level="2">85</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="DefenceTrait">
@@ -2329,11 +2329,11 @@
 		<!-- STR + $s1. -->
 		<icon>icon.skill0430</icon>
 		<operateType>P</operateType>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">76</value>
 			<value level="3">85</value>
-		</magicLvl>
+		</magicLevel>
 		<effects>
 			<effect name="SkillCritical" fromLevel="2" toLevel="3">
 				<stat>STR</stat>
@@ -2364,7 +2364,7 @@
 		<trait>KNOCKDOWN</trait>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">87</value>
 			<value level="3">89</value>
@@ -2376,7 +2376,7 @@
 			<value level="9">101</value>
 			<value level="10">103</value>
 			<value level="11">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">29</value>
 			<value level="2">29</value>
@@ -2429,12 +2429,12 @@
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">99</value>
 			<value level="2">101</value>
 			<value level="3">103</value>
 			<value level="4">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>85</mpConsume>
 		<castRange>80</castRange>
 		<hitTime>500</hitTime>

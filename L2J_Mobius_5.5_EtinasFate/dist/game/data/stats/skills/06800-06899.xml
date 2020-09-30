@@ -5,7 +5,7 @@
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
@@ -14,7 +14,7 @@
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
@@ -28,8 +28,8 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
-		<magicLvl>-2</magicLvl>
-		<abnormalLvl>1</abnormalLvl>
+		<magicLevel>-2</magicLevel>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>86400</abnormalTime>
 		<abnormalVisualEffect>STEALTH</abnormalVisualEffect>
 		<targetType>TARGET</targetType>
@@ -38,14 +38,14 @@
 	<skill id="6803" toLevel="1" name="Arena Haste">
 		<!-- Increases Atk. Spd. by 33% for 5 min. -->
 		<icon>icon.skill1086</icon>
-		<abnormalLvl>2</abnormalLvl>
+		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>ATTACK_TIME_DOWN</abnormalType>
 		<blockedInOlympiad>false</blockedInOlympiad>
 		<castRange>400</castRange>
 		<effectPoint>624</effectPoint>
 		<effectRange>900</effectRange>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -63,14 +63,14 @@
 	<skill id="6804" toLevel="1" name="Arena Wind Walk">
 		<!-- Increases Speed by 33 for 5 min. -->
 		<icon>icon.skill1204</icon>
-		<abnormalLvl>2</abnormalLvl>
+		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>SPEED_UP</abnormalType>
 		<blockedInOlympiad>false</blockedInOlympiad>
 		<castRange>400</castRange>
 		<effectPoint>624</effectPoint>
 		<effectRange>900</effectRange>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -88,14 +88,14 @@
 	<skill id="6805" toLevel="1" name="Arena Empower">
 		<!-- Increases M. Atk. by 75% for 5 min. -->
 		<icon>icon.skill1059</icon>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MA_UP</abnormalType>
 		<blockedInOlympiad>false</blockedInOlympiad>
 		<castRange>400</castRange>
 		<effectPoint>624</effectPoint>
 		<effectRange>900</effectRange>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -113,14 +113,14 @@
 	<skill id="6806" toLevel="1" name="Arena Acumen">
 		<!-- Increases Casting Spd. by 30% for 5 min. -->
 		<icon>icon.skill1085</icon>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>CASTING_TIME_DOWN</abnormalType>
 		<blockedInOlympiad>false</blockedInOlympiad>
 		<castRange>400</castRange>
 		<effectPoint>624</effectPoint>
 		<effectRange>900</effectRange>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -138,14 +138,14 @@
 	<skill id="6807" toLevel="1" name="Arena Concentration">
 		<!-- Decreases magic cancel rate by 53 for 5 min. -->
 		<icon>icon.skill1078</icon>
-		<abnormalLvl>6</abnormalLvl>
+		<abnormalLevel>6</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>CANCEL_PROB_DOWN</abnormalType>
 		<blockedInOlympiad>false</blockedInOlympiad>
 		<castRange>400</castRange>
 		<effectPoint>624</effectPoint>
 		<effectRange>900</effectRange>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -163,14 +163,14 @@
 	<skill id="6808" toLevel="1" name="Arena Might">
 		<!-- Increases P. Atk. by 15% for 5 min. -->
 		<icon>icon.skill1068</icon>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>PA_UP</abnormalType>
 		<blockedInOlympiad>false</blockedInOlympiad>
 		<castRange>400</castRange>
 		<effectPoint>624</effectPoint>
 		<effectRange>900</effectRange>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -188,14 +188,14 @@
 	<skill id="6809" toLevel="1" name="Arena Guidance">
 		<!-- Increases Accuracy by 4 for 5 min. -->
 		<icon>icon.skill1240</icon>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>HIT_UP</abnormalType>
 		<blockedInOlympiad>false</blockedInOlympiad>
 		<castRange>400</castRange>
 		<effectPoint>624</effectPoint>
 		<effectRange>900</effectRange>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -213,14 +213,14 @@
 	<skill id="6810" toLevel="1" name="Arena Focus">
 		<!-- Increases critical attack rate by 30% for 5 min. -->
 		<icon>icon.skill1077</icon>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>CRITICAL_PROB_UP</abnormalType>
 		<blockedInOlympiad>false</blockedInOlympiad>
 		<castRange>400</castRange>
 		<effectPoint>624</effectPoint>
 		<effectRange>900</effectRange>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -238,14 +238,14 @@
 	<skill id="6811" toLevel="1" name="Arena Death Whisper">
 		<!-- Increases Critical Damage by 35% for 5 min. -->
 		<icon>icon.skill1242</icon>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>CRITICAL_DMG_UP</abnormalType>
 		<blockedInOlympiad>false</blockedInOlympiad>
 		<castRange>400</castRange>
 		<effectPoint>624</effectPoint>
 		<effectRange>900</effectRange>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -263,14 +263,14 @@
 	<skill id="6812" toLevel="1" name="Arena Berserker Spirit">
 		<!-- P. Def. decreases momentarily. by 8%, M. Def. by 16%, and evasion by 4, and increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and Speed by 8 for 5 min. -->
 		<icon>icon.skill1062</icon>
-		<abnormalLvl>2</abnormalLvl>
+		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>BERSERKER</abnormalType>
 		<blockedInOlympiad>false</blockedInOlympiad>
 		<castRange>400</castRange>
 		<effectPoint>624</effectPoint>
 		<effectRange>900</effectRange>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -316,7 +316,7 @@
 	<skill id="6813" toLevel="8" name="Sonic Focus">
 		<blockedInOlympiad>false</blockedInOlympiad>
 		<isTriggeredSkill>true</isTriggeredSkill>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">43</value>
 			<value level="3">49</value>
@@ -325,7 +325,7 @@
 			<value level="6">66</value>
 			<value level="7">70</value>
 			<value level="8">79</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A1</operateType> <!-- FIXME: value unconfirmed -->
 		<reuseDelay>10000</reuseDelay>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -370,7 +370,7 @@
 	</skill>
 	<skill id="6814" toLevel="8" name="Focus Force">
 		<isTriggeredSkill>true</isTriggeredSkill>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">24</value>
 			<value level="2">32</value>
 			<value level="3">40</value>
@@ -379,7 +379,7 @@
 			<value level="6">66</value>
 			<value level="7">72</value>
 			<value level="8">79</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A1</operateType> <!-- FIXME: value unconfirmed -->
 		<reuseDelay>10000</reuseDelay>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -430,7 +430,7 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">84</value>
 			<value level="2">85</value>
 			<value level="3">86</value>
@@ -447,8 +447,8 @@
 			<value level="14">97</value>
 			<value level="15">98</value>
 			<value level="16">99</value>
-		</magicLvl>
-		<abnormalLvl>10</abnormalLvl>
+		</magicLevel>
+		<abnormalLevel>10</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<trait>POISON</trait>
 		<isDebuff>true</isDebuff>
@@ -467,7 +467,7 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<lvlBonusRate>2</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">84</value>
 			<value level="2">85</value>
 			<value level="3">86</value>
@@ -484,8 +484,8 @@
 			<value level="14">97</value>
 			<value level="15">98</value>
 			<value level="16">99</value>
-		</magicLvl>
-		<abnormalLvl>10</abnormalLvl>
+		</magicLevel>
+		<abnormalLevel>10</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<trait>BLEED</trait>
 		<isDebuff>true</isDebuff>
@@ -499,7 +499,7 @@
 		<castRange>400</castRange>
 		<effectPoint>562</effectPoint>
 		<effectRange>900</effectRange>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -513,13 +513,13 @@
 		</effects>
 	</skill>
 	<skill id="6818" toLevel="1" name="Powerful Rage">
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>PA_UP</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>1500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<mpConsume>75</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>60000</reuseDelay>
@@ -560,8 +560,8 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>1400</effectRange>
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>85</magicLvl>
-		<abnormalLvl>3</abnormalLvl>
+		<magicLevel>85</magicLevel>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<affectRange>300</affectRange>
 		<hitTime>1500</hitTime>
@@ -574,12 +574,12 @@
 		<affectObject>NOT_FRIEND</affectObject>
 	</skill>
 	<skill id="6820" toLevel="1" name="P. Def. Enhance">
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>PD_UP</abnormalType>
 		<effectPoint>100</effectPoint>
 		<hitTime>1800</hitTime>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<mpConsume>30</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>60000</reuseDelay>
@@ -609,8 +609,8 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>300</effectRange>
 		<lvlBonusRate>4</lvlBonusRate>
-		<magicLvl>84</magicLvl>
-		<abnormalLvl>3</abnormalLvl>
+		<magicLevel>84</magicLevel>
+		<abnormalLevel>3</abnormalLevel>
 		<hitTime>1500</hitTime>
 		<reuseDelay>2000</reuseDelay>
 		<isDebuff>true</isDebuff>
@@ -628,8 +628,8 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>300</effectRange>
 		<lvlBonusRate>4</lvlBonusRate>
-		<magicLvl>84</magicLvl>
-		<abnormalLvl>4</abnormalLvl>
+		<magicLevel>84</magicLevel>
+		<abnormalLevel>4</abnormalLevel>
 		<abnormalTime>4</abnormalTime>
 		<hitTime>1500</hitTime>
 		<reuseDelay>2000</reuseDelay>
@@ -646,7 +646,7 @@
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<hitTime>4000</hitTime>
 		<reuseDelay>4000</reuseDelay>
@@ -660,7 +660,7 @@
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>600</effectRange>
-		<magicLvl>84</magicLvl>
+		<magicLevel>84</magicLevel>
 		<affectRange>200</affectRange>
 		<hitTime>3000</hitTime>
 		<reuseDelay>2000</reuseDelay>
@@ -684,8 +684,8 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>600</effectRange>
 		<lvlBonusRate>2</lvlBonusRate>
-		<magicLvl>84</magicLvl>
-		<abnormalLvl>9</abnormalLvl>
+		<magicLevel>84</magicLevel>
+		<abnormalLevel>9</abnormalLevel>
 		<affectRange>200</affectRange>
 		<hitTime>3000</hitTime>
 		<reuseDelay>2000</reuseDelay>
@@ -702,7 +702,7 @@
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>150</effectRange>
-		<magicLvl>84</magicLvl>
+		<magicLevel>84</magicLevel>
 		<hitTime>2000</hitTime>
 		<reuseDelay>2000</reuseDelay>
 		<castRange>40</castRange>
@@ -720,8 +720,8 @@
 		<abnormalType>TURN_STONE</abnormalType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>600</effectRange>
-		<magicLvl>84</magicLvl>
-		<abnormalLvl>1</abnormalLvl>
+		<magicLevel>84</magicLevel>
+		<abnormalLevel>1</abnormalLevel>
 		<hitTime>2500</hitTime>
 		<reuseDelay>5000</reuseDelay>
 		<isDebuff>true</isDebuff>
@@ -742,8 +742,8 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>1200</effectRange>
 		<lvlBonusRate>2</lvlBonusRate>
-		<magicLvl>84</magicLvl>
-		<abnormalLvl>3</abnormalLvl>
+		<magicLevel>84</magicLevel>
+		<abnormalLevel>3</abnormalLevel>
 		<affectRange>1000</affectRange>
 		<hitTime>3000</hitTime>
 		<isMagic>1</isMagic>
@@ -759,7 +759,7 @@
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>1200</effectRange>
-		<magicLvl>84</magicLvl>
+		<magicLevel>84</magicLevel>
 		<hitTime>1500</hitTime>
 		<reuseDelay>1500</reuseDelay>
 		<isMagic>1</isMagic>
@@ -780,8 +780,8 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>1200</effectRange>
 		<lvlBonusRate>2</lvlBonusRate>
-		<magicLvl>84</magicLvl>
-		<abnormalLvl>9</abnormalLvl>
+		<magicLevel>84</magicLevel>
+		<abnormalLevel>9</abnormalLevel>
 		<affectRange>200</affectRange>
 		<hitTime>3000</hitTime>
 		<reuseDelay>3000</reuseDelay>
@@ -798,7 +798,7 @@
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>600</effectRange>
-		<magicLvl>84</magicLvl>
+		<magicLevel>84</magicLevel>
 		<affectRange>200</affectRange>
 		<hitTime>2500</hitTime>
 		<reuseDelay>2000</reuseDelay>
@@ -811,7 +811,7 @@
 	<skill id="6832" toLevel="1" name="Summon Parasitic Leech">
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<magicLvl>84</magicLvl>
+		<magicLevel>84</magicLevel>
 		<hitTime>3000</hitTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -821,7 +821,7 @@
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>150</effectRange>
-		<magicLvl>84</magicLvl>
+		<magicLevel>84</magicLevel>
 		<hitTime>1500</hitTime>
 		<reuseDelay>5000</reuseDelay>
 		<castRange>40</castRange>
@@ -834,7 +834,7 @@
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>1200</effectRange>
-		<magicLvl>84</magicLvl>
+		<magicLevel>84</magicLevel>
 		<affectRange>1000</affectRange>
 		<hitTime>3000</hitTime>
 		<isMagic>1</isMagic>
@@ -846,7 +846,7 @@
 	<skill id="6835" toLevel="1" name="Summon Skeleton">
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<magicLvl>84</magicLvl>
+		<magicLevel>84</magicLevel>
 		<hitTime>3000</hitTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -863,8 +863,8 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>1500</effectRange>
 		<lvlBonusRate>2</lvlBonusRate>
-		<magicLvl>85</magicLvl>
-		<abnormalLvl>1</abnormalLvl>
+		<magicLevel>85</magicLevel>
+		<abnormalLevel>1</abnormalLevel>
 		<trait>DERANGEMENT</trait>
 		<hitTime>3000</hitTime>
 		<isMagic>1</isMagic>
@@ -879,7 +879,7 @@
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>1200</effectRange>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<affectRange>1000</affectRange>
 		<hitTime>3000</hitTime>
 		<isMagic>1</isMagic>
@@ -893,7 +893,7 @@
 		<effectPoint>-10000</effectPoint>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>800</effectRange>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<affectRange>200</affectRange>
 		<hitTime>4000</hitTime>
 		<castRange>600</castRange>
@@ -906,7 +906,7 @@
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>400</effectRange>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<hitTime>2500</hitTime>
 		<castRange>40</castRange>
 		<targetType>ENEMY</targetType>
@@ -924,8 +924,8 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>300</effectRange>
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>85</magicLvl>
-		<abnormalLvl>1</abnormalLvl>
+		<magicLevel>85</magicLevel>
+		<abnormalLevel>1</abnormalLevel>
 		<trait>PARALYZE</trait>
 		<affectRange>300</affectRange>
 		<hitTime>4000</hitTime>
@@ -940,7 +940,7 @@
 	<skill id="6841" toLevel="1" name="Summon Subordinate">
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<magicLvl>84</magicLvl>
+		<magicLevel>84</magicLevel>
 		<hitTime>5000</hitTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -948,10 +948,10 @@
 	<skill id="6842" toLevel="2" name="Enhance">
 		<!-- Increases P. Atk. by $s1 and Atk. Spd. by $s2. -->
 		<icon>icon.skill1086</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>CASTING_TIME_UP</abnormalType>
 		<affectRange>600</affectRange>
@@ -959,7 +959,7 @@
 		<effectPoint>100</effectPoint>
 		<hitTime>3000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<mpConsume>75</mpConsume>
 		<operateType>A2</operateType>
 		<basicProperty>MAGIC</basicProperty>
@@ -994,7 +994,7 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<lvlBonusRate>2</lvlBonusRate>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<hitTime>3000</hitTime>
 		<isMagic>1</isMagic>
@@ -1009,7 +1009,7 @@
 		<attributeType>FIRE</attributeType>
 		<attributeValue>20</attributeValue>
 		<hitTime>3000</hitTime>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<fanRange>0;0;300;60</fanRange>
@@ -1030,7 +1030,7 @@
 		<attributeType>DARK</attributeType>
 		<attributeValue>20</attributeValue>
 		<hitTime>2500</hitTime>
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1050,7 +1050,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>3000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>81</magicLvl>
+		<magicLevel>81</magicLevel>
 		<mpConsume>123</mpConsume>
 		<operateType>A1</operateType>
 		<effectPoint>-10000</effectPoint>
@@ -1069,7 +1069,7 @@
 		<mpConsume>80</mpConsume>
 		<effectPoint>546</effectPoint>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<magicLvl>81</magicLvl>
+		<magicLevel>81</magicLevel>
 		<hitTime>5000</hitTime>
 		<reuseDelay>1000</reuseDelay>
 		<isMagic>1</isMagic>
@@ -1080,7 +1080,7 @@
 		<operateType>A1</operateType>
 		<effectPoint>546</effectPoint>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<magicLvl>81</magicLvl>
+		<magicLevel>81</magicLevel>
 		<hitTime>5000</hitTime>
 		<reuseDelay>1000</reuseDelay>
 		<targetType>SELF</targetType>
@@ -1092,7 +1092,7 @@
 		<attributeType>DARK</attributeType>
 		<attributeValue>120</attributeValue>
 		<hitTime>3000</hitTime>
-		<magicLvl>82</magicLvl>
+		<magicLevel>82</magicLevel>
 		<mpConsume>100</mpConsume>
 		<operateType>A1</operateType>
 		<effectPoint>-10000</effectPoint>
@@ -1110,7 +1110,7 @@
 		<affectRange>200</affectRange>
 		<effectPoint>-10000</effectPoint>
 		<hitTime>3000</hitTime>
-		<magicLvl>81</magicLvl>
+		<magicLevel>81</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>800</effectRange>
@@ -1131,7 +1131,7 @@
 		<attributeType>DARK</attributeType>
 		<attributeValue>20</attributeValue>
 		<hitTime>3000</hitTime>
-		<magicLvl>81</magicLvl>
+		<magicLevel>81</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1152,7 +1152,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>81</magicLvl>
+		<magicLevel>81</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1167,7 +1167,7 @@
 	<skill id="6853" toLevel="1" name="Sleep">
 		<!-- Inflicts sleep for 6 sec. -->
 		<icon>icon.skill1069</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>6</abnormalTime>
 		<abnormalType>SLEEP</abnormalType>
 		<activateRate>80</activateRate>
@@ -1180,7 +1180,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>2</lvlBonusRate>
-		<magicLvl>82</magicLvl>
+		<magicLevel>82</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A2</operateType>
 		<removedOnDamage>true</removedOnDamage>
@@ -1198,7 +1198,7 @@
 	<skill id="6854" toLevel="1" name="Hold">
 		<!-- Afflicted with Hold and unable to move temporarily. -->
 		<icon>icon.skill4047</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>ROOT_MAGICALLY</abnormalType>
 		<activateRate>50</activateRate>
@@ -1211,7 +1211,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>2</lvlBonusRate>
-		<magicLvl>82</magicLvl>
+		<magicLevel>82</magicLevel>
 		<mpConsume>73</mpConsume>
 		<operateType>A2</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1231,7 +1231,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>82</magicLvl>
+		<magicLevel>82</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<targetType>ENEMY</targetType>
@@ -1247,7 +1247,7 @@
 		<effectPoint>546</effectPoint>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>900</effectRange>
-		<magicLvl>82</magicLvl>
+		<magicLevel>82</magicLevel>
 		<hitTime>2500</hitTime>
 		<reuseDelay>30000</reuseDelay>
 		<isMagic>1</isMagic>
@@ -1262,7 +1262,7 @@
 		<attributeType>DARK</attributeType>
 		<attributeValue>120</attributeValue>
 		<hitTime>2500</hitTime>
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1279,7 +1279,7 @@
 		<operateType>A1</operateType>
 		<effectPoint>546</effectPoint>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<magicLvl>81</magicLvl>
+		<magicLevel>81</magicLevel>
 		<hitTime>1000</hitTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1291,7 +1291,7 @@
 		<attributeType>DARK</attributeType>
 		<attributeValue>120</attributeValue>
 		<hitTime>2500</hitTime>
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1311,7 +1311,7 @@
 		<attributeType>DARK</attributeType>
 		<attributeValue>120</attributeValue>
 		<hitTime>2000</hitTime>
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1327,7 +1327,7 @@
 	<skill id="6861" toLevel="1" name="Enhance">
 		<!-- Increases P. Atk. by 20% and Atk. Spd. by 30%. -->
 		<icon>icon.skill1086</icon>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>CASTING_TIME_UP</abnormalType>
 		<affectRange>600</affectRange>
@@ -1335,7 +1335,7 @@
 		<effectPoint>100</effectPoint>
 		<hitTime>2000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<mpConsume>75</mpConsume>
 		<operateType>A2</operateType>
 		<basicProperty>MAGIC</basicProperty>
@@ -1360,7 +1360,7 @@
 	<skill id="6862" toLevel="1" name="Poison">
 		<!-- For 6 sec., inflicts poison and decreases 100 HP every sec. -->
 		<icon>icon.skill0129</icon>
-		<abnormalLvl>9</abnormalLvl>
+		<abnormalLevel>9</abnormalLevel>
 		<abnormalTime>6</abnormalTime>
 		<subordinationAbnormalType>POISON</subordinationAbnormalType>
 		<abnormalType>POISON</abnormalType>
@@ -1373,7 +1373,7 @@
 		<hitTime>2500</hitTime>
 		<isDebuff>true</isDebuff>
 		<lvlBonusRate>2</lvlBonusRate>
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A2</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1390,7 +1390,7 @@
 	<skill id="6863" toLevel="1" name="Poison">
 		<!-- For 10 sec., inflicts poison and decreases 120 HP every sec. -->
 		<icon>icon.skill0129</icon>
-		<abnormalLvl>10</abnormalLvl>
+		<abnormalLevel>10</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<subordinationAbnormalType>POISON</subordinationAbnormalType>
 		<abnormalType>POISON</abnormalType>
@@ -1403,7 +1403,7 @@
 		<hitTime>3000</hitTime>
 		<isDebuff>true</isDebuff>
 		<lvlBonusRate>2</lvlBonusRate>
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A2</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1423,7 +1423,7 @@
 		<operateType>A1</operateType>
 		<effectPoint>546</effectPoint>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<magicLvl>81</magicLvl>
+		<magicLevel>81</magicLevel>
 		<hitTime>1000</hitTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1431,7 +1431,7 @@
 	<skill id="6865" toLevel="1" name="Poison">
 		<!-- For 8 sec., inflicts bleed and decreases 100 HP every sec. -->
 		<icon>icon.skill0129</icon>
-		<abnormalLvl>9</abnormalLvl>
+		<abnormalLevel>9</abnormalLevel>
 		<abnormalTime>8</abnormalTime>
 		<subordinationAbnormalType>POISON</subordinationAbnormalType>
 		<abnormalType>POISON</abnormalType>
@@ -1441,7 +1441,7 @@
 		<hitTime>2500</hitTime>
 		<isDebuff>true</isDebuff>
 		<lvlBonusRate>2</lvlBonusRate>
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A2</operateType>
 		<effectPoint>-10000</effectPoint>
@@ -1465,7 +1465,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>3000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<targetType>ENEMY</targetType>
@@ -1485,7 +1485,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>3000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<affectRange>1000</affectRange>
@@ -1502,7 +1502,7 @@
 		<operateType>A1</operateType>
 		<effectPoint>546</effectPoint>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<hitTime>1000</hitTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1517,7 +1517,7 @@
 		<hitTime>3000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<isSuicideAttack>true</isSuicideAttack>
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<affectRange>1000</affectRange>
@@ -1538,7 +1538,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>2000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<mpConsume>123</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1560,7 +1560,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<mpConsume>122</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1581,7 +1581,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>5000</hitTime>
 		<isSuicideAttack>true</isSuicideAttack>
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1599,10 +1599,10 @@
 	<skill id="6873" toLevel="2" name="Hex">
 		<!-- P. Def. is decreased by $s1. -->
 		<icon>icon.skill0122</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">3</value>
 			<value level="2">4</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>4</abnormalTime>
 		<abnormalType>PD_DOWN</abnormalType>
 		<activateRate>80</activateRate>
@@ -1613,7 +1613,7 @@
 		<hitTime>1500</hitTime>
 		<isDebuff>true</isDebuff>
 		<lvlBonusRate>2</lvlBonusRate>
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<operateType>A2</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<targetType>ENEMY_ONLY</targetType>
@@ -1635,7 +1635,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>2500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>600</effectRange>
@@ -1652,7 +1652,7 @@
 	<skill id="6875" toLevel="2" name="Poison">
 		<!-- For $s1, inflicts bleed and decreases $s2 HP every sec. -->
 		<icon>icon.skill0129</icon>
-		<abnormalLvl>10</abnormalLvl>
+		<abnormalLevel>10</abnormalLevel>
 		<abnormalTime>8</abnormalTime>
 		<subordinationAbnormalType>POISON</subordinationAbnormalType>
 		<abnormalType>POISON</abnormalType>
@@ -1665,7 +1665,7 @@
 		<hitTime>2500</hitTime>
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<operateType>A2</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<lvlBonusRate>2</lvlBonusRate>
@@ -1690,7 +1690,7 @@
 		<attributeType>DARK</attributeType>
 		<attributeValue>20</attributeValue>
 		<hitTime>2000</hitTime>
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1710,7 +1710,7 @@
 		<attributeType>DARK</attributeType>
 		<attributeValue>20</attributeValue>
 		<hitTime>2000</hitTime>
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1726,7 +1726,7 @@
 	<skill id="6878" toLevel="1" name="Paralysis">
 		<!-- Paralyzed and unable to move momentarily. -->
 		<icon>icon.skill1170</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>PARALYZE</abnormalType>
 		<activateRate>30</activateRate>
@@ -1738,7 +1738,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<mpConsume>78</mpConsume>
 		<operateType>A2</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1762,7 +1762,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>3000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<targetType>ENEMY</targetType>
@@ -1777,7 +1777,7 @@
 	<skill id="6880" toLevel="1" name="Silence">
 		<!-- Magic skills are blocked. -->
 		<icon>icon.skill1064</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>SILENCE</abnormalType>
 		<activateRate>80</activateRate>
@@ -1789,7 +1789,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>2</lvlBonusRate>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<operateType>A2</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<abnormalVisualEffect>SILENCE</abnormalVisualEffect>
@@ -1807,7 +1807,7 @@
 		<attributeType>DARK</attributeType>
 		<attributeValue>20</attributeValue>
 		<hitTime>2500</hitTime>
-		<magicLvl>84</magicLvl>
+		<magicLevel>84</magicLevel>
 		<mpConsume>89</mpConsume>
 		<operateType>A1</operateType>
 		<reuseDelay>5000</reuseDelay>
@@ -1824,7 +1824,7 @@
 	<skill id="6882" toLevel="1" name="Petrify">
 		<!-- Petrified and unable to move momentarily. -->
 		<icon>icon.skill4111</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<abnormalType>TURN_STONE</abnormalType>
 		<castRange>40</castRange>
@@ -1832,7 +1832,7 @@
 		<hitTime>2500</hitTime>
 		<isDebuff>true</isDebuff>
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>84</magicLvl>
+		<magicLevel>84</magicLevel>
 		<operateType>A2</operateType>
 		<mpConsume>80</mpConsume>
 		<reuseDelay>5000</reuseDelay>
@@ -1856,7 +1856,7 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<effectRange>1200</effectRange>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<irreplacableBuff>true</irreplacableBuff>
 		<affectRange>1000</affectRange>
@@ -1877,7 +1877,7 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>2000</effectRange>
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<castRange>1600</castRange>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1888,7 +1888,7 @@
 		<abnormalTime>60</abnormalTime>
 		<blockedInOlympiad>false</blockedInOlympiad>
 		<effectPoint>100</effectPoint>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<operateType>A2</operateType>
 		<abnormalType>MORALE_UP</abnormalType>
 		<basicProperty>NONE</basicProperty>
@@ -1896,11 +1896,11 @@
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>2000</effectRange>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<affectRange>1600</affectRange>
 		<isMagic>4</isMagic>
 		<castRange>1600</castRange>
@@ -1988,7 +1988,7 @@
 		</effects>
 	</skill>
 	<skill id="6886" toLevel="1" name="Full Recovery">
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -2006,7 +2006,7 @@
 		<effectPoint>-10000</effectPoint>
 		<effectRange>400</effectRange>
 		<hitTime>3000</hitTime>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -2024,7 +2024,7 @@
 		<effectPoint>-10000</effectPoint>
 		<effectRange>2000</effectRange>
 		<hitTime>3000</hitTime>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -2043,7 +2043,7 @@
 		<castRange>40</castRange>
 		<effectRange>100</effectRange>
 		<hitTime>2000</hitTime>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A1</operateType>
 		<effectPoint>-10000</effectPoint>
@@ -2071,8 +2071,8 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>600</effectRange>
 		<lvlBonusRate>2</lvlBonusRate>
-		<magicLvl>84</magicLvl>
-		<abnormalLvl>10</abnormalLvl>
+		<magicLevel>84</magicLevel>
+		<abnormalLevel>10</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<hitTime>2000</hitTime>
 		<isMagic>1</isMagic>
@@ -2087,7 +2087,7 @@
 		<effectPoint>-10000</effectPoint>
 		<effectRange>400</effectRange>
 		<hitTime>2000</hitTime>
-		<magicLvl>84</magicLvl>
+		<magicLevel>84</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -2107,7 +2107,7 @@
 		<effectPoint>-10000</effectPoint>
 		<effectRange>2000</effectRange>
 		<hitTime>3000</hitTime>
-		<magicLvl>84</magicLvl>
+		<magicLevel>84</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -2129,7 +2129,7 @@
 		<effectPoint>-10000</effectPoint>
 		<effectRange>400</effectRange>
 		<hitTime>2000</hitTime>
-		<magicLvl>84</magicLvl>
+		<magicLevel>84</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -2149,7 +2149,7 @@
 		<effectPoint>-10000</effectPoint>
 		<effectRange>2000</effectRange>
 		<hitTime>3000</hitTime>
-		<magicLvl>84</magicLvl>
+		<magicLevel>84</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -2171,7 +2171,7 @@
 		<effectPoint>-10000</effectPoint>
 		<effectRange>400</effectRange>
 		<hitTime>2000</hitTime>
-		<magicLvl>84</magicLvl>
+		<magicLevel>84</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -2191,7 +2191,7 @@
 		<effectPoint>-10000</effectPoint>
 		<effectRange>2000</effectRange>
 		<hitTime>3000</hitTime>
-		<magicLvl>84</magicLvl>
+		<magicLevel>84</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -2232,7 +2232,7 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 		<lvlBonusRate>1</lvlBonusRate>
 		<activateRate>30</activateRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">10</value>
 			<value level="2">20</value>
 			<value level="3">30</value>
@@ -2245,8 +2245,8 @@
 			<value level="10">85</value>
 			<value level="11">90</value>
 			<value level="12">95</value>
-		</magicLvl>
-		<abnormalLvl>1</abnormalLvl>
+		</magicLevel>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<trait>SHOCK</trait>
 		<affectRange>150</affectRange>
@@ -2261,14 +2261,14 @@
 	<skill id="6898" toLevel="1" name="Raid Boss (Lv. 84)">
 		<!-- It was one of the dragons that was born out of the blood that was thrown up by Antharas. After swallowing the Ancient Drake and absorbing its power, it quickly arose as a Commander that rules over the monsters nearby. It has good hearing but its vision is very poor, so it waits in a quiet, dark place, listening to the enemy's heartbeat, before swooping in for an attack. -->
 		<icon>icon.skillraid</icon>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 	</skill>
 	<skill id="6899" toLevel="1" name="Raid Boss (Lv. 84)">
 		<!-- It was one of the dragons that was born out of the blood that was thrown up by Antharas. It swallowed up its brethren and gained a greater power. Antharas, whose heart was filled with innate cruelty and madness of a Dust Rider, appointed him as the Valley's Eradicator and commanded him to build the Tower of Corpses. -->
 		<icon>icon.skillraid</icon>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 	</skill>

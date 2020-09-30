@@ -104,7 +104,7 @@ public class Skill implements IIdentifiable
 	/** Abnormal instant, used for herbs mostly. */
 	private final boolean _isAbnormalInstant;
 	/** Abnormal level, global effect level. */
-	private final int _abnormalLvl;
+	private final int _abnormalLevel;
 	/** Abnormal type: global effect "group". */
 	private final AbnormalType _abnormalType;
 	/** Abnormal time: global effect duration time. */
@@ -234,7 +234,7 @@ public class Skill implements IIdentifiable
 		_itemConsumeId = set.getInt("itemConsumeId", 0);
 		_castRange = set.getInt("castRange", -1);
 		_effectRange = set.getInt("effectRange", -1);
-		_abnormalLvl = set.getInt("abnormalLvl", 0);
+		_abnormalLevel = set.getInt("abnormalLevel", 0);
 		_abnormalType = set.getEnum("abnormalType", AbnormalType.class, AbnormalType.NONE);
 		int abnormalTime = set.getInt("abnormalTime", 0);
 		if (Config.ENABLE_MODIFY_SKILL_DURATION && Config.SKILL_DURATION_LIST.containsKey(_id))
@@ -291,7 +291,7 @@ public class Skill implements IIdentifiable
 		_power = set.getFloat("power", 0.f);
 		_pvpPower = set.getFloat("pvpPower", (float) _power);
 		_pvePower = set.getFloat("pvePower", (float) _power);
-		_magicLevel = set.getInt("magicLvl", 0);
+		_magicLevel = set.getInt("magicLevel", 0);
 		_lvlBonusRate = set.getInt("lvlBonusRate", 0);
 		_activateRate = set.getInt("activateRate", -1);
 		_minChance = set.getInt("minChance", Config.MIN_ABNORMAL_STATE_SUCCESS_RATE);
@@ -459,9 +459,9 @@ public class Skill implements IIdentifiable
 	 * Gets the skill abnormal level.
 	 * @return the skill abnormal level
 	 */
-	public int getAbnormalLvl()
+	public int getAbnormalLevel()
 	{
-		return _abnormalLvl;
+		return _abnormalLevel;
 	}
 	
 	/**
@@ -1621,12 +1621,12 @@ public class Skill implements IIdentifiable
 	/**
 	 * Parse an extractable skill.
 	 * @param skillId the skill Id
-	 * @param skillLvl the skill level
+	 * @param skillLevel the skill level
 	 * @param values the values to parse
 	 * @return the parsed extractable skill
 	 * @author Zoey76
 	 */
-	private ExtractableSkill parseExtractableSkill(int skillId, int skillLvl, String values)
+	private ExtractableSkill parseExtractableSkill(int skillId, int skillLevel, String values)
 	{
 		final String[] prodLists = values.split(";");
 		final List<ExtractableProductItem> products = new ArrayList<>();
@@ -1636,7 +1636,7 @@ public class Skill implements IIdentifiable
 			prodData = prodList.split(",");
 			if (prodData.length < 3)
 			{
-				LOGGER.warning("Extractable skills data: Error in Skill Id: " + skillId + " Level: " + skillLvl + " -> wrong seperator!");
+				LOGGER.warning("Extractable skills data: Error in Skill Id: " + skillId + " Level: " + skillLevel + " -> wrong seperator!");
 			}
 			List<ItemHolder> items = null;
 			double chance = 0;
@@ -1650,7 +1650,7 @@ public class Skill implements IIdentifiable
 					final int quantity = Integer.parseInt(prodData[j + 1]);
 					if ((prodId <= 0) || (quantity <= 0))
 					{
-						LOGGER.warning("Extractable skills data: Error in Skill Id: " + skillId + " Level: " + skillLvl + " wrong production Id: " + prodId + " or wrond quantity: " + quantity + "!");
+						LOGGER.warning("Extractable skills data: Error in Skill Id: " + skillId + " Level: " + skillLevel + " wrong production Id: " + prodId + " or wrond quantity: " + quantity + "!");
 					}
 					items.add(new ItemHolder(prodId, quantity));
 				}
@@ -1658,16 +1658,16 @@ public class Skill implements IIdentifiable
 			}
 			catch (Exception e)
 			{
-				LOGGER.warning("Extractable skills data: Error in Skill Id: " + skillId + " Level: " + skillLvl + " -> incomplete/invalid production data or wrong seperator!");
+				LOGGER.warning("Extractable skills data: Error in Skill Id: " + skillId + " Level: " + skillLevel + " -> incomplete/invalid production data or wrong seperator!");
 			}
 			products.add(new ExtractableProductItem(items, chance));
 		}
 		
 		if (products.isEmpty())
 		{
-			LOGGER.warning("Extractable skills data: Error in Skill Id: " + skillId + " Level: " + skillLvl + " -> There are no production items!");
+			LOGGER.warning("Extractable skills data: Error in Skill Id: " + skillId + " Level: " + skillLevel + " -> There are no production items!");
 		}
-		return new ExtractableSkill(SkillData.getSkillHashCode(skillId, skillLvl), products);
+		return new ExtractableSkill(SkillData.getSkillHashCode(skillId, skillLevel), products);
 	}
 	
 	/**

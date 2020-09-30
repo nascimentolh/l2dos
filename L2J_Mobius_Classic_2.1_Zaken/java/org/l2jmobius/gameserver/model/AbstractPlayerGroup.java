@@ -68,7 +68,12 @@ public abstract class AbstractPlayerGroup
 	 */
 	public int getLeaderObjectId()
 	{
-		return getLeader().getObjectId();
+		final PlayerInstance leader = getLeader();
+		if (leader == null)
+		{
+			return 0;
+		}
+		return leader.getObjectId();
 	}
 	
 	/**

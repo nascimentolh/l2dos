@@ -3,7 +3,7 @@
 	<skill id="19113" toLevel="1" name="No Clan Return">
 		<!-- For 30 sec. prevents the chosen target from using Teleport. Needs 2 Blood Crystals. -->
 		<icon>icon.skill_recall</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>PUBLIC_SLOT</abnormalType>
 		<operateType>A2</operateType>
@@ -12,7 +12,7 @@
 		<reuseDelay>1800000</reuseDelay>
 		<effectPoint>-100</effectPoint>
 		<isDebuff>true</isDebuff>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<operateType>A2</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<targetType>ENEMY</targetType>
@@ -27,7 +27,7 @@
 	<skill id="19114" toLevel="1" name="No Clan Resurrection">
 		<!-- For 30 sec. prevents the chosen target from using Resurrection. Needs 1 Blood Crystal. -->
 		<icon>icon.skill_resurrection</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>PUBLIC_SLOT</abnormalType>
 		<operateType>A2</operateType>
@@ -38,7 +38,7 @@
 		<reuseDelay>1800000</reuseDelay>
 		<effectPoint>-100</effectPoint>
 		<isDebuff>true</isDebuff>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<operateType>A2</operateType>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<coolTime>500</coolTime>

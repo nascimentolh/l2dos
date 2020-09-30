@@ -28,7 +28,7 @@
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>37543</itemConsumeId> <!-- Snowy Squash Nectar -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>OTHERS</targetType>
@@ -56,7 +56,7 @@
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>38923</itemConsumeId> <!-- Snowy Squash Seed -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>1.5</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -79,7 +79,7 @@
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>38924</itemConsumeId> <!-- Snowy Large Squash Seed -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>1.5</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -101,8 +101,8 @@
 	<skill id="17154" toLevel="1" name="Love Potion">
 		<!-- Your body is filled with mysterious sweet energy. Your soul stands still, but your heart is beating like a hammer. For 2 min., P. Atk./ M. Atk. +15%, P. Def./ M. Def. +15%. Equipped weapon changes shape. The effect disappears upon logout. -->
 		<icon>icon.etc_whiteday_herb</icon>
-		<abnormalLvl>2</abnormalLvl>
-		<abnormalLvl>5</abnormalLvl>
+		<abnormalLevel>2</abnormalLevel>
+		<abnormalLevel>5</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>RHAPSODY</abnormalType>
 		<abnormalVisualEffect>CHANGE_VALENTINE</abnormalVisualEffect>

@@ -41,6 +41,7 @@ import org.l2jmobius.commons.util.PropertiesParser;
 import org.l2jmobius.commons.util.StringUtil;
 import org.l2jmobius.gameserver.model.entity.olympiad.OlympiadPeriod;
 import org.l2jmobius.gameserver.util.FloodProtectorConfig;
+import org.l2jmobius.gameserver.util.Util;
 import org.l2jmobius.loginserver.LoginController;
 
 public class Config
@@ -88,6 +89,8 @@ public class Config
 	private static final String BANK_CONFIG_FILE = "./config/custom/Bank.ini";
 	private static final String CANCEL_SKILL_RESTORE_BUFFS_CONFIG_FILE = "./config/custom/CancelSkillRestoreBuffs.ini";
 	private static final String CHAMPION_CONFIG_FILE = "./config/custom/Champion.ini";
+	private static final String CUSTOM_AUTO_POTIONS_CONFIG_FILE = "./config/custom/AutoPotions.ini";
+	private static final String CUSTOM_CUSTOM_MAIL_MANAGER_CONFIG_FILE = "./config/custom/CustomMailManager.ini";
 	private static final String MERCHANT_ZERO_SELL_PRICE_CONFIG_FILE = "./config/custom/MerchantZeroSellPrice.ini";
 	private static final String OFFLINE_CONFIG_FILE = "./config/custom/Offline.ini";
 	private static final String OTHER_CONFIG_FILE = "./config/custom/Other.ini";
@@ -129,6 +132,8 @@ public class Config
 	public static int TRADE_PVP_AMOUNT;
 	public static boolean GLOBAL_CHAT_WITH_PVP;
 	public static int GLOBAL_PVP_AMOUNT;
+	public static boolean LOGIN_SERVER_SCHEDULE_RESTART;
+	public static long LOGIN_SERVER_SCHEDULE_RESTART_TIME;
 	public static int MAX_CHAT_LENGTH;
 	public static boolean TRADE_CHAT_IS_NOOBLE;
 	public static boolean PRECISE_DROP_CALCULATION;
@@ -171,7 +176,7 @@ public class Config
 	public static int MAX_MONSTER_ANIMATION;
 	public static boolean ENABLE_COMMUNITY_BOARD;
 	public static String BBS_DEFAULT;
-	public static boolean SHOW_NPC_LVL;
+	public static boolean SHOW_NPC_LEVEL;
 	public static boolean SHOW_NPC_AGGRESSION;
 	public static boolean SHOW_NPC_CLAN_CREST;
 	public static int ZONE_TOWN;
@@ -438,8 +443,8 @@ public class Config
 	
 	public static boolean CHAMPION_ENABLE;
 	public static int CHAMPION_FREQUENCY;
-	public static int CHAMP_MIN_LVL;
-	public static int CHAMP_MAX_LVL;
+	public static int CHAMP_MIN_LEVEL;
+	public static int CHAMP_MAX_LEVEL;
 	public static int CHAMPION_HP;
 	public static int CHAMPION_REWARDS;
 	public static int CHAMPION_ADENAS_REWARDS;
@@ -451,6 +456,22 @@ public class Config
 	public static int CHAMPION_REWARD_QTY;
 	public static String CHAMP_TITLE;
 	public static int CHAMPION_AURA;
+	
+	public static boolean AUTO_POTIONS_ENABLED;
+	public static boolean AUTO_POTIONS_IN_OLYMPIAD;
+	public static int AUTO_POTION_MIN_LEVEL;
+	public static boolean AUTO_CP_ENABLED;
+	public static boolean AUTO_HP_ENABLED;
+	public static boolean AUTO_MP_ENABLED;
+	public static int AUTO_CP_PERCENTAGE;
+	public static int AUTO_HP_PERCENTAGE;
+	public static int AUTO_MP_PERCENTAGE;
+	public static List<Integer> AUTO_CP_ITEM_IDS;
+	public static List<Integer> AUTO_HP_ITEM_IDS;
+	public static List<Integer> AUTO_MP_ITEM_IDS;
+	
+	public static boolean CUSTOM_MAIL_MANAGER_ENABLED;
+	public static int CUSTOM_MAIL_MANAGER_DELAY;
 	
 	public static boolean MERCHANT_ZERO_SELL_PRICE;
 	
@@ -635,8 +656,8 @@ public class Config
 	public static String ADD_CHAR_TITLE;
 	public static boolean NOBLE_CUSTOM_ITEMS;
 	public static boolean HERO_CUSTOM_ITEMS;
-	public static boolean ALLOW_CREATE_LVL;
-	public static int CHAR_CREATE_LVL;
+	public static boolean ALLOW_CREATE_LEVEL;
+	public static int CHAR_CREATE_LEVEL;
 	public static boolean SPAWN_CHAR;
 	public static int SPAWN_X;
 	public static int SPAWN_Y;
@@ -753,8 +774,8 @@ public class Config
 	public static int KILLS_TO_GET_WAR_LEGEND_AURA;
 	public static boolean ANTI_FARM_ENABLED;
 	public static boolean ANTI_FARM_CLAN_ALLY_ENABLED;
-	public static boolean ANTI_FARM_LVL_DIFF_ENABLED;
-	public static int ANTI_FARM_MAX_LVL_DIFF;
+	public static boolean ANTI_FARM_LEVEL_DIFF_ENABLED;
+	public static int ANTI_FARM_MAX_LEVEL_DIFF;
 	public static boolean ANTI_FARM_PDEF_DIFF_ENABLED;
 	public static int ANTI_FARM_MAX_PDEF_DIFF;
 	public static boolean ANTI_FARM_PATK_DIFF_ENABLED;
@@ -1100,6 +1121,11 @@ public class Config
 	public static String PET_NAME_TEMPLATE;
 	public static String CLAN_NAME_TEMPLATE;
 	public static String ALLY_NAME_TEMPLATE;
+	public static boolean SERVER_RESTART_SCHEDULE_ENABLED;
+	public static boolean SERVER_RESTART_SCHEDULE_MESSAGE;
+	public static int SERVER_RESTART_SCHEDULE_COUNTDOWN;
+	public static String[] SERVER_RESTART_SCHEDULE;
+	public static List<Integer> SERVER_RESTART_DAYS;
 	
 	public static int IP_UPDATE_TIME;
 	public static boolean SHOW_LICENCE;
@@ -1189,6 +1215,18 @@ public class Config
 		PET_NAME_TEMPLATE = serverConfig.getString("PetNameTemplate", ".*");
 		CLAN_NAME_TEMPLATE = serverConfig.getString("ClanNameTemplate", ".*");
 		ALLY_NAME_TEMPLATE = serverConfig.getString("AllyNameTemplate", ".*");
+		SERVER_RESTART_SCHEDULE_ENABLED = serverConfig.getBoolean("ServerRestartScheduleEnabled", false);
+		SERVER_RESTART_SCHEDULE_MESSAGE = serverConfig.getBoolean("ServerRestartScheduleMessage", false);
+		SERVER_RESTART_SCHEDULE_COUNTDOWN = serverConfig.getInt("ServerRestartScheduleCountdown", 600);
+		SERVER_RESTART_SCHEDULE = serverConfig.getString("ServerRestartSchedule", "08:00").split(",");
+		SERVER_RESTART_DAYS = new ArrayList<>();
+		for (String day : serverConfig.getString("ServerRestartDays", "").trim().split(","))
+		{
+			if (Util.isDigit(day))
+			{
+				SERVER_RESTART_DAYS.add(Integer.parseInt(day));
+			}
+		}
 	}
 	
 	public static void loadTelnetConfig()
@@ -1483,7 +1521,7 @@ public class Config
 		MAX_NPC_ANIMATION = generalConfig.getInt("MaxNpcAnimation", 60);
 		MIN_MONSTER_ANIMATION = generalConfig.getInt("MinMonsterAnimation", 5);
 		MAX_MONSTER_ANIMATION = generalConfig.getInt("MaxMonsterAnimation", 60);
-		SHOW_NPC_LVL = generalConfig.getBoolean("ShowNpcLevel", false);
+		SHOW_NPC_LEVEL = generalConfig.getBoolean("ShowNpcLevel", false);
 		SHOW_NPC_AGGRESSION = generalConfig.getBoolean("ShowNpcAggression", false);
 		SHOW_NPC_CLAN_CREST = generalConfig.getBoolean("ShowNpcClanCrest", false);
 		FORCE_INVENTORY_UPDATE = generalConfig.getBoolean("ForceInventoryUpdate", false);
@@ -1589,8 +1627,8 @@ public class Config
 		final PropertiesParser championConfig = new PropertiesParser(CHAMPION_CONFIG_FILE);
 		CHAMPION_ENABLE = championConfig.getBoolean("ChampionEnable", false);
 		CHAMPION_FREQUENCY = championConfig.getInt("ChampionFrequency", 0);
-		CHAMP_MIN_LVL = championConfig.getInt("ChampionMinLevel", 20);
-		CHAMP_MAX_LVL = championConfig.getInt("ChampionMaxLevel", 60);
+		CHAMP_MIN_LEVEL = championConfig.getInt("ChampionMinLevel", 20);
+		CHAMP_MAX_LEVEL = championConfig.getInt("ChampionMaxLevel", 60);
 		CHAMPION_HP = championConfig.getInt("ChampionHp", 7);
 		CHAMPION_HP_REGEN = championConfig.getFloat("ChampionHpRegen", 1f);
 		CHAMPION_REWARDS = championConfig.getInt("ChampionRewards", 8);
@@ -1606,6 +1644,42 @@ public class Config
 		{
 			CHAMPION_AURA = 0;
 		}
+	}
+	
+	public static void loadAutoPotionsConfig()
+	{
+		final PropertiesParser autoPotionsConfig = new PropertiesParser(CUSTOM_AUTO_POTIONS_CONFIG_FILE);
+		AUTO_POTIONS_ENABLED = autoPotionsConfig.getBoolean("AutoPotionsEnabled", false);
+		AUTO_POTIONS_IN_OLYMPIAD = autoPotionsConfig.getBoolean("AutoPotionsInOlympiad", false);
+		AUTO_POTION_MIN_LEVEL = autoPotionsConfig.getInt("AutoPotionMinimumLevel", 1);
+		AUTO_CP_ENABLED = autoPotionsConfig.getBoolean("AutoCpEnabled", true);
+		AUTO_HP_ENABLED = autoPotionsConfig.getBoolean("AutoHpEnabled", true);
+		AUTO_MP_ENABLED = autoPotionsConfig.getBoolean("AutoMpEnabled", true);
+		AUTO_CP_PERCENTAGE = autoPotionsConfig.getInt("AutoCpPercentage", 70);
+		AUTO_HP_PERCENTAGE = autoPotionsConfig.getInt("AutoHpPercentage", 70);
+		AUTO_MP_PERCENTAGE = autoPotionsConfig.getInt("AutoMpPercentage", 70);
+		AUTO_CP_ITEM_IDS = new ArrayList<>();
+		for (String s : autoPotionsConfig.getString("AutoCpItemIds", "0").split(","))
+		{
+			AUTO_CP_ITEM_IDS.add(Integer.parseInt(s));
+		}
+		AUTO_HP_ITEM_IDS = new ArrayList<>();
+		for (String s : autoPotionsConfig.getString("AutoHpItemIds", "0").split(","))
+		{
+			AUTO_HP_ITEM_IDS.add(Integer.parseInt(s));
+		}
+		AUTO_MP_ITEM_IDS = new ArrayList<>();
+		for (String s : autoPotionsConfig.getString("AutoMpItemIds", "0").split(","))
+		{
+			AUTO_MP_ITEM_IDS.add(Integer.parseInt(s));
+		}
+	}
+	
+	public static void loadCustomMailManagerConfig()
+	{
+		final PropertiesParser customMailManagerConfig = new PropertiesParser(CUSTOM_CUSTOM_MAIL_MANAGER_CONFIG_FILE);
+		CUSTOM_MAIL_MANAGER_ENABLED = customMailManagerConfig.getBoolean("CustomMailManagerEnabled", false);
+		CUSTOM_MAIL_MANAGER_DELAY = customMailManagerConfig.getInt("DatabaseQueryDelay", 30) * 1000;
 	}
 	
 	public static void loadMerchantZeroPriceConfig()
@@ -1849,8 +1923,8 @@ public class Config
 		HERO_CUSTOM_ITEMS = customServerConfig.getBoolean("EnableHeroCustomItem", true);
 		HERO_CUSTOM_ITEM_ID = customServerConfig.getInt("HeroCustomItemId", 3481);
 		HERO_CUSTOM_DAY = customServerConfig.getLong("HeroCustomDay", 0);
-		ALLOW_CREATE_LVL = customServerConfig.getBoolean("CustomStartingLvl", false);
-		CHAR_CREATE_LVL = customServerConfig.getInt("CharLvl", 80);
+		ALLOW_CREATE_LEVEL = customServerConfig.getBoolean("CustomStartingLvl", false);
+		CHAR_CREATE_LEVEL = customServerConfig.getInt("CharLvl", 80);
 		SPAWN_CHAR = customServerConfig.getBoolean("CustomSpawn", false);
 		SPAWN_X = customServerConfig.getInt("SpawnX", 50821);
 		SPAWN_Y = customServerConfig.getInt("SpawnY", 186527);
@@ -1980,8 +2054,8 @@ public class Config
 		KILLS_TO_GET_WAR_LEGEND_AURA = pvpConfig.getInt("KillsToGetWarLegendAura", 30);
 		ANTI_FARM_ENABLED = pvpConfig.getBoolean("AntiFarmEnabled", false);
 		ANTI_FARM_CLAN_ALLY_ENABLED = pvpConfig.getBoolean("AntiFarmClanAlly", false);
-		ANTI_FARM_LVL_DIFF_ENABLED = pvpConfig.getBoolean("AntiFarmLvlDiff", false);
-		ANTI_FARM_MAX_LVL_DIFF = pvpConfig.getInt("AntiFarmMaxLvlDiff", 40);
+		ANTI_FARM_LEVEL_DIFF_ENABLED = pvpConfig.getBoolean("AntiFarmLvlDiff", false);
+		ANTI_FARM_MAX_LEVEL_DIFF = pvpConfig.getInt("AntiFarmMaxLvlDiff", 40);
 		ANTI_FARM_PDEF_DIFF_ENABLED = pvpConfig.getBoolean("AntiFarmPdefDiff", false);
 		ANTI_FARM_MAX_PDEF_DIFF = pvpConfig.getInt("AntiFarmMaxPdefDiff", 300);
 		ANTI_FARM_PATK_DIFF_ENABLED = pvpConfig.getBoolean("AntiFarmPatkDiff", false);
@@ -2825,6 +2899,8 @@ public class Config
 		MYSQL_BIN_PATH = serverSettings.getString("MySqlBinLocation", "C:/xampp/mysql/bin/");
 		BACKUP_PATH = serverSettings.getString("BackupPath", "../backup/");
 		BACKUP_DAYS = serverSettings.getInt("BackupDays", 30);
+		LOGIN_SERVER_SCHEDULE_RESTART = serverSettings.getBoolean("LoginRestartSchedule", false);
+		LOGIN_SERVER_SCHEDULE_RESTART_TIME = serverSettings.getLong("LoginRestartTime", 24);
 		SHOW_LICENCE = serverSettings.getBoolean("ShowLicence", false);
 		IP_UPDATE_TIME = serverSettings.getInt("IpUpdateTime", 15);
 		FORCE_GGAUTH = serverSettings.getBoolean("ForceGGAuth", false);
@@ -3040,6 +3116,8 @@ public class Config
 			// Custom
 			loadCancelSkillRestoreBuffsConfig();
 			loadChampionConfig();
+			loadAutoPotionsConfig();
+			loadCustomMailManagerConfig();
 			loadMerchantZeroPriceConfig();
 			loadWeddingConfig();
 			loadRebirthConfig();

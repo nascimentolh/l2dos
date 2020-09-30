@@ -87,6 +87,7 @@ import org.l2jmobius.gameserver.instancemanager.ClanHallManager;
 import org.l2jmobius.gameserver.instancemanager.ClassDamageManager;
 import org.l2jmobius.gameserver.instancemanager.CoupleManager;
 import org.l2jmobius.gameserver.instancemanager.CrownManager;
+import org.l2jmobius.gameserver.instancemanager.CustomMailManager;
 import org.l2jmobius.gameserver.instancemanager.DayNightSpawnManager;
 import org.l2jmobius.gameserver.instancemanager.DimensionalRiftManager;
 import org.l2jmobius.gameserver.instancemanager.FortManager;
@@ -101,6 +102,7 @@ import org.l2jmobius.gameserver.instancemanager.PetitionManager;
 import org.l2jmobius.gameserver.instancemanager.QuestManager;
 import org.l2jmobius.gameserver.instancemanager.RaidBossPointsManager;
 import org.l2jmobius.gameserver.instancemanager.RaidBossSpawnManager;
+import org.l2jmobius.gameserver.instancemanager.ServerRestartManager;
 import org.l2jmobius.gameserver.instancemanager.SiegeManager;
 import org.l2jmobius.gameserver.model.World;
 import org.l2jmobius.gameserver.model.entity.Announcements;
@@ -360,6 +362,11 @@ public class GameServer
 		// Schedule auto opening/closing doors.
 		DoorData.getInstance().checkAutoOpen();
 		
+		if (Config.CUSTOM_MAIL_MANAGER_ENABLED)
+		{
+			CustomMailManager.getInstance();
+		}
+		
 		Util.printSection("Scripts");
 		if (!Config.ALT_DEV_NO_SCRIPT)
 		{
@@ -457,6 +464,11 @@ public class GameServer
 		if (Config.L2WALKER_PROTECTION)
 		{
 			LOGGER.info("L2Walker protection actived.");
+		}
+		
+		if (Config.SERVER_RESTART_SCHEDULE_ENABLED)
+		{
+			ServerRestartManager.getInstance();
 		}
 		
 		System.gc();

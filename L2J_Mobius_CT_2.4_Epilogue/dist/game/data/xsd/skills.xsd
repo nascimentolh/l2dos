@@ -14,7 +14,7 @@
 					<xs:simpleType>
 						<xs:restriction base="xs:string">
 							<xs:enumeration value="abnormalInstant" />
-							<xs:enumeration value="abnormalLvl" />
+							<xs:enumeration value="abnormalLevel" />
 							<xs:enumeration value="abnormalTime" />
 							<xs:enumeration value="abnormalType" />
 							<xs:enumeration value="abnormalVisualEffect" />
@@ -68,7 +68,7 @@
 							<xs:enumeration value="learnSkillId" />
 							<xs:enumeration value="lethalStrikeRate" />
 							<xs:enumeration value="lvlBonusRate" />
-							<xs:enumeration value="magicLvl" />
+							<xs:enumeration value="magicLevel" />
 							<xs:enumeration value="minPledgeClass" />
 							<xs:enumeration value="mpConsume" />
 							<xs:enumeration value="mpInitialConsume" />
@@ -329,7 +329,6 @@
 				<xs:attribute type="xs:string" name="grade" use="optional" />
 				<xs:attribute type="xs:byte" name="VALAKAS" use="optional" />
 				<xs:attribute type="xs:string" name="isItem" use="optional" />
-				<xs:attribute type="xs:byte" name="skillLvl" use="optional" />
 				<xs:attribute type="xs:byte" name="GUST" use="optional" />
 				<xs:attribute type="xs:byte" name="BOSS" use="optional" />
 				<xs:attribute type="xs:byte" name="PHYSICAL_BLOCKADE" use="optional" />

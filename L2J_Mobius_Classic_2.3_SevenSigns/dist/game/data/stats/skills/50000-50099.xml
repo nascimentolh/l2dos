@@ -325,13 +325,13 @@
 			<value level="5">icon.skill50036_5</value>
 		</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
 			<value level="4">4</value>
 			<value level="5">5</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>-1</abnormalTime>
 		<activateRate>100</activateRate>
 		<abnormalType>FREEZING</abnormalType>
@@ -397,7 +397,7 @@
 	<skill id="50039" toLevel="1" name="Aqua Destruction">
 		<!-- 50% chance to cancel Aqua Rage. -->
 		<operateType>A2</operateType>
-		<abnormalLvl>5</abnormalLvl>
+		<abnormalLevel>5</abnormalLevel>
 		<abnormalTime>1</abnormalTime>
 		<activateRate>500</activateRate>
 		<abnormalType>FREEZING</abnormalType>
@@ -446,12 +446,12 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<mpConsume>69</mpConsume>
 		<operateType>A2</operateType>
 		<abnormalType>PARALYZE</abnormalType>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<trait>PARALYZE</trait>
 		<attributeType>DARK</attributeType>
 		<attributeValue>120</attributeValue>
@@ -538,7 +538,7 @@
 			<value level="9">icon.skill50050_9</value>
 			<value level="10">icon.skill50050_10</value>
 		</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
@@ -549,7 +549,7 @@
 			<value level="8">8</value>
 			<value level="9">9</value>
 			<value level="10">10</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>-1</abnormalTime>
 		<subordinationAbnormalType>BLEEDING</subordinationAbnormalType>
 		<abnormalType>BLEEDING</abnormalType>
@@ -587,7 +587,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">82</value>
 			<value level="2">82</value>
 			<value level="3">82</value>
@@ -598,7 +598,7 @@
 			<value level="8">82</value>
 			<value level="9">82</value>
 			<value level="10">82</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>180000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -799,7 +799,7 @@
 		<attributeValue>180</attributeValue>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<operateType>A1</operateType>
 		<reuseDelay>15000</reuseDelay>
 		<abnormalResists>TURN_FLEE;KNOCKDOWN;DEPORT;SILENCE;PARALYZE;ABSORB;DISARM;SILENCE_PHYSICAL;SILENCE_ALL;CHANGEBODY;TURN_STONE;DERANGEMENT;AIRBIND;SLEEP;OBLIVION;MIRAGE;MIRAGE_TRAP;ROOT_MAGICALLY;ROOT_PHYSICALLY;STUN;PUBLIC_SLOT</abnormalResists>
@@ -822,7 +822,7 @@
 		<hitTime>4000</hitTime>
 		<icon>icon.skill50070</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>82</magicLvl>
+		<magicLevel>82</magicLevel>
 		<mpConsume>125</mpConsume>
 		<mpInitialConsume>21</mpInitialConsume>
 		<operateType>A1</operateType>

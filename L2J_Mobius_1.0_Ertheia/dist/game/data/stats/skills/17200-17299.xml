@@ -6,11 +6,11 @@
 		<operateType>A2</operateType>
 		<itemConsumeId>37797</itemConsumeId>
 		<itemConsumeCount>1</itemConsumeCount>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>POTION_OF_PROTECTION</abnormalType>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -28,11 +28,11 @@
 		<operateType>A2</operateType>
 		<itemConsumeId>37798</itemConsumeId>
 		<itemConsumeCount>1</itemConsumeCount>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>POTION_OF_PROTECTION</abnormalType>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -50,11 +50,11 @@
 		<operateType>A2</operateType>
 		<itemConsumeId>37799</itemConsumeId>
 		<itemConsumeCount>1</itemConsumeCount>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>POTION_OF_PROTECTION</abnormalType>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -73,11 +73,11 @@
 		<operateType>A2</operateType>
 		<itemConsumeId>37800</itemConsumeId>
 		<itemConsumeCount>1</itemConsumeCount>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>POTION_OF_PROTECTION</abnormalType>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -198,7 +198,7 @@
 		<!-- Increases P. Atk. + 10%, M. Atk. + 21%, P. Def. + 15%, M. Def. + 15%, Max HP, MP, and CP + 15%, and applied time + 30 minutes. Does not disappear upon death. -->
 		<icon>icon.etc_cave_page_i00</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<abnormalType>BR_EVENT_BUF2</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
@@ -209,7 +209,7 @@
 		<itemConsumeId>37867</itemConsumeId> <!-- Valiant Scroll -->
 		<effectPoint>1</effectPoint>
 		<isMagic>4</isMagic> <!-- Item Skill -->
-		<magicLvl>-3</magicLvl>
+		<magicLevel>-3</magicLevel>
 		<basicProperty>NONE</basicProperty>
 		<trait>ETC</trait>
 		<targetType>SELF</targetType>
@@ -422,7 +422,7 @@
 	<skill id="17263" toLevel="1" name="Warrior's Quick Healing Potion">
 		<operateType>A1</operateType>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<itemConsumeId>48624</itemConsumeId>
 		<itemConsumeCount>1</itemConsumeCount>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -478,7 +478,7 @@
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>37904</itemConsumeId> <!-- Scroll: 1,000,000,000 SP -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -550,7 +550,7 @@
 		<!-- For 30 min., Max HP/MP/CP + 30%, P. Def./ M. Def. + 30%, P. Atk. + 10%, M. Atk. +20%. Cooldown is 5min. -->
 		<icon>BranchSys2.icon.br_rosalia_rose_blue_i00</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>2</abnormalLvl>
+		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -603,8 +603,8 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
-		<magicLvl>85</magicLvl>
-		<abnormalLvl>5</abnormalLvl>
+		<magicLevel>85</magicLevel>
+		<abnormalLevel>5</abnormalLevel>
 		<abnormalTime>3600</abnormalTime>
 		<irreplacableBuff>true</irreplacableBuff>
 		<isMagic>22</isMagic>
@@ -657,8 +657,8 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
-		<magicLvl>85</magicLvl>
-		<abnormalLvl>5</abnormalLvl>
+		<magicLevel>85</magicLevel>
+		<abnormalLevel>5</abnormalLevel>
 		<abnormalTime>3600</abnormalTime>
 		<irreplacableBuff>true</irreplacableBuff>
 		<isMagic>22</isMagic>
@@ -721,8 +721,8 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
-		<magicLvl>85</magicLvl>
-		<abnormalLvl>5</abnormalLvl>
+		<magicLevel>85</magicLevel>
+		<abnormalLevel>5</abnormalLevel>
 		<abnormalTime>3600</abnormalTime>
 		<irreplacableBuff>true</irreplacableBuff>
 		<isMagic>22</isMagic>
@@ -786,8 +786,8 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
-		<magicLvl>85</magicLvl>
-		<abnormalLvl>5</abnormalLvl>
+		<magicLevel>85</magicLevel>
+		<abnormalLevel>5</abnormalLevel>
 		<abnormalTime>3600</abnormalTime>
 		<isMagic>22</isMagic>
 		<reuseDelay>2000</reuseDelay>
@@ -834,8 +834,8 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
-		<magicLvl>85</magicLvl>
-		<abnormalLvl>5</abnormalLvl>
+		<magicLevel>85</magicLevel>
+		<abnormalLevel>5</abnormalLevel>
 		<abnormalTime>3600</abnormalTime>
 		<isMagic>22</isMagic>
 		<reuseDelay>2000</reuseDelay>
@@ -890,8 +890,8 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
-		<magicLvl>85</magicLvl>
-		<abnormalLvl>5</abnormalLvl>
+		<magicLevel>85</magicLevel>
+		<abnormalLevel>5</abnormalLevel>
 		<abnormalTime>3600</abnormalTime>
 		<isMagic>22</isMagic>
 		<reuseDelay>2000</reuseDelay>
@@ -963,7 +963,7 @@
 	<skill id="17297" toLevel="1" name="Emperor's Cookie: Prevailing Sonata">
 		<!-- For 1 hr., Atk. Spd. + 15%, Casting Spd. + 30%, Max HP + 30%, MP Recovery Bonus + 20%. M. Skill MP Consumption + 10%. Decreased chance of cancellation while casting. Cooldown is 1hr. Effect remains after death. -->
 		<icon>icon.etc_bm_sonata_cookie</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>BUFF_SPECIAL_AURA</abnormalType>
 		<operateType>A2</operateType>
@@ -973,7 +973,7 @@
 		<coolTime>300</coolTime>
 		<reuseDelay>3600000</reuseDelay>
 		<isMagic>22</isMagic>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<magicCriticalRate>5</magicCriticalRate>
 		<basicProperty>NONE</basicProperty>
 		<targetType>SELF</targetType>
@@ -1019,7 +1019,7 @@
 	<skill id="17298" toLevel="1" name="Emperor's Cookie: Daring Sonata">
 		<!-- For 1 hr., P. Atk. + 8%, M. Atk. + 16%, Atk. Spd. and Casting Spd. + 8%. P. Def. - 3%, M. Def. - 11%, P. Evasion - 4. Has a chance of applying 8% Vampiric Rage effect and reflect 10% of received damage to enemy. Cooldown is 1hr. Effect remains after death. -->
 		<icon>icon.etc_bm_sonata_cookie</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>ENCHANTER_MOD</abnormalType>
 		<operateType>A2</operateType>
@@ -1029,7 +1029,7 @@
 		<coolTime>300</coolTime>
 		<reuseDelay>3600000</reuseDelay>
 		<isMagic>22</isMagic>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<magicCriticalRate>5</magicCriticalRate>
 		<basicProperty>NONE</basicProperty>
 		<targetType>SELF</targetType>
@@ -1075,7 +1075,7 @@
 	<skill id="17299" toLevel="1" name="Emperor's Cookie: Refreshing Sonata">
 		<!-- For 1 hr., HP Recovery Bonus + 20%, P. Accuracy + 4, P. Evasion + 3, Speed + 20. Skill MP Consumption - 20%, Skill Cooldown - 10%. Cooldown is 1hr. Effect remains after death. -->
 		<icon>icon.etc_bm_sonata_cookie</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>SYNERGY_IS</abnormalType>
 		<operateType>A2</operateType>
@@ -1085,7 +1085,7 @@
 		<coolTime>300</coolTime>
 		<reuseDelay>3600000</reuseDelay>
 		<isMagic>22</isMagic>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<magicCriticalRate>5</magicCriticalRate>
 		<basicProperty>NONE</basicProperty>
 		<targetType>SELF</targetType>

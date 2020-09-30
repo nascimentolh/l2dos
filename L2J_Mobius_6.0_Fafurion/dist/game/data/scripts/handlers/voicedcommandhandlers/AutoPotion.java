@@ -16,32 +16,22 @@
  */
 package handlers.voicedcommandhandlers;
 
-import java.util.HashMap;
-import java.util.concurrent.Future;
-
 import org.l2jmobius.Config;
-import org.l2jmobius.commons.concurrent.ThreadPool;
 import org.l2jmobius.gameserver.handler.IVoicedCommandHandler;
 import org.l2jmobius.gameserver.model.actor.instance.PlayerInstance;
-import org.l2jmobius.gameserver.model.actor.tasks.player.AutoPotionTask;
-import org.l2jmobius.gameserver.model.events.EventType;
-import org.l2jmobius.gameserver.model.events.ListenerRegisterType;
-import org.l2jmobius.gameserver.model.events.annotations.RegisterEvent;
-import org.l2jmobius.gameserver.model.events.annotations.RegisterType;
-import org.l2jmobius.gameserver.model.events.impl.creature.player.OnPlayerLogout;
+import org.l2jmobius.gameserver.taskmanager.AutoPotionTaskManager;
 
 /**
- * @author Gigi, Mobius
+ * @author Mobius, Gigi
  */
 public class AutoPotion implements IVoicedCommandHandler
 {
-	private static final HashMap<Integer, Future<?>> AUTO_POTION_TASKS = new HashMap<>();
-	private static final int POTION_TASK_DELAY = 1000; // 1 second
-	
 	private static final String[] VOICED_COMMANDS =
 	{
 		"apon",
-		"apoff"
+		"apoff",
+		"potionon",
+		"potionoff"
 	};
 	
 	@Override
@@ -51,46 +41,31 @@ public class AutoPotion implements IVoicedCommandHandler
 		{
 			return false;
 		}
-		if (activeChar.getLevel() < Config.AUTO_POTION_MIN_LVL)
+		if (activeChar.getLevel() < Config.AUTO_POTION_MIN_LEVEL)
 		{
-			activeChar.sendMessage("You need to be at least " + Config.AUTO_POTION_MIN_LVL + " to use auto potions.");
+			activeChar.sendMessage("You need to be at least " + Config.AUTO_POTION_MIN_LEVEL + " to use auto potions.");
 			return false;
 		}
 		
-		final int playerOID = activeChar.getObjectId();
-		if (command.equals("apon"))
+		switch (command)
 		{
-			if (AUTO_POTION_TASKS.containsKey(playerOID))
+			case "apon":
+			case "potionon":
 			{
-				AUTO_POTION_TASKS.get(playerOID).cancel(true);
-				AUTO_POTION_TASKS.remove(playerOID);
+				AutoPotionTaskManager.getInstance().add(activeChar);
+				activeChar.sendMessage("Auto potions is enabled.");
+				break;
 			}
-			AUTO_POTION_TASKS.put(activeChar.getObjectId(), ThreadPool.scheduleAtFixedRate(new AutoPotionTask(activeChar), POTION_TASK_DELAY, POTION_TASK_DELAY));
-			activeChar.sendMessage("Auto potions is enabled.");
-			return true;
-		}
-		else if (command.equals("apoff"))
-		{
-			if (AUTO_POTION_TASKS.containsKey(playerOID))
+			case "apoff":
+			case "potionoff":
 			{
-				AUTO_POTION_TASKS.get(playerOID).cancel(true);
-				AUTO_POTION_TASKS.remove(playerOID);
+				AutoPotionTaskManager.getInstance().remove(activeChar);
+				activeChar.sendMessage("Auto potions is disabled.");
+				break;
 			}
-			activeChar.sendMessage("Auto potions is disabled.");
 		}
-		return false;
-	}
-	
-	@RegisterEvent(EventType.ON_PLAYER_LOGOUT)
-	@RegisterType(ListenerRegisterType.GLOBAL)
-	public void OnPlayerLogout(OnPlayerLogout event)
-	{
-		final int playerOID = event.getPlayer().getObjectId();
-		if (AUTO_POTION_TASKS.containsKey(playerOID))
-		{
-			AUTO_POTION_TASKS.get(playerOID).cancel(true);
-			AUTO_POTION_TASKS.remove(playerOID);
-		}
+		
+		return true;
 	}
 	
 	@Override

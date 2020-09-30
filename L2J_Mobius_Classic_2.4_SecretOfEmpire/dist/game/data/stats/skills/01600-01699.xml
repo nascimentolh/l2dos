@@ -3,7 +3,7 @@
 	<skill id="1600" toLevel="1" name="Soul Instinct">
 		<!-- For 15 sec., P. Atk., P. Critical Rate, M. Atk., and M. Critical Rate +50%, Atk. Spd. and Casting Spd. +20%. -->
 		<icon>icon.skill1600</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>INSTINCT</abnormalType>
 		<affectRange>600</affectRange>
@@ -14,7 +14,7 @@
 		<effectPoint>549</effectPoint>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<isMagic>1</isMagic>
 		<staticReuse>true</staticReuse>
 		<targetType>SELF</targetType>
@@ -75,20 +75,20 @@
 	<skill id="1605" toLevel="3" name="Dual Weapon Defense">
 		<!-- For $s1 P. Atk Evasion Rate +$s2. Requires a dual sword. -->
 		<icon>icon.skill1605</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<effectPoint>268</effectPoint>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>AVOID_SKILL</abnormalType>
 		<hitTime>1000</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">41</value>
 			<value level="2">54</value>
 			<value level="3">67</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">15</value>
 			<value level="2">18</value>
@@ -121,7 +121,7 @@
 	<skill id="1606" toLevel="10" name="Quick Spear">
 		<!-- Attacks the enemy with $s1 Power added to P. Atk., inflicting Stun for $s2. Range 300. Requires a spear. Ignores Shield Defense. Over-hit. -->
 		<icon>icon.skill1606</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -145,7 +145,7 @@
 			<value level="10">-272</value>
 		</effectPoint>
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">42</value>
 			<value level="2">46</value>
 			<value level="3">50</value>
@@ -156,7 +156,7 @@
 			<value level="8">70</value>
 			<value level="9">74</value>
 			<value level="10">78</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">63</value>
 			<value level="2">70</value>
@@ -264,7 +264,7 @@
 		</effectPoint>
 		<effectRange>400</effectRange>
 		<hitTime>1900</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">40</value>
 			<value level="3">40</value>
@@ -310,7 +310,7 @@
 			<value level="43">82</value>
 			<value level="44">83</value>
 			<value level="45">84</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">42</value>
 			<value level="2">43</value>
@@ -429,10 +429,10 @@
 	<skill id="1608" toLevel="2" name="Immortal Life">
 		<!-- For 5 sec., HP doesn't drop below 1. Additionally recovers 20% HP if the effect of Immortality ends. -->
 		<icon>icon.skill1608</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>RESIST_DEATH</abnormalType>
 		<operateType>A2</operateType>
@@ -464,12 +464,12 @@
 	<skill id="1609" toLevel="4" name="Sword Expert">
 		<!-- P. Atk. +$s1, P. Accuracy +$s2. Atk. Spd. +$s3 when using a sword/ two-handed sword. Continuously consumes MP proportionately to your level. -->
 		<icon>icon.skill1609</icon>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">58</value>
 			<value level="3">70</value>
 			<value level="4">82</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>1</mpConsume>
 		<operateType>T</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -515,7 +515,7 @@
 	<skill id="1610" toLevel="29" name="Life Rescue">
 		<!-- For $s1 restores $s2 HP of the target each sec. -->
 		<icon>icon.skill1610</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
@@ -545,14 +545,14 @@
 			<value level="27">27</value>
 			<value level="28">28</value>
 			<value level="29">29</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>LIFE_FORCE_ORC</abnormalType>
 		<affectLimit>50-50</affectLimit>
 		<affectRange>1000</affectRange>
 		<hitTime>3500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">20</value>
 			<value level="2">22</value>
 			<value level="3">26</value>
@@ -582,7 +582,7 @@
 			<value level="27">82</value>
 			<value level="28">83</value>
 			<value level="29">84</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">32</value>
 			<value level="2">39</value>
@@ -724,7 +724,7 @@
 	<skill id="1612" toLevel="1" name="Slowing Power">
 		<!-- Speed -20% for 15 sec. -->
 		<icon>icon.skill0210</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<activateRate>80</activateRate>
 		<basicProperty>PHYSICAL</basicProperty>
@@ -735,7 +735,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>0</isMagic>
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>1000</reuseDelay>
 		<isTriggeredSkill>true</isTriggeredSkill>
@@ -752,7 +752,7 @@
 	<skill id="1613" toLevel="11" name="Body Impale">
 		<!-- Attacks the enemy with $s1 Power added to P. Atk., inflicts Stun for $s2 and dispels $s3 buff(s) from a stunned target. Requires a blunt weapon. Ignores Shield Defense. Over-hit. -->
 		<icon>icon.skill1613</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -761,7 +761,7 @@
 		<castRange>40</castRange>
 		<hitTime>1200</hitTime>
 		<effectPoint>-183</effectPoint>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">42</value>
 			<value level="2">46</value>
 			<value level="3">50</value>
@@ -773,7 +773,7 @@
 			<value level="9">74</value>
 			<value level="10">78</value>
 			<value level="11">82</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">43</value>
@@ -840,19 +840,19 @@
 		<coolTime>500</coolTime>
 		<hitTime>2000</hitTime>
 		<effectPoint>467</effectPoint>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">42</value>
 			<value level="2">52</value>
 			<value level="3">62</value>
 			<value level="4">82</value> <!-- FIXME: AUTO GENERATED LEVEL -->
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">12</value>
 			<value level="2">15</value>
 			<value level="3">18</value>
 			<value level="4">36</value>
 		</mpConsume>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
@@ -927,7 +927,7 @@
 		<operateType>A2</operateType>
 		<effectPoint>-190</effectPoint>
 		<isTriggeredSkill>true</isTriggeredSkill>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<activateRate>-1</activateRate>
 		<castRange>600</castRange>
@@ -960,19 +960,19 @@
 		<coolTime>500</coolTime>
 		<hitTime>2000</hitTime>
 		<effectPoint>379</effectPoint>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">44</value>
 			<value level="2">56</value>
 			<value level="3">64</value>
 			<value level="4">80</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">12</value>
 			<value level="2">15</value>
 			<value level="3">18</value>
 			<value level="4">36</value>
 		</mpConsume>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<operateType>A2</operateType>
 		<isMagic>0</isMagic>
@@ -1033,12 +1033,12 @@
 		<!-- Restores the target's HP with $s1 Power. -->
 		<icon>icon.skill0045</icon>
 		<reuseDelay>5000</reuseDelay>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">44</value>
 			<value level="2">56</value>
 			<value level="3">64</value>
 			<value level="4">80</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A1</operateType>
 		<effectPoint>204</effectPoint>
 		<targetType>SELF</targetType>
@@ -1067,13 +1067,13 @@
 	<skill id="1621" toLevel="5" name="Shield of Sacrifice">
 		<!-- Sacrifices itself, decreasing Max HP by $s1. For party members P. Def. +$s3, M. Def. +$s4, Received Healing +$s1 for $s2 Requires a shield. -->
 		<icon>icon.skill1621</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
 			<value level="4">4</value>
 			<value level="5">5</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>180</abnormalTime>
 		<abnormalType>SHIELD_PROB_UP</abnormalType>
 		<affectRange>900</affectRange>
@@ -1085,13 +1085,13 @@
 			<value level="5">850</value>
 		</effectPoint>
 		<hitTime>2000</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">80</value>
 			<value level="2">81</value>
 			<value level="3">82</value>
 			<value level="4">83</value>
 			<value level="5">84</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">45</value>
@@ -1145,10 +1145,10 @@
 	<skill id="1622" toLevel="1" name="Blood of Sacrifice">
 		<!-- Sacrifices, decreasing Max HP by 20%. -->
 		<icon>icon.skill1621</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>180</abnormalTime>
 		<isMagic>4</isMagic>
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<operateType>A2</operateType>
 		<activateRate>-1</activateRate>
 		<effectPoint>1</effectPoint>
@@ -1166,7 +1166,7 @@
 	<skill id="1623" toLevel="5" name="Eva's Protection">
 		<!-- Party members' P. Def. +$s2, M. Def. +$s3 Speed +$s4 for $s1 Requires a shield. -->
 		<icon>icon.skill1623</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>180</abnormalTime>
 		<effectPoint>
 			<value level="1">835</value>
@@ -1178,13 +1178,13 @@
 		<effectRange>900</effectRange>
 		<hitTime>2000</hitTime>
 		<isMagic>1</isMagic>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">80</value>
 			<value level="2">81</value>
 			<value level="3">82</value>
 			<value level="4">83</value>
 			<value level="5">84</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">114</value>
 			<value level="2">116</value>
@@ -1238,12 +1238,12 @@
 	<skill id="1624" toLevel="4" name="Indestructible Sound">
 		<!-- Using Momentum, throws a powerful strike with a sword, blocking the target for $s1 Damage received by the target -$s2, blocks target's movements and skill usage. Requires a dual sword. Requires Momentum level 5. -->
 		<icon>icon.skill1624</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">10</value>
 			<value level="2">11</value>
 			<value level="3">12</value>
 			<value level="4">13</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>
 			<value level="1">10</value>
 			<value level="2">12</value>
@@ -1265,12 +1265,12 @@
 		<isMagic>0</isMagic>
 		<lvlBonusRate>20</lvlBonusRate>
 		<operateType>A2</operateType>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">78</value>
 			<value level="2">80</value>
 			<value level="3">82</value>
 			<value level="4">84</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">120</value>
 			<value level="2">130</value>
@@ -1336,7 +1336,7 @@
 	<skill id="1625" toLevel="1" name="Throwing Spear">
 		<!-- Throws a spear at the enemy with 801 Power added to P. Atk., inflicting Immobilize for 10 sec. Range 300. Requires a spear. Ignores Shield Defense. Over-hit. -->
 		<icon>icon.skill1625</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>ROOT_PHYSICALLY</abnormalType>
 		<abnormalVisualEffect>ROOT</abnormalVisualEffect>
@@ -1350,7 +1350,7 @@
 		<isDebuff>true</isDebuff>
 		<lvlBonusRate>20</lvlBonusRate>
 		<mpConsume>63</mpConsume>
-		<magicLvl>78</magicLvl>
+		<magicLevel>78</magicLevel>
 		<nextAction>ATTACK</nextAction>
 		<operateType>A2</operateType>
 		<reuseDelay>10000</reuseDelay>
@@ -1381,7 +1381,7 @@
 		<hitTime>1000</hitTime>
 		<isDebuff>true</isDebuff>
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<mpConsume>67</mpConsume>
 		<operateType>A1</operateType>
 		<coolTime>500</coolTime>
@@ -1413,7 +1413,7 @@
 	<skill id="1627" toLevel="1" name="Destroyer's Roar">
 		<!-- Inflicts Fear on nearby enemies and their Speed -90%. Requires a sword/ blunt weapon/ two-handed sword. -->
 		<icon>icon.skill1627</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>7</abnormalTime>
 		<abnormalType>TURN_FLEE</abnormalType>
 		<abnormalVisualEffect>TURN_FLEE</abnormalVisualEffect>
@@ -1430,7 +1430,7 @@
 		<trait>DERANGEMENT</trait>
 		<affectLimit>10-10</affectLimit>
 		<affectRange>200</affectRange>
-		<magicLvl>77</magicLvl>
+		<magicLevel>77</magicLevel>
 		<mpConsume>57</mpConsume>
 		<reuseDelay>60000</reuseDelay>
 		<targetType>SELF</targetType>
@@ -1456,12 +1456,12 @@
 	<skill id="1628" toLevel="4" name="Broad Sweep">
 		<!-- For $s1 the number of attacking enemies +$s2. Requires a sword/ two-handed sword. -->
 		<icon>icon.skill1628</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
 			<value level="4">4</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>
 			<value level="1">300</value>
 			<value level="2">600</value>
@@ -1479,12 +1479,12 @@
 		</effectPoint>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>400</effectRange>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">76</value>
 			<value level="2">78</value>
 			<value level="3">80</value>
 			<value level="4">82</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">34</value>
 			<value level="2">41</value>
@@ -1512,7 +1512,7 @@
 	<skill id="1629" toLevel="1" name="Throw Dagger in Wrist">
 		<!-- Throw Dagger in Wrist Throws a dagger at the enemy with $s1 Power added to P. Atk., and injures their wrist. Due to the wound, for $s2 there's a certain probability to interrupt target's skill casting. Requires a dagger. -->
 		<icon>icon.skill1629</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<activateRate>80</activateRate>
 		<lvlBonusRate>20</lvlBonusRate>
@@ -1520,7 +1520,7 @@
 		<effectRange>900</effectRange>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>76</magicLvl>
+		<magicLevel>76</magicLevel>
 		<mpConsume>60</mpConsume>
 		<nextAction>ATTACK</nextAction>
 		<castRange>800</castRange>
@@ -1552,7 +1552,7 @@
 	<skill id="1630" toLevel="9" name="Throwing Blood Dagger">
 		<!-- Throws a dagger at an enemy with $s1 Power added to P. Atk. For $s2, with a certain probability, decreases target's HP when it tries to use skills. Requires a dagger. Over-hit. -->
 		<icon>icon.skill1630</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>20</abnormalTime>
 		<abnormalType>CRITICAL_PROB_UP</abnormalType>
 		<activateRate>80</activateRate>
@@ -1561,7 +1561,7 @@
 		<effectRange>900</effectRange>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>76</magicLvl>
+		<magicLevel>76</magicLevel>
 		<mpConsume>60</mpConsume>
 		<nextAction>ATTACK</nextAction>
 		<castRange>800</castRange>
@@ -1602,7 +1602,7 @@
 		<coolTime>500</coolTime>
 		<effectPoint>669</effectPoint>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>77</magicLvl>
+		<magicLevel>77</magicLevel>
 		<mpConsume>80</mpConsume>
 		<hitTime>1000</hitTime>
 		<targetType>SELF</targetType>
@@ -1662,7 +1662,7 @@
 		<activateRate>80</activateRate>
 		<basicProperty>PHYSICAL</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">76</value>
 			<value level="2">77</value>
 			<value level="3">78</value>
@@ -1672,8 +1672,8 @@
 			<value level="7">78</value>
 			<value level="8">78</value>
 			<value level="9">78</value>
-		</magicLvl>
-		<abnormalLvl>3</abnormalLvl>
+		</magicLevel>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<isMagic>0</isMagic>
 		<targetType>ENEMY</targetType>

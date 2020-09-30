@@ -437,7 +437,7 @@
 		<icon>icon.skill30505</icon>
 		<affectLimit>5-12</affectLimit>
 		<abnormalTime>1</abnormalTime>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<activateRate>80</activateRate> <!-- Guessed -->
 		<affectRange>400</affectRange>
 		<affectLimit>10-10</affectLimit>
@@ -445,7 +445,7 @@
 		<effectPoint>-687</effectPoint>
 		<effectRange>400</effectRange>
 		<isDebuff>true</isDebuff>
-		<magicLvl>107</magicLvl>
+		<magicLevel>107</magicLevel>
 		<mpConsume>165</mpConsume>
 		<operateType>A1</operateType>
 		<coolTime>500</coolTime>
@@ -478,7 +478,7 @@
 	<skill id="16843" toLevel="1" name="Spallation">
 		<!-- Forms a circular area which nullifies attack flown from afar and debuff attacks for 30 sec. -->
 		<icon>icon.skill30515</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">30</value>
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1010">{base + subIndex}</value>
@@ -748,7 +748,7 @@
 		<castRange>100</castRange>
 		<effectRange>400</effectRange>
 		<affectLimit>5-12</affectLimit>
-		<magicLvl>104</magicLvl>
+		<magicLevel>104</magicLevel>
 		<fanRange>0;0;300;100</fanRange>
 		<hitTime>1500</hitTime>
 		<coolTime>400</coolTime>
@@ -773,7 +773,7 @@
 		<abnormalType>BLEEDING</abnormalType>
 		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
 		<activateRate>120</activateRate>
-		<magicLvl>104</magicLvl>
+		<magicLevel>104</magicLevel>
 		<fanRange>0;0;300;100</fanRange>
 		<hitTime>1500</hitTime>
 		<coolTime>400</coolTime>
@@ -798,7 +798,7 @@
 	<skill id="16869" toLevel="1" name="Horseshoe Tramping">
 		<!-- Uses the front feet of the holy beast to kick and know down enemies in front. -->
 		<icon>icon.skill16869</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1</abnormalTime>
 		<abnormalType>KNOCKDOWN</abnormalType>
 		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
@@ -806,7 +806,7 @@
 		<affectRange>150</affectRange>
 		<activateRate>120</activateRate>
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>104</magicLvl>
+		<magicLevel>104</magicLevel>
 		<castRange>100</castRange>
 		<effectRange>400</effectRange>
 		<hitTime>1500</hitTime>
@@ -833,13 +833,13 @@
 	<skill id="16870" toLevel="1" name="Gigantic Horse Kick">
 		<!-- Uses the hind feet of the holy beast to kick away the enemies in the back. -->
 		<icon>icon.skill16870</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<abnormalType>FLY_AWAY</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
 		<affectRange>1500</affectRange>
 		<fanRange>0;180;1500;400</fanRange>
-		<magicLvl>104</magicLvl>
+		<magicLevel>104</magicLevel>
 		<castRange>300</castRange>
 		<effectRange>700</effectRange>
 		<hitTime>1500</hitTime>

@@ -3,7 +3,7 @@
 	<skill id="19503" toLevel="1" name="Crier's Harmony">
 		<!-- For 30 minutes, selected party member's P. Atk. +22%, M. Atk. +40%, P. Critical Rate/ M. Critical Rate +100%, P. Critical Damage +70%, and Atk. Spd./ Casting Spd. +15%, and Skill Cooldown -20% and Skill MP Consumption -15%. -->
 		<icon>icon.skill19503</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>BUFF_SPECIAL_CLASS</abnormalType>
 		<operateType>A2</operateType>
@@ -14,7 +14,7 @@
 		<coolTime>300</coolTime>
 		<reuseDelay>2000</reuseDelay>
 		<isMagic>22</isMagic>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<effectPoint>687</effectPoint>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -96,7 +96,7 @@
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<isDebuff>true</isDebuff>
 		<effectPoint>-1371</effectPoint>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<abnormalType>TURN_FLEE</abnormalType>
 		<abnormalVisualEffect>PSY_POWER</abnormalVisualEffect>
@@ -130,7 +130,7 @@
 		<operateType>A1</operateType>
 		<effectPoint>687</effectPoint>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
@@ -156,12 +156,12 @@
 		<effectPoint>687</effectPoint>
 		<mpConsume>140</mpConsume>
 		<affectRange>1000</affectRange>
-		<abnormalLvl>5</abnormalLvl>
+		<abnormalLevel>5</abnormalLevel>
 		<abnormalType>ARMOR_ELEMENT_ALL</abnormalType>
 		<abnormalTime>1800</abnormalTime>
 		<mpInitialConsume>28</mpInitialConsume>
 		<isMagic>22</isMagic>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<itemConsumeCount>50</itemConsumeCount>
@@ -207,12 +207,12 @@
 		<effectPoint>687</effectPoint>
 		<mpConsume>140</mpConsume>
 		<affectRange>1000</affectRange>
-		<abnormalLvl>5</abnormalLvl>
+		<abnormalLevel>5</abnormalLevel>
 		<abnormalType>ARMOR_HOLY</abnormalType>
 		<abnormalTime>1800</abnormalTime>
 		<mpInitialConsume>28</mpInitialConsume>
 		<isMagic>22</isMagic>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<itemConsumeCount>50</itemConsumeCount>
@@ -254,12 +254,12 @@
 		<effectPoint>687</effectPoint>
 		<mpConsume>140</mpConsume>
 		<affectRange>1000</affectRange>
-		<abnormalLvl>5</abnormalLvl>
+		<abnormalLevel>5</abnormalLevel>
 		<abnormalType>RESIST_DERANGEMENT</abnormalType>
 		<abnormalTime>1800</abnormalTime>
 		<mpInitialConsume>28</mpInitialConsume>
 		<isMagic>22</isMagic>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<itemConsumeCount>50</itemConsumeCount>
@@ -296,7 +296,7 @@
 		<!-- Attacks the target with $s1 Power added to P. Atk., decreases P. Def/ M. Def by $s3 and Speed by $s4 for $s2, and moves $s5 back. Can be cast by consuming Triad. -->
 		<icon>icon.skill19434</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
@@ -308,12 +308,12 @@
 			<value level="9">9</value>
 			<value level="10">10</value>
 			<value level="11">11</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>8</abnormalTime>
 		<abnormalType>ULTIMATE_DEBUFF</abnormalType>
 		<activateRate>100</activateRate>
 		<effectRange>400</effectRange>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">86</value>
 			<value level="3">88</value>
@@ -325,7 +325,7 @@
 			<value level="9">101</value>
 			<value level="10">103</value>
 			<value level="11">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">130</value>
 			<value level="2">132</value>
@@ -397,7 +397,7 @@
 	<skill id="19526" toLevel="3" name="Limit of Sigel">
 		<!-- Decreases the duration of Protection of Faith/ Party Rescue by $s2 if it is shorter than $s1. -->
 		<icon>icon.skill10019</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<canBeDispelled>false</canBeDispelled>
 		<isDebuff>true</isDebuff>
@@ -411,7 +411,7 @@
 	<skill id="19527" toLevel="3" name="Limit of Iss">
 		<!-- Decreases the duration of Battle Rhapsody/ Overlord's Dignity by $s2 if it is shorter than $s1. -->
 		<icon>icon.skill11544</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<canBeDispelled>false</canBeDispelled>
 		<isDebuff>true</isDebuff>
@@ -428,7 +428,7 @@
 		<operateType>A2</operateType>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<isDebuff>true</isDebuff>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">2</value>
 			<value level="2">3</value>
 			<value level="3">4</value>
@@ -436,7 +436,7 @@
 			<value level="5">6</value>
 			<value level="6">7</value>
 			<value level="7">8</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -476,8 +476,8 @@
 		<effectPoint>687</effectPoint>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>89</magicLvl>
-		<abnormalLvl>5</abnormalLvl>
+		<magicLevel>89</magicLevel>
+		<abnormalLevel>5</abnormalLevel>
 		<reuseDelay>600000</reuseDelay>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
@@ -1042,7 +1042,7 @@
 		<coolTime>500</coolTime>
 		<effectPoint>100</effectPoint>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<staticReuse>true</staticReuse>
 		<reuseDelay>1800000</reuseDelay>
 		<targetType>SELF</targetType>
@@ -1070,7 +1070,7 @@
 		<coolTime>500</coolTime>
 		<effectPoint>100</effectPoint>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<staticReuse>true</staticReuse>
 		<reuseDelay>1800000</reuseDelay>
 		<targetType>SELF</targetType>
@@ -1098,7 +1098,7 @@
 		<coolTime>500</coolTime>
 		<effectPoint>100</effectPoint>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<staticReuse>true</staticReuse>
 		<reuseDelay>1800000</reuseDelay>
 		<targetType>SELF</targetType>
@@ -1126,7 +1126,7 @@
 		<coolTime>500</coolTime>
 		<effectPoint>100</effectPoint>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<staticReuse>true</staticReuse>
 		<reuseDelay>1800000</reuseDelay>
 		<targetType>SELF</targetType>
@@ -1149,9 +1149,9 @@
 	<skill id="19551" toLevel="1" name="Superior Summon Mastery">
 		<!-- Allows summoning a Servitor when summon points are below 2. -->
 		<icon>icon.skill11254</icon>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
@@ -1167,7 +1167,7 @@
 	<skill id="19552" toLevel="9" name="Burning Chain Rash">
 		<!-- Wields the Burning Chain to draw nearby enemies with $s1 Power added to P. Atk. and draw them to you. Also puts them into the Ignite state for $s2. Requires a sword/ blunt to be equipped. Over-hit. Critical. -->
 		<icon>icon.skill19556</icon>
-		<abnormalLvl>5</abnormalLvl>
+		<abnormalLevel>5</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<activateRate>80</activateRate>
@@ -1178,7 +1178,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<trait>PULL</trait>
 		<isDebuff>true</isDebuff>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">86</value>
 			<value level="3">88</value>
@@ -1188,7 +1188,7 @@
 			<value level="7">96</value>
 			<value level="8">98</value>
 			<value level="9">101</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<castRange>600</castRange>
 		<mpConsume>
@@ -1246,7 +1246,7 @@
 		<icon>icon.skill19553</icon>
 		<affectLimit>5-12</affectLimit>
 		<abnormalTime>1</abnormalTime>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<activateRate>60</activateRate>
 		<affectRange>400</affectRange>
 		<affectLimit>10-10</affectLimit>
@@ -1254,13 +1254,13 @@
 		<effectPoint>-5000</effectPoint>
 		<effectRange>400</effectRange>
 		<isDebuff>true</isDebuff>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">95</value>
 			<value level="2">98</value>
 			<value level="3">101</value>
 			<value level="4">103</value>
 			<value level="5">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">40</value>
 			<value level="2">44</value>
@@ -1313,7 +1313,7 @@
 		<icon>icon.skill19553</icon>
 		<affectLimit>5-12</affectLimit>
 		<abnormalTime>1</abnormalTime>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<activateRate>60</activateRate>
 		<affectRange>400</affectRange>
 		<affectLimit>10-10</affectLimit>
@@ -1321,13 +1321,13 @@
 		<effectPoint>-5000</effectPoint>
 		<effectRange>400</effectRange>
 		<isDebuff>true</isDebuff>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">95</value>
 			<value level="2">98</value>
 			<value level="3">101</value>
 			<value level="4">103</value>
 			<value level="5">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">40</value>
 			<value level="2">44</value>
@@ -1380,7 +1380,7 @@
 		<icon>icon.skill19554</icon>
 		<affectLimit>5-12</affectLimit>
 		<abnormalTime>1</abnormalTime>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<activateRate>60</activateRate>
 		<affectRange>400</affectRange>
 		<affectLimit>10-10</affectLimit>
@@ -1388,13 +1388,13 @@
 		<effectPoint>-5000</effectPoint>
 		<effectRange>400</effectRange>
 		<isDebuff>true</isDebuff>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">95</value>
 			<value level="2">98</value>
 			<value level="3">101</value>
 			<value level="4">103</value>
 			<value level="5">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">40</value>
 			<value level="2">44</value>
@@ -1447,13 +1447,13 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<trait>PULL</trait>
 		<isDebuff>true</isDebuff>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">95</value>
 			<value level="2">98</value>
 			<value level="3">101</value>
 			<value level="4">103</value>
 			<value level="5">105</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<mpConsume>
 			<value level="1">40</value>
@@ -1507,13 +1507,13 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<trait>PULL</trait>
 		<isDebuff>true</isDebuff>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">95</value>
 			<value level="2">98</value>
 			<value level="3">101</value>
 			<value level="4">103</value>
 			<value level="5">105</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<mpConsume>
 			<value level="1">40</value>
@@ -1562,13 +1562,13 @@
 		<basicProperty>PHYSICAL</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<isDebuff>true</isDebuff>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">95</value>
 			<value level="2">98</value>
 			<value level="3">101</value>
 			<value level="4">103</value>
 			<value level="5">105</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<mpConsume>
 			<value level="1">40</value>
@@ -1626,7 +1626,7 @@
 		<icon>icon.skill19557</icon>
 		<affectLimit>5-12</affectLimit>
 		<abnormalTime>1</abnormalTime>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<activateRate>60</activateRate>
 		<nextAction>ATTACK</nextAction>
 		<affectRange>600</affectRange>
@@ -1635,7 +1635,7 @@
 		<effectPoint>-5000</effectPoint>
 		<effectRange>600</effectRange>
 		<isDebuff>true</isDebuff>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">89</value>
 			<value level="2">91</value>
 			<value level="3">93</value>
@@ -1645,7 +1645,7 @@
 			<value level="7">101</value>
 			<value level="8">103</value>
 			<value level="9">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">40</value>
 			<value level="2">44</value>
@@ -1711,7 +1711,7 @@
 	<skill id="19560" toLevel="9" name="Rising Tide Circle">
 		<!-- Creates a circular wave to draw enemies close and decrease Atk. Spd./ Casting Spd. by $s1 and Speed by $s2. Requires a sword or blunt to be equipped. -->
 		<icon>icon.skill19558</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">1</value>
 			<value level="3">1</value>
@@ -1721,7 +1721,7 @@
 			<value level="7">3</value>
 			<value level="8">4</value>
 			<value level="9">4</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>ALL_SPEED_DOWN</abnormalType>
 		<activateRate>80</activateRate>
@@ -1731,7 +1731,7 @@
 		<effectPoint>-5000</effectPoint>
 		<isDebuff>true</isDebuff>
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">55</value>
 			<value level="2">58</value>
 			<value level="3">60</value>
@@ -1741,7 +1741,7 @@
 			<value level="7">68</value>
 			<value level="8">70</value>
 			<value level="9">72</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">78</value>
 			<value level="2">84</value>
@@ -1811,7 +1811,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<trait>PULL</trait>
 		<isDebuff>true</isDebuff>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">89</value>
 			<value level="2">91</value>
 			<value level="3">93</value>
@@ -1821,7 +1821,7 @@
 			<value level="7">101</value>
 			<value level="8">103</value>
 			<value level="9">105</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<castRange>600</castRange>
 		<mpConsume>
@@ -1876,7 +1876,7 @@
 	<skill id="19562" toLevel="7" name="Reborn from Ashes">
 		<!-- Becomes invincible for $s1 and recovers $s2 HP under the Protection of Phoenix. -->
 		<icon>icon.skill19565</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>ABNORMAL_INVINCIBILITY</abnormalType>
 		<abnormalVisualEffect>ULTIMATE_DEFENCE</abnormalVisualEffect>
@@ -1885,7 +1885,7 @@
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<castRange>600</castRange>
 		<effectPoint>673</effectPoint>
-		<magicLvl>97</magicLvl>
+		<magicLevel>97</magicLevel>
 		<mpConsume>73</mpConsume>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1920,7 +1920,7 @@
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<abnormalTime>10</abnormalTime>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<effects>
 			<effect name="DamageShield">
 				<amount>50</amount>
@@ -1931,13 +1931,13 @@
 		<!-- For 10 seconds, P. Def +50% and reflects damage when hit. Cannot be applied together with any Shield Block skill. -->
 		<icon>icon.skill3584</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>DMG_SHIELD</abnormalType>
 		<effectPoint>379</effectPoint>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<isMagic>1</isMagic>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1966,7 +1966,7 @@
 		<operateType>A1</operateType>
 		<castRange>80</castRange>
 		<reuseDelay>10000</reuseDelay>
-		<abnormalLvl>4</abnormalLvl>
+		<abnormalLevel>4</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<isTriggeredSkill>true</isTriggeredSkill>
 		<isDebuff>true</isDebuff>
@@ -1990,12 +1990,12 @@
 		<icon>icon.skill19560</icon>
 		<operateType>P</operateType>
 		<mpConsume>8</mpConsume>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">90</value>
 			<value level="3">95</value>
 			<value level="4">99</value>
-		</magicLvl>
+		</magicLevel>
 		<effects>
 			<effect name="TriggerSkillByDamage">
 				<attackerType>Creature</attackerType>
@@ -2103,7 +2103,7 @@
 		<icon>icon.skill19558</icon>
 		<affectLimit>5-12</affectLimit>
 		<abnormalTime>1</abnormalTime>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<activateRate>60</activateRate>
 		<nextAction>ATTACK</nextAction>
 		<affectRange>600</affectRange>
@@ -2112,7 +2112,7 @@
 		<effectPoint>-5000</effectPoint>
 		<effectRange>600</effectRange>
 		<isDebuff>true</isDebuff>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">89</value>
 			<value level="2">91</value>
 			<value level="3">93</value>
@@ -2122,7 +2122,7 @@
 			<value level="7">101</value>
 			<value level="8">103</value>
 			<value level="9">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">40</value>
 			<value level="2">44</value>
@@ -2183,7 +2183,7 @@
 	<skill id="19568" toLevel="1" name="Nine Aegis">
 		<!-- P. Def/ M. Def/ Bow Resistance +50% and Reflect Magic +25% under the Protection of Barrier, and becomes immune to Pull Up/ Knock Back/ Knock Down/ Danger Zone debuffs. -->
 		<icon>icon.skill10107</icon>
-		<abnormalLvl>2</abnormalLvl>
+		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>TRANSFER_DAMAGE</abnormalType>
 		<magicLevel>99</magicLevel>
@@ -2194,7 +2194,7 @@
 		<effectPoint>2</effectPoint>
 		<basicProperty>NONE</basicProperty>
 		<hitCancelTime>0</hitCancelTime>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<staticReuse>true</staticReuse>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
@@ -2230,7 +2230,7 @@
 	<skill id="19569" toLevel="8" name="Aggression Aura">
 		<!-- Provokes nearby enemies into attacking you and decreases their Atk. Spd. and Casting Spd. by $s1. Your P. Def. and M. Def +$s2 and Speed +$s3. Only one Knight's Aura can be active at any time. -->
 		<icon>icon.skill10027</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>TARGET_LOCK</abnormalType>
 		<activateRate>
@@ -2248,7 +2248,7 @@
 			<value level="7">500</value>
 			<value level="8">500</value>
 		</affectRange>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">88</value>
 			<value level="3">91</value>
@@ -2257,7 +2257,7 @@
 			<value level="6">101</value>
 			<value level="7">103</value>
 			<value level="8">105</value>
-		</magicLvl>
+		</magicLevel>
 		<staticReuse>true</staticReuse>
 		<magicCriticalRate>5</magicCriticalRate>
 		<operateType>A2</operateType>
@@ -2331,7 +2331,7 @@
 		<operateType>A2</operateType>
 		<isDebuff>true</isDebuff>
 		<reuseDelay>10000</reuseDelay>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<abnormalType>PARALYZE</abnormalType>
 		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
@@ -2379,7 +2379,7 @@
 		<affectScope>SINGLE</affectScope>
 		<abnormalTime>20</abnormalTime>
 		<canCastWhileDisabled>true</canCastWhileDisabled>
-		<magicLvl>97</magicLvl>
+		<magicLevel>97</magicLevel>
 		<effects>
 			<effect name="DispelByCategory">
 				<slot>DEBUFF</slot>
@@ -2421,7 +2421,7 @@
 		<!-- Silenced by Vanishing shock for $s1. -->
 		<icon>icon.skill10010</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<activateRate>30</activateRate>
 		<abnormalType>SILENCE</abnormalType>
@@ -2439,7 +2439,7 @@
 		<!-- Strikes hard to decrease P. Def by 30% for 7 seconds. -->
 		<icon>icon.skill10009</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>7</abnormalTime>
 		<isDebuff>true</isDebuff>
 		<reuseDelay>1000</reuseDelay>

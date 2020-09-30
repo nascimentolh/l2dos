@@ -3,19 +3,19 @@
 	<skill id="10015" toLevel="2" name="Chain Strike">
 		<!-- Pulls a selected target to you. Requires a shield. -->
 		<icon>icon.skill10015</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>1</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<activateRate>190</activateRate>
 		<lvlBonusRate>30</lvlBonusRate>
 		<basicProperty>PHYSICAL</basicProperty>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">76</value>
 			<value level="2">82</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<mpConsume>
@@ -53,7 +53,7 @@
 	<skill id="10094" toLevel="5" name="Mass Lightning Strike">
 		<!-- A lightning strike inflicts damage to the target and nearby enemies. Power $s1. Paralyzes enemies for $s2 Consumes $s3 Soulstone(s). -->
 		<icon>icon.skll10094</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>PARALYZE</abnormalType>
 		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
@@ -67,13 +67,13 @@
 		<lvlBonusRate>20</lvlBonusRate>
 		<operateType>A2</operateType>
 		<isMagic>0</isMagic>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">80</value>
 			<value level="2">81</value>
 			<value level="3">82</value>
 			<value level="4">83</value>
 			<value level="5">84</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">140</value>
 			<value level="2">146</value>

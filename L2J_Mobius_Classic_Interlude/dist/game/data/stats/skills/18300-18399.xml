@@ -17,7 +17,7 @@
 				<value level="4">47852</value>
 				<value level="5">47853</value>
 		</itemConsumeId>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
@@ -97,23 +97,23 @@
 		<effects>
 			<effect name="SetSkill" fromLevel="1" toLevel="1">
 				<skillId>19222</skillId> <!-- Dignity of the Exalted -->
-				<skillLvl>1</skillLvl>
+				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="SetSkill" fromLevel="2" toLevel="2">
 				<skillId>19222</skillId> <!-- Dignity of the Exalted -->
-				<skillLvl>2</skillLvl>
+				<skillLevel>2</skillLevel>
 			</effect>
 			<effect name="SetSkill" fromLevel="3" toLevel="3">
 				<skillId>19222</skillId> <!-- Dignity of the Exalted -->
-				<skillLvl>3</skillLvl>
+				<skillLevel>3</skillLevel>
 			</effect>
 			<effect name="SetSkill" fromLevel="4" toLevel="4">
 				<skillId>19222</skillId> <!-- Dignity of the Exalted -->
-				<skillLvl>4</skillLvl>
+				<skillLevel>4</skillLevel>
 			</effect>
 			<effect name="SetSkill" fromLevel="5" toLevel="5">
 				<skillId>19222</skillId> <!-- Dignity of the Exalted -->
-				<skillLvl>5</skillLvl>
+				<skillLevel>5</skillLevel>
 			</effect>
 		</effects>
 	</skill>
@@ -122,7 +122,7 @@
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>45925</itemConsumeId> <!-- Spellbook: Belief of the Exalted -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
@@ -142,7 +142,7 @@
 		<effects>
 			<effect name="SetSkill">
 				<skillId>19223</skillId> <!-- Belief of the Exalted -->
-				<skillLvl>1</skillLvl>
+				<skillLevel>1</skillLevel>
 			</effect>
 		</effects>
 	</skill>
@@ -151,7 +151,7 @@
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>45926</itemConsumeId> <!-- Spellbook: Blessing of the Exalted -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
@@ -171,7 +171,7 @@
 		<effects>
 			<effect name="SetSkill">
 				<skillId>19224</skillId> <!-- Blessing of the Exalted -->
-				<skillLvl>1</skillLvl>
+				<skillLevel>1</skillLevel>
 			</effect>
 		</effects>
 	</skill>
@@ -180,7 +180,7 @@
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>45927</itemConsumeId> <!-- Spellbook: Summon Battle Potion -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
@@ -200,7 +200,7 @@
 		<effects>
 			<effect name="SetSkill">
 				<skillId>19225</skillId> <!-- Summon Battle Potion -->
-				<skillLvl>1</skillLvl>
+				<skillLevel>1</skillLevel>
 			</effect>
 		</effects>
 	</skill>
@@ -212,7 +212,7 @@
 			<value level="1">45928</value> <!-- Spellbook: Favor of the Exalted Lv. 1 -->
 			<value level="2">45870</value> <!-- Spellbook: Favor of the Exalted Lv. 2 -->
 		</itemConsumeId>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
@@ -233,10 +233,10 @@
 		<effects>
 			<effect name="SetSkill">
 				<skillId>19226</skillId> <!-- Favor of the Exalted -->
-				<skillLvl>
+				<skillLevel>
 					<value level="1">1</value>
 					<value level="2">2</value>
-				</skillLvl>
+				</skillLevel>
 			</effect>
 		</effects>
 	</skill>

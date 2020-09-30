@@ -827,6 +827,8 @@ public class PlayerInstance extends Playable
 	
 	private Future<?> _autoSaveTask = null;
 	
+	private Map<Stat, Double> _servitorShare;
+	
 	/**
 	 * Creates a player.
 	 * @param objectId the object ID
@@ -4129,7 +4131,8 @@ public class PlayerInstance extends Playable
 	@Override
 	public void broadcastPacket(IClientOutgoingPacket mov)
 	{
-		if (!(mov instanceof CharInfo))
+		final boolean isCharInfo = mov instanceof CharInfo;
+		if (!isCharInfo)
 		{
 			sendPacket(mov);
 		}
@@ -4140,8 +4143,10 @@ public class PlayerInstance extends Playable
 			{
 				return;
 			}
+			
 			player.sendPacket(mov);
-			if (mov instanceof CharInfo)
+			
+			if (isCharInfo)
 			{
 				final int relation = getRelation(player);
 				final boolean isAutoAttackable = isAutoAttackable(player);
@@ -4160,22 +4165,24 @@ public class PlayerInstance extends Playable
 	}
 	
 	@Override
-	public void broadcastPacket(IClientOutgoingPacket mov, int radiusInKnownlist)
+	public void broadcastPacket(IClientOutgoingPacket mov, int radius)
 	{
-		if (!(mov instanceof CharInfo))
+		final boolean isCharInfo = mov instanceof CharInfo;
+		if (!isCharInfo)
 		{
 			sendPacket(mov);
 		}
 		
 		World.getInstance().forEachVisibleObject(this, PlayerInstance.class, player ->
 		{
-			if (!isVisibleFor(player) || (calculateDistance3D(player) >= radiusInKnownlist))
+			if (!isVisibleFor(player) || (calculateDistance3D(player) >= radius))
 			{
 				return;
 			}
 			
 			player.sendPacket(mov);
-			if (mov instanceof CharInfo)
+			
+			if (isCharInfo)
 			{
 				final int relation = getRelation(player);
 				final boolean isAutoAttackable = isAutoAttackable(player);
@@ -7483,7 +7490,7 @@ public class PlayerInstance extends Playable
 						
 						statement.setInt(1, getObjectId());
 						statement.setInt(2, t.getSkillId());
-						statement.setInt(3, t.getSkillLvl());
+						statement.setInt(3, t.getSkillLevel());
 						statement.setInt(4, -1);
 						statement.setLong(5, t.getReuse());
 						statement.setLong(6, t.getStamp());
@@ -10505,19 +10512,29 @@ public class PlayerInstance extends Playable
 	public void doRevive()
 	{
 		super.doRevive();
+		
 		updateEffectIcons();
 		sendPacket(new EtcStatusUpdate(this));
 		_revivePet = false;
 		_reviveRequested = 0;
 		_revivePower = 0;
+		
+		// Teleport summon to player.
+		if (isInsideZone(ZoneId.PEACE) && (_summon != null) && !_summon.isInsideZone(ZoneId.SIEGE))
+		{
+			_summon.teleToLocation(getLocation(), true);
+		}
+		
 		if (isMounted())
 		{
 			startFeed(_mountNpcId);
 		}
+		
 		if (isInParty() && _party.isInDimensionalRift() && !DimensionalRiftManager.getInstance().checkIfInPeaceZone(getX(), getY(), getZ()))
 		{
 			_party.getDimensionalRift().memberRessurected(this);
 		}
+		
 		if (getInstanceId() > 0)
 		{
 			final Instance instance = InstanceManager.getInstance().getInstance(getInstanceId());
@@ -11838,13 +11855,13 @@ public class PlayerInstance extends Playable
 	
 	private int getRandomFishLvl()
 	{
-		int skilllvl = getSkillLevel(1315);
+		int skillLevel = getSkillLevel(1315);
 		final BuffInfo info = getEffectList().getBuffInfoBySkillId(2274);
 		if (info != null)
 		{
-			skilllvl = (int) info.getSkill().getPower();
+			skillLevel = (int) info.getSkill().getPower();
 		}
-		if (skilllvl <= 0)
+		if (skillLevel <= 0)
 		{
 			return 1;
 		}
@@ -11852,11 +11869,11 @@ public class PlayerInstance extends Playable
 		final int check = Rnd.get(100);
 		if (check <= 50)
 		{
-			randomlvl = skilllvl;
+			randomlvl = skillLevel;
 		}
 		else if (check <= 85)
 		{
-			randomlvl = skilllvl - 1;
+			randomlvl = skillLevel - 1;
 			if (randomlvl <= 0)
 			{
 				randomlvl = 1;
@@ -11864,7 +11881,7 @@ public class PlayerInstance extends Playable
 		}
 		else
 		{
-			randomlvl = skilllvl + 1;
+			randomlvl = skillLevel + 1;
 			if (randomlvl > 27)
 			{
 				randomlvl = 27;
@@ -13562,22 +13579,22 @@ public class PlayerInstance extends Playable
 			final SkillLearn learn = SkillTreeData.getInstance().getClassSkill(e.getKey(), e.getValue().getLevel() % 100, getClassId());
 			if (learn != null)
 			{
-				final int lvlDiff = e.getKey() == CommonSkill.EXPERTISE.getId() ? 0 : 9;
-				if (getLevel() < (learn.getGetLevel() - lvlDiff))
+				final int levelDiff = e.getKey() == CommonSkill.EXPERTISE.getId() ? 0 : 9;
+				if (getLevel() < (learn.getGetLevel() - levelDiff))
 				{
-					deacreaseSkillLevel(e.getValue(), lvlDiff);
+					deacreaseSkillLevel(e.getValue(), levelDiff);
 				}
 			}
 		}
 	}
 	
-	private void deacreaseSkillLevel(Skill skill, int lvlDiff)
+	private void deacreaseSkillLevel(Skill skill, int levelDiff)
 	{
 		int nextLevel = -1;
 		final Map<Integer, SkillLearn> skillTree = SkillTreeData.getInstance().getCompleteClassSkillTree(getClassId());
 		for (SkillLearn sl : skillTree.values())
 		{
-			if ((sl.getSkillId() == skill.getId()) && (nextLevel < sl.getSkillLevel()) && (getLevel() >= (sl.getGetLevel() - lvlDiff)))
+			if ((sl.getSkillId() == skill.getId()) && (nextLevel < sl.getSkillLevel()) && (getLevel() >= (sl.getGetLevel() - levelDiff)))
 			{
 				nextLevel = sl.getSkillLevel(); // next possible skill level
 			}
@@ -14534,5 +14551,27 @@ public class PlayerInstance extends Playable
 		{
 			_questTimers.remove(questTimer);
 		}
+	}
+	
+	public void setServitorShare(Map<Stat, Double> map)
+	{
+		_servitorShare = map;
+	}
+	
+	public double getServitorShareBonus(Stat stat)
+	{
+		final Map<Stat, Double> stats = _servitorShare;
+		if (stats == null)
+		{
+			return 1.0d;
+		}
+		
+		final Double val = stats.get(stat);
+		if (val == null)
+		{
+			return 1.0d;
+		}
+		
+		return val;
 	}
 }

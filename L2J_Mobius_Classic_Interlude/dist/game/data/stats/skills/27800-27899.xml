@@ -1068,7 +1068,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>7200</abnormalTime>
 		<irreplacableBuff>true</irreplacableBuff>
 		<staticReuse>true</staticReuse>
@@ -2179,8 +2179,8 @@
 		<abnormalType>INVINCIBILITY</abnormalType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>99</magicLvl>
-		<abnormalLvl>1</abnormalLvl>
+		<magicLevel>99</magicLevel>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<coolTime>300</coolTime>
 		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
@@ -2219,7 +2219,7 @@
 		<effectPoint>1811</effectPoint>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<coolTime>200</coolTime>
 		<reuseDelay>1200000</reuseDelay>
 		<staticReuse>true</staticReuse>
@@ -2245,7 +2245,7 @@
 		<effectPoint>1811</effectPoint>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<coolTime>200</coolTime>
 		<reuseDelay>1200000</reuseDelay>
 		<staticReuse>true</staticReuse>
@@ -2271,8 +2271,8 @@
 		<effectPoint>867</effectPoint>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>99</magicLvl>
-		<abnormalLvl>1</abnormalLvl>
+		<magicLevel>99</magicLevel>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>300</abnormalTime>	<!-- Guess -->
 		<coolTime>300</coolTime>
 		<reuseDelay>1200000</reuseDelay>
@@ -2295,8 +2295,8 @@
 		<effectPoint>867</effectPoint>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>99</magicLvl>
-		<abnormalLvl>1</abnormalLvl>
+		<magicLevel>99</magicLevel>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>300</abnormalTime>	<!-- Guess -->
 		<coolTime>300</coolTime>
 		<reuseDelay>1200000</reuseDelay>
@@ -2324,8 +2324,8 @@
 		<abnormalType>INVINCIBILITY</abnormalType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>99</magicLvl>
-		<abnormalLvl>1</abnormalLvl>
+		<magicLevel>99</magicLevel>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>20</abnormalTime>
 		<coolTime>300</coolTime>
 		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
@@ -2356,13 +2356,13 @@
 		<!-- Ignores CP in PvP, and deals $s1 fixed damage. -->
 		<icon>icon.skill0049</icon>
 		<operateType>A1</operateType>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
 			<value level="4">4</value>
-		</abnormalLvl>
-		<magicLvl>1</magicLvl>
+		</abnormalLevel>
+		<magicLevel>1</magicLevel>
 		<castRange>600</castRange>
 		<hitTime>500</hitTime>
 		<coolTime>500</coolTime>
@@ -2387,8 +2387,8 @@
 		<!-- Decreases target's CP by $s1. -->
 		<icon>icon.skill0049</icon>
 		<operateType>A1</operateType>
-		<abnormalLvl>1</abnormalLvl>
-		<magicLvl>1</magicLvl>
+		<abnormalLevel>1</abnormalLevel>
+		<magicLevel>1</magicLevel>
 		<castRange>600</castRange>
 		<hitTime>500</hitTime>
 		<coolTime>500</coolTime>
@@ -2421,7 +2421,7 @@
 		<icon>BranchIcon.icon.g_bm_elmoreden_cloak_normal</icon>
 		<operateType>A2</operateType>
 		<abnormalType>KNOCKDOWN</abnormalType>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
 		<activateRate>200</activateRate>
@@ -2459,8 +2459,8 @@
 		<effectPoint>867</effectPoint>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>99</magicLvl>
-		<abnormalLvl>1</abnormalLvl>
+		<magicLevel>99</magicLevel>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<reuseDelay>600000</reuseDelay>
 		<staticReuse>true</staticReuse>
@@ -2497,8 +2497,8 @@
 		<effectPoint>867</effectPoint>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>99</magicLvl>
-		<abnormalLvl>1</abnormalLvl>
+		<magicLevel>99</magicLevel>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<reuseDelay>600000</reuseDelay>
 		<staticReuse>true</staticReuse>
@@ -2553,8 +2553,8 @@
 		<effectPoint>867</effectPoint>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>99</magicLvl>
-		<abnormalLvl>1</abnormalLvl>
+		<magicLevel>99</magicLevel>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>7</abnormalTime>
 		<coolTime>500</coolTime>
 		<reuseDelay>120000</reuseDelay>
@@ -2592,8 +2592,8 @@
 		<effectPoint>689</effectPoint>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>99</magicLvl>
-		<abnormalLvl>1</abnormalLvl>
+		<magicLevel>99</magicLevel>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>20</abnormalTime>
 		<coolTime>500</coolTime>
 		<reuseDelay>600000</reuseDelay>
@@ -2628,8 +2628,8 @@
 		<effectPoint>687</effectPoint>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>99</magicLvl>
-		<abnormalLvl>1</abnormalLvl>
+		<magicLevel>99</magicLevel>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>180</abnormalTime>
 		<coolTime>300</coolTime>
 		<reuseDelay>1200000</reuseDelay>
@@ -2661,8 +2661,8 @@
 		<!-- Recovers CP by $s1. -->
 		<icon>icon.skill0049</icon>
 		<operateType>A1</operateType>
-		<abnormalLvl>1</abnormalLvl>
-		<magicLvl>1</magicLvl>
+		<abnormalLevel>1</abnormalLevel>
+		<magicLevel>1</magicLevel>
 		<hitTime>300</hitTime>
 		<coolTime>500</coolTime>
 		<effectPoint>689</effectPoint>

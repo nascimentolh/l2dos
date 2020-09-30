@@ -8,7 +8,7 @@
 		<hitTime>500</hitTime>
 		<coolTime>500</coolTime>
 		<reuseDelay>15000</reuseDelay>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3600</abnormalTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -167,12 +167,12 @@
 			<value level="2">14400</value>
 			<value level="3">28800</value>
 		</abnormalTime>
-		<abnormalLvl>7</abnormalLvl>
+		<abnormalLevel>7</abnormalLevel>
 		<abnormalType>BUFF_SPECIAL_ATTACK</abnormalType>
 		<basicProperty>NONE</basicProperty>
 		<specialLevel>-2</specialLevel>
 		<isMagic>22</isMagic>
-		<magicLvl>-2</magicLvl>
+		<magicLevel>-2</magicLevel>
 		<effectRange>-1</effectRange>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -215,12 +215,12 @@
 			<value level="2">14400</value>
 			<value level="3">28800</value>
 		</abnormalTime>
-		<abnormalLvl>7</abnormalLvl>
+		<abnormalLevel>7</abnormalLevel>
 		<abnormalType>BUFF_SPECIAL_CRITICAL</abnormalType>
 		<basicProperty>NONE</basicProperty>
 		<specialLevel>-2</specialLevel>
 		<isMagic>22</isMagic>
-		<magicLvl>-2</magicLvl>
+		<magicLevel>-2</magicLevel>
 		<effectRange>-1</effectRange>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -274,12 +274,12 @@
 			<value level="2">14400</value>
 			<value level="3">28800</value>
 		</abnormalTime>
-		<abnormalLvl>7</abnormalLvl>
+		<abnormalLevel>7</abnormalLevel>
 		<abnormalType>BUFF_SPECIAL_CONDITION</abnormalType>
 		<basicProperty>NONE</basicProperty>
 		<specialLevel>-2</specialLevel>
 		<isMagic>22</isMagic>
-		<magicLvl>-2</magicLvl>
+		<magicLevel>-2</magicLevel>
 		<effectRange>-1</effectRange>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -322,12 +322,12 @@
 			<value level="2">14400</value>
 			<value level="3">28800</value>
 		</abnormalTime>
-		<abnormalLvl>7</abnormalLvl>
+		<abnormalLevel>7</abnormalLevel>
 		<abnormalType>BUFF_SPECIAL_MOVE</abnormalType>
 		<basicProperty>NONE</basicProperty>
 		<specialLevel>-2</specialLevel>
 		<isMagic>22</isMagic>
-		<magicLvl>-2</magicLvl>
+		<magicLevel>-2</magicLevel>
 		<effectRange>-1</effectRange>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -386,12 +386,12 @@
 			<value level="2">14400</value>
 			<value level="3">28800</value>
 		</abnormalTime>
-		<abnormalLvl>7</abnormalLvl>
+		<abnormalLevel>7</abnormalLevel>
 		<abnormalType>ARMOR_ELEMENT_ALL</abnormalType>
 		<basicProperty>NONE</basicProperty>
 		<specialLevel>-2</specialLevel>
 		<isMagic>22</isMagic>
-		<magicLvl>-2</magicLvl>
+		<magicLevel>-2</magicLevel>
 		<effectRange>-1</effectRange>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -434,12 +434,12 @@
 			<value level="2">14400</value>
 			<value level="3">28800</value>
 		</abnormalTime>
-		<abnormalLvl>7</abnormalLvl>
+		<abnormalLevel>7</abnormalLevel>
 		<abnormalType>ARMOR_HOLY</abnormalType>
 		<basicProperty>NONE</basicProperty>
 		<specialLevel>-2</specialLevel>
 		<isMagic>22</isMagic>
-		<magicLvl>-2</magicLvl>
+		<magicLevel>-2</magicLevel>
 		<effectRange>-1</effectRange>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -478,12 +478,12 @@
 			<value level="2">14400</value>
 			<value level="3">28800</value>
 		</abnormalTime>
-		<abnormalLvl>7</abnormalLvl>
+		<abnormalLevel>7</abnormalLevel>
 		<abnormalType>RESIST_DERANGEMENT</abnormalType>
 		<basicProperty>NONE</basicProperty>
 		<specialLevel>-2</specialLevel>
 		<isMagic>22</isMagic>
-		<magicLvl>-2</magicLvl>
+		<magicLevel>-2</magicLevel>
 		<effectRange>-1</effectRange>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -523,12 +523,12 @@
 			<value level="2">14400</value>
 			<value level="3">28800</value>
 		</abnormalTime>
-		<abnormalLvl>7</abnormalLvl>
+		<abnormalLevel>7</abnormalLevel>
 		<abnormalType>BUFF_SPECIAL_AURA</abnormalType>
 		<basicProperty>NONE</basicProperty>
 		<specialLevel>-2</specialLevel>
 		<isMagic>22</isMagic>
-		<magicLvl>-2</magicLvl>
+		<magicLevel>-2</magicLevel>
 		<effectRange>-1</effectRange>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -575,12 +575,12 @@
 			<value level="2">14400</value>
 			<value level="3">28800</value>
 		</abnormalTime>
-		<abnormalLvl>7</abnormalLvl>
+		<abnormalLevel>7</abnormalLevel>
 		<abnormalType>ENCHANTER_MOD</abnormalType>
 		<basicProperty>NONE</basicProperty>
 		<specialLevel>-2</specialLevel>
 		<isMagic>22</isMagic>
-		<magicLvl>-2</magicLvl>
+		<magicLevel>-2</magicLevel>
 		<effectRange>-1</effectRange>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -633,12 +633,12 @@
 			<value level="2">14400</value>
 			<value level="3">28800</value>
 		</abnormalTime>
-		<abnormalLvl>7</abnormalLvl>
+		<abnormalLevel>7</abnormalLevel>
 		<abnormalType>SYNERGY_IS</abnormalType>
 		<basicProperty>NONE</basicProperty>
 		<specialLevel>-2</specialLevel>
 		<isMagic>3</isMagic> <!-- Dance Skill -->
-		<magicLvl>-2</magicLvl>
+		<magicLevel>-2</magicLevel>
 		<effectRange>-1</effectRange>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -743,7 +743,7 @@
 	</skill>
 	<skill id="39428" toLevel="5" name="Artifact Box">
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -863,7 +863,7 @@
 	</skill>
 	<skill id="39429" toLevel="2" name="+1 Fight Artifact Box">
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -920,7 +920,7 @@
 	</skill>
 	<skill id="39430" toLevel="2" name="+1 Protection Artifact Box">
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -977,7 +977,7 @@
 	</skill>
 	<skill id="39431" toLevel="2" name="+1 Support Artifact Box">
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -1034,7 +1034,7 @@
 	</skill>
 	<skill id="39432" toLevel="2" name="+1 Balance Artifact Box">
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>

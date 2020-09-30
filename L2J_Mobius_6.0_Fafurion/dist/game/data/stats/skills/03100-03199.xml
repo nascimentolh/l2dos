@@ -3,7 +3,7 @@
 	<skill id="3100" toLevel="10" name="Item Skill: Sleep">
 		<!-- Chance: Momentarily inflicts Sleep on the target during magic use. Additional chance to be put into sleep greatly decreases while the effect lasts. -->
 		<icon>icon.skill3080</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>SLEEP</abnormalType>
 		<abnormalVisualEffect>SLEEP</abnormalVisualEffect>
@@ -15,7 +15,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -26,7 +26,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -46,7 +46,7 @@
 	<skill id="3101" toLevel="10" name="Item Skill: Paralyze">
 		<!-- Chance: Momentarily paralyzes the target during magic use. -->
 		<icon>icon.skill3080</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>PARALYZE</abnormalType>
 		<activateRate>40</activateRate>
@@ -57,7 +57,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -68,7 +68,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -100,7 +100,7 @@
 	<skill id="3102" toLevel="10" name="Item Skill: Medusa">
 		<!-- Chance: Momentarily petrifies the target during magic use. -->
 		<icon>icon.skill3080</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>TURN_STONE</abnormalType>
 		<abnormalVisualEffect>FLESH_STONE</abnormalVisualEffect>
@@ -114,7 +114,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -125,7 +125,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -139,7 +139,7 @@
 	<skill id="3103" toLevel="10" name="Item Skill: Fear">
 		<!-- Chance: Momentarily inflicts Fear on the target and causes him to flee during magic use. -->
 		<icon>icon.skill3080</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>TURN_FLEE</abnormalType>
 		<abnormalVisualEffect>TURN_FLEE</abnormalVisualEffect>
@@ -151,7 +151,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -162,7 +162,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -178,7 +178,7 @@
 	<skill id="3104" toLevel="15" name="Item Skill: Poison (Magic Active)">
 		<!-- Chance: Momentarily inflicts Poison on the target during magic use. Effect $s1. -->
 		<icon>icon.skill3080</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">5</value>
 			<value level="2">5</value>
 			<value level="3">6</value>
@@ -194,7 +194,7 @@
 			<value level="13">8</value>
 			<value level="14">8</value>
 			<value level="15">8</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<subordinationAbnormalType>POISON</subordinationAbnormalType>
 		<abnormalType>POISON</abnormalType>
@@ -207,7 +207,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -223,7 +223,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -257,7 +257,7 @@
 	<skill id="3105" toLevel="15" name="Item Skill: Bleed (Magic Active)">
 		<!-- Chance: Momentarily inflicts Bleed on the target during magic use. Effect $s1. -->
 		<icon>icon.skill3080</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">5</value>
 			<value level="2">5</value>
 			<value level="3">6</value>
@@ -273,7 +273,7 @@
 			<value level="13">8</value>
 			<value level="14">8</value>
 			<value level="15">8</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>20</abnormalTime>
 		<subordinationAbnormalType>BLEEDING</subordinationAbnormalType>
 		<abnormalType>BLEEDING</abnormalType>
@@ -286,7 +286,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -302,7 +302,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<nextAction>ATTACK</nextAction>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
@@ -337,7 +337,7 @@
 	<skill id="3106" toLevel="10" name="Item Skill: Silence">
 		<!-- Chance: Momentarily blocks the target's magic skill during magic use. -->
 		<icon>icon.skill3080</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>SILENCE</abnormalType>
 		<abnormalVisualEffect>SILENCE</abnormalVisualEffect>
@@ -349,7 +349,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -360,7 +360,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -375,7 +375,7 @@
 	<skill id="3107" toLevel="10" name="Item Skill: Doom">
 		<!-- Chance: Momentarily blocks all of the target's physical and magic skills during magic use. -->
 		<icon>icon.skill3080</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>SILENCE_ALL</abnormalType>
 		<abnormalVisualEffect>SILENCE</abnormalVisualEffect>
@@ -387,7 +387,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -398,7 +398,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -418,7 +418,7 @@
 		<effectPoint>-1</effectPoint>
 		<effectRange>400</effectRange>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -434,7 +434,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A1</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -453,7 +453,7 @@
 		<castRange>40</castRange>
 		<effectRange>400</effectRange>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -469,7 +469,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A1</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -505,7 +505,7 @@
 		<castRange>40</castRange>
 		<effectRange>400</effectRange>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -516,7 +516,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A1</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -545,7 +545,7 @@
 	<skill id="3111" toLevel="15" name="Item Skill: Slow (Critical)">
 		<!-- Chance: Momentarily decreases the target's Speed during a critical attack. Effect $s1. -->
 		<icon>icon.skill3080</icon>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<activateRate>40</activateRate>
@@ -555,7 +555,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -571,7 +571,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -588,7 +588,7 @@
 	<skill id="3112" toLevel="15" name="Item Skill: Winter (Critical)">
 		<!-- Chance: Momentarily decreases the target's Atk. Spd. during a critical attack. Effect $s1. -->
 		<icon>icon.skill3080</icon>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>ATTACK_TIME_UP</abnormalType>
 		<activateRate>40</activateRate>
@@ -598,7 +598,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -614,7 +614,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -631,7 +631,7 @@
 	<skill id="3113" toLevel="10" name="Item Skill: Stun">
 		<!-- Activated skill: Causes a target to enter the Stun state momentarily if critically hit. -->
 		<icon>icon.skill3080</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -642,7 +642,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -653,7 +653,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -670,7 +670,7 @@
 	<skill id="3114" toLevel="15" name="Item Skill: Hold">
 		<!-- Chance: Momentarily inflicts Hold on the target during a critical attack. The target cannot be affected by any additional hold attacks while the effect lasts. -->
 		<icon>icon.skill3080</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>ROOT_MAGICALLY</abnormalType>
 		<abnormalVisualEffect>ROOT</abnormalVisualEffect>
@@ -681,7 +681,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -697,7 +697,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -715,7 +715,7 @@
 	<skill id="3115" toLevel="10" name="Item Skill: Sleep">
 		<!-- Chance: Momentarily inflicts Sleep on the target during a critical attack. Additional chance to be put into sleep greatly decreases while the effect lasts. -->
 		<icon>icon.skill3080</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>SLEEP</abnormalType>
 		<abnormalVisualEffect>SLEEP</abnormalVisualEffect>
@@ -726,7 +726,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -737,7 +737,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -757,7 +757,7 @@
 	<skill id="3116" toLevel="10" name="Item Skill: Paralyze">
 		<!-- Chance: Momentarily paralyzes the target during a critical attack. -->
 		<icon>icon.skill3080</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>PARALYZE</abnormalType>
 		<activateRate>40</activateRate>
@@ -767,7 +767,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -778,7 +778,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -810,7 +810,7 @@
 	<skill id="3117" toLevel="10" name="Item Skill: Medusa">
 		<!-- Chance: Momentarily petrifies the target during a critical attack. -->
 		<icon>icon.skill3080</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>TURN_STONE</abnormalType>
 		<abnormalVisualEffect>FLESH_STONE</abnormalVisualEffect>
@@ -823,7 +823,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -834,7 +834,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -848,7 +848,7 @@
 	<skill id="3118" toLevel="10" name="Item Skill: Fear">
 		<!-- Chance: Momentarily inflicts Fear on the target and causes him to flee during a critical attack. -->
 		<icon>icon.skill3080</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>TURN_FLEE</abnormalType>
 		<abnormalVisualEffect>TURN_FLEE</abnormalVisualEffect>
@@ -859,7 +859,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -870,7 +870,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -886,7 +886,7 @@
 	<skill id="3119" toLevel="15" name="Item Skill: Poison (Critical)">
 		<!-- Chance: Momentarily inflicts Poison on the target during a critical attack. Effect $s1. -->
 		<icon>icon.skill3080</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">5</value>
 			<value level="2">5</value>
 			<value level="3">6</value>
@@ -902,7 +902,7 @@
 			<value level="13">8</value>
 			<value level="14">8</value>
 			<value level="15">8</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<subordinationAbnormalType>POISON</subordinationAbnormalType>
 		<abnormalType>POISON</abnormalType>
@@ -914,7 +914,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -930,7 +930,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -964,7 +964,7 @@
 	<skill id="3120" toLevel="15" name="Item Skill: Bleed (Critical)">
 		<!-- Chance: Momentarily inflicts Bleed on the target during a critical attack. Effect $s1. -->
 		<icon>icon.skill3080</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">5</value>
 			<value level="2">5</value>
 			<value level="3">6</value>
@@ -980,7 +980,7 @@
 			<value level="13">8</value>
 			<value level="14">8</value>
 			<value level="15">8</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>20</abnormalTime>
 		<subordinationAbnormalType>BLEEDING</subordinationAbnormalType>
 		<abnormalType>BLEEDING</abnormalType>
@@ -992,7 +992,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">44</value>
 			<value level="2">44</value>
 			<value level="3">54</value>
@@ -1008,7 +1008,7 @@
 			<value level="13">87</value>
 			<value level="14">87</value>
 			<value level="15">98</value>
-		</magicLvl>
+		</magicLevel>
 		<nextAction>ATTACK</nextAction>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
@@ -1043,7 +1043,7 @@
 	<skill id="3121" toLevel="10" name="Item Skill: Silence">
 		<!-- Chance: Momentarily blocks the target's magic skill during a critical attack. -->
 		<icon>icon.skill3080</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>SILENCE</abnormalType>
 		<abnormalVisualEffect>SILENCE</abnormalVisualEffect>
@@ -1054,7 +1054,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -1065,7 +1065,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1080,7 +1080,7 @@
 	<skill id="3122" toLevel="10" name="Item Skill: Doom">
 		<!-- Chance: Momentarily blocks all of the target's physical and magic skills during a critical attack. -->
 		<icon>icon.skill3080</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>SILENCE_ALL</abnormalType>
 		<abnormalVisualEffect>SILENCE</abnormalVisualEffect>
@@ -1091,7 +1091,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -1102,7 +1102,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1132,7 +1132,7 @@
 		</effectPoint>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -1143,7 +1143,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -1194,7 +1194,7 @@
 	<skill id="3124" toLevel="10" name="Item Skill: Blessed Body">
 		<!-- Active: Increases Max HP by $s1 temporarily. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -1211,7 +1211,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -1222,7 +1222,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -1274,7 +1274,7 @@
 	<skill id="3125" toLevel="10" name="Item Skill: Battle Roar">
 		<!-- Active: Increases Max HP temporarily and restores HP by the increased amount. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -1291,7 +1291,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -1302,7 +1302,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -1344,7 +1344,7 @@
 	<skill id="3126" toLevel="10" name="Item Skill: Prayer">
 		<!-- Active: Increases the effectiveness of HP recovery magic temporarily. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -1361,7 +1361,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -1372,7 +1372,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -1440,7 +1440,7 @@
 		<effectRange>900</effectRange>
 		<hitTime>6000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -1451,7 +1451,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -1501,7 +1501,7 @@
 	<skill id="3128" toLevel="10" name="Item Skill: Blessed Soul">
 		<!-- Active: Increases Max MP by $s1 temporarily. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -1518,7 +1518,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -1529,7 +1529,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -1581,7 +1581,7 @@
 	<skill id="3129" toLevel="15" name="Item Skill: Mana Gain">
 		<!-- Active: Increases the recharge recover rate of MP. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -1603,7 +1603,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -1619,7 +1619,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -1700,7 +1700,7 @@
 		</effectPoint>
 		<hitTime>5000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -1711,7 +1711,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -1762,7 +1762,7 @@
 	<skill id="3131" toLevel="10" name="Item Skill: Cheer">
 		<!-- Active: Increases Max CP by $s1 temporarily. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -1779,7 +1779,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -1790,7 +1790,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -1842,7 +1842,7 @@
 	<skill id="3132" toLevel="15" name="Item Skill: Might">
 		<!-- Active: Increases P. Atk. temporarily. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -1864,7 +1864,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -1880,7 +1880,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -1947,7 +1947,7 @@
 	<skill id="3133" toLevel="15" name="Item Skill: Empower">
 		<!-- Active: Increases M. Atk. temporarily. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -1969,7 +1969,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -1985,7 +1985,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -2052,7 +2052,7 @@
 	<skill id="3134" toLevel="10" name="Item Skill: Duel Might">
 		<!-- Active: Increases PvP P. Atk. temporarily. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -2069,7 +2069,7 @@
 		</effectPoint>
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -2080,7 +2080,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -2125,7 +2125,7 @@
 	<skill id="3135" toLevel="15" name="Item Skill: Shield">
 		<!-- Active: Increases P. Def. temporarily. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -2147,7 +2147,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -2163,7 +2163,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -2230,7 +2230,7 @@
 	<skill id="3136" toLevel="15" name="Item Skill: Magic Barrier">
 		<!-- Active: Increases M. Def. temporarily. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -2252,7 +2252,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -2268,7 +2268,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -2335,7 +2335,7 @@
 	<skill id="3137" toLevel="10" name="Item Skill: Duel Weakness">
 		<!-- Active: Decreases the opponent's PvP P. Atk. temporarily. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>PVP_DMG_DOWN</abnormalType>
 		<activateRate>80</activateRate>
@@ -2357,7 +2357,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -2368,7 +2368,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -2413,7 +2413,7 @@
 	<skill id="3138" toLevel="10" name="Item Skill: Heal Empower">
 		<!-- Active: Increases the power of HP recovery magic temporarily. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -2430,7 +2430,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -2441,7 +2441,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -2493,7 +2493,7 @@
 	<skill id="3139" toLevel="15" name="Item Skill: Agility">
 		<!-- Active: Increases Evasion temporarily. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -2515,7 +2515,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -2531,7 +2531,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">48</value>
 			<value level="2">53</value>
@@ -2598,7 +2598,7 @@
 	<skill id="3140" toLevel="15" name="Item Skill: Guidance">
 		<!-- Active: Increases Accuracy temporarily. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -2620,7 +2620,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -2636,7 +2636,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">48</value>
 			<value level="2">53</value>
@@ -2703,7 +2703,7 @@
 	<skill id="3141" toLevel="10" name="Item Skill: Focus">
 		<!-- Active: Increases Critical Rate temporarily. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -2720,7 +2720,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -2731,7 +2731,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -2783,7 +2783,7 @@
 	<skill id="3142" toLevel="10" name="Item Skill: Wild Magic">
 		<!-- Active: Increases Critical Rate of magic attacks temporarily. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -2800,7 +2800,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -2811,7 +2811,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -2863,7 +2863,7 @@
 	<skill id="3143" toLevel="10" name="Item Skill: Eva's Kiss">
 		<!-- Active: Increases Lung Capacity temporarily. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -2880,7 +2880,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -2891,7 +2891,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -2932,7 +2932,7 @@
 	<skill id="3144" toLevel="10" name="Item Skill: Acrobatics">
 		<!-- Active: Increases the height from which you can jump without sustaining damage temporarily. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -2949,7 +2949,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -2960,7 +2960,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -3001,7 +3001,7 @@
 	<skill id="3145" toLevel="15" name="Item Skill: Iron Body">
 		<!-- Active: Increases Resistance to damage from falling. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -3023,7 +3023,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -3039,7 +3039,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">48</value>
 			<value level="2">53</value>
@@ -3108,7 +3108,7 @@
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>20000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>40</magicLvl>
+		<magicLevel>40</magicLevel>
 		<mpConsume>88</mpConsume>
 		<mpInitialConsume>22</mpInitialConsume>
 		<operateType>A1</operateType>
@@ -3131,7 +3131,7 @@
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>56</magicLvl>
+		<magicLevel>56</magicLevel>
 		<mpConsume>127</mpConsume>
 		<mpInitialConsume>32</mpInitialConsume>
 		<operateType>A1</operateType>
@@ -3151,7 +3151,7 @@
 	<skill id="3148" toLevel="10" name="Item Skill: Vampiric Rage">
 		<!-- Active: Increases the ability to restore some HP from the damage inflicted on the enemy temporarily with a certain probability. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -3168,7 +3168,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -3179,7 +3179,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">42</value>
@@ -3253,7 +3253,7 @@
 		<effectRange>900</effectRange>
 		<hitTime>1000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -3269,7 +3269,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">21</value>
 			<value level="2">22</value>
@@ -3305,7 +3305,7 @@
 		<effectRange>1100</effectRange>
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -3321,7 +3321,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">48</value>
 			<value level="2">53</value>
@@ -3391,7 +3391,7 @@
 		<effectRange>1100</effectRange>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -3407,7 +3407,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">48</value>
 			<value level="2">53</value>
@@ -3461,7 +3461,7 @@
 		<effectRange>900</effectRange>
 		<hitTime>1200</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -3472,7 +3472,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">21</value>
 			<value level="2">22</value>
@@ -3518,7 +3518,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -3529,7 +3529,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">59</value>
 			<value level="2">63</value>
@@ -3597,7 +3597,7 @@
 		<effectRange>1400</effectRange>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -3608,7 +3608,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">49</value>
 			<value level="2">53</value>
@@ -3690,7 +3690,7 @@
 			<value level="10">17</value>
 		</itemConsumeCount>
 		<itemConsumeId>1661</itemConsumeId>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -3701,7 +3701,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">21</value>
 			<value level="2">22</value>
@@ -3733,7 +3733,7 @@
 		<!-- Active: Ignites a Firecracker. -->
 		<icon>icon.skill3123</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>60</magicLvl>
+		<magicLevel>60</magicLevel>
 		<mpConsume>8</mpConsume>
 		<operateType>A1</operateType>
 		<reuseDelay>300000</reuseDelay>
@@ -3746,7 +3746,7 @@
 		<!-- Active: Ignites a Large Firecracker. -->
 		<icon>icon.skill3123</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>75</magicLvl>
+		<magicLevel>75</magicLevel>
 		<mpConsume>24</mpConsume>
 		<operateType>A1</operateType>
 		<reuseDelay>300000</reuseDelay>
@@ -3758,13 +3758,13 @@
 	<skill id="3158" toLevel="1" name="Item Skill: Celestial Shield">
 		<!-- Active: Instantly becomes invincible. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>7</abnormalTime>
 		<abnormalType>INVINCIBILITY</abnormalType>
 		<effectPoint>659</effectPoint>
 		<hitTime>1000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>75</magicLvl>
+		<magicLevel>75</magicLevel>
 		<mpConsume>65</mpConsume>
 		<mpInitialConsume>17</mpInitialConsume>
 		<operateType>A2</operateType>
@@ -3795,7 +3795,7 @@
 	<skill id="3159" toLevel="3" name="Item Skill: Stealth">
 		<!-- Active: Temporarily blocks a monster's pre-emptive attack. Fighting ability significantly decreases while in effect. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<abnormalVisualEffect>STEALTH</abnormalVisualEffect>
@@ -3815,11 +3815,11 @@
 		<reuseDelay>300000</reuseDelay>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">58</value>
 			<value level="2">67</value>
 			<value level="3">75</value>
-		</magicLvl>
+		</magicLevel>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
@@ -3879,7 +3879,7 @@
 		<effectRange>900</effectRange>
 		<hitTime>6000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -3889,7 +3889,7 @@
 			<value level="7">64</value>
 			<value level="8">67</value>
 			<value level="9">70</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">42</value>
 			<value level="2">44</value>
@@ -3939,7 +3939,7 @@
 	<skill id="3161" toLevel="8" name="Item Skill: Skill Clarity">
 		<!-- Active: Temporarily decreases MP Consumption for physical skills. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -3954,7 +3954,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">55</value>
 			<value level="2">64</value>
 			<value level="3">75</value>
@@ -3963,7 +3963,7 @@
 			<value level="6">90</value>
 			<value level="7">95</value>
 			<value level="8">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">54</value>
 			<value level="2">62</value>
@@ -4013,7 +4013,7 @@
 	<skill id="3162" toLevel="8" name="Item Skill: Spell Clarity">
 		<!-- Active: Temporarily decreases MP Consumption for magic skills. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -4028,7 +4028,7 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">55</value>
 			<value level="2">64</value>
 			<value level="3">75</value>
@@ -4037,7 +4037,7 @@
 			<value level="6">90</value>
 			<value level="7">95</value>
 			<value level="8">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">54</value>
 			<value level="2">62</value>
@@ -4084,7 +4084,7 @@
 	<skill id="3163" toLevel="3" name="Item Skill: Music Clarity">
 		<!-- Active: Temporarily decreases MP Consumption for song/ dance skills. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -4094,11 +4094,11 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">55</value>
 			<value level="2">64</value>
 			<value level="3">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">43</value>
 			<value level="2">49</value>
@@ -4130,7 +4130,7 @@
 	<skill id="3164" toLevel="3" name="Item Skill: Clarity">
 		<!-- Active: Temporarily decreases MP Consumptions for all skills. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -4140,11 +4140,11 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">55</value>
 			<value level="2">64</value>
 			<value level="3">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">43</value>
 			<value level="2">49</value>
@@ -4208,7 +4208,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -4219,7 +4219,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -4288,7 +4288,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -4299,7 +4299,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -4368,7 +4368,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -4379,7 +4379,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -4448,7 +4448,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -4459,7 +4459,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -4528,7 +4528,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -4539,7 +4539,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -4608,7 +4608,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -4619,7 +4619,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -4686,7 +4686,7 @@
 		<effectRange>1400</effectRange>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -4697,7 +4697,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -4768,7 +4768,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -4779,7 +4779,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -4851,7 +4851,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -4862,7 +4862,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -4934,7 +4934,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -4945,7 +4945,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -5017,7 +5017,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -5028,7 +5028,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -5100,7 +5100,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -5111,7 +5111,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -5183,7 +5183,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -5194,7 +5194,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -5264,7 +5264,7 @@
 		<effectRange>1000</effectRange>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -5275,7 +5275,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -5345,7 +5345,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -5356,7 +5356,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -5426,7 +5426,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -5437,7 +5437,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -5507,7 +5507,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -5518,7 +5518,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -5588,7 +5588,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -5599,7 +5599,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -5669,7 +5669,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -5680,7 +5680,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -5750,7 +5750,7 @@
 		<attributeValue>20</attributeValue>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -5761,7 +5761,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -5829,7 +5829,7 @@
 		</effectPoint>
 		<hitTime>5000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -5840,7 +5840,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -5892,7 +5892,7 @@
 	<skill id="3187" toLevel="15" name="Item Skill: Slow (Active)">
 		<!-- Active: Momentarily decreases the target's Speed. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<activateRate>40</activateRate>
@@ -5920,7 +5920,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -5936,7 +5936,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">42</value>
 			<value level="2">44</value>
@@ -5987,7 +5987,7 @@
 	<skill id="3188" toLevel="15" name="Item Skill: Winter (Active)">
 		<!-- Active: Momentarily decreases the target's Atk. Spd. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>ATTACK_TIME_UP</abnormalType>
 		<activateRate>40</activateRate>
@@ -6015,7 +6015,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -6031,7 +6031,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">42</value>
 			<value level="2">44</value>
@@ -6082,7 +6082,7 @@
 	<skill id="3189" toLevel="10" name="Item Skill: Stun">
 		<!-- Applied skill: Inflicts Stun on the target momentarily. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -6106,7 +6106,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -6117,7 +6117,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -6157,7 +6157,7 @@
 	<skill id="3190" toLevel="10" name="Item Skill: Hold">
 		<!-- Active: Momentarily inflicts Hold on the target. The target cannot be affected by any additional hold attacks while the effect lasts. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>ROOT_MAGICALLY</abnormalType>
 		<abnormalVisualEffect>ROOT</abnormalVisualEffect>
@@ -6181,7 +6181,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -6192,7 +6192,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -6234,7 +6234,7 @@
 	<skill id="3191" toLevel="10" name="Item Skill: Sleep">
 		<!-- Active: Momentarily puts a target into sleep. Additional chance to be put into sleep greatly decreases while the effect lasts. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>SLEEP</abnormalType>
 		<abnormalVisualEffect>SLEEP</abnormalVisualEffect>
@@ -6258,7 +6258,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -6269,7 +6269,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -6314,7 +6314,7 @@
 	<skill id="3192" toLevel="10" name="Item Skill: Paralyze">
 		<!-- Active: Momentarily paralyzes the target. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>PARALYZE</abnormalType>
 		<activateRate>40</activateRate>
@@ -6337,7 +6337,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -6348,7 +6348,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -6404,7 +6404,7 @@
 	<skill id="3193" toLevel="10" name="Item Skill: Medusa">
 		<!-- Active: Momentarily petrifies the target. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>TURN_STONE</abnormalType>
 		<abnormalVisualEffect>FLESH_STONE</abnormalVisualEffect>
@@ -6430,7 +6430,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -6441,7 +6441,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -6479,7 +6479,7 @@
 	<skill id="3194" toLevel="10" name="Item Skill: Fear">
 		<!-- Active: Momentarily inflicts Fear on the target and causes him to flee. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>TURN_FLEE</abnormalType>
 		<abnormalVisualEffect>TURN_FLEE</abnormalVisualEffect>
@@ -6503,7 +6503,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -6514,7 +6514,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -6554,7 +6554,7 @@
 	<skill id="3195" toLevel="15" name="Item Skill: Poison (Active)">
 		<!-- Active: Momentarily poisons a target. Effect $s1. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">5</value>
 			<value level="2">5</value>
 			<value level="3">6</value>
@@ -6570,7 +6570,7 @@
 			<value level="13">8</value>
 			<value level="14">8</value>
 			<value level="15">8</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<subordinationAbnormalType>POISON</subordinationAbnormalType>
 		<abnormalType>POISON</abnormalType>
@@ -6600,7 +6600,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -6616,7 +6616,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">42</value>
 			<value level="2">44</value>
@@ -6684,7 +6684,7 @@
 	<skill id="3196" toLevel="15" name="Item Skill: Bleed (Active)">
 		<!-- Active: Momentarily inflicts Bleed on the target. Effect $s1. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">5</value>
 			<value level="2">5</value>
 			<value level="3">6</value>
@@ -6700,7 +6700,7 @@
 			<value level="13">8</value>
 			<value level="14">8</value>
 			<value level="15">8</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>20</abnormalTime>
 		<subordinationAbnormalType>BLEEDING</subordinationAbnormalType>
 		<abnormalType>BLEEDING</abnormalType>
@@ -6730,7 +6730,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -6746,7 +6746,7 @@
 			<value level="13">90</value>
 			<value level="14">95</value>
 			<value level="15">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">42</value>
 			<value level="2">44</value>
@@ -6814,7 +6814,7 @@
 	<skill id="3197" toLevel="10" name="Item Skill: Silence">
 		<!-- Active: Momentarily blocks the target's magic skills. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>SILENCE</abnormalType>
 		<abnormalVisualEffect>SILENCE</abnormalVisualEffect>
@@ -6838,7 +6838,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -6849,7 +6849,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -6888,7 +6888,7 @@
 	<skill id="3198" toLevel="10" name="Item Skill: Doom">
 		<!-- Active: Momentarily blocks all of the target's physical/ magic skills. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>SILENCE_ALL</abnormalType>
 		<abnormalVisualEffect>SILENCE</abnormalVisualEffect>
@@ -6912,7 +6912,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>10</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">46</value>
 			<value level="2">49</value>
 			<value level="3">52</value>
@@ -6923,7 +6923,7 @@
 			<value level="8">67</value>
 			<value level="9">70</value>
 			<value level="10">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">33</value>
 			<value level="2">35</value>
@@ -6963,7 +6963,7 @@
 	<skill id="3199" toLevel="3" name="Item Skill: Skill Refresh">
 		<!-- Active: Temporarily decreases the Cooldown for physical skills. -->
 		<icon>icon.skill3123</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
 		<effectPoint>
@@ -6973,11 +6973,11 @@
 		</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>
+		<magicLevel>
 			<value level="1">55</value>
 			<value level="2">64</value>
 			<value level="3">75</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">43</value>
 			<value level="2">49</value>

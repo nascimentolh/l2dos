@@ -102,7 +102,7 @@
 		<attributeType>EARTH</attributeType>
 		<attributeValue>20</attributeValue>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>100</magicLvl>
+		<magicLevel>100</magicLevel>
 		<mpConsume>80</mpConsume>
 		<effectRange>1400</effectRange>
 		<reuseDelay>10000</reuseDelay>
@@ -616,7 +616,7 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
-		<magicLvl>110</magicLvl>
+		<magicLevel>110</magicLevel>
 		<effects>
 			<effect name="PhysicalAttack">
 				<power>10000</power>
@@ -636,7 +636,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
-		<magicLvl>110</magicLvl>
+		<magicLevel>110</magicLevel>
 		<effects>
 			<effect name="MagicalAttack">
 				<power>20000</power>
@@ -663,8 +663,8 @@
 		<effectRange>600</effectRange>
 		<lvlBonusRate>1</lvlBonusRate>
 		<activateRate>40</activateRate>
-		<magicLvl>110</magicLvl>
-		<abnormalLvl>1</abnormalLvl>
+		<magicLevel>110</magicLevel>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -678,7 +678,7 @@
 		<operateType>A2</operateType>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<isDebuff>true</isDebuff>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>9</abnormalTime>
 		<abnormalType>AIRBIND</abnormalType>
 		<abnormalVisualEffect>AIRBIND</abnormalVisualEffect>
@@ -691,7 +691,7 @@
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<activateRate>90</activateRate>
-		<magicLvl>110</magicLvl>
+		<magicLevel>110</magicLevel>
 		<trait>AIRBIND</trait>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -719,7 +719,7 @@
 	<skill id="32669" toLevel="1" name="Water Curse Scale">
 		<!-- Sticks water scales on the target, decreasing its Atk. Spd./ Casting Spd. by 20% and Speed by 50. -->
 		<icon>icon.skill1160</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<activateRate>80</activateRate>
@@ -734,7 +734,7 @@
 		<isMagic>1</isMagic>
 		<isDebuff>true</isDebuff>
 		<operateType>A2</operateType>
-		<magicLvl>110</magicLvl>
+		<magicLevel>110</magicLevel>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>ENEMY_ONLY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -764,7 +764,7 @@
 		<effectPoint>-100</effectPoint>
 		<isDebuff>true</isDebuff>
 		<operateType>A2</operateType>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<subordinationAbnormalType>POISON</subordinationAbnormalType>
 		<abnormalType>POISON</abnormalType>
@@ -772,7 +772,7 @@
 		<activateRate>90</activateRate>
 		<basicProperty>PHYSICAL</basicProperty>
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>110</magicLvl>
+		<magicLevel>110</magicLevel>
 		<magicCriticalRate>5</magicCriticalRate>
 		<trait>POISON</trait>
 		<targetType>ENEMY_ONLY</targetType>
@@ -787,7 +787,7 @@
 	<skill id="32671" toLevel="1" name="Krofin Stun Slasher">
 		<!-- Attacks enemies in front, hurling them away and stunning them. -->
 		<icon>icon.skill0100</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>9</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -804,7 +804,7 @@
 		<effectPoint>-100</effectPoint>
 		<isDebuff>true</isDebuff>
 		<operateType>A2</operateType>
-		<magicLvl>110</magicLvl>
+		<magicLevel>110</magicLevel>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>ENEMY_ONLY</targetType>
@@ -820,7 +820,7 @@
 	<skill id="32672" toLevel="1" name="Krofin Stamp Square">
 		<!-- Energy of Water deals great damage to the target, knocking it down and prevents it from taking action. -->
 		<icon>icon.skill10262</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>KNOCKDOWN</abnormalType>
 		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
@@ -836,7 +836,7 @@
 		<trait>KNOCKDOWN</trait>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>110</magicLvl>
+		<magicLevel>110</magicLevel>
 		<basicProperty>NONE</basicProperty>
 		<targetType>SELF</targetType>
 		<affectScope>POINT_BLANK</affectScope>
@@ -872,11 +872,11 @@
 		<reuseDelay>10000</reuseDelay>
 		<isMagic>1</isMagic>
 		<operateType>A2</operateType>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>RACE_ORC1</abnormalType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>110</magicLvl>
+		<magicLevel>110</magicLevel>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
@@ -900,13 +900,13 @@
 	</skill>
 	<skill id="32674" toLevel="1" name="Water Chain">
 		<!-- Pulls a target to you. -->
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<activateRate>90</activateRate>
 		<lvlBonusRate>30</lvlBonusRate>
 		<basicProperty>PHYSICAL</basicProperty>
-		<magicLvl>110</magicLvl>
+		<magicLevel>110</magicLevel>
 		<castRange>1100</castRange>
 		<effectRange>1600</effectRange>
 		<hitTime>1500</hitTime>
@@ -968,7 +968,7 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
-		<magicLvl>110</magicLvl>
+		<magicLevel>110</magicLevel>
 		<effects>
 			<effect name="PhysicalAttack">
 				<power>10000</power> <!-- Fix: Retail Missed -->
@@ -1038,7 +1038,7 @@
 		<coolTime>500</coolTime>
 		<reuseDelay>30000</reuseDelay>
 		<effectPoint>-1000</effectPoint>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<abnormalType>KNOCKDOWN</abnormalType>
 		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
@@ -1047,7 +1047,7 @@
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<trait>KNOCKDOWN</trait>
 		<affectRange>125</affectRange>
 		<affectLimit>5-12</affectLimit>
@@ -1085,7 +1085,7 @@
 		<reuseDelay>10000</reuseDelay>
 		<effectPoint>-1000</effectPoint>
 		<effectRange>400</effectRange>
-		<magicLvl>100</magicLvl>
+		<magicLevel>100</magicLevel>
 		<mpConsume>80</mpConsume>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1109,15 +1109,15 @@
 		<effectPoint>-1000</effectPoint>
 		<mpConsume>8</mpConsume>		
 		<castRange>700</castRange>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>SPEED_UP_SPECIAL</abnormalType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1200</effectRange>
-		<magicLvl>91</magicLvl>
-		<abnormalLvl>1</abnormalLvl>
+		<magicLevel>91</magicLevel>
+		<abnormalLevel>1</abnormalLevel>
 		<affectRange>900</affectRange>
 		<targetType>SELF</targetType>
 		<affectScope>RANGE</affectScope>
@@ -1149,7 +1149,7 @@
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<targetType>ENEMY</targetType>
 		<affectScope>RANGE</affectScope>
 		<affectObject>NOT_FRIEND</affectObject>
@@ -1170,13 +1170,13 @@
 		<coolTime>500</coolTime>
 		<reuseDelay>30000</reuseDelay>
 		<effectPoint>-1000</effectPoint>
-		<abnormalLvl>5</abnormalLvl>
+		<abnormalLevel>5</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<affectLimit>5-12</affectLimit>
 		<affectRange>200</affectRange>
 		<effectRange>900</effectRange>
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<mpConsume>160</mpConsume>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>ENEMY</targetType>
@@ -1211,7 +1211,7 @@
 		<affectRange>900</affectRange>
 		<fanRange>0,0,900,90</fanRange>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>100</magicLvl>
+		<magicLevel>100</magicLevel>
 		<mpConsume>175</mpConsume>
 		<nextAction>ATTACK</nextAction>
 		<effectRange>1500</effectRange>
@@ -1245,7 +1245,7 @@
 		<effectPoint>-681</effectPoint>
 		<effectRange>800</effectRange>
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<mpConsume>82</mpConsume>
 		<nextAction>ATTACK</nextAction>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1273,7 +1273,7 @@
 		<coolTime>500</coolTime>
 		<reuseDelay>30000</reuseDelay>
 		<effectPoint>-1000</effectPoint>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>9</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -1282,7 +1282,7 @@
 		<affectRange>600</affectRange>
 		<basicProperty>PHYSICAL</basicProperty>
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>100</magicLvl>
+		<magicLevel>100</magicLevel>
 		<mpConsume>80</mpConsume>
 		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1314,14 +1314,14 @@
 		<effectPoint>-1000</effectPoint>
 		<affectLimit>5-12</affectLimit>
 		<abnormalTime>1</abnormalTime>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<activateRate>60</activateRate>
 		<nextAction>ATTACK</nextAction>
 		<affectRange>600</affectRange>
 		<affectLimit>10-10</affectLimit>
 		<basicProperty>NONE</basicProperty>
 		<effectRange>600</effectRange>
-		<magicLvl>100</magicLvl>
+		<magicLevel>100</magicLevel>
 		<mpConsume>80</mpConsume>
 		<reuseDelay>45000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1354,7 +1354,7 @@
 		<effectPoint>-1000</effectPoint>	
 		<affectLimit>6-12</affectLimit>
 		<affectRange>200</affectRange>
-		<magicLvl>100</magicLvl>
+		<magicLevel>100</magicLevel>
 		<mpConsume>80</mpConsume>
 		<reuseDelay>11000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1378,7 +1378,7 @@
 		<coolTime>500</coolTime>
 		<reuseDelay>30000</reuseDelay>
 		<effectPoint>-1000</effectPoint>	
-		<abnormalLvl>5</abnormalLvl>
+		<abnormalLevel>5</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>ALL_SPEED_DOWN</abnormalType>
 		<activateRate>80</activateRate>
@@ -1386,7 +1386,7 @@
 		<affectRange>150</affectRange>
 		<basicProperty>MAGIC</basicProperty>
 		<lvlBonusRate>20</lvlBonusRate>
-		<magicLvl>100</magicLvl>
+		<magicLevel>100</magicLevel>
 		<mpConsume>80</mpConsume>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
@@ -1413,7 +1413,7 @@
 		<coolTime>500</coolTime>
 		<reuseDelay>15000</reuseDelay>
 		<effectPoint>-1000</effectPoint>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<abnormalType>KNOCKDOWN</abnormalType>
 		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
@@ -1422,7 +1422,7 @@
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<lvlBonusRate>30</lvlBonusRate>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<trait>KNOCKDOWN</trait>
 		<affectRange>125</affectRange>
 		<affectLimit>5-12</affectLimit>
@@ -1461,7 +1461,7 @@
 		<affectLimit>6-12</affectLimit>
 		<affectRange>200</affectRange>
 		<coolTime>733</coolTime>
-		<magicLvl>100</magicLvl>
+		<magicLevel>100</magicLevel>
 		<mpConsume>80</mpConsume>
 		<reuseDelay>11000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1486,7 +1486,7 @@
 		<effectPoint>-1000</effectPoint>
 		<affectRange>300</affectRange>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<effectRange>400</effectRange>
 		<basicProperty>MAGIC</basicProperty>
 		<targetType>ENEMY</targetType>
@@ -1510,14 +1510,14 @@
 		<effectPoint>-1000</effectPoint>
 		<affectLimit>5-12</affectLimit>
 		<abnormalTime>1</abnormalTime>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<activateRate>100</activateRate>
 		<nextAction>ATTACK</nextAction>
 		<affectRange>600</affectRange>
 		<affectLimit>10-10</affectLimit>
 		<basicProperty>NONE</basicProperty>
 		<effectRange>600</effectRange>
-		<magicLvl>100</magicLvl>
+		<magicLevel>100</magicLevel>
 		<mpConsume>80</mpConsume>
 		<magicCriticalRate>5</magicCriticalRate>
 		<trait>PULL</trait>
@@ -1551,7 +1551,7 @@
 		<effectPoint>-1000</effectPoint>
 		<affectRange>300</affectRange>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<effectRange>400</effectRange>
 		<basicProperty>MAGIC</basicProperty>
 		<targetType>ENEMY</targetType>

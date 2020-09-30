@@ -240,8 +240,8 @@ import org.l2jmobius.gameserver.util.Util;
 public class PlayerInstance extends Playable
 {
 	/** SQL queries */
-	private static final String UPDATE_CHARACTER = "UPDATE characters SET level=?,maxHp=?,curHp=?,maxCp=?,curCp=?,maxMp=?,curMp=?,str=?,con=?,dex=?,_int=?,men=?,wit=?,face=?,hairStyle=?,hairColor=?,heading=?,x=?,y=?,z=?,exp=?,expBeforeDeath=?,sp=?,karma=?,pvpkills=?,pkkills=?,rec_have=?,rec_left=?,clanid=?,maxload=?,race=?,classid=?,deletetime=?,title=?,accesslevel=?,online=?,isin7sdungeon=?,clan_privs=?,wantspeace=?,base_class=?,onlinetime=?,punish_level=?,punish_timer=?,newbie=?,nobless=?,power_grade=?,subpledge=?,last_recom_date=?,lvl_joined_academy=?,apprentice=?,sponsor=?,varka_ketra_ally=?,clan_join_expiry_time=?,clan_create_expiry_time=?,char_name=?,death_penalty_level=?,pc_point=?,name_color=?,title_color=?,aio=?,aio_end=? WHERE obj_id=?";
-	private static final String RESTORE_CHARACTER = "SELECT account_name, obj_Id, char_name, level, maxHp, curHp, maxCp, curCp, maxMp, curMp, acc, crit, evasion, mAtk, mDef, mSpd, pAtk, pDef, pSpd, runSpd, walkSpd, str, con, dex, _int, men, wit, face, hairStyle, hairColor, sex, heading, x, y, z, movement_multiplier, attack_speed_multiplier, colRad, colHeight, exp, expBeforeDeath, sp, karma, pvpkills, pkkills, clanid, maxload, race, classid, deletetime, cancraft, title, rec_have, rec_left, accesslevel, online, char_slot, lastAccess, clan_privs, wantspeace, base_class, onlinetime, isin7sdungeon,punish_level,punish_timer,newbie, nobless, power_grade, subpledge, last_recom_date, lvl_joined_academy, apprentice, sponsor, varka_ketra_ally,clan_join_expiry_time,clan_create_expiry_time,death_penalty_level,pc_point,name_color,title_color,first_log,aio,aio_end FROM characters WHERE obj_id=?";
+	private static final String UPDATE_CHARACTER = "UPDATE characters SET level=?,maxHp=?,curHp=?,maxCp=?,curCp=?,maxMp=?,curMp=?,str=?,con=?,dex=?,_int=?,men=?,wit=?,face=?,hairStyle=?,hairColor=?,heading=?,x=?,y=?,z=?,exp=?,expBeforeDeath=?,sp=?,karma=?,pvpkills=?,pkkills=?,rec_have=?,rec_left=?,clanid=?,maxload=?,race=?,classid=?,deletetime=?,title=?,accesslevel=?,online=?,isin7sdungeon=?,clan_privs=?,wantspeace=?,base_class=?,onlinetime=?,punish_level=?,punish_timer=?,newbie=?,nobless=?,power_grade=?,subpledge=?,last_recom_date=?,lvl_joined_academy=?,apprentice=?,sponsor=?,varka_ketra_ally=?,clan_join_expiry_time=?,clan_create_expiry_time=?,char_name=?,death_penalty_level=?,pc_point=?,name_color=?,title_color=?,aio=?,aio_end=? WHERE charId=?";
+	private static final String RESTORE_CHARACTER = "SELECT account_name, charId, char_name, level, maxHp, curHp, maxCp, curCp, maxMp, curMp, acc, crit, evasion, mAtk, mDef, mSpd, pAtk, pDef, pSpd, runSpd, walkSpd, str, con, dex, _int, men, wit, face, hairStyle, hairColor, sex, heading, x, y, z, movement_multiplier, attack_speed_multiplier, colRad, colHeight, exp, expBeforeDeath, sp, karma, pvpkills, pkkills, clanid, maxload, race, classid, deletetime, cancraft, title, rec_have, rec_left, accesslevel, online, char_slot, lastAccess, clan_privs, wantspeace, base_class, onlinetime, isin7sdungeon,punish_level,punish_timer,newbie, nobless, power_grade, subpledge, last_recom_date, lvl_joined_academy, apprentice, sponsor, varka_ketra_ally,clan_join_expiry_time,clan_create_expiry_time,death_penalty_level,pc_point,name_color,title_color,first_log,aio,aio_end FROM characters WHERE charId=?";
 	private static final String RESTORE_SKILLS_FOR_CHAR_ALT_SUBCLASS = "SELECT skill_id,skill_level FROM character_skills WHERE char_obj_id=? ORDER BY (skill_level+0)";
 	private static final String RESTORE_CHAR_SUBCLASSES = "SELECT class_id,exp,sp,level,class_index FROM character_subclasses WHERE char_obj_id=? ORDER BY class_index ASC";
 	private static final String ADD_CHAR_SUBCLASS = "INSERT INTO character_subclasses (char_obj_id,class_id,exp,sp,level,class_index) VALUES (?,?,?,?,?,?)";
@@ -678,7 +678,7 @@ public class PlayerInstance extends Playable
 				final Siege siege = SiegeManager.getInstance().getSiege(PlayerInstance.this);
 				if ((((siege == null) || !siege.isInProgress()) && ((thisLevel >= 20) && (targetLevel < 20))) || ((thisLevel >= 40) && (targetLevel < 40)) || ((thisLevel >= 52) && (targetLevel < 52)) || ((thisLevel >= 61) && (targetLevel < 61)) || ((thisLevel >= 76) && (targetLevel < 76)))
 				{
-					sendMessage("You can only engage in PvP if your target is in your level grade.");
+					sendMessage("You can only engage in PvP when your target is within your level grade.");
 					sendPacket(ActionFailed.STATIC_PACKET);
 					return;
 				}
@@ -714,7 +714,6 @@ public class PlayerInstance extends Playable
 			{
 				sendPacket(ActionFailed.STATIC_PACKET);
 				return;
-				
 			}
 			
 			// during teleport phase, players cant do any attack
@@ -6086,7 +6085,7 @@ public class PlayerInstance extends Playable
 		{
 			// this formula seems to work relatively well:
 			// baseKarma * thisLVL * (thisLVL/100)
-			// Calculate the new Karma of the attacker : newKarma = baseKarma*pkCountMulti*lvlDiffMulti
+			// Calculate the new Karma of the attacker : newKarma = baseKarma*pkCountMulti*levelDiffMulti
 			double karmaLost = Config.KARMA_LOST_BASE;
 			karmaLost *= getLevel(); // multiply by char lvl
 			karmaLost *= getLevel() / 100.0; // divide by 0.charLVL
@@ -6277,7 +6276,7 @@ public class PlayerInstance extends Playable
 			}
 			
 			// Anti FARM level player < 40
-			if (Config.ANTI_FARM_LVL_DIFF_ENABLED && (targetPlayer.getLevel() < Config.ANTI_FARM_MAX_LVL_DIFF))
+			if (Config.ANTI_FARM_LEVEL_DIFF_ENABLED && (targetPlayer.getLevel() < Config.ANTI_FARM_MAX_LEVEL_DIFF))
 			{
 				sendMessage("Farm is punishable with Ban! Don't kill new players! GM informed.");
 				LOGGER.info("PVP POINT FARM ATTEMPT, " + getName() + " and " + targetPlayer.getName() + ". LVL DIFF.");
@@ -6669,7 +6668,7 @@ public class PlayerInstance extends Playable
 		final int karmaLimit = Config.KARMA_MAX_KARMA;
 		final int pkLVL = getLevel();
 		final int pkPKCount = getPkKills();
-		int lvlDiffMulti = 0;
+		int levelDiffMulti = 0;
 		int pkCountMulti = 0;
 		
 		// Check if the attacker has a PK counter greater than 0
@@ -6690,21 +6689,21 @@ public class PlayerInstance extends Playable
 		// Calculate the level difference Multiplier between attacker and killed PlayerInstance
 		if (pkLVL > targLVL)
 		{
-			lvlDiffMulti = pkLVL / targLVL;
+			levelDiffMulti = pkLVL / targLVL;
 		}
 		else
 		{
-			lvlDiffMulti = 1;
+			levelDiffMulti = 1;
 		}
 		
-		if (lvlDiffMulti < 1)
+		if (levelDiffMulti < 1)
 		{
-			lvlDiffMulti = 1;
+			levelDiffMulti = 1;
 		}
 		
-		// Calculate the new Karma of the attacker : newKarma = baseKarma*pkCountMulti*lvlDiffMulti
+		// Calculate the new Karma of the attacker : newKarma = baseKarma*pkCountMulti*levelDiffMulti
 		newKarma *= pkCountMulti;
-		newKarma *= lvlDiffMulti;
+		newKarma *= levelDiffMulti;
 		
 		// Make sure newKarma is less than karmaLimit and higher than baseKarma
 		if (newKarma < baseKarma)
@@ -6927,14 +6926,14 @@ public class PlayerInstance extends Playable
 		long lostExp = 0;
 		if (!atEvent && (!_inEventTvT || !TvT.isStarted()) && (!_inEventDM || !DM.hasStarted()) && (!_inEventCTF || !CTF.isStarted()) && (!_inEventVIP || !VIP._started))
 		{
-			final byte maxLvl = ExperienceData.getInstance().getMaxLevel();
-			if (lvl < maxLvl)
+			final byte maxLevel = ExperienceData.getInstance().getMaxLevel();
+			if (lvl < maxLevel)
 			{
 				lostExp = Math.round(((getStat().getExpForLevel(lvl + 1) - getStat().getExpForLevel(lvl)) * percentLost) / 100);
 			}
 			else
 			{
-				lostExp = Math.round(((getStat().getExpForLevel(maxLvl) - getStat().getExpForLevel(maxLvl - 1)) * percentLost) / 100);
+				lostExp = Math.round(((getStat().getExpForLevel(maxLevel) - getStat().getExpForLevel(maxLevel - 1)) * percentLost) / 100);
 			}
 		}
 		// Get the Experience before applying penalty
@@ -7916,7 +7915,7 @@ public class PlayerInstance extends Playable
 		
 		try (Connection con = DatabaseFactory.getConnection())
 		{
-			final PreparedStatement statement = con.prepareStatement("UPDATE characters SET online=?, lastAccess=? WHERE obj_id=?");
+			final PreparedStatement statement = con.prepareStatement("UPDATE characters SET online=?, lastAccess=? WHERE charId=?");
 			statement.setInt(1, isOnline() ? 1 : 0);
 			statement.setLong(2, System.currentTimeMillis());
 			statement.setInt(3, getObjectId());
@@ -7936,7 +7935,7 @@ public class PlayerInstance extends Playable
 	{
 		try (Connection con = DatabaseFactory.getConnection())
 		{
-			final PreparedStatement statement = con.prepareStatement("UPDATE characters SET isIn7sDungeon=?, lastAccess=? WHERE obj_id=?");
+			final PreparedStatement statement = con.prepareStatement("UPDATE characters SET isIn7sDungeon=?, lastAccess=? WHERE charId=?");
 			statement.setInt(1, isIn7sDungeon() ? 1 : 0);
 			statement.setLong(2, System.currentTimeMillis());
 			statement.setInt(3, getObjectId());
@@ -7956,7 +7955,7 @@ public class PlayerInstance extends Playable
 	{
 		try (Connection con = DatabaseFactory.getConnection())
 		{
-			final PreparedStatement statement = con.prepareStatement("UPDATE characters SET first_log=? WHERE obj_id=?");
+			final PreparedStatement statement = con.prepareStatement("UPDATE characters SET first_log=? WHERE charId=?");
 			int fl;
 			if (getFirstLog())
 			{
@@ -7988,7 +7987,7 @@ public class PlayerInstance extends Playable
 		try (Connection con = DatabaseFactory.getConnection())
 		{
 			PreparedStatement statement;
-			statement = con.prepareStatement("INSERT INTO characters (account_name,obj_Id,char_name,level,maxHp,curHp,maxCp,curCp,maxMp,curMp,acc,crit,evasion,mAtk,mDef,mSpd,pAtk,pDef,pSpd,runSpd,walkSpd,str,con,dex,_int,men,wit,face,hairStyle,hairColor,sex,movement_multiplier,attack_speed_multiplier,colRad,colHeight,exp,sp,karma,pvpkills,pkkills,clanid,maxload,race,classid,deletetime,cancraft,title,accesslevel,online,isin7sdungeon,clan_privs,wantspeace,base_class,newbie,nobless,power_grade,last_recom_date,name_color,title_color,aio,aio_end) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
+			statement = con.prepareStatement("INSERT INTO characters (account_name,charId,char_name,level,maxHp,curHp,maxCp,curCp,maxMp,curMp,acc,crit,evasion,mAtk,mDef,mSpd,pAtk,pDef,pSpd,runSpd,walkSpd,str,con,dex,_int,men,wit,face,hairStyle,hairColor,sex,movement_multiplier,attack_speed_multiplier,colRad,colHeight,exp,sp,karma,pvpkills,pkkills,clanid,maxload,race,classid,deletetime,cancraft,title,accesslevel,online,isin7sdungeon,clan_privs,wantspeace,base_class,newbie,nobless,power_grade,last_recom_date,name_color,title_color,aio,aio_end) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
 			statement.setString(1, _accountName);
 			statement.setInt(2, getObjectId());
 			statement.setString(3, getName());
@@ -8241,14 +8240,14 @@ public class PlayerInstance extends Playable
 				player.setLastServerPosition(x, y, z);
 				
 				// Retrieve the name and ID of the other characters assigned to this account.
-				final PreparedStatement stmt = con.prepareStatement("SELECT obj_Id, char_name FROM characters WHERE account_name=? AND obj_Id<>?");
+				final PreparedStatement stmt = con.prepareStatement("SELECT charId, char_name FROM characters WHERE account_name=? AND charId<>?");
 				stmt.setString(1, player._accountName);
 				stmt.setInt(2, objectId);
 				final ResultSet chars = stmt.executeQuery();
 				
 				while (chars.next())
 				{
-					final Integer charId = chars.getInt("obj_Id");
+					final Integer charId = chars.getInt("charId");
 					final String charName = chars.getString("char_name");
 					player._chars.put(charId, charName);
 				}
@@ -8791,7 +8790,7 @@ public class PlayerInstance extends Playable
 				if (currentTime < t.getStamp())
 				{
 					final int skillId = t.getSkillId();
-					final int skillLvl = t.getSkillLevel();
+					final int skillLevel = t.getSkillLevel();
 					if (storedSkills.contains(skillId))
 					{
 						continue;
@@ -8800,7 +8799,7 @@ public class PlayerInstance extends Playable
 					
 					statement.setInt(1, getObjectId());
 					statement.setInt(2, skillId);
-					statement.setInt(3, skillLvl);
+					statement.setInt(3, skillLevel);
 					statement.setInt(4, -1);
 					statement.setInt(5, -1);
 					statement.setLong(6, t.getReuse());
@@ -8994,78 +8993,78 @@ public class PlayerInstance extends Playable
 			// loop through all skills of player
 			for (Skill skill : getAllSkills())
 			{
-				final int skillid = skill.getId();
+				final int skillId = skill.getId();
 				// int skilllevel = skill.getLevel();
 				foundskill = false;
 				// loop through all skills in players skilltree
 				for (SkillLearn temp : skillTree)
 				{
 					// if the skill was found and the level is possible to obtain for his class everything is ok
-					if (temp.getId() == skillid)
+					if (temp.getId() == skillId)
 					{
 						foundskill = true;
 					}
 				}
 				
 				// exclude noble skills
-				if (isNoble() && (skillid >= 325) && (skillid <= 397))
+				if (isNoble() && (skillId >= 325) && (skillId <= 397))
 				{
 					foundskill = true;
 				}
 				
-				if (isNoble() && (skillid >= 1323) && (skillid <= 1327))
+				if (isNoble() && (skillId >= 1323) && (skillId <= 1327))
 				{
 					foundskill = true;
 				}
 				
 				// exclude hero skills
-				if (isHero() && (skillid >= 395) && (skillid <= 396))
+				if (isHero() && (skillId >= 395) && (skillId <= 396))
 				{
 					foundskill = true;
 				}
 				
-				if (isHero() && (skillid >= 1374) && (skillid <= 1376))
+				if (isHero() && (skillId >= 1374) && (skillId <= 1376))
 				{
 					foundskill = true;
 				}
 				
 				// exclude cursed weapon skills
-				if (isCursedWeaponEquiped() && (skillid == CursedWeaponsManager.getInstance().getCursedWeapon(_cursedWeaponEquipedId).getSkillId()))
+				if (isCursedWeaponEquiped() && (skillId == CursedWeaponsManager.getInstance().getCursedWeapon(_cursedWeaponEquipedId).getSkillId()))
 				{
 					foundskill = true;
 				}
 				
 				// exclude clan skills
-				if ((getClan() != null) && (skillid >= 370) && (skillid <= 391))
+				if ((getClan() != null) && (skillId >= 370) && (skillId <= 391))
 				{
 					foundskill = true;
 				}
 				
 				// exclude seal of ruler / build siege hq
-				if ((getClan() != null) && ((skillid == 246) || (skillid == 247)) && (getClan().getLeaderId() == getObjectId()))
+				if ((getClan() != null) && ((skillId == 246) || (skillId == 247)) && (getClan().getLeaderId() == getObjectId()))
 				{
 					foundskill = true;
 				}
 				
 				// exclude fishing skills and common skills + dwarfen craft
-				if ((skillid >= 1312) && (skillid <= 1322))
+				if ((skillId >= 1312) && (skillId <= 1322))
 				{
 					foundskill = true;
 				}
 				
-				if ((skillid >= 1368) && (skillid <= 1373))
+				if ((skillId >= 1368) && (skillId <= 1373))
 				{
 					foundskill = true;
 				}
 				
 				// exclude sa / enchant bonus / penality etc. skills
-				if ((skillid >= 3000) && (skillid < 7000))
+				if ((skillId >= 3000) && (skillId < 7000))
 				{
 					foundskill = true;
 				}
 				
 				// exclude Skills from AllowedSkills in options.ini
-				if (Config.ALLOWED_SKILLS_LIST.contains(skillid))
+				if (Config.ALLOWED_SKILLS_LIST.contains(skillId))
 				{
 					foundskill = true;
 				}
@@ -9188,7 +9187,7 @@ public class PlayerInstance extends Playable
 			while (rset.next())
 			{
 				final int skillId = rset.getInt("skill_id");
-				final int skillLvl = rset.getInt("skill_level");
+				final int skillLevel = rset.getInt("skill_level");
 				final int effectCount = rset.getInt("effect_count");
 				final int effectCurTime = rset.getInt("effect_cur_time");
 				final long reuseDelay = rset.getLong("reuse_delay");
@@ -9202,7 +9201,7 @@ public class PlayerInstance extends Playable
 				
 				if (activateEffects)
 				{
-					final Skill skill = SkillTable.getInstance().getSkill(skillId, skillLvl);
+					final Skill skill = SkillTable.getInstance().getSkill(skillId, skillLevel);
 					skill.getEffects(this, this, false, false, false);
 					for (Effect effect : getAllEffects())
 					{
@@ -9217,7 +9216,7 @@ public class PlayerInstance extends Playable
 				final long remainingTime = systime - currentTime;
 				if (remainingTime > 10)
 				{
-					final Skill skill = SkillTable.getInstance().getSkill(skillId, skillLvl);
+					final Skill skill = SkillTable.getInstance().getSkill(skillId, skillLevel);
 					if (skill == null)
 					{
 						continue;
@@ -9240,13 +9239,13 @@ public class PlayerInstance extends Playable
 			while (rset.next())
 			{
 				final int skillId = rset.getInt("skill_id");
-				final int skillLvl = rset.getInt("skill_level");
+				final int skillLevel = rset.getInt("skill_level");
 				final long reuseDelay = rset.getLong("reuse_delay");
 				final long systime = rset.getLong("systime");
 				final long remainingTime = systime - currentTime;
 				if (remainingTime > 0)
 				{
-					final Skill skill = SkillTable.getInstance().getSkill(skillId, skillLvl);
+					final Skill skill = SkillTable.getInstance().getSkill(skillId, skillLevel);
 					if (skill == null)
 					{
 						continue;
@@ -10034,7 +10033,7 @@ public class PlayerInstance extends Playable
 			final Siege siege = SiegeManager.getInstance().getSiege(this);
 			if ((((siege == null) || !siege.isInProgress()) && ((thisLevel >= 20) && (targetLevel < 20))) || ((thisLevel >= 40) && (targetLevel < 40)) || ((thisLevel >= 52) && (targetLevel < 52)) || ((thisLevel >= 61) && (targetLevel < 61)) || ((thisLevel >= 76) && (targetLevel < 76)))
 			{
-				sendMessage("You can only engage in PvP if your target is in your level grade.");
+				sendMessage("You can only engage in PvP when your target is within your level grade.");
 				sendPacket(ActionFailed.STATIC_PACKET);
 				return;
 			}
@@ -12746,10 +12745,18 @@ public class PlayerInstance extends Playable
 	public void doRevive()
 	{
 		super.doRevive();
+		
 		updateEffectIcons();
 		sendPacket(new EtcStatusUpdate(this));
 		_reviveRequested = 0;
 		_revivePower = 0;
+		
+		// Teleport summon to player.
+		if (isInsideZone(ZoneId.PEACE) && (_summon != null) && !_summon.isInsideZone(ZoneId.SIEGE))
+		{
+			_summon.teleToLocation(getLocation(), true);
+		}
+		
 		if (isInParty() && getParty().isInDimensionalRift() && !DimensionalRiftManager.getInstance().checkIfInPeaceZone(getX(), getY(), getZ()))
 		{
 			getParty().getDimensionalRift().memberRessurected(this);
@@ -14412,15 +14419,15 @@ public class PlayerInstance extends Playable
 	private int getRandomFishLvl()
 	{
 		final Effect[] effects = getAllEffects();
-		int skilllvl = getSkillLevel(1315);
+		int skillLevel = getSkillLevel(1315);
 		for (Effect e : effects)
 		{
 			if (e.getSkill().getId() == 2274)
 			{
-				skilllvl = (int) e.getSkill().getPower(this);
+				skillLevel = (int) e.getSkill().getPower(this);
 			}
 		}
-		if (skilllvl <= 0)
+		if (skillLevel <= 0)
 		{
 			return 1;
 		}
@@ -14428,11 +14435,11 @@ public class PlayerInstance extends Playable
 		final int check = Rnd.get(100);
 		if (check <= 50)
 		{
-			randomlvl = skilllvl;
+			randomlvl = skillLevel;
 		}
 		else if (check <= 85)
 		{
-			randomlvl = skilllvl - 1;
+			randomlvl = skillLevel - 1;
 			if (randomlvl <= 0)
 			{
 				randomlvl = 1;
@@ -14440,7 +14447,7 @@ public class PlayerInstance extends Playable
 		}
 		else
 		{
-			randomlvl = skilllvl + 1;
+			randomlvl = skillLevel + 1;
 			if (randomlvl > 27)
 			{
 				randomlvl = 27;
@@ -15611,10 +15618,10 @@ public class PlayerInstance extends Playable
 	public void rewardAioSkills()
 	{
 		Skill skill;
-		for (Integer skillid : Config.AIO_SKILLS.keySet())
+		for (Integer skillId : Config.AIO_SKILLS.keySet())
 		{
-			final int skilllvl = Config.AIO_SKILLS.get(skillid);
-			skill = SkillTable.getInstance().getSkill(skillid, skilllvl);
+			final int skillLevel = Config.AIO_SKILLS.get(skillId);
+			skill = SkillTable.getInstance().getSkill(skillId, skillLevel);
 			if (skill != null)
 			{
 				addSkill(skill, true);
@@ -15629,10 +15636,10 @@ public class PlayerInstance extends Playable
 	public void lostAioSkills()
 	{
 		Skill skill;
-		for (Integer skillid : Config.AIO_SKILLS.keySet())
+		for (Integer skillId : Config.AIO_SKILLS.keySet())
 		{
-			final int skilllvl = Config.AIO_SKILLS.get(skillid);
-			skill = SkillTable.getInstance().getSkill(skillid, skilllvl);
+			final int skillLevel = Config.AIO_SKILLS.get(skillId);
+			skill = SkillTable.getInstance().getSkill(skillId, skillLevel);
 			removeSkill(skill);
 		}
 	}
@@ -16393,7 +16400,7 @@ public class PlayerInstance extends Playable
 		}
 		try (Connection con = DatabaseFactory.getConnection())
 		{
-			final PreparedStatement statement = con.prepareStatement("UPDATE characters SET sex=? WHERE obj_Id=?");
+			final PreparedStatement statement = con.prepareStatement("UPDATE characters SET sex=? WHERE charId=?");
 			statement.setInt(1, player.getAppearance().isFemale() ? 1 : 0);
 			statement.setInt(2, player.getObjectId());
 			statement.execute();

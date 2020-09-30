@@ -5,7 +5,7 @@
 		<effectPoint>1</effectPoint>
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -21,18 +21,18 @@
 			<value level="4">icon.xmas_pcwin4_i00</value>
 			<value level="5">icon.xmas_pcwin5_i00</value>
 		</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
 			<value level="4">4</value>
 			<value level="5">5</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>EVENT_WIN</abnormalType>
 		<effectPoint>1</effectPoint>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -46,7 +46,7 @@
 		<!-- Reset score. -->
 		<effectPoint>1</effectPoint>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -56,13 +56,13 @@
 	<skill id="6105" toLevel="1" name="Turkey's Mistake">
 		<!-- The stupid turkey's mistake. For 1 h., Max HP +10%, Max MP +10%, Max CP +10%, Speed +15%, P. Atk. +10%, M. Atk. +15%, P. Critical Rate +5, P. Critical Damage +15%, M. Critical Rate +20. -->
 		<icon>icon.turkey_buff_i00</icon>
-		<abnormalLvl>2</abnormalLvl>
+		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>EVENT_SANTA_REWARD</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>4000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -77,12 +77,12 @@
 	<skill id="6106" toLevel="1" name="Winter Holiday Festival">
 		<!-- Holiday festival. For 1 h., Max HP +5%, Max MP +5%, Max CP +5%, Speed +10, P. Atk. +8%, and M. Atk. +10%. -->
 		<icon>icon.xmas_miracle_i00</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>EVENT_SANTA_REWARD</abnormalType>
 		<effectPoint>1</effectPoint>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -97,12 +97,12 @@
 	<skill id="6107" toLevel="1" name="Winter Holiday Blessing - Gludio">
 		<!-- Holiday Blessing - Registered in Gludio territory. If the corresponding territory Santa is rescued, you get the chance to receive a gift from Santa. -->
 		<icon>icon.skill5762</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>604800</abnormalTime>
 		<abnormalType>EVENT_TERRITORY</abnormalType>
 		<effectPoint>1</effectPoint>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -115,12 +115,12 @@
 	<skill id="6108" toLevel="1" name="Winter Holiday Blessing - Dion">
 		<!-- Holiday Blessing - Registered in Dion territory. If the corresponding territory Santa is rescued, you get the chance to receive a gift from Santa. -->
 		<icon>icon.skill5762</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>604800</abnormalTime>
 		<abnormalType>EVENT_TERRITORY</abnormalType>
 		<effectPoint>1</effectPoint>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -133,12 +133,12 @@
 	<skill id="6109" toLevel="1" name="Winter Holiday Blessing - Giran">
 		<!-- Holiday Blessing - Registered in Giran territory. If the corresponding territory Santa is rescued, you get the chance to receive a gift from Santa. -->
 		<icon>icon.skill5762</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>604800</abnormalTime>
 		<abnormalType>EVENT_TERRITORY</abnormalType>
 		<effectPoint>1</effectPoint>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -151,12 +151,12 @@
 	<skill id="6110" toLevel="1" name="Winter Holiday Blessing - Oren">
 		<!-- Holiday Blessing - Registered in Oren territory. If the corresponding territory Santa is rescued, you get the chance to receive a gift from Santa. -->
 		<icon>icon.skill5762</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>604800</abnormalTime>
 		<abnormalType>EVENT_TERRITORY</abnormalType>
 		<effectPoint>1</effectPoint>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -169,12 +169,12 @@
 	<skill id="6111" toLevel="1" name="Winter Holiday Blessing - Aden">
 		<!-- Holiday Blessing - Registered in Aden territory. If the corresponding territory Santa is rescued, you get the chance to receive a gift from Santa. -->
 		<icon>icon.skill5762</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>604800</abnormalTime>
 		<abnormalType>EVENT_TERRITORY</abnormalType>
 		<effectPoint>1</effectPoint>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -187,12 +187,12 @@
 	<skill id="6112" toLevel="1" name="Winter Holiday Blessing - Innadril">
 		<!-- Holiday Blessing - Registered in Innadril territory. If the corresponding territory Santa is rescued, you get the chance to receive a gift from Santa. -->
 		<icon>icon.skill5762</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>604800</abnormalTime>
 		<abnormalType>EVENT_TERRITORY</abnormalType>
 		<effectPoint>1</effectPoint>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -205,12 +205,12 @@
 	<skill id="6113" toLevel="1" name="Winter Holiday Blessing - Goddard">
 		<!-- Holiday Blessing - Registered in Goddard territory. If the corresponding territory Santa is rescued, you get the chance to receive a gift from Santa. -->
 		<icon>icon.skill5762</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>604800</abnormalTime>
 		<abnormalType>EVENT_TERRITORY</abnormalType>
 		<effectPoint>1</effectPoint>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -223,12 +223,12 @@
 	<skill id="6114" toLevel="1" name="Winter Holiday Blessing - Town of Rune">
 		<!-- Holiday Blessing - Registered in Town of Rune territory. If the corresponding territory Santa is rescued, you get the chance to receive a gift from Santa. -->
 		<icon>icon.skill5762</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>604800</abnormalTime>
 		<abnormalType>EVENT_TERRITORY</abnormalType>
 		<effectPoint>1</effectPoint>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -241,12 +241,12 @@
 	<skill id="6115" toLevel="1" name="Winter Holiday Blessing - Schuttgart">
 		<!-- Holiday Blessing - Registered in Schuttgart territory. If the corresponding territory Santa is rescued, you get the chance to receive a gift from Santa. -->
 		<icon>icon.skill5762</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>604800</abnormalTime>
 		<abnormalType>EVENT_TERRITORY</abnormalType>
 		<effectPoint>1</effectPoint>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -261,7 +261,7 @@
 		<effectPoint>1</effectPoint>
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -275,16 +275,16 @@
 			<value level="2">icon.xmas_bawi_i00</value>
 			<value level="3">icon.xmas_bo_i00</value>
 		</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>EVENT_GAWI</abnormalType>
 		<effectPoint>1</effectPoint>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -315,12 +315,12 @@
 	<skill id="6120" toLevel="1" name="Santa's Reward">
 		<!-- For 1 h., Max HP +10%, Max MP +10%, Max CP +10%, Speed +15%, P. Atk. +10%, M. Atk. +15%, P. Critical Rate +5, P. Critical Damage +15%, M. Critical Rate +2. -->
 		<icon>icon.etc_pi_gift_box_i04</icon>
-		<abnormalLvl>2</abnormalLvl>
+		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>EVENT_SANTA_REWARD</abnormalType>
 		<effectPoint>1</effectPoint>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -374,7 +374,7 @@
 		<icon>icon.skill_agathion_cute</icon>
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>55</magicLvl>
+		<magicLevel>55</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -387,14 +387,14 @@
 	<skill id="6125" toLevel="1" name="Paralysis">
 		<!-- Paralyzed and unable to move momentarily. -->
 		<icon>icon.skill1170</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>PARALYZE</abnormalType>
 		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<isTriggeredSkill>true</isTriggeredSkill>
-		<magicLvl>40</magicLvl>
+		<magicLevel>40</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -409,14 +409,14 @@
 	<skill id="6126" toLevel="1" name="Paralysis">
 		<!-- Paralyzed and unable to move momentarily. -->
 		<icon>icon.skill1170</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>PARALYZE</abnormalType>
 		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<isTriggeredSkill>true</isTriggeredSkill>
-		<magicLvl>40</magicLvl>
+		<magicLevel>40</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -429,7 +429,7 @@
 		</effects>
 	</skill>
 	<skill id="6127" toLevel="1" name="Anti-limit">
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effects>
@@ -440,7 +440,7 @@
 	</skill>
 	<skill id="6128" toLevel="1" name="Presentation - Cow Rage">
 		<hitTime>3000</hitTime>
-		<magicLvl>76</magicLvl>
+		<magicLevel>76</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<targetType>SELF</targetType>
@@ -449,7 +449,7 @@
 	<skill id="6129" toLevel="1" name="Stun">
 		<!-- Immobilizes and stuns target. -->
 		<icon>icon.skill0092</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>9</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -459,7 +459,7 @@
 		<effectPoint>-100</effectPoint>
 		<hitTime>1000</hitTime>
 		<lvlBonusRate>2</lvlBonusRate>
-		<magicLvl>95</magicLvl>
+		<magicLevel>95</magicLevel>
 		<operateType>A2</operateType>
 		<mpConsume>85</mpConsume>
 		<reuseDelay>6000</reuseDelay>
@@ -474,7 +474,7 @@
 	<skill id="6130" toLevel="1" name="Mutant Curse">
 		<!-- Curse of giant mutated animal: Immobilizes and stuns target. -->
 		<icon>icon.skill0092</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>9</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -485,7 +485,7 @@
 		<effectPoint>-100</effectPoint>
 		<hitTime>6000</hitTime>
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>95</magicLvl>
+		<magicLevel>95</magicLevel>
 		<operateType>A2</operateType>
 		<mpConsume>43</mpConsume>
 		<reuseDelay>6000</reuseDelay>
@@ -502,7 +502,7 @@
 	<skill id="6131" toLevel="1" name="Decrease Speed">
 		<!-- Mutant Curse: Speed -8%. -->
 		<icon>icon.skill1160</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<activateRate>80</activateRate>
@@ -511,7 +511,7 @@
 		<hitTime>2000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>2</lvlBonusRate>
-		<magicLvl>95</magicLvl>
+		<magicLevel>95</magicLevel>
 		<operateType>A2</operateType>
 		<mpConsume>12</mpConsume>
 		<reuseDelay>8000</reuseDelay>
@@ -526,7 +526,7 @@
 	<skill id="6132" toLevel="1" name="Decrease Atk. Spd.">
 		<!-- Mutant Curse: Atk. Spd. -8%. -->
 		<icon>icon.skill4038</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>ATTACK_TIME_UP</abnormalType>
 		<activateRate>80</activateRate>
@@ -535,7 +535,7 @@
 		<hitTime>1500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>95</magicLvl>
+		<magicLevel>95</magicLevel>
 		<operateType>A2</operateType>
 		<mpConsume>13</mpConsume>
 		<reuseDelay>8000</reuseDelay>
@@ -549,14 +549,14 @@
 	<skill id="6133" toLevel="1" name="Mysterious Effect">
 		<!-- The target's head is enlarged. -->
 		<icon>icon.skill2513</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>BIG_HEAD</abnormalType>
 		<abnormalVisualEffect>BIG_HEAD</abnormalVisualEffect>
 		<activateRate>0</activateRate>
 		<effectPoint>-1</effectPoint>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>95</magicLvl>
+		<magicLevel>95</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -571,7 +571,7 @@
 	<skill id="6134" toLevel="1" name="Mutant Curse">
 		<!-- Mutant Curse: Atk. Spd. and Speed -30%. -->
 		<icon>icon.skill4038</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>ALL_SPEED_DOWN</abnormalType>
 		<activateRate>80</activateRate>
@@ -580,7 +580,7 @@
 		<hitTime>1500</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>95</magicLvl>
+		<magicLevel>95</magicLevel>
 		<operateType>A2</operateType>
 		<mpConsume>15</mpConsume>
 		<reuseDelay>8000</reuseDelay>
@@ -594,7 +594,7 @@
 	<skill id="6135" toLevel="1" name="Mutant Curse">
 		<!-- Curse of giant mutated animal: Immobilizes and stuns target. -->
 		<icon>icon.skill0092</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>2</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -604,7 +604,7 @@
 		<effectPoint>-100</effectPoint>
 		<hitTime>6000</hitTime>
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>95</magicLvl>
+		<magicLevel>95</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>6000</reuseDelay>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -620,7 +620,7 @@
 		<icon>icon.skill_agathion_cute</icon>
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>55</magicLvl>
+		<magicLevel>55</magicLevel>
 		<operateType>A1</operateType>
 		<reuseDelay>10000</reuseDelay>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -634,14 +634,14 @@
 	<skill id="6137" toLevel="1" name="Agathion Juju - Mysterious Effect">
 		<!-- The target's head is enlarged. -->
 		<icon>icon.skill2513</icon>
-		<abnormalLvl>0</abnormalLvl>
+		<abnormalLevel>0</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>BIG_HEAD</abnormalType>
 		<abnormalVisualEffect>BIG_HEAD</abnormalVisualEffect>
 		<activateRate>0</activateRate>
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>55</magicLvl>
+		<magicLevel>55</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>10000</reuseDelay>
 		<basicProperty>NONE</basicProperty>
@@ -657,7 +657,7 @@
 		<icon>icon.skill_agathion_cute</icon>
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>55</magicLvl>
+		<magicLevel>55</magicLevel>
 		<operateType>A1</operateType>
 		<reuseDelay>20000</reuseDelay>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -668,14 +668,14 @@
 	<skill id="6139" toLevel="1" name="Fake Tears">
 		<!-- For 10 min., weapon appearances change through the effect of the "Fake Tears" that were scattered by "Pierre Baguette." But weapons don't change their abilities. -->
 		<icon>icon.etc_water_of_silen_i00</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>WP_CHANGE_EVENT</abnormalType>
 		<abnormalVisualEffect>CHANGE_WP</abnormalVisualEffect>
 		<effectPoint>100</effectPoint>
 		<hitTime>100</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>1</magicLvl>
+		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>2000</reuseDelay>
 		<basicProperty>NONE</basicProperty>
@@ -687,15 +687,15 @@
 		<affectObject>ALL</affectObject>
 	</skill>
 	<skill id="6140" toLevel="3" name="Bog Stride">
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<operateType>A2</operateType>
 		<mpConsume>75</mpConsume>
 		<basicProperty>NONE</basicProperty>
@@ -706,13 +706,13 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="6141" toLevel="1" name="Source of Marsh">
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>-1</abnormalTime>
 		<abnormalType>ATTACK_TIME_UP</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<operateType>A2</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -723,11 +723,11 @@
 	<skill id="6142" toLevel="3" name="Tar Trap">
 		<!-- You are covered in hot and sticky tar. Your Speed -$s2 for $s1. P. Def. and P. Evasion -$s3. -->
 		<icon>icon.skill0770</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<activateRate>90</activateRate>
@@ -740,7 +740,7 @@
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>2</lvlBonusRate>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>57</mpConsume>
 		<mpInitialConsume>15</mpInitialConsume>
 		<operateType>A2</operateType>
@@ -779,7 +779,7 @@
 	<skill id="6143" toLevel="1" name="Ancient Beam">
 		<effectPoint>-100</effectPoint>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>82</magicLvl>
+		<magicLevel>82</magicLevel>
 		<operateType>A1</operateType>
 		<mpConsume>74</mpConsume>
 		<reuseDelay>4000</reuseDelay>
@@ -793,7 +793,7 @@
 	<skill id="6144" toLevel="1" name="Ancient Beam">
 		<effectPoint>-100</effectPoint>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>82</magicLvl>
+		<magicLevel>82</magicLevel>
 		<operateType>A1</operateType>
 		<mpConsume>74</mpConsume>
 		<reuseDelay>4000</reuseDelay>
@@ -805,11 +805,11 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="6145" toLevel="1" name="Earth Wyrm's Evil Aura">
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>PD_UP</abnormalType>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<operateType>A2</operateType>
 		<mpConsume>74</mpConsume>
 		<basicProperty>NONE</basicProperty>
@@ -820,11 +820,11 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="6146" toLevel="1" name="Forfeiture of Will">
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>PD_DOWN</abnormalType>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>4000</reuseDelay>
 		<basicProperty>NONE</basicProperty>
@@ -836,12 +836,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="6147" toLevel="1" name="Kasha's Divine Protection">
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>DMG_SHIELD</abnormalType>
 		<hitTime>2000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<mpConsume>59</mpConsume>
 		<mpInitialConsume>15</mpInitialConsume>
 		<operateType>A2</operateType>
@@ -868,7 +868,7 @@
 	<skill id="6148" toLevel="1" name="Altar's Curse">
 		<!-- You have been weakened by the Altar's Curse. You probably can't fight in this condition. -->
 		<icon>icon.skill1064</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>SILENCE</abnormalType>
 		<castRange>900</castRange>
@@ -877,7 +877,7 @@
 		<hitTime>2000</hitTime>
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<mpConsume>59</mpConsume>
 		<mpInitialConsume>15</mpInitialConsume>
 		<operateType>A2</operateType>
@@ -909,14 +909,14 @@
 	<skill id="6149" toLevel="1" name="Kasha's Brand">
 		<!-- For 5 min., P. Def. -30%. -->
 		<icon>icon.skill0122</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>900</abnormalTime>
 		<abnormalType>MULTI_DEBUFF</abnormalType>
 		<canBeDispelled>false</canBeDispelled>
 		<effectPoint>-100</effectPoint>
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -949,13 +949,13 @@
 			<value level="3">icon.skill6151_3</value>
 			<value level="4">icon.skill6151_4</value>
 		</icon>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>11</abnormalTime>
 		<abnormalType>PD_DOWN</abnormalType>
 		<canBeDispelled>false</canBeDispelled>
 		<effectPoint>-100</effectPoint>
 		<isDebuff>true</isDebuff>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -984,11 +984,11 @@
 			<value level="3">icon.skill6151_3</value>
 			<value level="4">icon.skill6151_4</value>
 		</icon>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>11</abnormalTime>
 		<abnormalType>PD_DOWN</abnormalType>
 		<effectPoint>-100</effectPoint>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1007,13 +1007,13 @@
 			<value level="3">icon.skill6152_3</value>
 			<value level="4">icon.skill6152_4</value>
 		</icon>
-		<abnormalLvl>2</abnormalLvl>
+		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>11</abnormalTime>
 		<abnormalType>SIGNAL_A</abnormalType>
 		<canBeDispelled>false</canBeDispelled>
 		<effectPoint>-100</effectPoint>
 		<isDebuff>true</isDebuff>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1042,11 +1042,11 @@
 			<value level="3">icon.skill6152_3</value>
 			<value level="4">icon.skill6152_4</value>
 		</icon>
-		<abnormalLvl>2</abnormalLvl>
+		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>11</abnormalTime>
 		<abnormalType>SIGNAL_A</abnormalType>
 		<effectPoint>-100</effectPoint>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1065,14 +1065,14 @@
 			<value level="3">icon.skill6154_3</value>
 			<value level="4">icon.skill6154_4</value>
 		</icon>
-		<abnormalLvl>4</abnormalLvl>
+		<abnormalLevel>4</abnormalLevel>
 		<abnormalTime>11</abnormalTime>
 		<abnormalType>MAX_HP_DOWN</abnormalType>
 		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
 		<canBeDispelled>false</canBeDispelled>
 		<effectPoint>-100</effectPoint>
 		<isDebuff>true</isDebuff>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1102,12 +1102,12 @@
 			<value level="3">icon.skill6154_3</value>
 			<value level="4">icon.skill6154_4</value>
 		</icon>
-		<abnormalLvl>4</abnormalLvl>
+		<abnormalLevel>4</abnormalLevel>
 		<abnormalTime>11</abnormalTime>
 		<abnormalType>MAX_HP_DOWN</abnormalType>
 		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
 		<effectPoint>-100</effectPoint>
-		<magicLvl>-1</magicLvl>
+		<magicLevel>-1</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1126,14 +1126,14 @@
 		<castRange>400</castRange>
 		<hitTime>200</hitTime>
 		<reuseDelay>1000</reuseDelay>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>G_EV_BUFF1</abnormalType>
 		<effectPoint>1</effectPoint>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
-		<magicLvl>-2</magicLvl>
+		<magicLevel>-2</magicLevel>
 		<isMagic>1</isMagic>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1180,7 +1180,7 @@
 	<skill id="6166" toLevel="1" name="Hold">
 		<!-- Inflicted with Hold and unable to move. -->
 		<icon>icon.skill4047</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>2</abnormalTime>
 		<abnormalType>ROOT_MAGICALLY</abnormalType>
 		<abnormalVisualEffect>ROOT</abnormalVisualEffect>
@@ -1190,7 +1190,7 @@
 		<effectPoint>-100</effectPoint>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>2</lvlBonusRate>
-		<magicLvl>81</magicLvl>
+		<magicLevel>81</magicLevel>
 		<operateType>A2</operateType>
 		<mpConsume>73</mpConsume>
 		<reuseDelay>1000</reuseDelay>
@@ -1208,7 +1208,7 @@
 	<skill id="6167" toLevel="12" name="Stun">
 		<!-- Immobilizes and stuns target. -->
 		<icon>icon.skill0100</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -1217,7 +1217,7 @@
 		<coolTime>800</coolTime>
 		<effectPoint>-100</effectPoint>
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">10</value>
 			<value level="2">20</value>
 			<value level="3">30</value>
@@ -1230,7 +1230,7 @@
 			<value level="10">85</value>
 			<value level="11">90</value>
 			<value level="12">95</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<mpConsume>
 			<value level="1">13</value>
@@ -1258,7 +1258,7 @@
 	<skill id="6168" toLevel="12" name="Stun">
 		<!-- Immobilizes and stuns target. -->
 		<icon>icon.skill0100</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -1267,7 +1267,7 @@
 		<coolTime>800</coolTime>
 		<effectPoint>-100</effectPoint>
 		<lvlBonusRate>1</lvlBonusRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">10</value>
 			<value level="2">20</value>
 			<value level="3">30</value>
@@ -1280,7 +1280,7 @@
 			<value level="10">85</value>
 			<value level="11">90</value>
 			<value level="12">95</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>A2</operateType>
 		<mpConsume>
 			<value level="1">13</value>
@@ -1308,12 +1308,12 @@
 	<skill id="6169" toLevel="1" name="Shyeed's Fury">
 		<!-- Shyeed's cries continue to be heard. Nearby monsters seem to get stronger. -->
 		<icon>icon.skill6169</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>NPC_FURY</abnormalType>
 		<effectPoint>-100</effectPoint>
 		<isDebuff>true</isDebuff>
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1323,11 +1323,11 @@
 	</skill>
 	<skill id="6170" toLevel="1" name="Shyeed's Fury">
 		<icon>icon.skill6169</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<effectPoint>100</effectPoint>
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1337,7 +1337,7 @@
 		<targetType>TARGET</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
-			<!-- NOTE: Using abnormalLvl 99 instead of 1 due is a irreplaceable buff -->
+			<!-- NOTE: Using abnormalLevel 99 instead of 1 due is a irreplaceable buff -->
 			<effect name="PAtk">
 				<amount>5</amount>
 				<mode>PER</mode>
@@ -1363,11 +1363,11 @@
 	<skill id="6171" toLevel="1" name="Full Authority">
 		<!-- It feels like something will escape the mouth. The predecessor's strength is full. Overall abilities are increased. -->
 		<icon>icon.skill6171</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>ULTIMATE_BUFF</abnormalType>
 		<effectPoint>100</effectPoint>
-		<magicLvl>83</magicLvl>
+		<magicLevel>83</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1377,7 +1377,7 @@
 		<targetType>TARGET</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
-			<!-- NOTE: Using abnormalLvl 99 instead of 1 due is a irreplaceable buff -->
+			<!-- NOTE: Using abnormalLevel 99 instead of 1 due is a irreplaceable buff -->
 			<effect name="PAtk">
 				<amount>5</amount>
 				<mode>PER</mode>
@@ -1401,7 +1401,7 @@
 		</effects>
 	</skill>
 	<skill id="6172" toLevel="1" name="Presentation - Tyranno">
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>SIGNAL_A</abnormalType>
 		<activateRate>-1</activateRate>
@@ -1409,7 +1409,7 @@
 		<effectPoint>-1000</effectPoint>
 		<effectRange>400</effectRange>
 		<hitTime>2500</hitTime>
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1428,7 +1428,7 @@
 		<effectRange>1100</effectRange>
 		<hitTime>20000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -1439,7 +1439,7 @@
 		<castRange>600</castRange>
 		<effectRange>1100</effectRange>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -1451,7 +1451,7 @@
 		<effectRange>1100</effectRange>
 		<hitTime>15000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -1462,7 +1462,7 @@
 		<castRange>600</castRange>
 		<effectRange>1100</effectRange>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -1474,7 +1474,7 @@
 		<effectRange>1100</effectRange>
 		<hitTime>6000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -1485,7 +1485,7 @@
 		<castRange>600</castRange>
 		<effectRange>1100</effectRange>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -1496,7 +1496,7 @@
 		<castRange>600</castRange>
 		<effectRange>1100</effectRange>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -1508,7 +1508,7 @@
 		<effectRange>1100</effectRange>
 		<hitTime>12000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -1519,7 +1519,7 @@
 		<castRange>600</castRange>
 		<effectRange>1100</effectRange>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -1530,7 +1530,7 @@
 		<castRange>600</castRange>
 		<effectRange>1100</effectRange>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -1541,7 +1541,7 @@
 		<castRange>600</castRange>
 		<effectRange>1100</effectRange>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -1552,7 +1552,7 @@
 		<castRange>600</castRange>
 		<effectRange>1100</effectRange>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -1563,7 +1563,7 @@
 		<castRange>600</castRange>
 		<effectRange>1100</effectRange>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -1574,7 +1574,7 @@
 		<castRange>600</castRange>
 		<effectRange>1100</effectRange>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -1587,7 +1587,7 @@
 		<effectRange>1200</effectRange>
 		<hitTime>2500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<isDebuff>true</isDebuff>
@@ -1600,7 +1600,7 @@
 		<effectRange>1200</effectRange>
 		<hitTime>2500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>80</magicLvl>
+		<magicLevel>80</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<targetType>TARGET</targetType>
@@ -1612,7 +1612,7 @@
 		<effectRange>1200</effectRange>
 		<hitTime>2500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>79</magicLvl>
+		<magicLevel>79</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<isDebuff>true</isDebuff>
@@ -1626,7 +1626,7 @@
 		<effectRange>1200</effectRange>
 		<hitTime>830</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>84</magicLvl>
+		<magicLevel>84</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<isDebuff>true</isDebuff>
@@ -1640,7 +1640,7 @@
 		<effectRange>1200</effectRange>
 		<hitTime>2000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>84</magicLvl>
+		<magicLevel>84</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<targetType>TARGET</targetType>
@@ -1652,7 +1652,7 @@
 		<effectRange>1200</effectRange>
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>79</magicLvl>
+		<magicLevel>79</magicLevel>
 		<operateType>A1</operateType>
 		<reuseDelay>8000</reuseDelay>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1665,7 +1665,7 @@
 		<effectRange>1200</effectRange>
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>79</magicLvl>
+		<magicLevel>79</magicLevel>
 		<operateType>A1</operateType>
 		<reuseDelay>8000</reuseDelay>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1678,7 +1678,7 @@
 		<effectRange>1200</effectRange>
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>79</magicLvl>
+		<magicLevel>79</magicLevel>
 		<operateType>A1</operateType>
 		<reuseDelay>8000</reuseDelay>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1691,7 +1691,7 @@
 		<effectRange>1200</effectRange>
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>79</magicLvl>
+		<magicLevel>79</magicLevel>
 		<operateType>A1</operateType>
 		<reuseDelay>8000</reuseDelay>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1703,7 +1703,7 @@
 		<icon>icon.skill_agathion_cute</icon>
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>55</magicLvl>
+		<magicLevel>55</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -1717,7 +1717,7 @@
 		<!-- See Agathion's cute trick. -->
 		<icon>icon.skill_agathion_cute</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicLvl>55</magicLvl>
+		<magicLevel>55</magicLevel>
 		<operateType>A1</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -1743,7 +1743,7 @@
 		<effectRange>500</effectRange>
 		<fanRange>0;0;150;60</fanRange>
 		<hitTime>2000</hitTime>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">55</value>
 			<value level="2">60</value>
 			<value level="3">65</value>
@@ -1751,7 +1751,7 @@
 			<value level="5">75</value>
 			<value level="6">80</value>
 			<value level="7">85</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">109</value>
 			<value level="2">121</value>

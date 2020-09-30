@@ -3,7 +3,7 @@
 -- ---------------------------
 CREATE TABLE IF NOT EXISTS characters (
   account_name varchar(45) default NULL,
-  obj_Id decimal(11,0) NOT NULL default '0',
+  charId decimal(11,0) NOT NULL default '0',
   char_name varchar(35) NOT NULL,
   `level` decimal(11,0) default NULL,
   maxHp decimal(11,0) default 1,
@@ -85,6 +85,6 @@ CREATE TABLE IF NOT EXISTS characters (
   first_log INT DEFAULT 1,
   aio decimal(1,0) NOT NULL DEFAULT 0,
   aio_end decimal(20,0) NOT NULL DEFAULT 0,
-  PRIMARY KEY  (obj_Id),
+  PRIMARY KEY  (charId),
   KEY `clanid` (`clanid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;

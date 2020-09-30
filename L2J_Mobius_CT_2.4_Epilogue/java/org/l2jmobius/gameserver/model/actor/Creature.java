@@ -5511,7 +5511,19 @@ public abstract class Creature extends WorldObject implements ISkillsHolder, IDe
 			final IntentionCommand nextIntention = getAI().getNextIntention();
 			if ((nextIntention == null) || (nextIntention.getCtrlIntention() != CtrlIntention.AI_INTENTION_MOVE_TO))
 			{
-				getAI().setIntention(AI_INTENTION_ATTACK, target);
+				if (isPlayer())
+				{
+					final PlayerInstance currPlayer = getActingPlayer();
+					final SkillUseHolder currSkill = currPlayer.getCurrentSkill();
+					if ((currSkill == null) || !currSkill.isShiftPressed())
+					{
+						getAI().setIntention(AI_INTENTION_ATTACK, target);
+					}
+				}
+				else
+				{
+					getAI().setIntention(AI_INTENTION_ATTACK, target);
+				}
 			}
 		}
 		
@@ -6038,31 +6050,31 @@ public abstract class Creature extends WorldObject implements ISkillsHolder, IDe
 		_status.addStatusListener(object);
 	}
 	
-	public void reduceCurrentHp(double i, Creature attacker, Skill skill)
+	public void reduceCurrentHp(double amount, Creature attacker, Skill skill)
 	{
-		reduceCurrentHp(i, attacker, true, false, skill);
+		reduceCurrentHp(amount, attacker, true, false, skill);
 	}
 	
-	public void reduceCurrentHpByDOT(double i, Creature attacker, Skill skill)
+	public void reduceCurrentHpByDOT(double amount, Creature attacker, Skill skill)
 	{
-		reduceCurrentHp(i, attacker, !skill.isToggle(), true, skill);
+		reduceCurrentHp(amount, attacker, !skill.isToggle(), true, skill);
 	}
 	
-	public void reduceCurrentHp(double i, Creature attacker, boolean awake, boolean isDOT, Skill skill)
+	public void reduceCurrentHp(double amount, Creature attacker, boolean awake, boolean isDOT, Skill skill)
 	{
 		if (Config.CHAMPION_ENABLE && isChampion() && (Config.CHAMPION_HP != 0))
 		{
-			_status.reduceHp(i / Config.CHAMPION_HP, attacker, awake, isDOT, false);
+			_status.reduceHp(amount / Config.CHAMPION_HP, attacker, awake, isDOT, false);
 		}
 		else
 		{
-			_status.reduceHp(i, attacker, awake, isDOT, false);
+			_status.reduceHp(amount, attacker, awake, isDOT, false);
 		}
 	}
 	
-	public void reduceCurrentMp(double i)
+	public void reduceCurrentMp(double amount)
 	{
-		_status.reduceMp(i);
+		_status.reduceMp(amount);
 	}
 	
 	@Override
@@ -6568,12 +6580,12 @@ public abstract class Creature extends WorldObject implements ISkillsHolder, IDe
 		}
 	}
 	
-	public boolean isInvulAgainst(int skillId, int skillLvl)
+	public boolean isInvulAgainst(int skillId, int skillLevel)
 	{
 		if (_invulAgainst != null)
 		{
 			final SkillHolder holder = getInvulAgainstSkills().get(skillId);
-			return ((holder != null) && ((holder.getSkillLevel() < 1) || (holder.getSkillLevel() == skillLvl)));
+			return ((holder != null) && ((holder.getSkillLevel() < 1) || (holder.getSkillLevel() == skillLevel)));
 		}
 		return false;
 	}

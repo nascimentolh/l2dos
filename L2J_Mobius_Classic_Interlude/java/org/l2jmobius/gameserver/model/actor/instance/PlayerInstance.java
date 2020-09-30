@@ -7225,8 +7225,8 @@ public class PlayerInstance extends Playable
 						
 						statement.setInt(1, getObjectId());
 						statement.setInt(2, t.getSkillId());
-						statement.setInt(3, t.getSkillLvl());
-						statement.setInt(4, t.getSkillSubLvl());
+						statement.setInt(3, t.getSkillLevel());
+						statement.setInt(4, t.getSkillSubLevel());
 						statement.setInt(5, -1);
 						statement.setLong(6, t.getReuse());
 						statement.setDouble(7, t.getStamp());
@@ -10042,10 +10042,29 @@ public class PlayerInstance extends Playable
 	public void doRevive()
 	{
 		super.doRevive();
+		
 		sendPacket(new EtcStatusUpdate(this));
 		_revivePet = false;
 		_reviveRequested = 0;
 		_revivePower = 0;
+		
+		// Teleport summons to player.
+		if (isInsideZone(ZoneId.PEACE) && hasSummon())
+		{
+			final PetInstance pet = getPet();
+			if (pet != null)
+			{
+				pet.teleToLocation(this, true);
+			}
+			for (Summon summon : getServitors().values())
+			{
+				if (!summon.isInsideZone(ZoneId.SIEGE))
+				{
+					summon.teleToLocation(this, true);
+				}
+			}
+		}
+		
 		if (isMounted())
 		{
 			startFeed(_mountNpcId);
@@ -12587,22 +12606,22 @@ public class PlayerInstance extends Playable
 			learn = SkillTreeData.getInstance().getClassSkill(e.getKey(), e.getValue().getLevel() % 100, getClassId());
 			if (learn != null)
 			{
-				final int lvlDiff = e.getKey() == CommonSkill.EXPERTISE.getId() ? 0 : 9;
-				if (getLevel() < (learn.getGetLevel() - lvlDiff))
+				final int levelDiff = e.getKey() == CommonSkill.EXPERTISE.getId() ? 0 : 9;
+				if (getLevel() < (learn.getGetLevel() - levelDiff))
 				{
-					deacreaseSkillLevel(e.getValue(), lvlDiff);
+					deacreaseSkillLevel(e.getValue(), levelDiff);
 				}
 			}
 		}
 	}
 	
-	private void deacreaseSkillLevel(Skill skill, int lvlDiff)
+	private void deacreaseSkillLevel(Skill skill, int levelDiff)
 	{
 		int nextLevel = -1;
 		final Map<Long, SkillLearn> skillTree = SkillTreeData.getInstance().getCompleteClassSkillTree(getClassId());
 		for (SkillLearn sl : skillTree.values())
 		{
-			if ((sl.getSkillId() == skill.getId()) && (nextLevel < sl.getSkillLevel()) && (getLevel() >= (sl.getGetLevel() - lvlDiff)))
+			if ((sl.getSkillId() == skill.getId()) && (nextLevel < sl.getSkillLevel()) && (getLevel() >= (sl.getGetLevel() - levelDiff)))
 			{
 				nextLevel = sl.getSkillLevel(); // next possible skill level
 			}

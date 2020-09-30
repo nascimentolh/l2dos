@@ -18,7 +18,7 @@
 	</skill>
 	<skill id="6803" levels="1" name="Arena Haste">
 		<!-- Increases Atk. Spd. by 33% for 5 minutes. -->
-		<set name="abnormalLvl" val="2" />
+		<set name="abnormalLevel" val="2" />
 		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="ATTACK_TIME_DOWN" />
 		<set name="blockedInOlympiad" val="true" />
@@ -26,7 +26,7 @@
 		<set name="effectPoint" val="495" />
 		<set name="effectRange" val="900" />
 		<set name="icon" val="icon.skill1086" />
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="ONE" />
 		<for>
@@ -37,7 +37,7 @@
 	</skill>
 	<skill id="6804" levels="1" name="Arena Wind Walk">
 		<!-- Increases Speed by 33 for 5 minutes. -->
-		<set name="abnormalLvl" val="2" />
+		<set name="abnormalLevel" val="2" />
 		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="SPEED_UP" />
 		<set name="blockedInOlympiad" val="true" />
@@ -45,7 +45,7 @@
 		<set name="effectPoint" val="285" />
 		<set name="effectRange" val="900" />
 		<set name="icon" val="icon.skill1204" />
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="ONE" />
 		<for>
@@ -56,7 +56,7 @@
 	</skill>
 	<skill id="6805" levels="1" name="Arena Empower">
 		<!-- Increases M. Atk. by 75% for 5 minutes. -->
-		<set name="abnormalLvl" val="3" />
+		<set name="abnormalLevel" val="3" />
 		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="MA_UP" />
 		<set name="blockedInOlympiad" val="true" />
@@ -64,7 +64,7 @@
 		<set name="effectPoint" val="495" />
 		<set name="effectRange" val="900" />
 		<set name="icon" val="icon.skill1059" />
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="ONE" />
 		<for>
@@ -75,7 +75,7 @@
 	</skill>
 	<skill id="6806" levels="1" name="Arena Acumen">
 		<!-- Increases Casting Spd. by 30% for 5 minutes. -->
-		<set name="abnormalLvl" val="3" />
+		<set name="abnormalLevel" val="3" />
 		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="CASTING_TIME_DOWN" />
 		<set name="blockedInOlympiad" val="true" />
@@ -83,7 +83,7 @@
 		<set name="effectPoint" val="457" />
 		<set name="effectRange" val="900" />
 		<set name="icon" val="icon.skill1085" />
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="ONE" />
 		<for>
@@ -94,7 +94,7 @@
 	</skill>
 	<skill id="6807" levels="1" name="Arena Concentration">
 		<!-- Decreases magic cancel damage by 53 for 5 minutes. -->
-		<set name="abnormalLvl" val="6" />
+		<set name="abnormalLevel" val="6" />
 		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="CANCEL_PROB_DOWN" />
 		<set name="blockedInOlympiad" val="true" />
@@ -102,7 +102,7 @@
 		<set name="effectPoint" val="624" />
 		<set name="effectRange" val="900" />
 		<set name="icon" val="icon.skill1078" />
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="ONE" />
 		<for>
@@ -113,7 +113,7 @@
 	</skill>
 	<skill id="6808" levels="1" name="Arena Might">
 		<!-- Increases P. Atk. by 15% for 5 minutes. -->
-		<set name="abnormalLvl" val="3" />
+		<set name="abnormalLevel" val="3" />
 		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="PA_UP" />
 		<set name="blockedInOlympiad" val="true" />
@@ -121,7 +121,7 @@
 		<set name="effectPoint" val="379" />
 		<set name="effectRange" val="900" />
 		<set name="icon" val="icon.skill1068" />
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="ONE" />
 		<for>
@@ -132,7 +132,7 @@
 	</skill>
 	<skill id="6809" levels="1" name="Arena Guidance">
 		<!-- Increases accuracy by 4 for 5 minutes. -->
-		<set name="abnormalLvl" val="3" />
+		<set name="abnormalLevel" val="3" />
 		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="HIT_UP" />
 		<set name="blockedInOlympiad" val="true" />
@@ -140,7 +140,7 @@
 		<set name="effectPoint" val="532" />
 		<set name="effectRange" val="900" />
 		<set name="icon" val="icon.skill1240" />
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="ONE" />
 		<for>
@@ -151,7 +151,7 @@
 	</skill>
 	<skill id="6810" levels="1" name="Arena Focus">
 		<!-- Increases critical attack rate by 30% for 5 minutes. -->
-		<set name="abnormalLvl" val="3" />
+		<set name="abnormalLevel" val="3" />
 		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="CRITICAL_PROB_UP" />
 		<set name="blockedInOlympiad" val="true" />
@@ -159,7 +159,7 @@
 		<set name="effectPoint" val="495" />
 		<set name="effectRange" val="900" />
 		<set name="icon" val="icon.skill1077" />
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="ONE" />
 		<for>
@@ -170,7 +170,7 @@
 	</skill>
 	<skill id="6811" levels="1" name="Arena Death Whisper">
 		<!-- Increases critical attack effect by 35% for 5 minutes. -->
-		<set name="abnormalLvl" val="3" />
+		<set name="abnormalLevel" val="3" />
 		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="CRITICAL_DMG_UP" />
 		<set name="blockedInOlympiad" val="true" />
@@ -178,7 +178,7 @@
 		<set name="effectPoint" val="532" />
 		<set name="effectRange" val="900" />
 		<set name="icon" val="icon.skill1242" />
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="ONE" />
 		<for>
@@ -189,7 +189,7 @@
 	</skill>
 	<skill id="6812" levels="1" name="Arena Berserker Spirit">
 		<!-- Decreases P. Def. by 8%, M. Def. by 16%, and evasion by 4, and increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and Speed by 8 for 5 minutes. -->
-		<set name="abnormalLvl" val="2" />
+		<set name="abnormalLevel" val="2" />
 		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="BERSERKER" />
 		<set name="blockedInOlympiad" val="true" />
@@ -197,7 +197,7 @@
 		<set name="effectPoint" val="495" />
 		<set name="effectRange" val="900" />
 		<set name="icon" val="icon.skill1062" />
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="ONE" />
 		<for>
@@ -214,10 +214,10 @@
 		</for>
 	</skill>
 	<skill id="6813" levels="8" name="Focus Sonic">
-		<table name="#magicLvl">40 43 49 55 60 66 70 79</table>
+		<table name="#magicLevel">40 43 49 55 60 66 70 79</table>
 		<table name="#maxCharges">1 2 3 4 5 6 7 8</table>
 		<set name="isTriggeredSkill" val="true" />
-		<set name="magicLvl" val="#magicLvl" />
+		<set name="magicLevel" val="#magicLevel" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="10000" />
 		<set name="targetType" val="SELF" />
@@ -233,10 +233,10 @@
 		</for>
 	</skill>
 	<skill id="6814" levels="8" name="Focus Force">
-		<table name="#magicLvl">24 32 40 52 60 66 72 79</table>
+		<table name="#magicLevel">24 32 40 52 60 66 72 79</table>
 		<table name="#maxCharges">1 2 3 4 5 6 7 8</table>
 		<set name="isTriggeredSkill" val="true" />
-		<set name="magicLvl" val="#magicLvl" />
+		<set name="magicLevel" val="#magicLevel" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="10000" />
 		<set name="targetType" val="SELF" />
@@ -266,7 +266,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="562" />
 		<set name="effectRange" val="900" />
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="ONE" />
 		<for>
@@ -276,13 +276,13 @@
 		</for>
 	</skill>
 	<skill id="6818" levels="1" name="Powerful Rage">
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="20" />
 		<set name="abnormalType" val="PA_UP" />
 		<set name="effectPoint" val="100" />
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="75" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="8000" />
@@ -302,12 +302,12 @@
 		<set name="targetType" val="NONE" />
 	</skill>
 	<skill id="6820" levels="1" name="P. Def. Enhance">
-		<set name="abnormalLvl" val="4" />
+		<set name="abnormalLevel" val="4" />
 		<set name="abnormalTime" val="60" />
 		<set name="abnormalType" val="PD_UP" />
 		<set name="effectPoint" val="100" />
 		<set name="hitTime" val="1800" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="30" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="6000" />
@@ -459,10 +459,10 @@
 	</skill>
 	<skill id="6842" levels="2" name="Enhance">
 		<!-- Increases P. Atk. by 12% and Atk. Spd. by 15%. -->
-		<table name="#abnormalLvls">2 3</table>
+		<table name="#abnormalLevels">2 3</table>
 		<table name="#pAtk">1.12 1</table>
 		<table name="#pAtkSpd">1.15 1.4</table>
-		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalLevel" val="#abnormalLevels" />
 		<set name="abnormalTime" val="60" />
 		<set name="abnormalType" val="PA_UP" />
 		<set name="affectRange" val="600" />
@@ -471,7 +471,7 @@
 		<set name="hitTime" val="3000" />
 		<set name="icon" val="icon.skill1086" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="75" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="30000" />
@@ -497,7 +497,7 @@
 		<set name="element" val="0" /> <!-- Fire -->
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="3000" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="15000" />
 		<set name="reuseDelay" val="5000" />
@@ -514,7 +514,7 @@
 		<set name="element" val="5" /> <!-- Dark -->
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="2500" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="3000" />
@@ -531,7 +531,7 @@
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="123" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="300" />
@@ -558,7 +558,7 @@
 		<set name="element" val="5" /> <!-- Dark -->
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="3000" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="100" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="3000" />
@@ -572,7 +572,7 @@
 		<set name="affectRange" val="200" />
 		<set name="effectPoint" val="-100" />
 		<set name="hitTime" val="3000" />
-		<set name="magicLvl" val="81" />
+		<set name="magicLevel" val="81" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="3000" />
 		<set name="targetType" val="AURA" />
@@ -588,7 +588,7 @@
 		<set name="element" val="5" /> <!-- Dark -->
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="3000" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="3000" />
@@ -607,7 +607,7 @@
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="4000" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="100" />
@@ -619,7 +619,7 @@
 	</skill>
 	<skill id="6853" levels="1" name="Sleep">
 		<!-- Inflicts sleep for 6 seconds. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="6" />
 		<set name="abnormalType" val="SLEEP" />
 		<set name="activateRate" val="80" />
@@ -633,7 +633,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="lvlBonusRate" val="2" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A2" />
 		<set name="removedOnDamage" val="true" />
@@ -645,7 +645,7 @@
 	</skill>
 	<skill id="6854" levels="1" name="Hold">
 		<!-- Temporarily inflicted with hold and unable to move. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="20" />
 		<set name="abnormalType" val="ROOT_MAGICALLY" />
 		<set name="activateRate" val="80" />
@@ -659,7 +659,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="lvlBonusRate" val="2" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="73" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="1000" />
@@ -676,7 +676,7 @@
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="4000" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="150" />
 		<set name="reuseDelay" val="1000" />
@@ -697,7 +697,7 @@
 		<set name="element" val="5" /> <!-- Dark -->
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="2500" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="15000" />
@@ -719,7 +719,7 @@
 		<set name="element" val="5" /> <!-- Dark -->
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="2500" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="15000" />
@@ -737,7 +737,7 @@
 		<set name="element" val="5" /> <!-- Dark -->
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="2000" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="15000" />
@@ -749,7 +749,7 @@
 	</skill>
 	<skill id="6861" levels="1" name="Enhance">
 		<!-- Increases P. Atk. by 20% and Atk. Spd. by 30%. -->
-		<set name="abnormalLvl" val="3" />
+		<set name="abnormalLevel" val="3" />
 		<set name="abnormalTime" val="60" />
 		<set name="abnormalType" val="PA_UP" />
 		<set name="affectRange" val="600" />
@@ -758,7 +758,7 @@
 		<set name="hitTime" val="2000" />
 		<set name="icon" val="icon.skill1086" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="75" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="30000" />
@@ -772,7 +772,7 @@
 	</skill>
 	<skill id="6862" levels="1" name="Poison">
 		<!-- For 6 seconds, inflicts poison and decreases 100 HP every second. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="6" />
 		<set name="abnormalType" val="POISON" />
 		<set name="abnormalVisualEffect" val="DOT_POISON" />
@@ -785,7 +785,7 @@
 		<set name="icon" val="icon.skill0129" />
 		<set name="isDebuff" val="true" />
 		<set name="lvlBonusRate" val="1" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3000" />
@@ -799,7 +799,7 @@
 	</skill>
 	<skill id="6863" levels="1" name="Poison">
 		<!-- For 10 seconds, inflicts poison and decreases 120 HP every second. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="10" />
 		<set name="abnormalType" val="POISON" />
 		<set name="abnormalVisualEffect" val="DOT_POISON" />
@@ -812,7 +812,7 @@
 		<set name="icon" val="icon.skill0129" />
 		<set name="isDebuff" val="true" />
 		<set name="lvlBonusRate" val="1" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3000" />
@@ -830,7 +830,7 @@
 	</skill>
 	<skill id="6865" levels="1" name="Poison">
 		<!-- For 8 seconds, inflicts bleed and decreases 100 HP every second. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="8" />
 		<set name="abnormalType" val="POISON" />
 		<set name="abnormalVisualEffect" val="DOT_POISON" />
@@ -839,7 +839,7 @@
 		<set name="hitTime" val="2500" />
 		<set name="isDebuff" val="true" />
 		<set name="lvlBonusRate" val="1" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3000" />
@@ -859,7 +859,7 @@
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="200" />
 		<set name="reuseDelay" val="3000" />
@@ -878,7 +878,7 @@
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="150" />
 		<set name="reuseDelay" val="3000" />
@@ -901,7 +901,7 @@
 		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="isSuicideAttack" val="true" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="300" />
 		<set name="targetType" val="ONE" />
@@ -917,7 +917,7 @@
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="2000" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="123" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="100" />
@@ -938,7 +938,7 @@
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="122" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="100" />
@@ -956,7 +956,7 @@
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="5000" />
 		<set name="isSuicideAttack" val="true" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="300" />
@@ -967,9 +967,9 @@
 	</skill>
 	<skill id="6873" levels="2" name="Hex">
 		<!-- P. Def. is decreased by 23%. -->
-		<table name="#abnormalLvls">3 4</table>
+		<table name="#abnormalLevels">3 4</table>
 		<table name="#pDef">0.77 0.67</table>
-		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalLevel" val="#abnormalLevels" />
 		<set name="abnormalTime" val="15" />
 		<set name="abnormalType" val="PD_DOWN" />
 		<set name="activateRate" val="80" />
@@ -981,7 +981,7 @@
 		<set name="icon" val="icon.skill0122" />
 		<set name="isDebuff" val="true" />
 		<set name="lvlBonusRate" val="2" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="2000" />
 		<set name="targetType" val="ONE" />
@@ -998,7 +998,7 @@
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="150" />
 		<set name="reuseDelay" val="3000" />
@@ -1010,7 +1010,7 @@
 	<skill id="6875" levels="2" name="Poison">
 		<!-- For 8 seconds, inflicts bleed and decreases 120 HP every second. -->
 		<table name="#dmg">120 140</table>
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="8" />
 		<set name="abnormalType" val="POISON" />
 		<set name="abnormalVisualEffect" val="DOT_POISON" />
@@ -1023,7 +1023,7 @@
 		<set name="icon" val="icon.skill0129" />
 		<set name="isDebuff" val="true" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3000" />
 		<set name="targetType" val="ONE" />
@@ -1041,7 +1041,7 @@
 		<set name="element" val="5" /> <!-- Dark -->
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="2000" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="15000" />
@@ -1059,7 +1059,7 @@
 		<set name="element" val="5" /> <!-- Dark -->
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="2000" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="15000" />
@@ -1071,7 +1071,7 @@
 	</skill>
 	<skill id="6878" levels="1" name="Paralysis">
 		<!-- Temporarily inflicted with paralysis and cannot move. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="30" />
 		<set name="abnormalType" val="PARALYZE" />
 		<set name="activateRate" val="80" />
@@ -1084,7 +1084,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="lvlBonusRate" val="1" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="78" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="5000" />
@@ -1102,7 +1102,7 @@
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="100" />
 		<set name="reuseDelay" val="3000" />
@@ -1115,7 +1115,7 @@
 	</skill>
 	<skill id="6880" levels="1" name="Silence">
 		<!-- Magic skills are blocked. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="30" />
 		<set name="abnormalType" val="SILENCE" />
 		<set name="activateRate" val="80" />
@@ -1128,7 +1128,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="lvlBonusRate" val="2" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="4000" />
 		<set name="targetType" val="ONE" />
@@ -1145,7 +1145,7 @@
 		<set name="element" val="5" /> <!-- Dark -->
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="2500" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="89" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="15000" />
@@ -1157,7 +1157,7 @@
 	</skill>
 	<skill id="6882" levels="1" name="Petrify">
 		<!-- Inflicted with petrification, the body is rigid like stone temporarily. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="30" />
 		<set name="abnormalType" val="TURN_STONE" />
 		<set name="castRange" val="40" />
@@ -1165,7 +1165,7 @@
 		<set name="hitTime" val="2500" />
 		<set name="isDebuff" val="true" />
 		<set name="lvlBonusRate" val="1" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="5000" />
 		<set name="targetType" val="ONE" />
@@ -1188,13 +1188,13 @@
 	</skill>
 	<skill id="6885" levels="3" name="Morale Boost">
 		<!-- The persistence of the brave who fight together in Dragon Valley receive Resistance to Paralysis/Bleed/Poison/Stun +50, Critical Rate +10%, and Critical Damage +10%. -->
-		<table name="#abnormalLvl">2 3 4</table>
+		<table name="#abnormalLevel">2 3 4</table>
 		<table name="#critDmg">1.1 1.15 1.2</table>
 		<table name="#pmAtk">1 1.15 1.15</table>
 		<table name="#pmAtkSpd">1 1 1.15</table>
 		<table name="#critRate">1.1 1.3 1.5</table>
 		<table name="#traits">50 80 90</table>
-		<set name="abnormalLvl" val="#abnormalLvl" />
+		<set name="abnormalLevel" val="#abnormalLevel" />
 		<set name="abnormalTime" val="60" />
 		<set name="abnormalType" val="DRAGON_BUFF" />
 		<set name="affectRange" val="1000" />
@@ -1204,7 +1204,7 @@
 		<set name="effectRange" val="1800" />
 		<set name="icon" val="icon.skill6885" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="magicLvl" val="-1" />
+		<set name="magicLevel" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="PARTY" />
 		<for>
@@ -1226,7 +1226,7 @@
 	</skill>
 	<skill id="6886" levels="1" name="Complete Recovery">
 		<set name="hitTime" val="2500" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="100" />
 		<set name="reuseDelay" val="900000" />
@@ -1243,7 +1243,7 @@
 		<set name="effectPoint" val="-100" />
 		<set name="effectRange" val="400" />
 		<set name="hitTime" val="3000" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="15000" />
@@ -1259,7 +1259,7 @@
 		<set name="effectPoint" val="-100" />
 		<set name="effectRange" val="2200" />
 		<set name="hitTime" val="1000" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="15000" />
@@ -1274,7 +1274,7 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
 		<set name="hitTime" val="1000" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="15000" />
@@ -1295,7 +1295,7 @@
 		<set name="effectPoint" val="-100" />
 		<set name="effectRange" val="400" />
 		<set name="hitTime" val="2000" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="15000" />
@@ -1311,7 +1311,7 @@
 		<set name="effectPoint" val="-100" />
 		<set name="effectRange" val="2200" />
 		<set name="hitTime" val="1000" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="15000" />
@@ -1327,7 +1327,7 @@
 		<set name="effectPoint" val="-100" />
 		<set name="effectRange" val="400" />
 		<set name="hitTime" val="2000" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="15000" />
@@ -1343,7 +1343,7 @@
 		<set name="effectPoint" val="-100" />
 		<set name="effectRange" val="2200" />
 		<set name="hitTime" val="1000" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="15000" />
@@ -1359,7 +1359,7 @@
 		<set name="effectPoint" val="-100" />
 		<set name="effectRange" val="400" />
 		<set name="hitTime" val="2000" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="15000" />
@@ -1375,7 +1375,7 @@
 		<set name="effectPoint" val="-100" />
 		<set name="effectRange" val="2200" />
 		<set name="hitTime" val="1000" />
-		<set name="magicLvl" val="85" />
+		<set name="magicLevel" val="85" />
 		<set name="mpConsume" val="80" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="15000" />
@@ -1393,14 +1393,14 @@
 	<skill id="6898" levels="1" name="84 level Raid Boss">
 		<!-- It was one of the dragons that was born out of the blood that was thrown up by Antharas. After swallowing the Ancient Drake and absorbing its power, it quickly arose as a Commander that rules over the monsters nearby. It has good hearing but its vision is very poor, so it waits in a quiet, dark place, listening to the enemy's heartbeat, before swooping in for an attack. -->
 		<set name="icon" val="icon.skillraid" />
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="P" />
 		<set name="targetType" val="SELF" />
 	</skill>
 	<skill id="6899" levels="1" name="84 level Raid Boss">
 		<!-- It was one of the dragons that was born out of the blood that was thrown up by Antharas. It swallowed up its brethren and gained a greater power. Antharas, whose heart was filled with innate cruelty and madness of a Dust Rider, appointed him as the Valley's Eradicator and commanded him to build the Tower of Corpses. -->
 		<set name="icon" val="icon.skillraid" />
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="P" />
 		<set name="targetType" val="SELF" />
 	</skill>

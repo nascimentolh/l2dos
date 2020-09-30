@@ -17,7 +17,7 @@
 		<set name="targetType" val="SELF" />
 		<set name="abnormalTime" val="1200" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A1" />
 		<for>
 			<effect name="SummonNpc">
@@ -39,7 +39,7 @@
 		<set name="abnormalTime" val="1200" />
 		<set name="canBeDispeled" val="false" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="1" />
+		<set name="magicLevel" val="1" />
 		<set name="operateType" val="A2" />
 		<for>
 			<effect name="Buff">
@@ -99,7 +99,7 @@
 	</skill>
 	<skill id="22313" levels="1" name="Pa'agrio's Warm Breeze - 4 hour">
 		<!-- For 4 hours, recovers Vitality when Exp. is acquired through hunting. -->
-		<set name="abnormalLvl" val="1" />
+		<set name="abnormalLevel" val="1" />
 		<set name="abnormalTime" val="14400" />
 		<set name="abnormalVisualEffect" val="VP_KEEP" />
 		<set name="icon" val="BranchSys2.Icon.pi_wind_of_paagrio" />

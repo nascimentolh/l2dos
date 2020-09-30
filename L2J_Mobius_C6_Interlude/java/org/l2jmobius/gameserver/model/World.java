@@ -115,21 +115,9 @@ public class World
 	 */
 	public void removeObjects(List<WorldObject> list)
 	{
-		for (WorldObject o : list)
+		for (int i = 0; i < list.size(); i++)
 		{
-			_allObjects.remove(o.getObjectId());
-		}
-	}
-	
-	/**
-	 * Removes the objects.
-	 * @param objects the objects
-	 */
-	public void removeObjects(WorldObject[] objects)
-	{
-		for (WorldObject o : objects)
-		{
-			_allObjects.remove(o.getObjectId());
+			_allObjects.remove(list.get(i).getObjectId());
 		}
 	}
 	
@@ -138,12 +126,12 @@ public class World
 	 * <br>
 	 * <b><u>Example of use</u>:</b><br>
 	 * <li>Client packets : Action, AttackRequest, RequestJoinParty, RequestJoinPledge...</li><br>
-	 * @param oID Identifier of the WorldObject
+	 * @param objectId Identifier of the WorldObject
 	 * @return the object
 	 */
-	public WorldObject findObject(int oID)
+	public WorldObject findObject(int objectId)
 	{
-		return _allObjects.get(oID);
+		return _allObjects.get(objectId);
 	}
 	
 	/**
@@ -308,8 +296,10 @@ public class World
 			}
 			
 			// Go through the visible objects contained in the circular area
-			for (WorldObject wo : getVisibleObjects(object, 2000))
+			final List<WorldObject> visibleObjects = getVisibleObjects(object, 2000);
+			for (int i = 0; i < visibleObjects.size(); i++)
 			{
+				final WorldObject wo = visibleObjects.get(i);
 				if (wo == null)
 				{
 					continue;
@@ -342,8 +332,15 @@ public class World
 		}
 		
 		// Go through the visible objects contained in the circular area
-		for (WorldObject wo : getVisibleObjects(object, 2000))
+		final List<WorldObject> visibleObjects = getVisibleObjects(object, 2000);
+		for (int i = 0; i < visibleObjects.size(); i++)
 		{
+			final WorldObject wo = visibleObjects.get(i);
+			if (wo == null)
+			{
+				continue;
+			}
+			
 			// Add the object in WorldObjectHashSet(WorldObject) _knownObjects of the visible Creature according to conditions :
 			// - Creature is visible
 			// - object is not already known
@@ -417,14 +414,22 @@ public class World
 		oldRegion.removeVisibleObject(object);
 		
 		// Go through all surrounding WorldRegion Creatures
-		for (WorldRegion worldRegion : oldRegion.getSurroundingRegions())
+		final WorldRegion[] surroundingRegions = oldRegion.getSurroundingRegions();
+		for (int i = 0; i < surroundingRegions.length; i++)
 		{
-			for (WorldObject wo : worldRegion.getVisibleObjects())
+			final List<WorldObject> visibleObjects = surroundingRegions[i].getVisibleObjects();
+			for (int j = 0; j < visibleObjects.size(); j++)
 			{
+				final WorldObject wo = visibleObjects.get(j);
+				if (wo == null)
+				{
+					continue;
+				}
+				
 				// Remove the WorldObject from the WorldObjectHashSet(WorldObject) _knownObjects of the surrounding WorldRegion Creatures
 				// If object is a PlayerInstance, remove the WorldObject from the WorldObjectHashSet(PlayerInstance) _knownPlayer of the surrounding WorldRegion Creatures
 				// If object is targeted by one of the surrounding WorldRegion Creatures, cancel ATTACK and cast
-				if ((wo != null) && (wo.getKnownList() != null))
+				if (wo.getKnownList() != null)
 				{
 					wo.getKnownList().removeKnownObject(object);
 				}
@@ -474,25 +479,28 @@ public class World
 	 */
 	public List<WorldObject> getVisibleObjects(WorldObject object)
 	{
-		if (object == null)
+		if ((object == null) || !object.isSpawned())
 		{
-			return null;
+			return Collections.emptyList();
 		}
 		
 		final WorldRegion region = object.getWorldRegion();
 		if (region == null)
 		{
-			return null;
+			return Collections.emptyList();
 		}
 		
 		// Create a list in order to contain all visible WorldObject
 		final List<WorldObject> result = new ArrayList<>();
 		
 		// Go through the list of region
-		for (WorldRegion worldRegion : region.getSurroundingRegions())
+		final WorldRegion[] surroundingRegions = region.getSurroundingRegions();
+		for (int i = 0; i < surroundingRegions.length; i++)
 		{
-			for (WorldObject wo : worldRegion.getVisibleObjects())
+			final List<WorldObject> visibleObjects = surroundingRegions[i].getVisibleObjects();
+			for (int j = 0; j < visibleObjects.size(); j++)
 			{
+				final WorldObject wo = visibleObjects.get(j);
 				if (wo == null)
 				{
 					continue;
@@ -552,11 +560,14 @@ public class World
 		final List<WorldObject> result = new ArrayList<>();
 		
 		// Go through the list of region
-		for (WorldRegion worldRegion : region.getSurroundingRegions())
+		final WorldRegion[] surroundingRegions = region.getSurroundingRegions();
+		for (int i = 0; i < surroundingRegions.length; i++)
 		{
 			// Go through visible objects of the selected region
-			for (WorldObject wo : worldRegion.getVisibleObjects())
+			final List<WorldObject> visibleObjects = surroundingRegions[i].getVisibleObjects();
+			for (int j = 0; j < visibleObjects.size(); j++)
 			{
+				final WorldObject wo = visibleObjects.get(j);
 				if (wo == null)
 				{
 					continue;
@@ -614,10 +625,13 @@ public class World
 		final List<WorldObject> result = new ArrayList<>();
 		
 		// Go through visible object of the selected region
-		for (WorldRegion worldRegion : object.getWorldRegion().getSurroundingRegions())
+		final WorldRegion[] surroundingRegions = object.getWorldRegion().getSurroundingRegions();
+		for (int i = 0; i < surroundingRegions.length; i++)
 		{
-			for (WorldObject wo : worldRegion.getVisibleObjects())
+			final List<WorldObject> visibleObjects = surroundingRegions[i].getVisibleObjects();
+			for (int j = 0; j < visibleObjects.size(); j++)
 			{
+				final WorldObject wo = visibleObjects.get(j);
 				if (wo == null)
 				{
 					continue;
@@ -638,58 +652,6 @@ public class World
 				{
 					result.add(wo);
 				}
-			}
-		}
-		
-		return result;
-	}
-	
-	/**
-	 * Return all visible players of the WorldRegion object's and of its surrounding WorldRegion.<br>
-	 * <br>
-	 * <b><u>Concept</u>:</b><br>
-	 * <br>
-	 * All visible object are identified in <b>_visibleObjects</b> of their current WorldRegion<br>
-	 * All surrounding WorldRegion are identified in <b>_surroundingRegions</b> of the selected WorldRegion in order to scan a large area around a WorldObject<br>
-	 * <br>
-	 * <b><u>Example of use</u>:</b><br>
-	 * <li>Find Close Objects for Creature</li><br>
-	 * @param object WorldObject that determine the current WorldRegion
-	 * @return the visible playable
-	 */
-	public List<PlayerInstance> getVisiblePlayers(WorldObject object)
-	{
-		final WorldRegion region = object.getWorldRegion();
-		if (region == null)
-		{
-			return Collections.emptyList();
-		}
-		
-		// Create a list in order to contain all visible WorldObject
-		final List<PlayerInstance> result = new ArrayList<>();
-		
-		// Go through the list of region
-		for (WorldRegion worldRegion : region.getSurroundingRegions())
-		{
-			// Go through visible object of the selected region
-			for (PlayerInstance playable : worldRegion.getAllPlayers())
-			{
-				if (playable == null)
-				{
-					continue;
-				}
-				
-				if (playable.equals(object))
-				{
-					continue; // skip our own character
-				}
-				
-				if (!playable.isSpawned())
-				{
-					continue; // skip dying objects
-				}
-				
-				result.add(playable);
 			}
 		}
 		
@@ -791,24 +753,6 @@ public class World
 			}
 		}
 		LOGGER.info("All visible NPCs deleted.");
-	}
-	
-	/**
-	 * Gets the account players.
-	 * @param account the account_name
-	 * @return the account players
-	 */
-	public List<PlayerInstance> getAccountPlayers(String account)
-	{
-		final List<PlayerInstance> result = new ArrayList<>();
-		for (PlayerInstance actual : _allPlayers.values())
-		{
-			if (actual.getAccountName().equals(account))
-			{
-				result.add(actual);
-			}
-		}
-		return result;
 	}
 	
 	public static World getInstance()

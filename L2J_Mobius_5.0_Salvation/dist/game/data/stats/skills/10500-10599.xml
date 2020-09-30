@@ -4,7 +4,7 @@
 		<!-- Inflicts a powerful blow on target. -->
 		<icon>icon.skill10317</icon>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<operateType>DA1</operateType>
 		<castRange>600</castRange>
 		<effectRange>800</effectRange>
@@ -31,7 +31,7 @@
 		<!-- When equipped with a dagger, P. Atk. +$s1 and+$s2, Atk. Spd. +$s3, P. Accuracy +$s4, and Vital Spot Attack Rate +$s5. Additionally, STR +$s6. Depending on STR, skill cooldown can be reset or skill duration can be increases by $s7 times. -->
 		<icon>icon.skill10501</icon>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">90</value>
 			<value level="3">95</value>
@@ -42,7 +42,7 @@
 			<value level="8">106</value>
 			<value level="9">108</value>
 			<value level="10">110</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="SkillCritical">
@@ -115,7 +115,7 @@
 		<!-- When equipped with a dual dagger, P. Atk. +$s1 and +$s2, Atk. Spd. +$s3, P. Accuracy +$s4, and Vital Spot Attack Rate +$s5. Additionally, STR +$s6. -->
 		<icon>icon.skill10502</icon>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">90</value>
 			<value level="3">95</value>
@@ -126,7 +126,7 @@
 			<value level="8">106</value>
 			<value level="9">108</value>
 			<value level="10">110</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="PAtk">
@@ -196,7 +196,7 @@
 		<!-- Equipping light armor increases Maximum HP by $s1, Defense by $s2, and Physical Evasion by $s3, decreases Critical Damage Rate by $s4, and adjusts Speed/ P. Skill Critical Rate according to DEX. Additionally, increases STR by $s5 and applies Assassin's Reflex which accelerates Attack Speed at a $s6 chance if successfully evaded. -->
 		<icon>icon.skill10503</icon>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">90</value>
 			<value level="3">95</value>
@@ -207,7 +207,7 @@
 			<value level="8">106</value>
 			<value level="9">108</value>
 			<value level="10">110</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="TriggerSkillByAvoid">
@@ -296,7 +296,7 @@
 		<!-- Speed +$s1, HP Recovery Bonus +$s2, MP Recovery Bonus +$s3. STR +$s4. -->
 		<icon>icon.skill10504</icon>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">90</value>
 			<value level="3">95</value>
@@ -307,7 +307,7 @@
 			<value level="8">106</value>
 			<value level="9">108</value>
 			<value level="10">110</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="Speed">
@@ -342,7 +342,7 @@
 	<skill id="10505" toLevel="10" name="Superior Critical Mastery">
 		<!-- P. Critical Rate +$s1, P. Critical Damage +$s2, +$s3 chance of triggering skill mastery. STR +$s4. -->
 		<icon>icon.skill10505</icon>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">90</value>
 			<value level="3">95</value>
@@ -353,7 +353,7 @@
 			<value level="8">106</value>
 			<value level="9">108</value>
 			<value level="10">110</value>
-		</magicLvl>
+		</magicLevel>
 		<magicCriticalRate>5</magicCriticalRate>
 		<operateType>P</operateType>
 		<effects>
@@ -414,7 +414,7 @@
 		<!-- Poison/ Bleed/ Hold/ Sleep/ Mental Attack Resistance +30%. STR +2. -->
 		<icon>icon.skill10506</icon>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="DefenceTrait">
@@ -434,7 +434,7 @@
 		<!-- P. Atk. +200. Also, when using Shadow Flash, triggers the Blind Spot effect that increases P. Atk., Critical Rate, Critical Damage, and Vital Spot Attack Rate. -->
 		<icon>icon.skill10507</icon>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="TriggerSkillBySkill">
@@ -455,7 +455,7 @@
 	<skill id="10508" toLevel="11" name="Blood Stab">
 		<!-- Targets the back of the enemy to attack his vital spot with $s1 power added to P. Atk., inflicting additional Bleed effect. Half-kill is possible. Requires dagger/ dual dagger. -->
 		<icon>icon.skill10508</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
@@ -467,14 +467,14 @@
 			<value level="9">9</value>
 			<value level="10">10</value>
 			<value level="11">11</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>BLEEDING</abnormalType>
 		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
 		<activateRate>90</activateRate>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">86</value>
 			<value level="3">88</value>
@@ -486,7 +486,7 @@
 			<value level="9">101</value>
 			<value level="10">103</value>
 			<value level="11">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">59</value>
 			<value level="2">60</value>
@@ -592,7 +592,7 @@
 		<icon>icon.skill10509</icon>
 		<operateType>A1</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">86</value>
 			<value level="3">88</value>
@@ -604,7 +604,7 @@
 			<value level="9">101</value>
 			<value level="10">103</value>
 			<value level="11">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">67</value>
 			<value level="2">68</value>
@@ -686,7 +686,7 @@
 		<nextAction>ATTACK</nextAction>
 		<operateType>A1</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">87</value>
 			<value level="3">89</value>
@@ -698,7 +698,7 @@
 			<value level="9">101</value>
 			<value level="10">103</value>
 			<value level="11">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">71</value>
 			<value level="2">73</value>
@@ -812,7 +812,7 @@
 		<nextAction>ATTACK</nextAction>
 		<operateType>A1</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">90</value>
 			<value level="3">95</value>
@@ -820,7 +820,7 @@
 			<value level="5">101</value>
 			<value level="6">103</value>
 			<value level="7">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">90</value>
 			<value level="2">98</value>
@@ -904,7 +904,7 @@
 		<affectRange>200</affectRange>
 		<operateType>A1</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">86</value>
 			<value level="3">88</value>
@@ -916,7 +916,7 @@
 			<value level="9">101</value>
 			<value level="10">103</value>
 			<value level="11">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">125</value>
 			<value level="2">128</value>
@@ -991,7 +991,7 @@
 	<skill id="10513" toLevel="10" name="Barrage of Nails">
 		<!-- Attacks the enemies near you with $s1 power added to P. Atk. Additionally, decreases their Speed by $s3 and makes them unable to hide for $s2. Requires dagger/ dual dagger. -->
 		<icon>icon.skill10513</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>BLEEDING</abnormalType>
 		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
@@ -1003,7 +1003,7 @@
 		<affectRange>300</affectRange>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">87</value>
 			<value level="2">89</value>
 			<value level="3">91</value>
@@ -1014,7 +1014,7 @@
 			<value level="8">101</value>
 			<value level="9">103</value>
 			<value level="10">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">138</value>
 			<value level="2">142</value>
@@ -1095,7 +1095,7 @@
 	<skill id="10514" toLevel="8" name="Paralyzing Shadow">
 		<!-- Seals the target's shadow and makes its body gradually hardened for $s1. Becomes paralyzed for $s2 when completely hardened. -->
 		<icon>icon.skill10514</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
@@ -1104,7 +1104,7 @@
 			<value level="6">6</value>
 			<value level="7">7</value>
 			<value level="8">8</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>PARALYZE</abnormalType>
 		<activateRate>
@@ -1116,7 +1116,7 @@
 		<basicProperty>NONE</basicProperty>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">88</value>
 			<value level="3">91</value>
@@ -1125,7 +1125,7 @@
 			<value level="6">101</value>
 			<value level="7">103</value>
 			<value level="8">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">40</value>
@@ -1190,27 +1190,27 @@
 	<skill id="10515" toLevel="6" name="Paralyzed">
 		<!-- Your body is paralyzed. -->
 		<icon>icon.skill1170</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
 			<value level="4">4</value>
 			<value level="5">5</value>
 			<value level="6">6</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>PARALYZE</abnormalType>
 		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">88</value>
 			<value level="3">91</value>
 			<value level="4">94</value>
 			<value level="5">97</value>
 			<value level="6">99</value>
-		</magicLvl>
+		</magicLevel>
 		<hitTime>1200</hitTime>
 		<effectPoint>
 			<value level="1">687</value>
@@ -1234,7 +1234,7 @@
 	<skill id="10516" toLevel="9" name="Shadow Chase">
 		<!-- Teleports to the back of the target and cancels the target and inflicts Stun for $s1. -->
 		<icon>icon.skill10516</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
@@ -1244,7 +1244,7 @@
 			<value level="7">7</value>
 			<value level="8">8</value>
 			<value level="9">9</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -1253,7 +1253,7 @@
 			<value fromLevel="5" toLevel="9" fromSubLevel="1001" toSubLevel="1020">{base + base / 100 * subIndex}</value>
 		</activateRate>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">87</value>
 			<value level="3">90</value>
@@ -1263,7 +1263,7 @@
 			<value level="7">101</value>
 			<value level="8">103</value>
 			<value level="9">105</value>
-		</magicLvl>
+		</magicLevel>
 		<trait>SHOCK</trait>
 		<operateType>A2</operateType>
 		<mpConsume>
@@ -1316,7 +1316,7 @@
 	<skill id="10517" toLevel="1" name="Shadow Hide">
 		<!-- Cancels all debuff effects inflicted on you by teleporting to the front a distance of 250 and making you invisible for 20 seconds. Additionally, decreases Speed by 50. -->
 		<icon>icon.skill10517</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">20</value>
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1010">{base + subIndex}</value>
@@ -1326,7 +1326,7 @@
 		<abnormalVisualEffect>STEALTH</abnormalVisualEffect>
 		<operateType>DA2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<mpConsume>38</mpConsume>
 		<hitTime>1000</hitTime>
 		<coolTime>400</coolTime>
@@ -1405,13 +1405,13 @@
 	<skill id="10518" toLevel="1" name="Assassin's Reflex">
 		<!-- Atk. Spd. +20% for 10 seconds. -->
 		<icon>icon.skill10518</icon>
-		<abnormalLvl>2</abnormalLvl>
+		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>ASSASSINS_REFLEX</abnormalType>
 		<isTriggeredSkill>true</isTriggeredSkill>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<hitTime>700</hitTime>
 		<reuseDelay>8000</reuseDelay>
 		<basicProperty>NONE</basicProperty>
@@ -1429,12 +1429,12 @@
 	<skill id="10520" toLevel="4" name="Final Ultimate Evasion">
 		<!-- For $s1, own P. Evasion +$s2, M. Def. +$s3, P. Skill Evasion Rate +$s4, Debuff Resistance +$s5. Has a chance of canceling the enemy's targeting when attacked. -->
 		<icon>icon.skill10520</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
 			<value level="4">4</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="4">30</value>
 			<value fromLevel="3" toLevel="4" fromSubLevel="1001" toSubLevel="1010">{base + subIndex}</value>
@@ -1444,12 +1444,12 @@
 		<operateType>A2</operateType>
 		<isMagic>22</isMagic>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">90</value>
 			<value level="3">95</value>
 			<value level="4">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">41</value>
@@ -1547,7 +1547,7 @@
 		<hitTime>2000</hitTime>
 		<reuseDelay>15000</reuseDelay>
 		<effectPoint>-711</effectPoint>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">87</value>
 			<value level="3">90</value>
@@ -1557,7 +1557,7 @@
 			<value level="7">101</value>
 			<value level="8">103</value>
 			<value level="9">105</value>
-		</magicLvl>
+		</magicLevel>
 		<isDebuff>true</isDebuff>
 		<targetType>GROUND</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1586,7 +1586,7 @@
 	<skill id="10523" toLevel="9" name="Thrown Poison Swarm">
 		<!-- Poisoned. P. Atk. -$s1, P. Def./ M. Def. -$s2, Speed -$s3, Shield Def. -$s4, impossible to use magic skills, and HP -$s5 every second. -->
 		<icon>icon.skill1167</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
@@ -1596,7 +1596,7 @@
 			<value level="7">7</value>
 			<value level="8">8</value>
 			<value level="9">9</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>2</abnormalTime>
 		<abnormalType>POISON</abnormalType>
 		<abnormalVisualEffect>DOT_POISON</abnormalVisualEffect>
@@ -1605,7 +1605,7 @@
 		<affectRange>300</affectRange>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">87</value>
 			<value level="3">90</value>
@@ -1615,7 +1615,7 @@
 			<value level="7">101</value>
 			<value level="8">103</value>
 			<value level="9">105</value>
-		</magicLvl>
+		</magicLevel>
 		<lvlBonusRate>20</lvlBonusRate>
 		<mpConsume>1</mpConsume>
 		<effectPoint>
@@ -1680,21 +1680,21 @@
 	<skill id="10524" toLevel="3" name="Counter Stance">
 		<!-- Takes a countering stance for $s1 to evade P. Atk. skills and deflects damage at a $s2 probability. -->
 		<icon>icon.skill10524</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">2</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>AVOID_SKILL_SPECIAL</abnormalType>
 		<operateType>A2</operateType>
 		<isMagic>22</isMagic>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">91</value>
 			<value level="2">95</value>
 			<value level="3">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">42</value>
 			<value level="2">45</value>
@@ -1750,7 +1750,7 @@
 	<skill id="10525" toLevel="7" name="Shadow Dash">
 		<!-- For $s1, increases Speed by $s2, P. Evasion by $s3, and HP Recovery Bonus by $s4. -->
 		<icon>icon.skill10525</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
@@ -1758,13 +1758,13 @@
 			<value level="5">5</value>
 			<value level="6">6</value>
 			<value level="7">7</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>SUPER_MOVE</abnormalType>
 		<operateType>A2</operateType>
 		<isMagic>22</isMagic>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">90</value>
 			<value level="3">95</value>
@@ -1772,7 +1772,7 @@
 			<value level="5">101</value>
 			<value level="6">103</value>
 			<value level="7">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">41</value>
@@ -1856,7 +1856,7 @@
 	<skill id="10526" toLevel="9" name="Mischief">
 		<!-- Inflicts confusion on target to stop him from attacking target with the highest hostility. Speed -$s1. -->
 		<icon>icon.skill10526</icon>
-		<abnormalLvl>3</abnormalLvl>
+		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<activateRate>
@@ -1866,7 +1866,7 @@
 		<operateType>A2</operateType>
 		<trait>DERANGEMENT</trait>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">87</value>
 			<value level="3">90</value>
@@ -1876,7 +1876,7 @@
 			<value level="7">101</value>
 			<value level="8">103</value>
 			<value level="9">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">39</value>
@@ -1927,7 +1927,7 @@
 	<skill id="10527" toLevel="4" name="Mass Trick">
 		<!-- Inflicts confusion, for $s1 M. Evasion -$s2, and chance of inflicting M. Critical Damage +$s3 on the target and nearby enemies. -->
 		<icon>icon.skill10527</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>20</abnormalTime>
 		<abnormalType>CONFUSION</abnormalType>
 		<activateRate>
@@ -1939,12 +1939,12 @@
 		<operateType>A2</operateType>
 		<trait>DERANGEMENT</trait>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">97</value>
 			<value level="2">101</value>
 			<value level="3">103</value>
 			<value level="4">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>92</mpConsume>
 		<castRange>300</castRange>
 		<effectRange>900</effectRange>
@@ -1992,7 +1992,7 @@
 	<skill id="10528" toLevel="1" name="Shadow Fake Death">
 		<!-- The player feigns death to prevent monsters from attacking. The player is not detected by the target until further movement. Consumes 100 MP per second. -->
 		<icon>icon.skill10528</icon>
-		<magicLvl>93</magicLvl>
+		<magicLevel>93</magicLevel>
 		<operateType>T</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<mpConsume>200</mpConsume>
@@ -2012,7 +2012,7 @@
 	<skill id="10529" toLevel="4" name="Shadow Flash">
 		<!-- Teleports to the back of the target to increase the damage from P. Critical Attack by $s2 for $s1 and prevents it from recovering HP by over $s3. Additionally, the target is unable to hide and this state cannot be canceled. -->
 		<icon>icon.skill10529</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>SHADOW_FLASH</abnormalType>
 		<activateRate>
@@ -2022,12 +2022,12 @@
 		<trait>SHOCK</trait>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">99</value>
 			<value level="2">101</value>
 			<value level="3">103</value>
 			<value level="4">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>71</mpConsume>
 		<castRange>
 			<value fromLevel="1" toLevel="4">600</value>
@@ -2068,12 +2068,12 @@
 	<skill id="10530" toLevel="1" name="Blind Spot">
 		<!-- Increases P. Atk., Critical Rate, Critical Damage and Vital Spot Attack Rate. -->
 		<icon>icon.skill10529</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>SUPER_BUFF</abnormalType>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<mpConsume>1</mpConsume>
 		<hitTime>800</hitTime>
 		<coolTime>100</coolTime>
@@ -2106,10 +2106,10 @@
 	<skill id="10531" toLevel="2" name="Angel of Death">
 		<!-- For $s1, Deadly Attack Success Rate +$s2, P. Skill Power +$s3, P. Accuracy +$s4, P. Evasion +$s5, and defends against debuff attacks $s6. Can be used when Dagger/ Dual Dagger is equipped. -->
 		<icon>icon.skill10531</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="2">30</value>
 			<value fromLevel="1" toLevel="2" fromSubLevel="1001" toSubLevel="1010">{base + subIndex}</value>
@@ -2119,10 +2119,10 @@
 		<operateType>A2</operateType>
 		<isMagic>22</isMagic>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">98</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">45</value>
 			<value level="2">47</value>
@@ -2202,7 +2202,7 @@
 		<icon>icon.skill10532</icon>
 		<operateType>A1</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">90</value>
 			<value level="2">95</value>
 			<value level="3">97</value>
@@ -2210,7 +2210,7 @@
 			<value level="5">101</value>
 			<value level="6">103</value>
 			<value level="7">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">41</value>
@@ -2278,7 +2278,7 @@
 		<abnormalTime>3</abnormalTime>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<basicProperty>NONE</basicProperty>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -2296,12 +2296,12 @@
 		<icon>icon.skill10535</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">90</value>
 			<value level="3">95</value>
 			<value level="4">99</value>
-		</magicLvl>
+		</magicLevel>
 		<effects>
 			<effect name="TriggerSkillByAttack">
 				<!-- Block Magic -->
@@ -2342,10 +2342,10 @@
 	<skill id="10537" toLevel="2" name="Block Magic">
 		<!-- Poisoned. Speed is decreased and M. Skills are disabled momentarily. -->
 		<icon>icon.skill0129</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>SILENCE</abnormalType>
 		<abnormalVisualEffect>SILENCE</abnormalVisualEffect>
@@ -2353,10 +2353,10 @@
 		<operateType>A2</operateType>
 		<trait>DERANGEMENT</trait>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">95</value>
 			<value level="2">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>1</mpConsume>
 		<castRange>500</castRange>
 		<effectRange>1000</effectRange>
@@ -2381,23 +2381,23 @@
 	<skill id="10538" toLevel="4" name="Weakness Critical">
 		<!-- Inflicted with Poison. Increases received Critical Damage by $s1 momentarily. Increases the chance of receiving a critical attack by $s2. -->
 		<icon>icon.skill1222</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
 			<value level="4">4</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>T_CRT_RATE_UP</abnormalType>
 		<activateRate>80</activateRate>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">90</value>
 			<value level="3">95</value>
 			<value level="4">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>1</mpConsume>
 		<castRange>500</castRange>
 		<effectRange>1000</effectRange>
@@ -2431,7 +2431,7 @@
 	<skill id="10539" toLevel="11" name="Throw Dagger">
 		<!-- Throws a dagger at the enemy with $s1 Power added to P. Atk. for 1$s2, Speed -$s3. Requires a dagger/ dual dagger to be equipped. Over-hit. -->
 		<icon>icon.skill10539</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
@@ -2443,7 +2443,7 @@
 			<value level="9">9</value>
 			<value level="10">10</value>
 			<value level="11">11</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<activateRate>
@@ -2455,7 +2455,7 @@
 		<effectRange>900</effectRange>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">86</value>
 			<value level="3">88</value>
@@ -2467,7 +2467,7 @@
 			<value level="9">101</value>
 			<value level="10">103</value>
 			<value level="11">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">71</value>
 			<value level="2">72</value>
@@ -2548,7 +2548,7 @@
 	<skill id="10540" toLevel="8" name="Throw Sand">
 		<!-- Hurls poisonous sand at the enemy. For$s1, greatly decreases P. accuracy and lures the enemy to you. Requires a dagger/ dual dagger to be equipped. -->
 		<icon>icon.skill10540</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
@@ -2557,7 +2557,7 @@
 			<value level="6">6</value>
 			<value level="7">7</value>
 			<value level="8">8</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>HIT_DOWN</abnormalType>
 		<activateRate>
@@ -2567,7 +2567,7 @@
 		<operateType>A2</operateType>
 		<effectPoint>-709</effectPoint>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">88</value>
 			<value level="3">91</value>
@@ -2576,7 +2576,7 @@
 			<value level="6">101</value>
 			<value level="7">103</value>
 			<value level="8">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">40</value>
@@ -2635,7 +2635,7 @@
 		<icon>icon.skill10541</icon>
 		<operateType>A1</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">86</value>
 			<value level="3">89</value>
@@ -2645,7 +2645,7 @@
 			<value level="7">101</value>
 			<value level="8">103</value>
 			<value level="9">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">38</value>
@@ -2698,7 +2698,7 @@
 		<!-- Critical Damage +609 and Vital Spot Attack Rate +10%. Side Critical Rate +30% and Critical Damage +40%. Rear Critical Rate +60% and Critical Damage +70%. -->
 		<icon>icon.skill10542_1</icon>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="CriticalRatePositionBonus">
@@ -2737,7 +2737,7 @@
 		<abnormalVisualEffect>STEALTH</abnormalVisualEffect>
 		<operateType>T</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<mpInitialConsume>1</mpInitialConsume>
 		<hitTime>800</hitTime>
 		<targetType>NONE</targetType>
@@ -2763,12 +2763,12 @@
 		<isTriggeredSkill>true</isTriggeredSkill>
 		<operateType>A1</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">87</value>
 			<value level="2">90</value>
 			<value level="3">95</value>
 			<value level="4">99</value>
-		</magicLvl>
+		</magicLevel>
 		<castRange>900</castRange>
 		<effectRange>1400</effectRange>
 		<hitTime>2000</hitTime>
@@ -2783,12 +2783,12 @@
 	<skill id="10545" toLevel="4" name="Crippling Poison">
 		<!-- Causes the body to gradually become rigid for $s1. Once fully rigid, paralysis lasts for $s2. -->
 		<icon>icon.skill1170</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
 			<value level="4">4</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>4</abnormalTime>
 		<abnormalType>PARALYZE</abnormalType>
 		<activateRate>100</activateRate>
@@ -2796,12 +2796,12 @@
 		<operateType>A2</operateType>
 		<trait>PARALYZE</trait>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">91</value>
 			<value level="2">94</value>
 			<value level="3">97</value>
 			<value level="4">99</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>1</mpConsume>
 		<castRange>900</castRange>
 		<effectRange>1400</effectRange>
@@ -2844,7 +2844,7 @@
 	<skill id="10546" toLevel="7" name="Jawbone Blow">
 		<!-- Delivers a powerful blow to Knock Down target for $s1. Requires a dagger or dual dagger to be equipped. -->
 		<icon>icon.skill10546</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
@@ -2852,7 +2852,7 @@
 			<value level="5">5</value>
 			<value level="6">6</value>
 			<value level="7">7</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>2</abnormalTime>
 		<abnormalType>KNOCKDOWN</abnormalType>
 		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
@@ -2868,7 +2868,7 @@
 		<reuseDelay>30000</reuseDelay>
 		<isDebuff>true</isDebuff>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">89</value>
 			<value level="2">92</value>
 			<value level="3">95</value>
@@ -2876,7 +2876,7 @@
 			<value level="5">101</value>
 			<value level="6">103</value>
 			<value level="7">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">40</value>
 			<value level="2">43</value>
@@ -2936,8 +2936,8 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>60</effectRange>
 		<activateRate>130</activateRate>
-		<magicLvl>99</magicLvl>
-		<abnormalLvl>1</abnormalLvl>
+		<magicLevel>99</magicLevel>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1</abnormalTime>
 		<trait>SHOCK</trait>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -2981,7 +2981,7 @@
 		<effectPoint>-709</effectPoint>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>400</effectRange>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">87</value>
 			<value level="3">89</value>
@@ -2990,7 +2990,7 @@
 			<value level="6">95</value>
 			<value level="7">97</value>
 			<value level="8">99</value>
-		</magicLvl>
+		</magicLevel>
 		<isMagic>2</isMagic>
 		<reuseDelay>10000</reuseDelay>
 		<targetType>ENEMY_ONLY</targetType>
@@ -3005,7 +3005,7 @@
 	<skill id="10549" toLevel="8" name="Kick">
 		<!-- Powerfully Knock Back target with a kick. -->
 		<icon>icon.skill10549</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
 			<value level="3">3</value>
@@ -3014,7 +3014,7 @@
 			<value level="6">6</value>
 			<value level="7">7</value>
 			<value level="8">8</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalType>STUN</abnormalType>
 		<abnormalTime>2</abnormalTime>
 		<abnormalVisualEffect>KNOCKBACK</abnormalVisualEffect>
@@ -3031,7 +3031,7 @@
 		<reuseDelay>60000</reuseDelay>
 		<isDebuff>true</isDebuff>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">88</value>
 			<value level="3">91</value>
@@ -3040,7 +3040,7 @@
 			<value level="6">101</value>
 			<value level="7">103</value>
 			<value level="8">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">38</value>
 			<value level="2">40</value>
@@ -3083,7 +3083,7 @@
 	<skill id="10550" toLevel="7" name="Illusion Step">
 		<!-- Inflicts a powerful vital spot attack and decreases speed by $s2 for $s1. -->
 		<icon>icon.skill10550</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>7</abnormalTime>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<activateRate>80</activateRate>
@@ -3114,7 +3114,7 @@
 		<isDebuff>true</isDebuff>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">90</value>
 			<value level="2">95</value>
 			<value level="3">97</value>
@@ -3122,7 +3122,7 @@
 			<value level="5">101</value>
 			<value level="6">103</value>
 			<value level="7">105</value>
-		</magicLvl>
+		</magicLevel>
 		<trait>SHOCK</trait>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -3148,7 +3148,7 @@
 	<skill id="10551" toLevel="7" name="Illusion Trick">
 		<!-- Cancels the enemy's target and stops him from targeting for $s1. -->
 		<icon>icon.skill10551</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1</abnormalTime>
 		<abnormalType>CONFUSION</abnormalType>
 		<activateRate>80</activateRate>
@@ -3180,7 +3180,7 @@
 		<isDebuff>true</isDebuff>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">90</value>
 			<value level="2">95</value>
 			<value level="3">97</value>
@@ -3188,7 +3188,7 @@
 			<value level="5">101</value>
 			<value level="6">103</value>
 			<value level="7">105</value>
-		</magicLvl>
+		</magicLevel>
 		<trait>SHOCK</trait>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -3201,7 +3201,7 @@
 		<!-- M. Def. +$s1, and Fire/ Water/ Wind/ Earth Resistance +$s2. STR +$s3. -->
 		<icon>icon.skill10005</icon>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">90</value>
 			<value level="3">95</value>
@@ -3212,7 +3212,7 @@
 			<value level="8">106</value>
 			<value level="9">108</value>
 			<value level="10">110</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="MagicalDefence">
@@ -3303,9 +3303,9 @@
 		<affectRange>300</affectRange>
 		<operateType>A1</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">133</value>
 		</mpConsume>
@@ -3335,7 +3335,7 @@
 	<skill id="10554" toLevel="7" name="Flash Bluff">
 		<!-- Startles a target to cause Bluff which makes it turn backward for $s1. Requires dagger/ dual dagger. -->
 		<icon>icon.skill10554</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<abnormalType>STUN</abnormalType>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
@@ -3347,7 +3347,7 @@
 		<lvlBonusRate>20</lvlBonusRate>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">90</value>
 			<value level="3">95</value>
@@ -3355,7 +3355,7 @@
 			<value level="5">101</value>
 			<value level="6">103</value>
 			<value level="7">105</value>
-		</magicLvl>
+		</magicLevel>
 		<mpConsume>40</mpConsume>
 		<castRange>40</castRange>
 		<effectRange>400</effectRange>
@@ -3390,12 +3390,12 @@
 	<skill id="10555" toLevel="1" name="Impaired">
 		<!-- Cannot move for 5 seconds. -->
 		<icon>icon.skill1201</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>ROOT_MAGICALLY</abnormalType>
 		<abnormalVisualEffect>ROOT</abnormalVisualEffect>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<operateType>A2</operateType>
 		<hitTime>1200</hitTime>
 		<isDebuff>true</isDebuff>
@@ -3416,12 +3416,12 @@
 		<!-- Becomes hidden momentarily. -->
 		<icon>icon.skill10517</icon>
 		<operateType>A2</operateType>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>2</abnormalTime>
 		<abnormalType>HIDE</abnormalType>
 		<abnormalVisualEffect>STEALTH</abnormalVisualEffect>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>99</magicLvl>
+		<magicLevel>99</magicLevel>
 		<staticReuse>true</staticReuse>
 		<mpConsume>1</mpConsume>
 		<effectPoint>709</effectPoint>
@@ -3484,10 +3484,10 @@
 			<value level="1">icon.skill10542</value>
 			<value level="2">icon.skill10542_2</value>
 		</icon>
-		<abnormalLvl>
+		<abnormalLevel>
 			<value level="1">2</value>
 			<value level="2">3</value>
-		</abnormalLvl>
+		</abnormalLevel>
 		<abnormalTime>20</abnormalTime>
 		<abnormalType>CRITICAL_SPECIAL</abnormalType>
 		<operateType>A2</operateType>
@@ -3495,7 +3495,7 @@
 		<effectPoint>696</effectPoint>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<isMagic>4</isMagic>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -3533,14 +3533,14 @@
 	<skill id="10558" toLevel="1" name="Elusive Mirage">
 		<!-- For 30 seconds, has a chance of cancelling target of the enemy that attacked you. Requires a dagger or dual dagger. -->
 		<icon>icon.skill11861</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>MIRAGE</abnormalType>
 		<operateType>A2</operateType>
 		<isMagic>22</isMagic>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<mpConsume>72</mpConsume>
 		<hitTime>1000</hitTime>
 		<coolTime>500</coolTime>
@@ -3580,7 +3580,7 @@
 	<skill id="10559" toLevel="1" name="Elusive Mirage">
 		<!-- Cannot target for 2 sec. -->
 		<icon>icon.skill11861</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>2</abnormalTime>
 		<activateRate>80</activateRate>
 		<operateType>A2</operateType>
@@ -3589,7 +3589,7 @@
 		<trait>DERANGEMENT</trait>
 		<castRange>900</castRange>
 		<effectRange>1400</effectRange>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<reuseDelay>5000</reuseDelay>
 		<effectPoint>-564</effectPoint>
 		<isDebuff>true</isDebuff>
@@ -3605,7 +3605,7 @@
 	<skill id="10560" toLevel="1" name="Maximum Blow">
 		<!-- For 120 seconds, increases the Deadly Attack rate by 10% and resets the cooldown of Heart Breaker/ Chain Blow if Reverse Mana is cast. Requires a dagger or dual dagger to be equipped. -->
 		<icon>icon.skill11877</icon>
-		<abnormalLvl>5</abnormalLvl>
+		<abnormalLevel>5</abnormalLevel>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>MIGHT_MORTAL</abnormalType>
 		<operateType>A2</operateType>
@@ -3654,12 +3654,12 @@
 	<skill id="10561" toLevel="4" name="Superior Fitness">
 		<!-- Increases Maximum HP/ CP by $s1, HP Recovery Bonus by $s2, and Poison/ Bleed Defense Success Rate by $s3. -->
 		<icon>icon.skill11864</icon>
-		<magicLvl>
+		<magicLevel>
 			<value level="1">85</value>
 			<value level="2">90</value>
 			<value level="3">95</value>
 			<value level="4">99</value>
-		</magicLvl>
+		</magicLevel>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="DefenceTrait">
@@ -3705,14 +3705,14 @@
 	<skill id="10562" toLevel="1" name="Critical Tactics">
 		<!-- For 5 minutes, Critical Damage +304, Deadly Attack Rate +10%, Critical Rate/ Damage from the front and the back +50%, Critical Rate/ Damage from the flank +30%. Requires dagger/ dual dagger. -->
 		<icon>icon.skill10562</icon>
-		<abnormalLvl>1</abnormalLvl>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>FOCUS_DAGGER</abnormalType>
 		<operateType>A2</operateType>
 		<isMagic>22</isMagic>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
-		<magicLvl>85</magicLvl>
+		<magicLevel>85</magicLevel>
 		<mpConsume>36</mpConsume>
 		<hitTime>2000</hitTime>
 		<effectPoint>669</effectPoint>
