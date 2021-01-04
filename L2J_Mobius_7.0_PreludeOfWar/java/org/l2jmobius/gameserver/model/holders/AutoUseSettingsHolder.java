@@ -46,4 +46,9 @@ public class AutoUseSettingsHolder
 	{
 		return _autoSkills;
 	}
+	
+	public boolean isEmpty()
+	{
+		return _autoSupplyItems.isEmpty() && _autoPotionItems.isEmpty() && _autoSkills.isEmpty();
+	}
 }
